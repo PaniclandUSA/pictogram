@@ -158,5 +158,6 @@ This spec is accompanied by:
 - `canonical/` — SVG glyph directory  
 
 ---
+§X.Y GENESIS and Block Hashing – define block hashes as SHA-256 over the UTF-8 string of |-joined canonical glyph IDs in order.
 
 # END OF SPECIFICATION
