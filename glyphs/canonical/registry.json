@@ -33,3 +33,34 @@
     }
   ]
 }
+{
+  "id": "GLYPH_02_ERUPTIVE",
+  "name": "ERUPTIVE",
+  "category": "flow",
+  "pua_codepoint": "U+E001",
+  "unicode_display": "⤊",
+  "semantic_vector": "⟨TEMPORAL:ASCENT | ENERGY:BREAKTHROUGH | PRESSURE:ACCELERATING⟩",
+  "description": "A vertical eruption channel with three outward flares, symbolizing upward release of built pressure.",
+  "canvas_size": 512,
+  "stroke_width_px": 40,
+  "file": "E001_ERUPTIVE.svg",
+  "psh256_canonical": null,
+  "design_notes": [
+    "Vertical spine represents the eruption conduit.",
+    "Three arcs provide directional expansion.",
+    "Asymmetry conveys upward force.",
+    "D4 invariance ensures orientation independence for the hash."
+  ],
+  "symbolic_associations": [
+    "eruption",
+    "breakthrough",
+    "revelation",
+    "pressure release",
+    "vertical ascent"
+  ],
+  "usage_examples": [
+    "●⤊△ — High-pressure eruption peak",
+    "◯⤊∿ — Gentle cyclical rise turning eruptive",
+    "⊚(⤊⁘) — Contained eruption into diffusion"
+  ]
+}
