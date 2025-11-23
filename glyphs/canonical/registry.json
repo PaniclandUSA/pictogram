@@ -429,3 +429,169 @@
     }
   ]
 }
+{
+      "id": "GLYPH_14_PEAK",
+      "name": "PEAK",
+      "category": "structure",
+      "pua_codepoint": "U+E00D",
+      "unicode_display": "△",
+      "semantic_vector": "⟨POSITION:MAXIMUM | PROMINENCE:HIGH | ELEVATION:APEX | STABILITY:PRECARIOUS⟩",
+      "description": "Upward triangle representing maximum elevation and apex position",
+      "canvas_size": 512,
+      "stroke_width_px": 1.5,
+      "file": "E00D_PEAK.svg",
+      "psh256_canonical": null,
+      "design_notes": [
+        "Sharp point = singularity of maximum",
+        "Upward orientation = elevation",
+        "Wide base = structural foundation",
+        "Opposite of VALLEY (convex vs concave)",
+        "Evokes: mountain summit, climax, apex, zenith"
+      ],
+      "symbolic_associations": [
+        "mountain summit",
+        "climax",
+        "maximum point",
+        "achievement",
+        "apex",
+        "zenith"
+      ],
+      "usage_examples": [
+        "●⤊△ — High-pressure eruptive peak",
+        "△⤋ — Peak followed by dissipation",
+        "⟋△ — Ascent reaching peak"
+      ]
+    },
+    {
+      "id": "GLYPH_15_VALLEY",
+      "name": "VALLEY",
+      "category": "structure",
+      "pua_codepoint": "U+E00E",
+      "unicode_display": "▽",
+      "semantic_vector": "⟨POSITION:MINIMUM | DEPTH:MAXIMAL | ELEVATION:NADIR | CONTAINMENT:RECEPTIVE⟩",
+      "description": "Downward triangle representing minimum depth and nadir position",
+      "canvas_size": 512,
+      "stroke_width_px": 1.5,
+      "file": "E00E_VALLEY.svg",
+      "psh256_canonical": null,
+      "design_notes": [
+        "Sharp point downward = singularity of minimum",
+        "Receptive form = collecting/gathering",
+        "Wide opening = acceptance",
+        "Opposite of PEAK (concave vs convex)",
+        "Evokes: river valley, trough, depression, nadir"
+      ],
+      "symbolic_associations": [
+        "valley",
+        "trough",
+        "depression",
+        "nadir",
+        "low point",
+        "receptive basin"
+      ],
+      "usage_examples": [
+        "▽⟋ — Valley ascending (recovery)",
+        "◯▽ — Low-pressure valley (air mass)",
+        "⊚(▽⁘) — Contained valley diffusion"
+      ]
+    },
+    {
+      "id": "GLYPH_16_PLATEAU",
+      "name": "PLATEAU",
+      "category": "structure",
+      "pua_codepoint": "U+E00F",
+      "unicode_display": "▬",
+      "semantic_vector": "⟨POSITION:ELEVATED | DURATION:EXTENDED | FLATNESS:MAXIMAL | STABILITY:HIGH⟩",
+      "description": "Elevated horizontal line representing sustained high position",
+      "canvas_size": 512,
+      "stroke_width_px": 1.5,
+      "file": "E00F_PLATEAU.svg",
+      "psh256_canonical": null,
+      "design_notes": [
+        "Elevated position (Y=200) distinguishes from STAGNANT (Y=256)",
+        "Horizontal = zero gradient = sustained",
+        "Blunt caps = definite boundaries",
+        "Different from PEAK (flat vs pointed)",
+        "Evokes: mesa, table mountain, sustained level"
+      ],
+      "symbolic_associations": [
+        "mesa",
+        "plateau",
+        "table mountain",
+        "sustained elevation",
+        "flat peak",
+        "stable high state"
+      ],
+      "usage_examples": [
+        "⟋▬ — Ascent reaching plateau",
+        "●▬ — High-pressure plateau (sustained tension)",
+        "▬⤋ — Plateau dissipating (decline)"
+      ]
+    },
+    {
+      "id": "GLYPH_17_ASCENT",
+      "name": "ASCENT",
+      "category": "structure",
+      "pua_codepoint": "U+E010",
+      "unicode_display": "⟋",
+      "semantic_vector": "⟨DIRECTION:UPWARD | GRADIENT:POSITIVE | TRAJECTORY:RISING | MOMENTUM:INCREASING⟩",
+      "description": "Rising diagonal representing positive gradient and upward trajectory",
+      "canvas_size": 512,
+      "stroke_width_px": 1.5,
+      "file": "E010_ASCENT.svg",
+      "psh256_canonical": null,
+      "design_notes": [
+        "~45° angle = strong positive gradient",
+        "Left-to-right rise = temporal progression upward",
+        "Rounded cap = smooth continuous ascent",
+        "Opposite of DISSIPATIVE arrow (diagonal line vs vertical with fade)",
+        "Evokes: climb, growth, improvement, rise"
+      ],
+      "symbolic_associations": [
+        "climbing",
+        "growth",
+        "improvement",
+        "rising trajectory",
+        "positive slope",
+        "upward momentum"
+      ],
+      "usage_examples": [
+        "◯→⟋ — Low pressure ascending (warming)",
+        "⟋△ — Ascent reaching peak",
+        "⟋▬ — Ascent leveling to plateau"
+      ]
+    },
+    {
+      "id": "GLYPH_18_SUBDUCTION",
+      "name": "SUBDUCTION",
+      "category": "structure",
+      "pua_codepoint": "U+E011",
+      "unicode_display": "⊂",
+      "semantic_vector": "⟨RELATION:BENEATH | INTERACTION:FOUNDATIONAL | SUPPORT:STRUCTURAL | EMBEDDING:DEEP⟩",
+      "description": "Curve sliding beneath representing foundational support and structural embedding",
+      "canvas_size": 512,
+      "stroke_width_px": 1.5,
+      "file": "E011_SUBDUCTION.svg",
+      "psh256_canonical": null,
+      "design_notes": [
+        "Subset symbol form = mathematical foundation",
+        "Left-opening curve = receptive/supporting",
+        "Smooth curve = gradual transition",
+        "Evokes: tectonic subduction, foundation, substrate, support structure"
+      ],
+      "symbolic_associations": [
+        "foundation",
+        "substrate",
+        "tectonic subduction",
+        "structural support",
+        "beneath relation",
+        "embedding"
+      ],
+      "usage_examples": [
+        "⊂△ — Foundation supporting peak",
+        "◯⟲∿⊂● — Low-pressure cyclic organic subducting beneath high-pressure",
+        "⊚(⊂·) — Contained foundational minimal"
+      ]
+    }
+  ]
+}
