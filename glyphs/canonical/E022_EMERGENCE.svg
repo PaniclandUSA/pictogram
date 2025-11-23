@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <title>EMERGENCE - E016</title>
+  <desc>Operator glyph representing generative field and outward radiation</desc>
+  
+  <!-- Radiating circle -->
+  <circle cx="256" cy="256" r="100" fill="none" stroke="#000000" stroke-width="1.5"/>
+  
+  <!-- Central dot (source) -->
+  <circle cx="256" cy="256" r="12" fill="#000000" stroke="none"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>EMERGENCE</dc:title>
+        <dc:identifier>GLYPH_23_EMERGENCE</dc:identifier>
+        <dc:creator>Esper Stack / PICTOGRAM v1.0</dc:creator>
+        <dc:date>2025-11-23</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
