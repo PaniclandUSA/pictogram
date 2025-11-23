@@ -1,0 +1,8 @@
+{
+  "codepoint": "U+E000",
+  "name": "CYCLIC",
+  "category": "FLOW",
+  "svg": "glyphs/canonical/E000_CYCLIC.svg",
+  "description": "Circular flow forming a continuous loop with an outward-pointing arrow bridging a right-side gap.",
+  "aliases": ["loop", "cycle", "recurrence"]
+}
