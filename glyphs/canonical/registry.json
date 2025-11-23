@@ -1,8 +1,35 @@
 {
-  "codepoint": "U+E000",
-  "name": "CYCLIC",
-  "category": "FLOW",
-  "svg": "glyphs/canonical/E000_CYCLIC.svg",
-  "description": "Circular flow forming a continuous loop with an outward-pointing arrow bridging a right-side gap.",
-  "aliases": ["loop", "cycle", "recurrence"]
+  "glyphs": [
+    {
+      "id": "GLYPH_01_CYCLIC",
+      "name": "CYCLIC",
+      "category": "flow",
+      "pua_codepoint": "U+E000",
+      "unicode_display": "⟲",
+      "semantic_vector": "⟨TEMPORAL:RECURSIVE | PATTERN:PERIODIC | MOMENTUM:SUSTAINED⟩",
+      "description": "Continuous circular flow with a right-side arrow bridging a deliberate gap, representing recursive temporal momentum.",
+      "canvas_size": 512,
+      "stroke_width_px": 36,
+      "file": "E000_CYCLIC.svg",
+      "psh256_canonical": null,
+      "design_notes": [
+        "Arrowhead indicates ongoing momentum, not just a closed loop.",
+        "Gap avoids collision with the 'simple circle' topology.",
+        "Geometry is tuned for skeleton stability and PSH-256 canonicalization.",
+        "Arrow placement is irrelevant due to D4 normalization."
+      ],
+      "symbolic_associations": [
+        "eternal return",
+        "seasons",
+        "breath cycles",
+        "recursion",
+        "periodic motion"
+      ],
+      "usage_examples": [
+        "◯⟲∿ — Low-pressure cyclic organic flow",
+        "●⟲△ — High-pressure cyclic crescendo",
+        "⊚(⟲⁘) — Contained cyclic diffusion pattern"
+      ]
+    }
+  ]
 }
