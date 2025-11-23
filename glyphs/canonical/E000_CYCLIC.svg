@@ -1,40 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-  <title>CYCLIC - E000</title>
-  <desc>Flow glyph representing recursive temporal pattern with periodic return</desc>
-  
-  <!-- Main circular path (345° arc, leaving 15° gap for arrow) -->
-  <path
-    d="M 436 256 
-       A 180 180 0 1 1 256 76"
-    fill="none"
-    stroke="#000000"
-    stroke-width="1.5"
-    stroke-linecap="round"
-    stroke-linejoin="round"/>
-  
-  <!-- Arrow head at terminus -->
-  <path
-    d="M 256 76
-       L 235 90
-       M 256 76
-       L 277 90"
-    fill="none"
-    stroke="#000000"
-    stroke-width="1.5"
-    stroke-linecap="round"
-    stroke-linejoin="round"/>
-  
-  <!-- Metadata -->
-  <metadata>
-    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-             xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description>
-        <dc:title>CYCLIC</dc:title>
-        <dc:identifier>GLYPH_01_CYCLIC</dc:identifier>
-        <dc:creator>Esper Stack / PICTOGRAM v1.0</dc:creator>
-        <dc:date>2025-11-23</dc:date>
-      </rdf:Description>
-    </rdf:RDF>
-  </metadata>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>CYCLIC – E000</title>
+  <desc>Flow glyph representing recursive temporal pattern with periodic return.</desc>
+  <g fill="none" stroke="black" stroke-width="36" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Main loop -->
+    <path d="M340 110.51 A168 168 0 1 1 340 401.49" />
+    <!-- Arrowhead bridging the gap -->
+    <path d="M340 110.51 L424 256 L340 401.49" />
+  </g>
 </svg>
