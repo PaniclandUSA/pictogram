@@ -99,3 +99,69 @@
     "▭→⤊ — Stagnation → gradient → eruption (breakthrough sequence)"
   ]
 }
+{
+  "id": "GLYPH_04_TURBULENT",
+  "name": "TURBULENT",
+  "category": "flow",
+  "pua_codepoint": "U+E003",
+  "unicode_display": "⤨",
+  "semantic_vector": "⟨TEMPORAL:IRREGULAR | PATTERN:CHAOTIC | COHERENCE:LOW⟩",
+  "description": "Chaotic zigzag representing irregular temporal flow with broken periodicity",
+  "canvas_size": 512,
+  "stroke_width_px": 1.5,
+  "file": "E003_TURBULENT.svg",
+  "psh256_canonical": null,
+  "design_notes": [
+    "Irregular zigzag with variable angles creates unpredictability",
+    "Upward-rightward trend shows forward motion despite chaos",
+    "Sharp angles (not curves) emphasize disruption",
+    "6-7 direction changes provide sufficient complexity",
+    "Pattern avoids perfect symmetry to maintain chaotic feel"
+  ],
+  "symbolic_associations": [
+    "market volatility",
+    "turbulent flow",
+    "seismic activity",
+    "storm path",
+    "erratic heartbeat",
+    "chaos theory"
+  ],
+  "usage_examples": [
+    "◯⤨ — Low-pressure turbulence (choppy waters)",
+    "●⤨△ — High-pressure turbulent peak (volatile crisis)",
+    "⤨→▭ — Turbulence → gradient → stagnation (chaos settling)"
+  ]
+}
+{
+  "id": "GLYPH_05_DISSIPATIVE",
+  "name": "DISSIPATIVE",
+  "category": "flow",
+  "pua_codepoint": "U+E004",
+  "unicode_display": "⤋",
+  "semantic_vector": "⟨TEMPORAL:GRADUAL | INTENSITY:DECREASING | TRAJECTORY:DOWNWARD⟩",
+  "description": "Downward arrow with fade lines representing gradual energy dissipation",
+  "canvas_size": 512,
+  "stroke_width_px": 1.5,
+  "file": "E004_DISSIPATIVE.svg",
+  "psh256_canonical": null,
+  "design_notes": [
+    "Downward arrow indicates decreasing trajectory",
+    "Fade lines at bottom show energy dispersing into environment",
+    "Thinner fade lines (0.75px) + reduced opacity create visual decay",
+    "Smooth shaft (not zigzag) indicates gradual, controlled dissipation",
+    "Opposite of ERUPTIVE (down vs up, gradual vs sudden)"
+  ],
+  "symbolic_associations": [
+    "entropy increase",
+    "energy decay",
+    "cooling process",
+    "fade to silence",
+    "declining intensity",
+    "return to equilibrium"
+  ],
+  "usage_examples": [
+    "●⤋◯ — High-pressure dissipating to low (pressure release)",
+    "⤊⤋ — Eruptive followed by dissipative (explosion → decay)",
+    "⊚(⤋∿) — Contained dissipative organic (gradual natural decay)"
+  ]
+}
