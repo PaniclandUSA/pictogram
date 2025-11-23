@@ -64,3 +64,38 @@
     "⊚(⤊⁘) — Contained eruption into diffusion"
   ]
 }
+{
+  "id": "GLYPH_03_STAGNANT",
+  "name": "STAGNANT",
+  "category": "flow",
+  "pua_codepoint": "U+E002",
+  "unicode_display": "▭",
+  "semantic_vector": "⟨TEMPORAL:STATIC | MOMENTUM:ZERO | INERTIA:MAXIMUM⟩",
+  "description": "Horizontal bar representing complete temporal stillness and zero momentum",
+  "canvas_size": 512,
+  "stroke_width_px": 1.5,
+  "file": "E002_STAGNANT.svg",
+  "psh256_canonical": null,
+  "design_notes": [
+    "Pure horizontal line = zero vertical momentum",
+    "Centered position represents balanced stasis",
+    "Substantial length conveys temporal extension (duration of stillness)",
+    "Blunt line caps (not rounded) emphasize hard stop",
+    "Simplest possible topology = irreducible concept",
+    "D4 canonicalization will identify horizontal as primary orientation"
+  ],
+  "symbolic_associations": [
+    "flatline",
+    "horizon",
+    "dead calm",
+    "pause",
+    "suspension",
+    "equilibrium",
+    "null state"
+  ],
+  "usage_examples": [
+    "◯▭ — Low-pressure stagnation (becalmed)",
+    "●▭ — High-pressure stagnation (trapped energy)",
+    "▭→⤊ — Stagnation → gradient → eruption (breakthrough sequence)"
+  ]
+}
