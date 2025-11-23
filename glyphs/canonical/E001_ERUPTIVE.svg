@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <title>ERUPTIVE - E001</title>
+  <desc>Flow glyph representing sudden explosive release with maximum intensity</desc>
+  
+  <!-- Main vertical shaft (upward momentum) -->
+  <line
+    x1="256" y1="400"
+    x2="256" y2="150"
+    stroke="#000000"
+    stroke-width="1.5"
+    stroke-linecap="round"/>
+  
+  <!-- Radiating burst lines at top -->
+  <!-- Left-most ray (-60°) -->
+  <line
+    x1="256" y1="150"
+    x2="186.8" y2="103.6"
+    stroke="#000000"
+    stroke-width="1.5"
+    stroke-linecap="round"/>
+  
+  <!-- Left ray (-30°) -->
+  <line
+    x1="256" y1="150"
+    x2="216.7" y2="110.8"
+    stroke="#000000"
+    stroke-width="1.5"
+    stroke-linecap="round"/>
+  
+  <!-- Center ray (0° - straight up) -->
+  <line
+    x1="256" y1="150"
+    x2="256" y2="70"
+    stroke="#000000"
+    stroke-width="1.5"
+    stroke-linecap="round"/>
+  
+  <!-- Right ray (30°) -->
+  <line
+    x1="256" y1="150"
+    x2="295.3" y2="110.8"
+    stroke="#000000"
+    stroke-width="1.5"
+    stroke-linecap="round"/>
+  
+  <!-- Right-most ray (60°) -->
+  <line
+    x1="256" y1="150"
+    x2="325.2" y2="103.6"
+    stroke="#000000"
+    stroke-width="1.5"
+    stroke-linecap="round"/>
+  
+  <!-- Metadata -->
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>ERUPTIVE</dc:title>
+        <dc:identifier>GLYPH_02_ERUPTIVE</dc:identifier>
+        <dc:creator>Esper Stack / PICTOGRAM v1.0</dc:creator>
+        <dc:date>2025-11-23</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
