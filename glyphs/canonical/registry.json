@@ -295,3 +295,137 @@
     }
   ]
 }
+{
+      "id": "GLYPH_10_CRYSTALLINE",
+      "name": "CRYSTALLINE",
+      "category": "texture",
+      "pua_codepoint": "U+E009",
+      "unicode_display": "◇",
+      "semantic_vector": "⟨STRUCTURE:GEOMETRIC | CLARITY:HIGH | ORDER:MAXIMAL | BOUNDARIES:SHARP⟩",
+      "description": "Diamond shape representing ordered geometric structure with high clarity",
+      "canvas_size": 512,
+      "stroke_width_px": 1.5,
+      "file": "E009_CRYSTALLINE.svg",
+      "psh256_canonical": null,
+      "design_notes": [
+        "Perfect diamond = crystal lattice structure",
+        "Sharp 90° angles = atomic-scale precision",
+        "Miter joins emphasize geometric sharpness",
+        "Opposite of ORGANIC (rigid vs fluid, angular vs curved)",
+        "Evokes: diamond, quartz, ice crystal, mineral facet"
+      ],
+      "symbolic_associations": [
+        "crystal lattice",
+        "geometric order",
+        "clarity",
+        "hardness",
+        "refraction",
+        "molecular structure"
+      ],
+      "usage_examples": [
+        "◇△ — Crystalline peak structure",
+        "●◇ — High-pressure crystallization",
+        "⊚(◇·) — Contained crystalline minimal (single crystal)"
+      ]
+    },
+    {
+      "id": "GLYPH_11_ORGANIC",
+      "name": "ORGANIC",
+      "category": "texture",
+      "pua_codepoint": "U+E00A",
+      "unicode_display": "∿",
+      "semantic_vector": "⟨STRUCTURE:IRREGULAR | NATURALNESS:HIGH | FLUIDITY:PRESENT | BOUNDARIES:SOFT⟩",
+      "description": "Irregular wave representing natural organic flow with soft boundaries",
+      "canvas_size": 512,
+      "stroke_width_px": 1.5,
+      "file": "E00A_ORGANIC.svg",
+      "psh256_canonical": null,
+      "design_notes": [
+        "Bezier curves create natural flowing form",
+        "Variable amplitude suggests biological variation",
+        "Rounded joins emphasize softness",
+        "Opposite of CRYSTALLINE (fluid vs rigid, curved vs angular)",
+        "Evokes: cell membrane, vine growth, water flow, living tissue"
+      ],
+      "symbolic_associations": [
+        "biological form",
+        "natural variation",
+        "fluidity",
+        "growth pattern",
+        "living structure",
+        "soft boundaries"
+      ],
+      "usage_examples": [
+        "◯⟲∿ — Low-pressure cyclic organic flow",
+        "∿⤋ — Organic dissipation (natural decay)",
+        "⊚(∿⁘) — Contained organic diffusion (cellular spread)"
+      ]
+    },
+    {
+      "id": "GLYPH_12_MINIMAL",
+      "name": "MINIMAL",
+      "category": "texture",
+      "pua_codepoint": "U+E00B",
+      "unicode_display": "·",
+      "semantic_vector": "⟨DENSITY:SPARSE | ELEMENTS:FEW | SIMPLICITY:MAXIMAL | REDUCTION:EXTREME⟩",
+      "description": "Single point representing minimal material presence",
+      "canvas_size": 512,
+      "stroke_width_px": 0,
+      "file": "E00B_MINIMAL.svg",
+      "psh256_canonical": null,
+      "design_notes": [
+        "Single point = irreducible element",
+        "Small radius (8px) emphasizes sparseness",
+        "Maximum negative space around point",
+        "Opposite of DIFFUSE (one vs many)",
+        "Evokes: atom, seed, origin point, singular presence"
+      ],
+      "symbolic_associations": [
+        "single atom",
+        "origin point",
+        "seed",
+        "minimal presence",
+        "sparse distribution",
+        "zen simplicity"
+      ],
+      "usage_examples": [
+        "·⊙ — Minimal emergence (point becoming)",
+        "◯· — Low-pressure minimal (rarefied gas)",
+        "⊚(·) — Contained minimal (isolated particle)"
+      ]
+    },
+    {
+      "id": "GLYPH_13_DIFFUSE",
+      "name": "DIFFUSE",
+      "category": "texture",
+      "pua_codepoint": "U+E00C",
+      "unicode_display": "⁘",
+      "semantic_vector": "⟨BOUNDARY:UNCLEAR | DISTRIBUTION:SCATTERED | COHESION:LOW | DISPERSION:HIGH⟩",
+      "description": "Scattered dots representing dispersed material distribution",
+      "canvas_size": 512,
+      "stroke_width_px": 0,
+      "file": "E00C_DIFFUSE.svg",
+      "psh256_canonical": null,
+      "design_notes": [
+        "9 scattered points = particle cloud",
+        "Irregular spacing prevents grid-like order",
+        "Small radius (6px) = particulate scale",
+        "Opposite of MINIMAL (many vs one) and CRYSTALLINE (scattered vs ordered)",
+        "Evokes: fog, dust cloud, gas dispersion, particle spray"
+      ],
+      "symbolic_associations": [
+        "particle cloud",
+        "fog",
+        "dust",
+        "gas dispersion",
+        "scattered distribution",
+        "unclear boundary"
+      ],
+      "usage_examples": [
+        "⊚(◯⁘) — Contained low-pressure diffusion (fog in chamber)",
+        "⁘⤋ — Diffuse dissipation (cloud dispersing)",
+        "●→⁘ — High pressure diffusing outward (gas escape)"
+      ]
+    }
+  ]
+}
