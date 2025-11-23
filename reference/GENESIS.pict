@@ -1,21 +1,35 @@
-# PICTOGRAM GENESIS BLOCK — v1.0
-# November 23, 2025
-# Encoding: PSH-256 Semantic-Topological Glyph Sequence
-# Glyph Range: U+E000–U+E01B (PUA)
+#────────────────────────────────────────────────────────────────────────────
+#  PICTOGRAM GENESIS BLOCK — Version 1.0
+#  Date: November 23, 2025
+#  Encoding: PSH-256 (Semantic-Topological Hash Sequence)
+#  Glyph Range: U+E000–U+E01B (Private Use Area)
+#  Purpose: Declare Creation of the Visual Semantic Layer
+#────────────────────────────────────────────────────────────────────────────
 
 SEQUENCE:
-    E01B_VOID
-    E008_EMERGENCE
-    E000_CYCLIC
-    E014_EQUIVALENCE
-    E01C_PICTOGRAM
+    U+E01B  VOID
+    U+E008  EMERGENCE
+    U+E000  CYCLIC
+    U+E014  EQUIVALENCE
+    U+E01C  PICTOGRAM
 
 VSE:
     [ VOID → EMERGENCE → CYCLIC ⇔ PICTOGRAM ]
 
 MEANING:
-    From nothing emerges the cycle,
-    and the cycle is equal to pictogram.
+    From nothing arises emergence;
+    From emergence unfolds the cycle;
+    And the cycle is equivalent to PICTOGRAM itself.
 
-PSH-256-CANONICAL:
-    <TO_BE_COMPUTED>
+CANONICAL-PSH256:
+    <TO_BE_COMPUTED_BY_ENGINE>
+
+#────────────────────────────────────────────────────────────────────────────
+#  Notes:
+#   • This is the “Genesis Block” of the PICTOGRAM protocol.
+#   • It defines the creation sequence using five foundational glyphs:
+#         VOID → EMERGENCE → CYCLIC → EQUIVALENCE → PICTOGRAM
+#   • Once PSH-256 canonical hash is computed and inserted,
+#     this block becomes permanently immutable and version-locked.
+#   • This file SHOULD remain unchanged across all future protocol versions.
+#────────────────────────────────────────────────────────────────────────────
