@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <title>CRYSTALLINE - E009</title>
+  <desc>Texture glyph representing ordered geometric structure with high clarity</desc>
+  
+  <!-- Diamond (crystalline structure) -->
+  <path
+    d="M 256 140
+       L 372 256
+       L 256 372
+       L 140 256
+       Z"
+    fill="none"
+    stroke="#000000"
+    stroke-width="1.5"
+    stroke-linejoin="miter"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>CRYSTALLINE</dc:title>
+        <dc:identifier>GLYPH_10_CRYSTALLINE</dc:identifier>
+        <dc:creator>Esper Stack / PICTOGRAM v1.0</dc:creator>
+        <dc:date>2025-11-23</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
