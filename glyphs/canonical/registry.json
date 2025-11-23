@@ -162,3 +162,136 @@
     }
   ]
 }
+{
+  "glyphs": [
+    {
+      "id": "GLYPH_06_LOW_PRESSURE",
+      "name": "LOW_PRESSURE",
+      "category": "pressure",
+      "pua_codepoint": "U+E005",
+      "unicode_display": "◯",
+      "semantic_vector": "⟨TENSION:MINIMAL | SPACE:EXPANSIVE | DENSITY:LOW | VOLUME:INCREASING⟩",
+      "description": "Open circle representing expansive low-density spatial state",
+      "canvas_size": 512,
+      "stroke_width_px": 2,
+      "file": "E005_LOW_PRESSURE.svg",
+      "psh256_canonical": null,
+      "design_notes": [
+        "Bold stroke (2px) distinguishes pressure glyphs from flow glyphs",
+        "Open circle = negative space = expansive volume",
+        "Perfectly circular = isotropic expansion",
+        "No directional bias = balanced low-pressure state"
+      ],
+      "symbolic_associations": [
+        "breathing room",
+        "expansion",
+        "diffusion",
+        "low density gas",
+        "open space",
+        "reduced tension"
+      ],
+      "usage_examples": [
+        "◯⟲∿ — Low-pressure cyclic organic flow",
+        "◯→◓ — Low pressure rising through gradient",
+        "⊚(◯⁘) — Contained low-pressure diffusion"
+      ]
+    },
+    {
+      "id": "GLYPH_07_RISING_PRESSURE",
+      "name": "RISING_PRESSURE",
+      "category": "pressure",
+      "pua_codepoint": "U+E006",
+      "unicode_display": "◓",
+      "semantic_vector": "⟨TENSION:INCREASING | TRAJECTORY:UPWARD | TRANSITION:ACTIVE | MOMENTUM:BUILDING⟩",
+      "description": "Half-filled circle representing transitional state of increasing tension",
+      "canvas_size": 512,
+      "stroke_width_px": 1.5,
+      "file": "E006_RISING_PRESSURE.svg",
+      "psh256_canonical": null,
+      "design_notes": [
+        "Half-fill indicates transitional state (between low and high)",
+        "Left-side fill suggests rising from bottom (like liquid level)",
+        "Medium stroke weight (1.5px) = intermediate state",
+        "Asymmetry indicates directionality and instability"
+      ],
+      "symbolic_associations": [
+        "rising tide",
+        "building tension",
+        "compression beginning",
+        "escalation",
+        "transition zone",
+        "accumulation"
+      ],
+      "usage_examples": [
+        "◯→◓→● — Pressure gradient sequence",
+        "◓⤊ — Rising pressure erupting",
+        "⊚(◓△) — Contained rising pressure approaching peak"
+      ]
+    },
+    {
+      "id": "GLYPH_08_HIGH_PRESSURE",
+      "name": "HIGH_PRESSURE",
+      "category": "pressure",
+      "pua_codepoint": "U+E007",
+      "unicode_display": "●",
+      "semantic_vector": "⟨TENSION:MAXIMUM | DENSITY:MAXIMAL | COMPRESSION:EXTREME | STABILITY:PRECARIOUS⟩",
+      "description": "Solid filled circle representing maximum density and compression",
+      "canvas_size": 512,
+      "stroke_width_px": 2,
+      "file": "E007_HIGH_PRESSURE.svg",
+      "psh256_canonical": null,
+      "design_notes": [
+        "Solid fill = maximum density, no empty space",
+        "Bold stroke reinforces visual weight",
+        "Circular form = isotropic compression (equal in all directions)",
+        "Opposite of LOW_PRESSURE (void vs solid)"
+      ],
+      "symbolic_associations": [
+        "maximum compression",
+        "extreme density",
+        "critical point",
+        "imminent release",
+        "trapped energy",
+        "precarious stability"
+      ],
+      "usage_examples": [
+        "●⤊△ — High-pressure eruptive peak",
+        "●▭ — High-pressure stagnation (trapped)",
+        "●→⤋ — High pressure dissipating"
+      ]
+    },
+    {
+      "id": "GLYPH_09_COLLAPSING_PRESSURE",
+      "name": "COLLAPSING_PRESSURE",
+      "category": "pressure",
+      "pua_codepoint": "U+E008",
+      "unicode_display": "◉",
+      "semantic_vector": "⟨TENSION:RELEASING | DIRECTION:INWARD | MOMENTUM:IMPLOSIVE | TRANSITION:CATASTROPHIC⟩",
+      "description": "Concentric circles with core point representing implosive inward collapse",
+      "canvas_size": 512,
+      "stroke_width_px": 2,
+      "file": "E008_COLLAPSING_PRESSURE.svg",
+      "psh256_canonical": null,
+      "design_notes": [
+        "Concentric rings suggest shockwaves moving inward",
+        "Core dot = singularity point of collapse",
+        "Bold strokes emphasize catastrophic energy",
+        "Multiple rings = cascading failure",
+        "Opposite directionality from ERUPTIVE (implosion vs explosion)"
+      ],
+      "symbolic_associations": [
+        "implosion",
+        "gravitational collapse",
+        "black hole formation",
+        "catastrophic failure",
+        "inward shockwave",
+        "structural collapse"
+      ],
+      "usage_examples": [
+        "●→◉ — High pressure collapsing inward",
+        "◉⤋ — Collapse followed by dissipation",
+        "⊚(◉∅) — Contained collapse into void"
+      ]
+    }
+  ]
+}
