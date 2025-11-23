@@ -7,8 +7,5 @@ numpy>=1.24.0               # Numerical operations
 Pillow>=10.0.0              # Image file handling
 scipy>=1.11.0               # Scientific computing (skeletonization)
 
-# Optional dependencies (uncomment if needed)
-# pytest>=7.4.0             # Testing framework
-# black>=23.0.0             # Code formatting
-# flake8>=6.0.0             # Linting
-# mypy>=1.5.0               # Type checking
+# Glyph sheet generation
+cairosvg>=2.7.0            # SVG to PNG conversion
