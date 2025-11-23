@@ -30,236 +30,134 @@
         "●⟲△ — High-pressure cyclic crescendo",
         "⊚(⟲⁘) — Contained cyclic diffusion pattern"
       ]
-    }
-  ]
-}
-{
-  "id": "GLYPH_02_ERUPTIVE",
-  "name": "ERUPTIVE",
-  "category": "flow",
-  "pua_codepoint": "U+E001",
-  "unicode_display": "⤊",
-  "semantic_vector": "⟨TEMPORAL:ASCENT | ENERGY:BREAKTHROUGH | PRESSURE:ACCELERATING⟩",
-  "description": "A vertical eruption channel with three outward flares, symbolizing upward release of built pressure.",
-  "canvas_size": 512,
-  "stroke_width_px": 40,
-  "file": "E001_ERUPTIVE.svg",
-  "psh256_canonical": null,
-  "design_notes": [
-    "Vertical spine represents the eruption conduit.",
-    "Three arcs provide directional expansion.",
-    "Asymmetry conveys upward force.",
-    "D4 invariance ensures orientation independence for the hash."
-  ],
-  "symbolic_associations": [
-    "eruption",
-    "breakthrough",
-    "revelation",
-    "pressure release",
-    "vertical ascent"
-  ],
-  "usage_examples": [
-    "●⤊△ — High-pressure eruption peak",
-    "◯⤊∿ — Gentle cyclical rise turning eruptive",
-    "⊚(⤊⁘) — Contained eruption into diffusion"
-  ]
-}
-{
-  "id": "GLYPH_03_STAGNANT",
-  "name": "STAGNANT",
-  "category": "flow",
-  "pua_codepoint": "U+E002",
-  "unicode_display": "▭",
-  "semantic_vector": "⟨TEMPORAL:STATIC | MOMENTUM:ZERO | INERTIA:MAXIMUM⟩",
-  "description": "Horizontal bar representing complete temporal stillness and zero momentum",
-  "canvas_size": 512,
-  "stroke_width_px": 1.5,
-  "file": "E002_STAGNANT.svg",
-  "psh256_canonical": null,
-  "design_notes": [
-    "Pure horizontal line = zero vertical momentum",
-    "Centered position represents balanced stasis",
-    "Substantial length conveys temporal extension (duration of stillness)",
-    "Blunt line caps (not rounded) emphasize hard stop",
-    "Simplest possible topology = irreducible concept",
-    "D4 canonicalization will identify horizontal as primary orientation"
-  ],
-  "symbolic_associations": [
-    "flatline",
-    "horizon",
-    "dead calm",
-    "pause",
-    "suspension",
-    "equilibrium",
-    "null state"
-  ],
-  "usage_examples": [
-    "◯▭ — Low-pressure stagnation (becalmed)",
-    "●▭ — High-pressure stagnation (trapped energy)",
-    "▭→⤊ — Stagnation → gradient → eruption (breakthrough sequence)"
-  ]
-}
-{
-  "id": "GLYPH_04_TURBULENT",
-  "name": "TURBULENT",
-  "category": "flow",
-  "pua_codepoint": "U+E003",
-  "unicode_display": "⤨",
-  "semantic_vector": "⟨TEMPORAL:IRREGULAR | PATTERN:CHAOTIC | COHERENCE:LOW⟩",
-  "description": "Chaotic zigzag representing irregular temporal flow with broken periodicity",
-  "canvas_size": 512,
-  "stroke_width_px": 1.5,
-  "file": "E003_TURBULENT.svg",
-  "psh256_canonical": null,
-  "design_notes": [
-    "Irregular zigzag with variable angles creates unpredictability",
-    "Upward-rightward trend shows forward motion despite chaos",
-    "Sharp angles (not curves) emphasize disruption",
-    "6-7 direction changes provide sufficient complexity",
-    "Pattern avoids perfect symmetry to maintain chaotic feel"
-  ],
-  "symbolic_associations": [
-    "market volatility",
-    "turbulent flow",
-    "seismic activity",
-    "storm path",
-    "erratic heartbeat",
-    "chaos theory"
-  ],
-  "usage_examples": [
-    "◯⤨ — Low-pressure turbulence (choppy waters)",
-    "●⤨△ — High-pressure turbulent peak (volatile crisis)",
-    "⤨→▭ — Turbulence → gradient → stagnation (chaos settling)"
-  ]
-}
-{
-{
-      "id": "GLYPH_06_LOW_PRESSURE",
-      "name": "LOW_PRESSURE",
-      "category": "pressure",
-      "pua_codepoint": "U+E005",
-      "unicode_display": "◯",
-      "semantic_vector": "⟨TENSION:MINIMAL | SPACE:EXPANSIVE | DENSITY:LOW | VOLUME:INCREASING⟩",
-      "description": "Open circle representing expansive low-density spatial state",
+    },
+    {
+      "id": "GLYPH_02_ERUPTIVE",
+      "name": "ERUPTIVE",
+      "category": "flow",
+      "pua_codepoint": "U+E001",
+      "unicode_display": "⤊",
+      "semantic_vector": "⟨TEMPORAL:ASCENT | ENERGY:BREAKTHROUGH | PRESSURE:ACCELERATING⟩",
+      "description": "A vertical eruption channel with three outward flares, symbolizing upward release of built pressure.",
       "canvas_size": 512,
-      "stroke_width_px": 2,
-      "file": "E005_LOW_PRESSURE.svg",
+      "stroke_width_px": 40,
+      "file": "E001_ERUPTIVE.svg",
       "psh256_canonical": null,
       "design_notes": [
-        "Bold stroke (2px) distinguishes pressure glyphs from flow glyphs",
-        "Open circle = negative space = expansive volume",
-        "Perfectly circular = isotropic expansion",
-        "No directional bias = balanced low-pressure state"
+        "Vertical spine represents the eruption conduit.",
+        "Three arcs provide directional expansion.",
+        "Asymmetry conveys upward force.",
+        "D4 invariance ensures orientation independence for the hash."
       ],
       "symbolic_associations": [
-        "breathing room",
-        "expansion",
-        "diffusion",
-        "low density gas",
-        "open space",
-        "reduced tension"
+        "eruption",
+        "breakthrough",
+        "revelation",
+        "pressure release",
+        "vertical ascent"
       ],
       "usage_examples": [
-        "◯⟲∿ — Low-pressure cyclic organic flow",
-        "◯→◓ — Low pressure rising through gradient",
-        "⊚(◯⁘) — Contained low-pressure diffusion"
+        "●⤊△ — High-pressure eruption peak",
+        "◯⤊∿ — Gentle cyclical rise turning eruptive",
+        "⊚(⤊⁘) — Contained eruption into diffusion"
       ]
     },
     {
-      "id": "GLYPH_07_RISING_PRESSURE",
-      "name": "RISING_PRESSURE",
-      "category": "pressure",
-      "pua_codepoint": "U+E006",
-      "unicode_display": "◓",
-      "semantic_vector": "⟨TENSION:INCREASING | TRAJECTORY:UPWARD | TRANSITION:ACTIVE | MOMENTUM:BUILDING⟩",
-      "description": "Half-filled circle representing transitional state of increasing tension",
+      "id": "GLYPH_03_STAGNANT",
+      "name": "STAGNANT",
+      "category": "flow",
+      "pua_codepoint": "U+E002",
+      "unicode_display": "▭",
+      "semantic_vector": "⟨TEMPORAL:STATIC | MOMENTUM:ZERO | INERTIA:MAXIMUM⟩",
+      "description": "Horizontal bar representing complete temporal stillness and zero momentum.",
       "canvas_size": 512,
-      "stroke_width_px": 1.5,
-      "file": "E006_RISING_PRESSURE.svg",
+      "stroke_width_px": 36,
+      "file": "E002_STAGNANT.svg",
       "psh256_canonical": null,
       "design_notes": [
-        "Half-fill indicates transitional state (between low and high)",
-        "Left-side fill suggests rising from bottom (like liquid level)",
-        "Medium stroke weight (1.5px) = intermediate state",
-        "Asymmetry indicates directionality and instability"
+        "Pure horizontal line = zero vertical momentum.",
+        "Centered position represents balanced stasis.",
+        "Substantial length conveys duration of stillness.",
+        "Flat line caps intentionally remove dynamism.",
+        "Irreducible topology = minimal conceptual state."
       ],
       "symbolic_associations": [
-        "rising tide",
-        "building tension",
-        "compression beginning",
-        "escalation",
-        "transition zone",
-        "accumulation"
+        "flatline",
+        "horizon",
+        "dead calm",
+        "pause",
+        "suspension",
+        "equilibrium",
+        "null state"
       ],
       "usage_examples": [
-        "◯→◓→● — Pressure gradient sequence",
-        "◓⤊ — Rising pressure erupting",
-        "⊚(◓△) — Contained rising pressure approaching peak"
+        "◯▭ — Low-pressure stagnation (becalmed)",
+        "●▭ — High-pressure stagnation (trapped energy)",
+        "▭→⤊ — Stagnation → gradient → eruption"
       ]
     },
     {
-      "id": "GLYPH_08_HIGH_PRESSURE",
-      "name": "HIGH_PRESSURE",
-      "category": "pressure",
-      "pua_codepoint": "U+E007",
-      "unicode_display": "●",
-      "semantic_vector": "⟨TENSION:MAXIMUM | DENSITY:MAXIMAL | COMPRESSION:EXTREME | STABILITY:PRECARIOUS⟩",
-      "description": "Solid filled circle representing maximum density and compression",
+      "id": "GLYPH_04_TURBULENT",
+      "name": "TURBULENT",
+      "category": "flow",
+      "pua_codepoint": "U+E003",
+      "unicode_display": "⤨",
+      "semantic_vector": "⟨TEMPORAL:IRREGULAR | PATTERN:CHAOTIC | COHERENCE:LOW⟩",
+      "description": "Chaotic zigzag representing irregular temporal flow with broken periodicity.",
       "canvas_size": 512,
-      "stroke_width_px": 2,
-      "file": "E007_HIGH_PRESSURE.svg",
+      "stroke_width_px": 36,
+      "file": "E003_TURBULENT.svg",
       "psh256_canonical": null,
       "design_notes": [
-        "Solid fill = maximum density, no empty space",
-        "Bold stroke reinforces visual weight",
-        "Circular form = isotropic compression (equal in all directions)",
-        "Opposite of LOW_PRESSURE (void vs solid)"
+        "Irregular zigzag with variable angles creates unpredictability.",
+        "Upward-rightward tilt suggests forward motion through chaos.",
+        "Sharp angularity emphasizes disruption.",
+        "Avoids symmetry to preserve chaotic semantics."
       ],
       "symbolic_associations": [
-        "maximum compression",
-        "extreme density",
-        "critical point",
-        "imminent release",
-        "trapped energy",
-        "precarious stability"
+        "market volatility",
+        "turbulent flow",
+        "seismic activity",
+        "storm path",
+        "erratic heartbeat",
+        "chaos theory"
       ],
       "usage_examples": [
-        "●⤊△ — High-pressure eruptive peak",
-        "●▭ — High-pressure stagnation (trapped)",
-        "●→⤋ — High pressure dissipating"
+        "◯⤨ — Low-pressure turbulence (choppy waters)",
+        "●⤨△ — High-pressure turbulent peak",
+        "⤨→▭ — Turbulence resolving into stagnation"
       ]
     },
     {
-      "id": "GLYPH_09_COLLAPSING_PRESSURE",
-      "name": "COLLAPSING_PRESSURE",
-      "category": "pressure",
-      "pua_codepoint": "U+E008",
-      "unicode_display": "◉",
-      "semantic_vector": "⟨TENSION:RELEASING | DIRECTION:INWARD | MOMENTUM:IMPLOSIVE | TRANSITION:CATASTROPHIC⟩",
-      "description": "Concentric circles with core point representing implosive inward collapse",
+      "id": "GLYPH_05_DISSIPATIVE",
+      "name": "DISSIPATIVE",
+      "category": "flow",
+      "pua_codepoint": "U+E004",
+      "unicode_display": "⤋",
+      "semantic_vector": "⟨TEMPORAL:DECAYING | ENERGY:SCATTERING | PATTERN:UNFOCUSED⟩",
+      "description": "Downward widening flow pattern representing the dissipation and scattering of energy.",
       "canvas_size": 512,
-      "stroke_width_px": 2,
-      "file": "E008_COLLAPSING_PRESSURE.svg",
+      "stroke_width_px": 36,
+      "file": "E004_DISSIPATIVE.svg",
       "psh256_canonical": null,
       "design_notes": [
-        "Concentric rings suggest shockwaves moving inward",
-        "Core dot = singularity point of collapse",
-        "Bold strokes emphasize catastrophic energy",
-        "Multiple rings = cascading failure",
-        "Opposite directionality from ERUPTIVE (implosion vs explosion)"
+        "Top narrow → bottom wide shows spreading out.",
+        "Curved sides communicate loss of structural coherence.",
+        "Downward vector = returning to ground state.",
+        "Inverse of ERUPTIVE."
       ],
       "symbolic_associations": [
-        "implosion",
-        "gravitational collapse",
-        "black hole formation",
-        "catastrophic failure",
-        "inward shockwave",
-        "structural collapse"
+        "cooling",
+        "scattering",
+        "energy loss",
+        "decay",
+        "entropy increase",
+        "wave attenuation"
       ],
       "usage_examples": [
-        "●→◉ — High pressure collapsing inward",
-        "◉⤋ — Collapse followed by dissipation",
-        "⊚(◉∅) — Contained collapse into void"
+        "●→⤋ — High pressure dissipating",
+        "⤨→⤋ — Turbulence devolving",
+        "⊚(⤋⁘) — Contained dissipation"
       ]
     }
   ]
