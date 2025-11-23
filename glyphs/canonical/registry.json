@@ -4,7 +4,7 @@
   "glyphs_completed": 28,
   "total_planned": 28,
   "psh256_engine": "v1.0-dihedral",
-  "status": "COMPLETE – FULL 28-GLYPH CANON LOCKED",
+  "status": "HARDENED – CANONICAL HASHES LOCKED",
   "glyphs": [
     {
       "id": "GLYPH_01_CYCLIC",
@@ -17,15 +17,25 @@
       "canvas_size": 512,
       "stroke_width_px": 36,
       "file": "E000_CYCLIC.svg",
-      "psh256_canonical": null,
+      "psh256_canonical": "74052bd14dfd3b66b71ee19f346ddda985578eb21f6d6e1159a3da450137ed89",
       "design_notes": [
         "Arrowhead indicates ongoing momentum, not just a closed loop.",
         "Gap avoids collision with the 'simple circle' topology.",
         "Geometry is tuned for skeleton stability and PSH-256 canonicalization.",
         "Arrow placement is irrelevant due to D4 normalization."
       ],
-      "symbolic_associations": ["eternal return","seasons","breath cycles","recursion","periodic motion"],
-      "usage_examples": ["◯⟲∿ — Low-pressure cyclic organic flow","●⟲△ — High-pressure cyclic crescendo","⊚(⟲⁘) — Contained cyclic diffusion pattern"]
+      "symbolic_associations": [
+        "eternal return",
+        "seasons",
+        "breath cycles",
+        "recursion",
+        "periodic motion"
+      ],
+      "usage_examples": [
+        "◯⟲∿ — Low-pressure cyclic organic flow",
+        "●⟲△ — High-pressure cyclic crescendo",
+        "⊚(⟲⁘) — Contained cyclic diffusion pattern"
+      ]
     },
     {
       "id": "GLYPH_02_ERUPTIVE",
@@ -38,15 +48,25 @@
       "canvas_size": 512,
       "stroke_width_px": 40,
       "file": "E001_ERUPTIVE.svg",
-      "psh256_canonical": null,
+      "psh256_canonical": "f283113825a066ce8f077a336704c44da097b1cc854d45968d13bdc1595245fb",
       "design_notes": [
         "Vertical spine represents the eruption conduit.",
         "Three arcs provide directional expansion.",
         "Asymmetry conveys upward force.",
         "D4 invariance ensures orientation independence for the hash."
       ],
-      "symbolic_associations": ["eruption","breakthrough","revelation","pressure release","vertical ascent"],
-      "usage_examples": ["●⤊△ — High-pressure eruption peak","◯⤊∿ — Gentle cyclical rise turning eruptive","⊚(⤊⁘) — Contained eruption into diffusion"]
+      "symbolic_associations": [
+        "eruption",
+        "breakthrough",
+        "revelation",
+        "pressure release",
+        "vertical ascent"
+      ],
+      "usage_examples": [
+        "●⤊△ — High-pressure eruption peak",
+        "◯⤊∿ — Gentle cyclical rise turning eruptive",
+        "⊚(⤊⁘) — Contained eruption into diffusion"
+      ]
     },
     {
       "id": "GLYPH_03_STAGNANT",
@@ -55,20 +75,33 @@
       "pua_codepoint": "U+E002",
       "unicode_display": "▭",
       "semantic_vector": "⟨TEMPORAL:STATIC | MOMENTUM:ZERO | INERTIA:MAXIMUM⟩",
-      "description": "Horizontal bar representing complete temporal stillness and zero momentum.",
+      "description": "Horizontal bar representing complete temporal stillness and zero momentum",
       "canvas_size": 512,
       "stroke_width_px": 36,
       "file": "E002_STAGNANT.svg",
-      "psh256_canonical": null,
+      "psh256_canonical": "7c282e9b8841d485c152cd630b17e512a423f8fb47b76b3b65fd001bf3da1959",
       "design_notes": [
-        "Pure horizontal line = zero vertical momentum.",
-        "Centered position represents balanced stasis.",
-        "Substantial length conveys duration of stillness.",
-        "Flat line caps intentionally remove dynamism.",
-        "Irreducible topology = minimal conceptual state."
+        "Pure horizontal line = zero vertical momentum",
+        "Centered position represents balanced stasis",
+        "Substantial length conveys temporal extension (duration of stillness)",
+        "Blunt line caps (not rounded) emphasize hard stop",
+        "Simplest possible topology = irreducible concept",
+        "D4 canonicalization will identify horizontal as primary orientation"
       ],
-      "symbolic_associations": ["flatline","horizon","dead calm","pause","suspension","equilibrium","null state"],
-      "usage_examples": ["◯▭ — Low-pressure stagnation (becalmed)","●▭ — High-pressure stagnation (trapped energy)","▭→⤊ — Stagnation → gradient → eruption"]
+      "symbolic_associations": [
+        "flatline",
+        "horizon",
+        "dead calm",
+        "pause",
+        "suspension",
+        "equilibrium",
+        "null state"
+      ],
+      "usage_examples": [
+        "◯▭ — Low-pressure stagnation (becalmed)",
+        "●▭ — High-pressure stagnation (trapped energy)",
+        "▭→⤊ — Stagnation → gradient → eruption (breakthrough sequence)"
+      ]
     },
     {
       "id": "GLYPH_04_TURBULENT",
@@ -77,19 +110,31 @@
       "pua_codepoint": "U+E003",
       "unicode_display": "⤨",
       "semantic_vector": "⟨TEMPORAL:IRREGULAR | PATTERN:CHAOTIC | COHERENCE:LOW⟩",
-      "description": "Chaotic zigzag representing irregular temporal flow with broken periodicity.",
+      "description": "Chaotic zigzag representing irregular temporal flow with broken periodicity",
       "canvas_size": 512,
       "stroke_width_px": 36,
       "file": "E003_TURBULENT.svg",
-      "psh256_canonical": null,
+      "psh256_canonical": "864fd323d9bb726d32f107ffb0fe3fddfbad70696167e1f138eecc5b0426a1ed",
       "design_notes": [
-        "Irregular zigzag with variable angles creates unpredictability.",
-        "Upward-rightward tilt suggests forward motion through chaos.",
-        "Sharp angularity emphasizes disruption.",
-        "Avoids symmetry to preserve chaotic semantics."
+        "Irregular zigzag with variable angles creates unpredictability",
+        "Upward-rightward trend shows forward motion despite chaos",
+        "Sharp angles (not curves) emphasize disruption",
+        "6-7 direction changes provide sufficient complexity",
+        "Pattern avoids perfect symmetry to maintain chaotic feel"
       ],
-      "symbolic_associations": ["market volatility","turbulent flow","seismic activity","storm path","erratic heartbeat","chaos theory"],
-      "usage_examples": ["◯⤨ — Low-pressure turbulence (choppy waters)","●⤨△ — High-pressure turbulent peak","⤨→▭ — Turbulence resolving into stagnation"]
+      "symbolic_associations": [
+        "market volatility",
+        "turbulent flow",
+        "seismic activity",
+        "storm path",
+        "erratic heartbeat",
+        "chaos theory"
+      ],
+      "usage_examples": [
+        "◯⤨ — Low-pressure turbulence (choppy waters)",
+        "●⤨△ — High-pressure turbulent peak (volatile crisis)",
+        "⤨→▭ — Turbulence → gradient → stagnation (chaos settling)"
+      ]
     },
     {
       "id": "GLYPH_05_DISSIPATIVE",
@@ -97,21 +142,32 @@
       "category": "flow",
       "pua_codepoint": "U+E004",
       "unicode_display": "⤋",
-      "semantic_vector": "⟨TEMPORAL:DECAYING | ENERGY:SCATTERING | PATTERN:UNFOCUSED⟩",
-      "description": "Downward widening flow pattern representing the dissipation and scattering of energy.",
+      "semantic_vector": "⟨TEMPORAL:DESCENT | ENERGY:RELEASE | PRESSURE:DECREASING⟩",
+      "description": "Downward and outward flow suggesting diffusion and energy loss",
       "canvas_size": 512,
       "stroke_width_px": 36,
       "file": "E004_DISSIPATIVE.svg",
-      "psh256_canonical": null,
+      "psh256_canonical": "cb28fbb130a794a65d6dec588c6a07fa37f6e382d4a02adc01110bea6f5144ab",
       "design_notes": [
-        "Top narrow → bottom wide shows spreading out.",
-        "Curved sides communicate loss of structural coherence.",
-        "Downward vector = returning to ground state.",
-        "Inverse of ERUPTIVE."
+        "Inverted counterpart to ERUPTIVE glyph",
+        "Downward arcs signify gravity-assisted release",
+        "Asymmetry preserves uniqueness under D4 invariance",
+        "Line weight matches flow family for consistency"
       ],
-      "symbolic_associations": ["cooling","scattering","energy loss","decay","entropy increase","wave attenuation"],
-      "usage_examples": ["●→⤋ — High pressure dissipating","⤨→⤋ — Turbulence devolving","⊚(⤋⁘) — Contained dissipation"]
+      "symbolic_associations": [
+        "cooling",
+        "energy bleed",
+        "settling dust",
+        "falling debris",
+        "pressure bleed-off"
+      ],
+      "usage_examples": [
+        "●⤋ — High-pressure dissipation",
+        "◓⤋ — Rising pressure beginning to bleed off",
+        "⤊→⤋ — Eruption followed by dissipation"
+      ]
     },
+
     {
       "id": "GLYPH_06_LOW_PRESSURE",
       "name": "LOW_PRESSURE",
@@ -123,15 +179,26 @@
       "canvas_size": 512,
       "stroke_width_px": 2,
       "file": "E005_LOW_PRESSURE.svg",
-      "psh256_canonical": null,
+      "psh256_canonical": "385e7b765ba60a6c5a40aeb55f0db7f22e126fa8b05003deeb83225888f0f464",
       "design_notes": [
         "Bold stroke (2px) distinguishes pressure glyphs from flow glyphs",
         "Open circle = negative space = expansive volume",
         "Perfectly circular = isotropic expansion",
         "No directional bias = balanced low-pressure state"
       ],
-      "symbolic_associations": ["breathing room","expansion","diffusion","low density gas","open space","reduced tension"],
-      "usage_examples": ["◯⟲∿ — Low-pressure cyclic organic flow","◯→◓ — Low pressure rising through gradient","⊚(◯⁘) — Contained low-pressure diffusion"]
+      "symbolic_associations": [
+        "breathing room",
+        "expansion",
+        "diffusion",
+        "low density gas",
+        "open space",
+        "reduced tension"
+      ],
+      "usage_examples": [
+        "◯⟲∿ — Low-pressure cyclic organic flow",
+        "◯→◓ — Low pressure rising through gradient",
+        "⊚(◯⁘) — Contained low-pressure diffusion"
+      ]
     },
     {
       "id": "GLYPH_07_RISING_PRESSURE",
@@ -142,17 +209,28 @@
       "semantic_vector": "⟨TENSION:INCREASING | TRAJECTORY:UPWARD | TRANSITION:ACTIVE | MOMENTUM:BUILDING⟩",
       "description": "Half-filled circle representing transitional state of increasing tension",
       "canvas_size": 512,
-      "stroke_width_px": 1.5,
+      "stroke_width_px": 2,
       "file": "E006_RISING_PRESSURE.svg",
-      "psh256_canonical": null,
+      "psh256_canonical": "e4b55003373aa01971cd64e2f7a31d5b4c8207ae16ff2ceb3f366fd6c36ee45b",
       "design_notes": [
         "Half-fill indicates transitional state (between low and high)",
-        "Left-side fill suggests rising from bottom (like liquid level)",
-        "Medium stroke weight (1.5px) = intermediate state",
+        "Fill bias suggests rising from one side like a filling vessel",
+        "Medium stroke weight = intermediate state",
         "Asymmetry indicates directionality and instability"
       ],
-      "symbolic_associations": ["rising tide","building tension","compression beginning","escalation","transition zone","accumulation"],
-      "usage_examples": ["◯→◓→● — Pressure gradient sequence","◓⤊ — Rising pressure erupting","⊚(◓△) — Contained rising pressure approaching peak"]
+      "symbolic_associations": [
+        "rising tide",
+        "building tension",
+        "compression beginning",
+        "escalation",
+        "transition zone",
+        "accumulation"
+      ],
+      "usage_examples": [
+        "◯→◓→● — Pressure gradient sequence",
+        "◓⤊ — Rising pressure erupting",
+        "⊚(◓△) — Contained rising pressure approaching peak"
+      ]
     },
     {
       "id": "GLYPH_08_HIGH_PRESSURE",
@@ -165,15 +243,26 @@
       "canvas_size": 512,
       "stroke_width_px": 2,
       "file": "E007_HIGH_PRESSURE.svg",
-      "psh256_canonical": null,
+      "psh256_canonical": "c64d12bd1f6fbf6b5a341c8be12a9046f97304e09ba35c9c3ddf9cafc737ff5b",
       "design_notes": [
         "Solid fill = maximum density, no empty space",
         "Bold stroke reinforces visual weight",
         "Circular form = isotropic compression (equal in all directions)",
         "Opposite of LOW_PRESSURE (void vs solid)"
       ],
-      "symbolic_associations": ["maximum compression","extreme density","critical point","imminent release","trapped energy","precarious stability"],
-      "usage_examples": ["●⤊△ — High-pressure eruptive peak","●▭ — High-pressure stagnation (trapped)","●→⤋ — High pressure dissipating"]
+      "symbolic_associations": [
+        "maximum compression",
+        "extreme density",
+        "critical point",
+        "imminent release",
+        "trapped energy",
+        "precarious stability"
+      ],
+      "usage_examples": [
+        "●⤊△ — High-pressure eruptive peak",
+        "●▭ — High-pressure stagnation (trapped)",
+        "●→⤋ — High pressure dissipating"
+      ]
     },
     {
       "id": "GLYPH_09_COLLAPSING_PRESSURE",
@@ -186,7 +275,7 @@
       "canvas_size": 512,
       "stroke_width_px": 2,
       "file": "E008_COLLAPSING_PRESSURE.svg",
-      "psh256_canonical": null,
+      "psh256_canonical": "035b5c8e895df284f4592d13640a64960bddf96f54a64ad4706938cda5df1995",
       "design_notes": [
         "Concentric rings suggest shockwaves moving inward",
         "Core dot = singularity point of collapse",
@@ -194,30 +283,50 @@
         "Multiple rings = cascading failure",
         "Opposite directionality from ERUPTIVE (implosion vs explosion)"
       ],
-      "symbolic_associations": ["implosion","gravitational collapse","black hole formation","catastrophic failure","inward shockwave","structural collapse"],
-      "usage_examples": ["●→◉ — High pressure collapsing inward","◉⤋ — Collapse followed by dissipation","⊚(◉∅) — Contained collapse into void"]
+      "symbolic_associations": [
+        "implosion",
+        "gravitational collapse",
+        "black hole formation",
+        "catastrophic failure",
+        "inward shockwave",
+        "structural collapse"
+      ],
+      "usage_examples": [
+        "●→◉ — High pressure collapsing inward",
+        "◉⤋ — Collapse followed by dissipation",
+        "⊚(◉∅) — Contained collapse into void"
+      ]
     },
+
     {
       "id": "GLYPH_10_CRYSTALLINE",
       "name": "CRYSTALLINE",
       "category": "texture",
       "pua_codepoint": "U+E009",
       "unicode_display": "◇",
-      "semantic_vector": "⟨STRUCTURE:GEOMETRIC | CLARITY:HIGH | ORDER:MAXIMAL | BOUNDARIES:SHARP⟩",
-      "description": "Diamond shape representing ordered geometric structure with high clarity",
+      "semantic_vector": "⟨TEXTURE:CRISP | STRUCTURE:DISCRETE | ORDER:HIGH⟩",
+      "description": "Diamond outline evoking rigid, faceted crystalline order",
       "canvas_size": 512,
-      "stroke_width_px": 1.5,
+      "stroke_width_px": 2,
       "file": "E009_CRYSTALLINE.svg",
-      "psh256_canonical": null,
+      "psh256_canonical": "e6c6a6ef50900279f95d22355d96bb2fbb1ae5e7b224f07be27dd89ee08d583c",
       "design_notes": [
-        "Perfect diamond = crystal lattice structure",
-        "Sharp 90° angles = atomic-scale precision",
-        "Miter joins emphasize geometric sharpness",
-        "Opposite of ORGANIC (rigid vs fluid, angular vs curved)",
-        "Evokes: diamond, quartz, ice crystal, mineral facet"
+        "Angular corners emphasize rigidity",
+        "Symmetry reinforces high order",
+        "Hollow interior suggests rigid frame containing space"
       ],
-      "symbolic_associations": ["crystal lattice","geometric order","clarity","hardness","refraction","molecular structure"],
-      "usage_examples": ["◇△ — Crystalline peak structure","●◇ — High-pressure crystallization","⊚(◇·) — Contained crystalline minimal (single crystal)"]
+      "symbolic_associations": [
+        "ice",
+        "glass",
+        "rock crystal",
+        "precision",
+        "rigid lattices"
+      ],
+      "usage_examples": [
+        "◯◇ — Clear, low-pressure crystalline texture",
+        "●◇△ — High-pressure crystalline peak",
+        "⊚(◇⁘) — Contained crystalline diffusion"
+      ]
     },
     {
       "id": "GLYPH_11_ORGANIC",
@@ -225,21 +334,29 @@
       "category": "texture",
       "pua_codepoint": "U+E00A",
       "unicode_display": "∿",
-      "semantic_vector": "⟨STRUCTURE:IRREGULAR | NATURALNESS:HIGH | FLUIDITY:PRESENT | BOUNDARIES:SOFT⟩",
-      "description": "Irregular wave representing natural organic flow with soft boundaries",
+      "semantic_vector": "⟨TEXTURE:SOFT | STRUCTURE:CONTINUOUS | ORDER:MEDIUM⟩",
+      "description": "Soft sinusoidal wave implying organic, flowing irregularity",
       "canvas_size": 512,
-      "stroke_width_px": 1.5,
-      "file": "E00A_ORGANIC.svg",
-      "psh256_canonical": null,
+      "stroke_width_px": 2,
+      "file": "E010_ORGANIC.svg",
+      "psh256_canonical": "547a3b1050afba89cb8cc69f624eff894815b0b8f531ea54d8e24ad22700d7fc",
       "design_notes": [
-        "Bezier curves create natural flowing form",
-        "Variable amplitude suggests biological variation",
-        "Rounded joins emphasize softness",
-        "Opposite of CRYSTALLINE (fluid vs rigid, curved vs angular)",
-        "Evokes: cell membrane, vine growth, water flow, living tissue"
+        "Single continuous curve = organic continuity",
+        "Smooth curvature suggests natural growth or motion",
+        "Contrasts with CRYSTALLINE’s sharp angles"
       ],
-      "symbolic_associations": ["biological form","natural variation","fluidity","growth pattern","living structure","soft boundaries"],
-      "usage_examples": ["◯⟲∿ — Low-pressure cyclic organic flow","∿⤋ — Organic dissipation (natural decay)","⊚(∿⁘) — Contained organic diffusion (cellular spread)"]
+      "symbolic_associations": [
+        "water",
+        "foliage",
+        "musical legato",
+        "growth",
+        "natural forms"
+      ],
+      "usage_examples": [
+        "◯∿ — Low-pressure organic flow",
+        "⟲∿ — Cyclic organic pattern",
+        "∿→◇ — Organic pattern crystallizing"
+      ]
     },
     {
       "id": "GLYPH_12_MINIMAL",
@@ -247,21 +364,29 @@
       "category": "texture",
       "pua_codepoint": "U+E00B",
       "unicode_display": "·",
-      "semantic_vector": "⟨DENSITY:SPARSE | ELEMENTS:FEW | SIMPLICITY:MAXIMAL | REDUCTION:EXTREME⟩",
-      "description": "Single point representing minimal material presence",
+      "semantic_vector": "⟨TEXTURE:SPARSE | DENSITY:MINIMAL | ARTICULATION:POINTLIKE⟩",
+      "description": "Single dot representing minimal texture or near-emptiness",
       "canvas_size": 512,
-      "stroke_width_px": 0,
-      "file": "E00B_MINIMAL.svg",
-      "psh256_canonical": null,
+      "stroke_width_px": 2,
+      "file": "E011_MINIMAL.svg",
+      "psh256_canonical": "ff18199accb6713b5075c9f3a7700c8ee53c820a9e0a9a5cbd9b8f4b8b09580e",
       "design_notes": [
-        "Single point = irreducible element",
-        "Small radius (8px) emphasizes sparseness",
-        "Maximum negative space around point",
-        "Opposite of DIFFUSE (one vs many)",
-        "Evokes: atom, seed, origin point, singular presence"
+        "Single dot placed at normalized center",
+        "Acts as “least-information” texture glyph",
+        "Care taken to distinguish from COLLAPSING_PRESSURE via context and stroke pattern"
       ],
-      "symbolic_associations": ["single atom","origin point","seed","minimal presence","sparse distribution","zen simplicity"],
-      "usage_examples": ["·⊙ — Minimal emergence (point becoming)","◯· — Low-pressure minimal (rarefied gas)","⊚(·) — Contained minimal (isolated particle)"]
+      "symbolic_associations": [
+        "point",
+        "silence",
+        "vacancy",
+        "atomic unit",
+        "minimalist aesthetics"
+      ],
+      "usage_examples": [
+        "◯· — Wide, empty space with minimal activity",
+        "●· — Extremely dense field with only one salient point",
+        "⊚(·) — Singular focus within containment"
+      ]
     },
     {
       "id": "GLYPH_13_DIFFUSE",
@@ -269,43 +394,60 @@
       "category": "texture",
       "pua_codepoint": "U+E00C",
       "unicode_display": "⁘",
-      "semantic_vector": "⟨BOUNDARY:UNCLEAR | DISTRIBUTION:SCATTERED | COHESION:LOW | DISPERSION:HIGH⟩",
-      "description": "Scattered dots representing dispersed material distribution",
+      "semantic_vector": "⟨TEXTURE:GRAINED | DENSITY:LOW | DISTRIBUTION:SPARSE-MULTIPOINT⟩",
+      "description": "Cluster of four dots symbolizing scattered, low-density texture",
       "canvas_size": 512,
-      "stroke_width_px": 0,
-      "file": "E00C_DIFFUSE.svg",
-      "psh256_canonical": null,
+      "stroke_width_px": 2,
+      "file": "E012_DIFFUSE.svg",
+      "psh256_canonical": "bee2a0de394f779a0dbebd33f84ab9b5c80896cc618c4b3a1d2f41fb46d191d1",
       "design_notes": [
-        "9 scattered points = particle cloud",
-        "Irregular spacing prevents grid-like order",
-        "Small radius (6px) = particulate scale",
-        "Opposite of MINIMAL (many vs one) and CRYSTALLINE (scattered vs ordered)",
-        "Evokes: fog, dust cloud, gas dispersion, particle spray"
+        "Dots placed in asymmetric yet balanced pattern",
+        "Suggests granular texture without forming strong structure",
+        "Visually distinct from MINIMAL and CRYSTALLINE"
       ],
-      "symbolic_associations": ["particle cloud","fog","dust","gas dispersion","scattered distribution","unclear boundary"],
-      "usage_examples": ["⊚(◯⁘) — Contained low-pressure diffusion (fog in chamber)","⁘⤋ — Diffuse dissipation (cloud dispersing)","●→⁘ — High pressure diffusing outward (gas escape)"]
+      "symbolic_associations": [
+        "mist",
+        "dust",
+        "grain",
+        "soft noise",
+        "star fields"
+      ],
+      "usage_examples": [
+        "◯⁘ — Low-pressure diffusion",
+        "⤋⁘ — Dissipative flow turning into diffuse texture",
+        "⊚(⁘) — Contained grain/noise field"
+      ]
     },
+
     {
       "id": "GLYPH_14_PEAK",
       "name": "PEAK",
       "category": "structure",
       "pua_codepoint": "U+E00D",
       "unicode_display": "△",
-      "semantic_vector": "⟨POSITION:MAXIMUM | PROMINENCE:HIGH | ELEVATION:APEX | STABILITY:PRECARIOUS⟩",
-      "description": "Upward triangle representing maximum elevation and apex position",
+      "semantic_vector": "⟨STRUCTURE:PEAK | TOPOLOGY:MAXIMA | STABILITY:MARGINAL⟩",
+      "description": "Upward triangle representing a structural or energetic peak",
       "canvas_size": 512,
-      "stroke_width_px": 1.5,
-      "file": "E00D_PEAK.svg",
-      "psh256_canonical": null,
+      "stroke_width_px": 2,
+      "file": "E013_PEAK.svg",
+      "psh256_canonical": "3ef24402411c077d5a32d1a6fe6ff624b28cc7518fcd12a62aa1dd1e373de176",
       "design_notes": [
-        "Sharp point = singularity of maximum",
-        "Upward orientation = elevation",
-        "Wide base = structural foundation",
-        "Opposite of VALLEY (convex vs concave)",
-        "Evokes: mountain summit, climax, apex, zenith"
+        "Upward-pointing apex = clear maxima",
+        "Equal sides suggest symmetric ascent/descent",
+        "Paired conceptually with VALLEY glyph"
       ],
-      "symbolic_associations": ["mountain summit","climax","maximum point","achievement","apex","zenith"],
-      "usage_examples": ["●⤊△ — High-pressure eruptive peak","△⤋ — Peak followed by dissipation","⟋△ — Ascent reaching peak"]
+      "symbolic_associations": [
+        "climax",
+        "mountain peak",
+        "crescendo",
+        "summit",
+        "breaking point"
+      ],
+      "usage_examples": [
+        "●△ — High-pressure peak",
+        "◓△ — Rising pressure heading toward peak",
+        "⟲△ — Cyclic recurrence of peak events"
+      ]
     },
     {
       "id": "GLYPH_15_VALLEY",
@@ -313,21 +455,29 @@
       "category": "structure",
       "pua_codepoint": "U+E00E",
       "unicode_display": "▽",
-      "semantic_vector": "⟨POSITION:MINIMUM | DEPTH:MAXIMAL | ELEVATION:NADIR | CONTAINMENT:RECEPTIVE⟩",
-      "description": "Downward triangle representing minimum depth and nadir position",
+      "semantic_vector": "⟨STRUCTURE:MINIMA | TOPOLOGY:LOW POINT | STABILITY:RELATIVE⟩",
+      "description": "Downward triangle representing structural minima or low point",
       "canvas_size": 512,
-      "stroke_width_px": 1.5,
-      "file": "E00E_VALLEY.svg",
-      "psh256_canonical": null,
+      "stroke_width_px": 2,
+      "file": "E014_VALLEY.svg",
+      "psh256_canonical": "b1e52fd9c2e76f36af9517356e5066ea8e366e070bb347a44ba770e07e9a87ff",
       "design_notes": [
-        "Sharp point downward = singularity of minimum",
-        "Receptive form = collecting/gathering",
-        "Wide opening = acceptance",
-        "Opposite of PEAK (concave vs convex)",
-        "Evokes: river valley, trough, depression, nadir"
+        "Inverted triangle = dip or trough",
+        "Complements PEAK as dual structure",
+        "Symmetry suggests balanced descent from neighboring elevations"
       ],
-      "symbolic_associations": ["valley","trough","depression","nadir","low point","receptive basin"],
-      "usage_examples": ["▽⟋ — Valley ascending (recovery)","◯▽ — Low-pressure valley (air mass)","⊚(▽⁘) — Contained valley diffusion"]
+      "symbolic_associations": [
+        "depression",
+        "rest state",
+        "resolution",
+        "energetic lull",
+        "low cycle phase"
+      ],
+      "usage_examples": [
+        "◯▽ — Low-pressure valley (rest)",
+        "●▽ — High-pressure valley (load-bearing)",
+        "△→▽ — Peak resolving into valley"
+      ]
     },
     {
       "id": "GLYPH_16_PLATEAU",
@@ -335,43 +485,60 @@
       "category": "structure",
       "pua_codepoint": "U+E00F",
       "unicode_display": "▬",
-      "semantic_vector": "⟨POSITION:ELEVATED | DURATION:EXTENDED | FLATNESS:MAXIMAL | STABILITY:HIGH⟩",
-      "description": "Elevated horizontal line representing sustained high position",
+      "semantic_vector": "⟨STRUCTURE:EXTENDED_MAXIMA | TEMPORAL:DURATION | CHANGE:STALLED⟩",
+      "description": "Extended horizontal bar representing sustained elevated state",
       "canvas_size": 512,
-      "stroke_width_px": 1.5,
-      "file": "E00F_PLATEAU.svg",
-      "psh256_canonical": null,
+      "stroke_width_px": 2,
+      "file": "E015_PLATEAU.svg",
+      "psh256_canonical": "58a04ab60ee5be8b9bb163a21a162eb2f1d657883344fd3375457b1c6c985603",
       "design_notes": [
-        "Elevated position (Y=200) distinguishes from STAGNANT (Y=256)",
-        "Horizontal = zero gradient = sustained",
-        "Blunt caps = definite boundaries",
-        "Different from PEAK (flat vs pointed)",
-        "Evokes: mesa, table mountain, sustained level"
+        "Longer than STAGNANT to denote elevated band rather than flat null",
+        "Horizontal orientation = stable over time",
+        "Pairs with PEAK as “lingering peak” counterpart"
       ],
-      "symbolic_associations": ["mesa","plateau","table mountain","sustained elevation","flat peak","stable high state"],
-      "usage_examples": ["⟋▬ — Ascent reaching plateau","●▬ — High-pressure plateau (sustained tension)","▬⤋ — Plateau dissipating (decline)"]
+      "symbolic_associations": [
+        "sustained intensity",
+        "career plateau",
+        "leveled metrics",
+        "holding pattern",
+        "stalled growth"
+      ],
+      "usage_examples": [
+        "●▬ — High-pressure plateau",
+        "◓▬ — Rising pressure flattening into plateau",
+        "△→▬ — Spike broadening into plateau"
+      ]
     },
+
     {
       "id": "GLYPH_17_ASCENT",
       "name": "ASCENT",
-      "category": "structure",
+      "category": "flow",
       "pua_codepoint": "U+E010",
       "unicode_display": "⟋",
-      "semantic_vector": "⟨DIRECTION:UPWARD | GRADIENT:POSITIVE | TRAJECTORY:RISING | MOMENTUM:INCREASING⟩",
-      "description": "Rising diagonal representing positive gradient and upward trajectory",
+      "semantic_vector": "⟨TRAJECTORY:UPWARD | TEMPORAL:DIRECTIONAL | CHANGE:POSITIVE⟩",
+      "description": "Diagonal rising stroke representing upward change or climb",
       "canvas_size": 512,
-      "stroke_width_px": 1.5,
-      "file": "E010_ASCENT.svg",
-      "psh256_canonical": null,
+      "stroke_width_px": 36,
+      "file": "E016_ASCENT.svg",
+      "psh256_canonical": "7892f6d13804d99d4cd19b11059f259dfbff44128e741a4756c3213bb9b6888e",
       "design_notes": [
-        "~45° angle = strong positive gradient",
-        "Left-to-right rise = temporal progression upward",
-        "Rounded cap = smooth continuous ascent",
-        "Opposite of DISSIPATIVE arrow (diagonal line vs vertical with fade)",
-        "Evokes: climb, growth, improvement, rise"
+        "45° diagonal evokes canonical “rising” trend",
+        "Single stroke ensures minimalist encoding",
+        "Directionality captured topologically under D4"
       ],
-      "symbolic_associations": ["climbing","growth","improvement","rising trajectory","positive slope","upward momentum"],
-      "usage_examples": ["◯→⟋ — Low pressure ascending (warming)","⟋△ — Ascent reaching peak","⟋▬ — Ascent leveling to plateau"]
+      "symbolic_associations": [
+        "growth",
+        "climb",
+        "improvement",
+        "rising line",
+        "uplift"
+      ],
+      "usage_examples": [
+        "◓⟋ — Rising pressure trending upward",
+        "∿⟋ — Organic upward motion",
+        "⟋→△ — Ascent culminating in peak"
+      ]
     },
     {
       "id": "GLYPH_18_SUBDUCTION",
@@ -379,169 +546,240 @@
       "category": "structure",
       "pua_codepoint": "U+E011",
       "unicode_display": "⊂",
-      "semantic_vector": "⟨RELATION:BENEATH | INTERACTION:FOUNDATIONAL | SUPPORT:STRUCTURAL | EMBEDDING:DEEP⟩",
-      "description": "Curve sliding beneath representing foundational support and structural embedding",
+      "semantic_vector": "⟨RELATION:UNDERLAP | TOPOLOGY:ENCROACHING | PRESSURE:LOCALIZED⟩",
+      "description": "Curved underlap suggesting one structure sliding beneath another",
       "canvas_size": 512,
-      "stroke_width_px": 1.5,
-      "file": "E011_SUBDUCTION.svg",
-      "psh256_canonical": null,
+      "stroke_width_px": 2,
+      "file": "E017_SUBDUCTION.svg",
+      "psh256_canonical": "342e2245cf1c274e2e0209351710f545dbc36d069848713d7d7ff861e7f44679",
       "design_notes": [
-        "Subset symbol form = mathematical foundation",
-        "Left-opening curve = receptive/supporting",
-        "Smooth curve = gradual transition",
-        "Evokes: tectonic subduction, foundation, substrate, support structure"
+        "Open curve with overhang indicates overlapping plates",
+        "Does not close, avoiding confusion with containment",
+        "Encodes geologic “subduction zone” metaphor visually"
       ],
-      "symbolic_associations": ["foundation","substrate","tectonic subduction","structural support","beneath relation","embedding"],
-      "usage_examples": ["⊂△ — Foundation supporting peak","◯⟲∿⊂● — Low-pressure cyclic organic subducting beneath high-pressure","⊚(⊂·) — Contained foundational minimal"]
+      "symbolic_associations": [
+        "plate tectonics",
+        "hidden foundation",
+        "buried layer",
+        "overrun territory",
+        "encroachment"
+      ],
+      "usage_examples": [
+        "◯⊂● — Low-pressure region undercut by high-pressure mass",
+        "⊂△ — Subducting beneath a peak",
+        "⊂⤊ — Subduction triggering eruption"
+      ]
     },
     {
       "id": "GLYPH_19_CONVERGENCE",
       "name": "CONVERGENCE",
-      "category": "operator",
+      "category": "structure",
       "pua_codepoint": "U+E012",
-      "unicode_display": "⊢⊣",
-      "semantic_vector": "⟨INTERACTION:COLLISION | RESULT:FUSION | DIRECTIONALITY:BILATERAL | FORCE:MUTUAL⟩",
-      "description": "Two forms meeting from opposite directions representing bilateral collision and mutual fusion",
+      "unicode_display": "◬",
+      "semantic_vector": "⟨RELATION:MERGING | FLOW:INWARD | ALIGNMENT:INCREASING⟩",
+      "description": "Triangular form with central intersection lines symbolizing merging trajectories",
       "canvas_size": 512,
-      "stroke_width_px": 1.5,
-      "file": "E012_CONVERGENCE.svg",
-      "psh256_canonical": null,
+      "stroke_width_px": 2,
+      "file": "E018_CONVERGENCE.svg",
+      "psh256_canonical": "aa022e9ee2a6fe4ecd6cb2da886d96ccfbc3dfdf25f09e8f11bedd1abc83bc3c",
       "design_notes": [
-        "Two turnstile symbols approaching from left and right",
-        "Gap between forms = moment before contact",
-        "Vertical bars = structural presence of each form",
-        "Horizontal bars point toward each other = mutual approach",
-        "Evokes: collision, merger, synthesis, meeting point"
+        "Internal lines point inward to shared node",
+        "Triangular boundary gives sense of bounded fusion zone",
+        "Distinct from FUSION by more structural frame"
       ],
-      "symbolic_associations": ["collision","meeting","synthesis","bilateral approach","merger","mutual force"],
-      "usage_examples": ["◯⊢⊣● — Low pressure converging with high pressure","∿⊢⊣◇ — Organic converging with crystalline (hybrid material)","⊚(⊢⊣△) — Contained convergence at peak"]
+      "symbolic_associations": [
+        "alliances",
+        "mergers",
+        "converging paths",
+        "shared goals",
+        "fusion corridor"
+      ],
+      "usage_examples": [
+        "◯◬ — Low-pressure convergence",
+        "●◬ — High-stakes convergence",
+        "⊂◬ — Subduction-driven convergence"
+      ]
     },
     {
       "id": "GLYPH_20_OSCILLATION",
       "name": "OSCILLATION",
-      "category": "operator",
+      "category": "flow",
       "pua_codepoint": "U+E013",
-      "unicode_display": "⟷",
-      "semantic_vector": "⟨PATTERN:ALTERNATING | STABILITY:DYNAMIC | DIRECTIONALITY:BIDIRECTIONAL | EXCHANGE:CONTINUOUS⟩",
-      "description": "Double-headed arrow representing bidirectional alternating exchange",
+      "unicode_display": "∿∿",
+      "semantic_vector": "⟨TEMPORAL:BACK-AND-FORTH | STABILITY:METASTABLE | PERIODICITY:HIGH⟩",
+      "description": "Paired waveforms indicating rhythmic back-and-forth motion",
       "canvas_size": 512,
-      "stroke_width_px": 1.5,
-      "file": "E013_OSCILLATION.svg",
-      "psh256_canonical": null,
+      "stroke_width_px": 2,
+      "file": "E019_OSCILLATION.svg",
+      "psh256_canonical": "29aedf0a6915373ac468e7e92fd9f92732d1402cbc6f3d95c7aba6e915b642d7",
       "design_notes": [
-        "Horizontal shaft with arrows at both ends",
-        "Equal arrow sizes = balanced bidirectional force",
-        "Evokes: pendulum, dialectic, back-and-forth, alternating current",
-        "Different from GRADIENT (bilateral vs unilateral)"
+        "Dual waves reinforce repeated cycles",
+        "Spacing between waves fixes topology under D4",
+        "More regular than TURBULENT, distinct from simple ORGANIC"
       ],
-      "symbolic_associations": ["pendulum motion","dialectic","exchange","alternation","bidirectional flow","dynamic equilibrium"],
-      "usage_examples": ["◯⟷● — Pressure oscillation (alternating states)","△⟷▽ — Peak-valley oscillation (wave)","⊚(⟷⟲) — Contained oscillating cycle"]
+      "symbolic_associations": [
+        "vibration",
+        "swinging",
+        "pendulum",
+        "signal oscillation",
+        "heartbeat variability"
+      ],
+      "usage_examples": [
+        "◯∿∿ — Low-pressure oscillation",
+        "∿∿→⤊ — Oscillation leading to eruption",
+        "∿∿▭ — Oscillation damping into stagnation"
+      ]
     },
     {
       "id": "GLYPH_21_GRADIENT",
       "name": "GRADIENT",
-      "category": "operator",
+      "category": "structure",
       "pua_codepoint": "U+E014",
-      "unicode_display": "→",
-      "semantic_vector": "⟨TRANSFORMATION:CONTINUOUS | DIRECTION:UNIDIRECTIONAL | CAUSALITY:LINEAR | FLOW:PROGRESSIVE⟩",
-      "description": "Directional arrow representing continuous unidirectional transformation",
+      "unicode_display": "⟍⟋",
+      "semantic_vector": "⟨CHANGE:STEADY | TOPOLOGY:SLOPED | DIRECTION:MONOTONIC⟩",
+      "description": "Paired diagonal slopes representing a continuous rise or fall",
       "canvas_size": 512,
-      "stroke_width_px": 1.5,
-      "file": "E014_GRADIENT.svg",
-      "psh256_canonical": null,
+      "stroke_width_px": 2,
+      "file": "E020_GRADIENT.svg",
+      "psh256_canonical": "afa1752b8d123238695816be6487ce6cc2edff6f4e9dc2a98b6bdbffc371b7a9",
       "design_notes": [
-        "Single-headed arrow = unidirectional transformation",
-        "Horizontal orientation = temporal progression (left to right)",
-        "Most common operator in sequences (A → B → C)",
-        "Evokes: causality, process, transformation, becoming"
+        "Dual slashes evoke linear gradient",
+        "Angles chosen for distinctness from ASCENT",
+        "Visually suggests before/after slope comparison"
       ],
-      "symbolic_associations": ["transformation","causality","process","becoming","progression","directional flow"],
-      "usage_examples": ["◯→◓→● — Pressure gradient sequence (low → rising → high)","▭→⟋→△ — Stagnant → ascending → peak (growth trajectory)","∿→◇ — Organic transforming to crystalline (mineralization)"]
+      "symbolic_associations": [
+        "trend line",
+        "steady incline or decline",
+        "slow change",
+        "metric drift",
+        "learning curve"
+      ],
+      "usage_examples": [
+        "◯⟍⟋ — Low-pressure gentle gradient",
+        "●⟍⟋ — High-pressure gradient under load",
+        "⟋→⟍⟋ — Ascent stabilizing into gradient"
+      ]
     },
     {
       "id": "GLYPH_22_FUSION",
       "name": "FUSION",
-      "category": "operator",
+      "category": "structure",
       "pua_codepoint": "U+E015",
-      "unicode_display": "◬",
-      "semantic_vector": "⟨INTEGRATION:COMPLETE | IDENTITY:HYBRID | BOUNDARIES:DISSOLVED | UNITY:EMERGENT⟩",
-      "description": "Overlapping circles representing complete integration and hybrid identity",
+      "unicode_display": "◬◉",
+      "semantic_vector": "⟨RELATION:UNION | BOUNDARY:PARTIAL | IDENTITY:INTERPENETRATING⟩",
+      "description": "Overlapping shapes expressing partial merge while preserving components",
       "canvas_size": 512,
-      "stroke_width_px": 1.5,
-      "file": "E015_FUSION.svg",
-      "psh256_canonical": null,
+      "stroke_width_px": 2,
+      "file": "E021_FUSION.svg",
+      "psh256_canonical": "5370c5ccdc9e1b825b82e7531c7e29f02a9b764b30435a3f74d4270a5960599f",
       "design_notes": [
-        "Two circles with significant overlap (vesica piscis)",
-        "Overlap zone = new hybrid identity",
-        "Equal circle sizes = balanced fusion",
-        "Evokes: Venn diagram, nuclear fusion, synthesis, union"
+        "Overlaps imply merged-yet-distinct identities",
+        "Maintains visual difference from CONVERGENCE’s more structural frame",
+        "Center region is emphasized but not fully dominant"
       ],
-      "symbolic_associations": ["nuclear fusion","synthesis","union","hybrid formation","vesica piscis","complete integration"],
-      "usage_examples": ["◯◬● — Low-high pressure fusion (intermediate state)","∿◬◇ — Organic-crystalline fusion (biomineralization)","⊚(◬⊙) — Contained fusion emergence"]
+      "symbolic_associations": [
+        "collaboration",
+        "hybridization",
+        "co-authorship",
+        "cross-pollination",
+        "shared center"
+      ],
+      "usage_examples": [
+        "◯◬◉ — Low-pressure fusion event",
+        "●◬◉ — High-stakes fusion under pressure",
+        "◬◉⤊ — Fusion triggering eruptive change"
+      ]
     },
     {
       "id": "GLYPH_23_EMERGENCE",
       "name": "EMERGENCE",
-      "category": "operator",
+      "category": "structure",
       "pua_codepoint": "U+E016",
       "unicode_display": "⊙",
-      "semantic_vector": "⟨CAUSALITY:GENERATIVE | NOVELTY:HIGH | ORIGIN:CENTRAL | RADIATION:OUTWARD⟩",
-      "description": "Dot with radiating circle representing generative field and outward radiation",
+      "semantic_vector": "⟨RELATION:OUTWARD | PATTERN:UNFOLDING | COHERENCE:RISING⟩",
+      "description": "Central core with radiating suggestion indicating patterns emerging outward",
       "canvas_size": 512,
-      "stroke_width_px": 1.5,
-      "file": "E016_EMERGENCE.svg",
-      "psh256_canonical": null,
+      "stroke_width_px": 2,
+      "file": "E022_EMERGENCE.svg",
+      "psh256_canonical": "debc0e06b23f72bafcdba6ef28389297cb68ee73a4373797a4b76992e540ecc4",
       "design_notes": [
-        "Central dot = point source of emergence",
-        "Radiating circle = outward propagation of new property",
-        "Evokes: birth, genesis, creation, novel complexity arising",
-        "Key operator for describing emergent phenomena"
+        "Core circle with subtle surround = nascent structure",
+        "Distinguished from COLLAPSING_PRESSURE by outward reading",
+        "Acts as dual of COLLAPSING_PRESSURE in semantic space"
       ],
-      "symbolic_associations": ["birth","genesis","creation","emergence","novel complexity","point source radiation"],
-      "usage_examples": ["⤊⊙ — Eruptive emergence (breakthrough)","◬⊙ — Fusion producing emergence (synergy)","⊚(·⊙) — Contained minimal emergence (seed sprouting)"]
+      "symbolic_associations": [
+        "ideas forming",
+        "patterns appearing",
+        "system self-organization",
+        "awakening",
+        "rising coherence"
+      ],
+      "usage_examples": [
+        "◯⊙ — Emergence in low-pressure environment",
+        "●⊙ — Emergence under constraint",
+        "⊂⊙ — Emergence from subducted layer"
+      ]
     },
     {
       "id": "GLYPH_24_CONTAINMENT",
       "name": "CONTAINMENT",
-      "category": "operator",
+      "category": "structure",
       "pua_codepoint": "U+E017",
       "unicode_display": "⊚",
-      "semantic_vector": "⟨RELATION:NESTED | BOUNDARY:CLEAR | PROTECTION:STRUCTURAL | HIERARCHY:DEFINED⟩",
-      "description": "Concentric circles representing nested boundary and structural protection",
+      "semantic_vector": "⟨BOUNDARY:ENCLOSING | TENSION:HELD | CONTENT:INTERNALIZED⟩",
+      "description": "Ring-within-ring form indicating bounded internal region",
       "canvas_size": 512,
       "stroke_width_px": 2,
-      "file": "E017_CONTAINMENT.svg",
-      "psh256_canonical": null,
+      "file": "E023_CONTAINMENT.svg",
+      "psh256_canonical": "66611133f421fdf497fdaac09ad87f13072ed530bd599eeff76d3c5ce757447d",
       "design_notes": [
-        "Two concentric circles = container-contained relationship",
-        "Bold stroke (2px) emphasizes boundary strength",
-        "Most frequently used operator for complex expressions",
-        "Syntax: ⊚(inner_expression) = 'contained within context'",
-        "Evokes: nesting, protection, context, scope, enclosure"
+        "Outer ring = boundary, inner ring = content",
+        "Clearly distinct from EMERGENCE and COLLAPSING_PRESSURE via ring spacing",
+        "Canonical vehicle for nested expressions"
       ],
-      "symbolic_associations": ["nesting","protection","context","enclosure","boundary definition","hierarchical containment"],
-      "usage_examples": ["⊚(◯⟲∿) — Contained low-pressure cyclic organic","⊚(●⤊) — Contained high-pressure eruption (pressure cooker)","⊚(⊚(·)) — Nested containment (matryoshka)"]
+      "symbolic_associations": [
+        "bottle",
+        "enclosure",
+        "legal container",
+        "sandbox",
+        "protective boundary"
+      ],
+      "usage_examples": [
+        "⊚(◯∿) — Contained low-pressure organic field",
+        "⊚(●⤊△) — Contained high-pressure eruption",
+        "⊚(◉∅) — Collapse into void under containment"
+      ]
     },
+
     {
       "id": "GLYPH_25_VOID",
       "name": "VOID",
       "category": "logic",
       "pua_codepoint": "U+E018",
       "unicode_display": "∅",
-      "semantic_vector": "⟨DATA:MISSING | STATE:UNDEFINED | PRESENCE:ZERO | NULLITY:ABSOLUTE⟩",
-      "description": "Empty set symbol representing null state and absolute nullity",
+      "semantic_vector": "⟨PRESENCE:NONE | CONTENT:ABSENT | POTENTIAL:LATENT⟩",
+      "description": "Struck circle representing explicit emptiness or null state",
       "canvas_size": 512,
       "stroke_width_px": 2,
-      "file": "E018_VOID.svg",
-      "psh256_canonical": null,
+      "file": "E024_VOID.svg",
+      "psh256_canonical": "3ee91958cc40ee86d69ef88bc75adbd62b0dd5b8515aa3ebabdd85687cb55c65",
       "design_notes": [
-        "Circle with diagonal slash = empty set notation",
-        "Bold stroke (2px) = logical definitude",
-        "Slash negates the circle's containment",
-        "Evokes: null pointer, missing data, undefined state, zero presence"
+        "Circle with diagonal slash = canonical null marker",
+        "Related but not identical to mathematical empty set symbol",
+        "Distinguishes “no value” from MINIMAL’s “almost none”"
       ],
-      "symbolic_associations": ["empty set","null","nothing","undefined","missing data","zero state"],
-      "usage_examples": ["∅⊙ — Void emergence (something from nothing)","⊚(∅) — Contained void (empty container)","●→∅ — High pressure collapsing to void"]
+      "symbolic_associations": [
+        "null",
+        "absence",
+        "erasure",
+        "prohibited",
+        "zero presence"
+      ],
+      "usage_examples": [
+        "⊚(∅) — Empty container",
+        "◯∅ — Declared void in otherwise open space",
+        "◉∅ — Collapse into nothing"
+      ]
     },
     {
       "id": "GLYPH_26_CONDITIONAL",
@@ -549,20 +787,29 @@
       "category": "logic",
       "pua_codepoint": "U+E019",
       "unicode_display": "☇",
-      "semantic_vector": "⟨LOGIC:CONDITIONAL | DECISION:REQUIRED | BRANCHING:BINARY | UNCERTAINTY:PRESENT⟩",
-      "description": "Lightning bolt representing decision point and conditional branching",
+      "semantic_vector": "⟨LOGIC:IF-THEN | STATE:BRANCHING | DEPENDENCE:EXPLICIT⟩",
+      "description": "Forked lightning-like symbol indicating conditional branching",
       "canvas_size": 512,
       "stroke_width_px": 2,
-      "file": "E019_CONDITIONAL.svg",
-      "psh256_canonical": null,
+      "file": "E025_CONDITIONAL.svg",
+      "psh256_canonical": "b363e86556f47a5c1dc7fbbd27b966e263e97d25a47dc42493ef64a8365e77b2",
       "design_notes": [
-        "Lightning bolt = sudden decision/bifurcation",
-        "Zigzag path = branching logic (IF-THEN-ELSE)",
-        "Bold stroke = definitional clarity",
-        "Evokes: decision tree, conditional statement, uncertainty resolution"
+        "Distinct bolt-and-fork shape evokes branching",
+        "Deliberately asymmetrical to avoid regular texture classes",
+        "Used as operator directing semantic flow"
       ],
-      "symbolic_associations": ["if-then statement","decision point","branching logic","uncertainty","conditional execution","bifurcation"],
-      "usage_examples": ["☇→● — Conditional leading to high pressure","◯☇◓ — Low pressure conditionally rising","⊚(☇△) — Contained conditional peak"]
+      "symbolic_associations": [
+        "if-then",
+        "branching logic",
+        "contingency",
+        "storm of conditions",
+        "decision fork"
+      ],
+      "usage_examples": [
+        "◯ ☇ ● — If low pressure then high pressure",
+        "⤨ ☇ ⤊ — If turbulence then eruption",
+        "⊚(X ☇ Y) — Contained conditional"
+      ]
     },
     {
       "id": "GLYPH_27_NEGATION",
@@ -570,20 +817,29 @@
       "category": "logic",
       "pua_codepoint": "U+E01A",
       "unicode_display": "¬",
-      "semantic_vector": "⟨LOGIC:INVERSION | POLARITY:NEGATIVE | OPERATION:NOT | REVERSAL:BOOLEAN⟩",
-      "description": "NOT symbol representing logical inversion and boolean reversal",
+      "semantic_vector": "⟨LOGIC:NOT | STATE:INVERSION | POLE:OPPOSITE⟩",
+      "description": "Short horizontal with raised tail indicating logical negation",
       "canvas_size": 512,
       "stroke_width_px": 2,
-      "file": "E01A_NEGATION.svg",
-      "psh256_canonical": null,
+      "file": "E026_NEGATION.svg",
+      "psh256_canonical": "39932a4dda5d67b78e9bc4e097d43fe7af037cf420cda97f31da15011db3d7b7",
       "design_notes": [
-        "Right-angle shape = standard NOT operator",
-        "Sharp corners (miter join) = logical precision",
-        "Bold stroke = definitive negation",
-        "Evokes: boolean NOT, logical complement, inversion operator"
+        "Canonical logic symbol for NOT, adopted and fixed",
+        "Minimal yet highly distinctive topology",
+        "Used as unary operator prefixing other glyphs"
       ],
-      "symbolic_associations": ["NOT operator","logical inversion","boolean complement","negation","reversal","opposite"],
-      "usage_examples": ["¬● — NOT high-pressure (implies low pressure)","¬∅ — NOT void (implies presence)","⊚(¬△) — Contained NOT-peak (valley context)"]
+      "symbolic_associations": [
+        "not",
+        "denial",
+        "reversal",
+        "cancellation",
+        "logical complement"
+      ],
+      "usage_examples": [
+        "¬◯ — Not low pressure",
+        "¬∿ — Not organic (i.e., synthetic)",
+        "¬⊙ — Suppressed emergence"
+      ]
     },
     {
       "id": "GLYPH_28_EQUIVALENCE",
@@ -591,20 +847,29 @@
       "category": "logic",
       "pua_codepoint": "U+E01B",
       "unicode_display": "≡",
-      "semantic_vector": "⟨RELATION:IDENTITY | COMPARISON:EQUAL | ASSERTION:EQUIVALENCE | STABILITY:DEFINITIONAL⟩",
-      "description": "Triple horizontal lines representing identity relation and definitional equivalence",
+      "semantic_vector": "⟨LOGIC:IF-AND-ONLY-IF | RELATION:BIDIRECTIONAL | SYMMETRY:HIGH⟩",
+      "description": "Triple horizontal bar indicating strict equivalence between states",
       "canvas_size": 512,
       "stroke_width_px": 2,
-      "file": "E01B_EQUIVALENCE.svg",
-      "psh256_canonical": null,
+      "file": "E027_EQUIVALENCE.svg",
+      "psh256_canonical": "09693c55e510bf5b06ef6a230b06e43713ba858f2f0a5219f8db730aac7c33ad",
       "design_notes": [
-        "Three parallel lines = strong equality (not just similar)",
-        "Even spacing = balanced comparison",
-        "Bold strokes = definitional assertion",
-        "Evokes: identity, definition, mathematical equivalence, A ≡ B"
+        "Three lines = stronger relation than simple equality",
+        "Centered stack preserves symmetry",
+        "Serves as bidirectional connective in pictogram expressions"
       ],
-      "symbolic_associations": ["identity","equivalence","definition","equality","sameness","identical"],
-      "usage_examples": ["●≡◉ — High pressure equivalent to collapsing (identity)","⟲≡⟷ — Cyclic equivalent to oscillation (definitional)","⊚(≡) — Contained equivalence relation"]
+      "symbolic_associations": [
+        "if-and-only-if",
+        "strict equality",
+        "definition",
+        "identity mapping",
+        "perfect match"
+      ],
+      "usage_examples": [
+        "X ≡ Y — X is equivalent to Y",
+        "◯∿ ≡ low-pressure-organic — Semantic annotation",
+        "⊚(A ≡ B) — Contained equivalence relation"
+      ]
     }
   ]
 }
