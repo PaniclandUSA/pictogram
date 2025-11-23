@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <title>CONDITIONAL - E019</title>
+  <desc>Logic glyph representing conditional branching and decision point</desc>
+  
+  <!-- Lightning bolt (conditional branching) -->
+  <path
+    d="M 256 140
+       L 220 240
+       L 280 260
+       L 240 372"
+    fill="none"
+    stroke="#000000"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="miter"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>CONDITIONAL</dc:title>
+        <dc:identifier>GLYPH_26_CONDITIONAL</dc:identifier>
+        <dc:creator>Esper Stack / PICTOGRAM v1.0</dc:creator>
+        <dc:date>2025-11-23</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
