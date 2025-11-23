@@ -1,0 +1,16 @@
+{
+  "protocol": "PICTOGRAM v1.0",
+  "block_height": 0,
+  "timestamp": "2025-11-23T12:00:00Z",
+  "location": "Green Bay, WI",
+  "origin": "PaniclandUSA",
+  "sequence": [
+    "E024_VOID",
+    "E022_EMERGENCE",
+    "E000_CYCLIC",
+    "E027_EQUIVALENCE",
+    "E023_CONTAINMENT"
+  ],
+  "translation": "From the Void emerges the Cycle; this Equivalence is our Containment.",
+  "hash_target": "GENESIS.pict"
+}
