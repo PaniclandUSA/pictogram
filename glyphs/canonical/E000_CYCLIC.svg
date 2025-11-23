@@ -1,0 +1,30 @@
+{
+  "glyphs": [
+    {
+      "id": "GLYPH_01_CYCLIC",
+      "name": "CYCLIC",
+      "category": "flow",
+      "pua_codepoint": "U+E000",
+      "unicode_display": "⟲",
+      "semantic_vector": "⟨TEMPORAL:RECURSIVE|PATTERN:PERIODIC⟩",
+      "description": "Circular arrow forming complete loop",
+      "line_weight": "fine",
+      "stroke_width_px": 1.5,
+      "canvas_size": 512,
+      "file": "E000_CYCLIC.svg",
+      "psh256_canonical": "(to be computed after SVG generation)",
+      "design_notes": "Arrow head indicates directionality; 15° gap prevents ambiguity with simple circle",
+      "symbolic_associations": [
+        "eternal return",
+        "seasons",
+        "breath",
+        "rhythmic recursion"
+      ],
+      "usage_examples": [
+        "◯⟲∿ - Low-pressure cyclic organic flow",
+        "●⟲△ - High-pressure cyclic peak structure",
+        "⊚(⟲⁘) - Contained cyclic diffusion"
+      ]
+    }
+  ]
+}
