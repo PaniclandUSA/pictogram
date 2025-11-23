@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <title>DISSIPATIVE - E004</title>
+  <desc>Flow glyph representing gradual downward energy dissipation</desc>
+  
+  <!-- Main vertical shaft (downward momentum) -->
+  <line
+    x1="256" y1="150"
+    x2="256" y2="380"
+    stroke="#000000"
+    stroke-width="1.5"
+    stroke-linecap="round"/>
+  
+  <!-- Downward arrow point -->
+  <path
+    d="M 256 380
+       L 235 355
+       M 256 380
+       L 277 355"
+    fill="none"
+    stroke="#000000"
+    stroke-width="1.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+  
+  <!-- Optional: fade effect lines showing dissipation -->
+  <line
+    x1="256" y1="380"
+    x2="240" y2="400"
+    stroke="#000000"
+    stroke-width="0.75"
+    stroke-linecap="round"
+    opacity="0.6"/>
+  
+  <line
+    x1="256" y1="380"
+    x2="272" y2="400"
+    stroke="#000000"
+    stroke-width="0.75"
+    stroke-linecap="round"
+    opacity="0.6"/>
+  
+  <!-- Metadata -->
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>DISSIPATIVE</dc:title>
+        <dc:identifier>GLYPH_05_DISSIPATIVE</dc:identifier>
+        <dc:creator>Esper Stack / PICTOGRAM v1.0</dc:creator>
+        <dc:date>2025-11-23</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
