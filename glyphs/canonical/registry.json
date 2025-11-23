@@ -595,3 +595,197 @@
     }
   ]
 }
+{
+      "id": "GLYPH_19_CONVERGENCE",
+      "name": "CONVERGENCE",
+      "category": "operator",
+      "pua_codepoint": "U+E012",
+      "unicode_display": "⊢⊣",
+      "semantic_vector": "⟨INTERACTION:COLLISION | RESULT:FUSION | DIRECTIONALITY:BILATERAL | FORCE:MUTUAL⟩",
+      "description": "Two forms meeting from opposite directions representing bilateral collision and mutual fusion",
+      "canvas_size": 512,
+      "stroke_width_px": 1.5,
+      "file": "E012_CONVERGENCE.svg",
+      "psh256_canonical": null,
+      "design_notes": [
+        "Two turnstile symbols approaching from left and right",
+        "Gap between forms = moment before contact",
+        "Vertical bars = structural presence of each form",
+        "Horizontal bars point toward each other = mutual approach",
+        "Evokes: collision, merger, synthesis, meeting point"
+      ],
+      "symbolic_associations": [
+        "collision",
+        "meeting",
+        "synthesis",
+        "bilateral approach",
+        "merger",
+        "mutual force"
+      ],
+      "usage_examples": [
+        "◯⊢⊣● — Low pressure converging with high pressure",
+        "∿⊢⊣◇ — Organic converging with crystalline (hybrid material)",
+        "⊚(⊢⊣△) — Contained convergence at peak"
+      ]
+    },
+    {
+      "id": "GLYPH_20_OSCILLATION",
+      "name": "OSCILLATION",
+      "category": "operator",
+      "pua_codepoint": "U+E013",
+      "unicode_display": "⟷",
+      "semantic_vector": "⟨PATTERN:ALTERNATING | STABILITY:DYNAMIC | DIRECTIONALITY:BIDIRECTIONAL | EXCHANGE:CONTINUOUS⟩",
+      "description": "Double-headed arrow representing bidirectional alternating exchange",
+      "canvas_size": 512,
+      "stroke_width_px": 1.5,
+      "file": "E013_OSCILLATION.svg",
+      "psh256_canonical": null,
+      "design_notes": [
+        "Horizontal shaft with arrows at both ends",
+        "Equal arrow sizes = balanced bidirectional force",
+        "Evokes: pendulum, dialectic, back-and-forth, alternating current",
+        "Different from GRADIENT (bilateral vs unilateral)"
+      ],
+      "symbolic_associations": [
+        "pendulum motion",
+        "dialectic",
+        "exchange",
+        "alternation",
+        "bidirectional flow",
+        "dynamic equilibrium"
+      ],
+      "usage_examples": [
+        "◯⟷● — Pressure oscillation (alternating states)",
+        "△⟷▽ — Peak-valley oscillation (wave)",
+        "⊚(⟷⟲) — Contained oscillating cycle"
+      ]
+    },
+    {
+      "id": "GLYPH_21_GRADIENT",
+      "name": "GRADIENT",
+      "category": "operator",
+      "pua_codepoint": "U+E014",
+      "unicode_display": "→",
+      "semantic_vector": "⟨TRANSFORMATION:CONTINUOUS | DIRECTION:UNIDIRECTIONAL | CAUSALITY:LINEAR | FLOW:PROGRESSIVE⟩",
+      "description": "Directional arrow representing continuous unidirectional transformation",
+      "canvas_size": 512,
+      "stroke_width_px": 1.5,
+      "file": "E014_GRADIENT.svg",
+      "psh256_canonical": null,
+      "design_notes": [
+        "Single-headed arrow = unidirectional transformation",
+        "Horizontal orientation = temporal progression (left to right)",
+        "Most common operator in sequences (A → B → C)",
+        "Evokes: causality, process, transformation, becoming"
+      ],
+      "symbolic_associations": [
+        "transformation",
+        "causality",
+        "process",
+        "becoming",
+        "progression",
+        "directional flow"
+      ],
+      "usage_examples": [
+        "◯→◓→● — Pressure gradient sequence (low → rising → high)",
+        "▭→⟋→△ — Stagnant → ascending → peak (growth trajectory)",
+        "∿→◇ — Organic transforming to crystalline (mineralization)"
+      ]
+    },
+    {
+      "id": "GLYPH_22_FUSION",
+      "name": "FUSION",
+      "category": "operator",
+      "pua_codepoint": "U+E015",
+      "unicode_display": "◬",
+      "semantic_vector": "⟨INTEGRATION:COMPLETE | IDENTITY:HYBRID | BOUNDARIES:DISSOLVED | UNITY:EMERGENT⟩",
+      "description": "Overlapping circles representing complete integration and hybrid identity",
+      "canvas_size": 512,
+      "stroke_width_px": 1.5,
+      "file": "E015_FUSION.svg",
+      "psh256_canonical": null,
+      "design_notes": [
+        "Two circles with significant overlap (vesica piscis)",
+        "Overlap zone = new hybrid identity",
+        "Equal circle sizes = balanced fusion",
+        "Evokes: Venn diagram, nuclear fusion, synthesis, union"
+      ],
+      "symbolic_associations": [
+        "nuclear fusion",
+        "synthesis",
+        "union",
+        "hybrid formation",
+        "vesica piscis",
+        "complete integration"
+      ],
+      "usage_examples": [
+        "◯◬● — Low-high pressure fusion (intermediate state)",
+        "∿◬◇ — Organic-crystalline fusion (biomineralization)",
+        "⊚(◬⊙) — Contained fusion emergence"
+      ]
+    },
+    {
+      "id": "GLYPH_23_EMERGENCE",
+      "name": "EMERGENCE",
+      "category": "operator",
+      "pua_codepoint": "U+E016",
+      "unicode_display": "⊙",
+      "semantic_vector": "⟨CAUSALITY:GENERATIVE | NOVELTY:HIGH | ORIGIN:CENTRAL | RADIATION:OUTWARD⟩",
+      "description": "Dot with radiating circle representing generative field and outward radiation",
+      "canvas_size": 512,
+      "stroke_width_px": 1.5,
+      "file": "E016_EMERGENCE.svg",
+      "psh256_canonical": null,
+      "design_notes": [
+        "Central dot = point source of emergence",
+        "Radiating circle = outward propagation of new property",
+        "Evokes: birth, genesis, creation, novel complexity arising",
+        "Key operator for describing emergent phenomena"
+      ],
+      "symbolic_associations": [
+        "birth",
+        "genesis",
+        "creation",
+        "emergence",
+        "novel complexity",
+        "point source radiation"
+      ],
+      "usage_examples": [
+        "⤊⊙ — Eruptive emergence (breakthrough)",
+        "◬⊙ — Fusion producing emergence (synergy)",
+        "⊚(·⊙) — Contained minimal emergence (seed sprouting)"
+      ]
+    },
+    {
+      "id": "GLYPH_24_CONTAINMENT",
+      "name": "CONTAINMENT",
+      "category": "operator",
+      "pua_codepoint": "U+E017",
+      "unicode_display": "⊚",
+      "semantic_vector": "⟨RELATION:NESTED | BOUNDARY:CLEAR | PROTECTION:STRUCTURAL | HIERARCHY:DEFINED⟩",
+      "description": "Concentric circles representing nested boundary and structural protection",
+      "canvas_size": 512,
+      "stroke_width_px": 2,
+      "file": "E017_CONTAINMENT.svg",
+      "psh256_canonical": null,
+      "design_notes": [
+        "Two concentric circles = container-contained relationship",
+        "Bold stroke (2px) emphasizes boundary strength",
+        "Most frequently used operator for complex expressions",
+        "Syntax: ⊚(inner_expression) = 'contained within context'",
+        "Evokes: nesting, protection, context, scope, enclosure"
+      ],
+      "symbolic_associations": [
+        "nesting",
+        "protection",
+        "context",
+        "enclosure",
+        "boundary definition",
+        "hierarchical containment"
+      ],
+      "usage_examples": [
+        "⊚(◯⟲∿) — Contained low-pressure cyclic organic",
+        "⊚(●⤊) — Contained high-pressure eruption (pressure cooker)",
+        "⊚(⊚(·)) — Nested containment (matryoshka)"
+      ]
+    }
