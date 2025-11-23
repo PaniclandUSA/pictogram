@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <title>RISING_PRESSURE - E006</title>
+  <desc>Pressure glyph representing transitional state of increasing tension</desc>
+  
+  <!-- Circle outline -->
+  <circle
+    cx="256" cy="256" r="160"
+    fill="none"
+    stroke="#000000"
+    stroke-width="1.5"/>
+  
+  <!-- Left half fill (rising pressure) -->
+  <path
+    d="M 256 96
+       A 160 160 0 0 0 256 416
+       Z"
+    fill="#000000"
+    stroke="none"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>RISING_PRESSURE</dc:title>
+        <dc:identifier>GLYPH_06_RISING_PRESSURE</dc:identifier>
+        <dc:creator>Esper Stack / PICTOGRAM v1.0</dc:creator>
+        <dc:date>2025-11-23</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
