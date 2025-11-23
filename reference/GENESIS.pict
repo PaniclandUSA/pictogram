@@ -1,0 +1,21 @@
+# PICTOGRAM GENESIS BLOCK — v1.0
+# November 23, 2025
+# Encoding: PSH-256 Semantic-Topological Glyph Sequence
+# Glyph Range: U+E000–U+E01B (PUA)
+
+SEQUENCE:
+    E01B_VOID
+    E008_EMERGENCE
+    E000_CYCLIC
+    E014_EQUIVALENCE
+    E01C_PICTOGRAM
+
+VSE:
+    [ VOID → EMERGENCE → CYCLIC ⇔ PICTOGRAM ]
+
+MEANING:
+    From nothing emerges the cycle,
+    and the cycle is equal to pictogram.
+
+PSH-256-CANONICAL:
+    <TO_BE_COMPUTED>
