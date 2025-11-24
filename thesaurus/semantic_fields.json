@@ -1,0 +1,510 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "1.1.0",
+  "description": "PICTOGRAM Semantic Field Vector (SFV) mappings for natural language ↔ glyph translation",
+  "glyphs": [
+    {
+      "glyph": "●",
+      "unicode": "U+E000",
+      "name": "high-pressure",
+      "semantic_field": {
+        "synonyms": [
+          "pressure",
+          "compression",
+          "density",
+          "tension",
+          "force",
+          "intensity",
+          "concentration",
+          "stress",
+          "urgency",
+          "compulsion"
+        ],
+        "antonyms": [
+          "release",
+          "expansion",
+          "openness",
+          "freedom",
+          "ease",
+          "relaxation"
+        ],
+        "emotional_tones": [
+          "anxiety",
+          "urgency",
+          "intensity",
+          "focus",
+          "constraint",
+          "obligation"
+        ],
+        "intent_vectors": [
+          "to compress",
+          "to concentrate",
+          "to apply force",
+          "to intensify",
+          "to constrain"
+        ],
+        "conceptual_domain": "pressure"
+      },
+      "example_molecules": {
+        "oppression": "●²",
+        "tyranny": "●³",
+        "building_tension": "●′",
+        "trauma": "∫●"
+      }
+    },
+    {
+      "glyph": "◯",
+      "unicode": "U+E001",
+      "name": "low-pressure",
+      "semantic_field": {
+        "synonyms": [
+          "openness",
+          "spaciousness",
+          "freedom",
+          "expansion",
+          "release",
+          "ease",
+          "calm",
+          "emptiness",
+          "potential",
+          "receptivity"
+        ],
+        "antonyms": [
+          "pressure",
+          "compression",
+          "constraint",
+          "limitation",
+          "stress",
+          "burden"
+        ],
+        "emotional_tones": [
+          "peace",
+          "calm",
+          "acceptance",
+          "serenity",
+          "availability",
+          "openness"
+        ],
+        "intent_vectors": [
+          "to release",
+          "to expand",
+          "to open",
+          "to liberate",
+          "to receive"
+        ],
+        "conceptual_domain": "pressure"
+      },
+      "example_molecules": {
+        "peace": "◯▭",
+        "vast_calm": "◯³",
+        "opening": "◯′",
+        "liberation": "●⁻¹"
+      }
+    },
+    {
+      "glyph": "⤊",
+      "unicode": "U+E002",
+      "name": "eruptive",
+      "semantic_field": {
+        "synonyms": [
+          "eruption",
+          "breakthrough",
+          "emergence",
+          "explosion",
+          "outburst",
+          "revelation",
+          "release",
+          "discharge",
+          "manifestation"
+        ],
+        "antonyms": [
+          "suppression",
+          "containment",
+          "stagnation",
+          "burial",
+          "concealment"
+        ],
+        "emotional_tones": [
+          "excitement",
+          "anger",
+          "revelation",
+          "shock",
+          "liberation",
+          "chaos"
+        ],
+        "intent_vectors": [
+          "to erupt",
+          "to break through",
+          "to emerge",
+          "to explode",
+          "to manifest"
+        ],
+        "conceptual_domain": "flow"
+      },
+      "example_molecules": {
+        "anger": "●⤊",
+        "fury": "●⤊²",
+        "rage": "●⤊³",
+        "irritation": "√●⤊",
+        "becoming_angry": "●⤊′",
+        "resentment": "∫●⤊",
+        "reconciliation": "●⤊⁻¹"
+      }
+    },
+    {
+      "glyph": "⤋",
+      "unicode": "U+E003",
+      "name": "dissipative",
+      "semantic_field": {
+        "synonyms": [
+          "dissipation",
+          "dispersal",
+          "dissolution",
+          "fading",
+          "scattering",
+          "diffusion",
+          "decay",
+          "entropy",
+          "release"
+        ],
+        "antonyms": [
+          "concentration",
+          "gathering",
+          "coalescing",
+          "condensation",
+          "accumulation"
+        ],
+        "emotional_tones": [
+          "melancholy",
+          "release",
+          "peace",
+          "sadness",
+          "letting_go",
+          "exhaustion"
+        ],
+        "intent_vectors": [
+          "to disperse",
+          "to dissolve",
+          "to fade",
+          "to scatter",
+          "to release"
+        ],
+        "conceptual_domain": "flow"
+      },
+      "example_molecules": {
+        "grief": "●³⤋",
+        "melancholy": "●⤋½",
+        "fading": "⤋′",
+        "entropy": "⤋∞"
+      }
+    },
+    {
+      "glyph": "⟲",
+      "unicode": "U+E004",
+      "name": "cyclic",
+      "semantic_field": {
+        "synonyms": [
+          "cycle",
+          "rotation",
+          "recurrence",
+          "pattern",
+          "rhythm",
+          "repetition",
+          "return",
+          "periodicity",
+          "circulation"
+        ],
+        "antonyms": [
+          "linearity",
+          "finality",
+          "termination",
+          "irreversibility",
+          "one-way"
+        ],
+        "emotional_tones": [
+          "familiarity",
+          "ritual",
+          "comfort",
+          "monotony",
+          "inevitability",
+          "rhythm"
+        ],
+        "intent_vectors": [
+          "to cycle",
+          "to return",
+          "to repeat",
+          "to revolve",
+          "to recur"
+        ],
+        "conceptual_domain": "flow"
+      },
+      "example_molecules": {
+        "habit": "⟲²",
+        "eternal_return": "⟲∞",
+        "rhythm": "⟲∿",
+        "breaking_cycle": "⟲⁻¹"
+      }
+    },
+    {
+      "glyph": "∿",
+      "unicode": "U+E005",
+      "name": "organic-flow",
+      "semantic_field": {
+        "synonyms": [
+          "flow",
+          "fluidity",
+          "organic",
+          "natural",
+          "smooth",
+          "continuous",
+          "graceful",
+          "stream",
+          "current"
+        ],
+        "antonyms": [
+          "rigidity",
+          "stiffness",
+          "blockage",
+          "stagnation",
+          "mechanical",
+          "fragmented"
+        ],
+        "emotional_tones": [
+          "ease",
+          "grace",
+          "naturalness",
+          "fluidity",
+          "harmony",
+          "beauty"
+        ],
+        "intent_vectors": [
+          "to flow",
+          "to move gracefully",
+          "to harmonize",
+          "to glide",
+          "to stream"
+        ],
+        "conceptual_domain": "flow"
+      },
+      "example_molecules": {
+        "grace": "∿²",
+        "river": "∿→",
+        "breath": "⟲∿",
+        "luminosity": "●∿³"
+      }
+    },
+    {
+      "glyph": "▭",
+      "unicode": "U+E006",
+      "name": "stagnant",
+      "semantic_field": {
+        "synonyms": [
+          "stagnation",
+          "stillness",
+          "inertia",
+          "static",
+          "immobile",
+          "unchanging",
+          "dormant",
+          "fixed",
+          "motionless"
+        ],
+        "antonyms": [
+          "motion",
+          "flow",
+          "change",
+          "dynamism",
+          "activity",
+          "flux"
+        ],
+        "emotional_tones": [
+          "peace",
+          "boredom",
+          "depression",
+          "stability",
+          "frustration",
+          "calm"
+        ],
+        "intent_vectors": [
+          "to still",
+          "to stop",
+          "to hold",
+          "to freeze",
+          "to maintain"
+        ],
+        "conceptual_domain": "flow"
+      },
+      "example_molecules": {
+        "peace": "◯▭",
+        "depression": "●▭²",
+        "stillness": "▭³",
+        "awakening": "▭⁻¹"
+      }
+    },
+    {
+      "glyph": "◉",
+      "unicode": "U+E007",
+      "name": "collapse",
+      "semantic_field": {
+        "synonyms": [
+          "collapse",
+          "implosion",
+          "concentration",
+          "convergence",
+          "singularity",
+          "consolidation",
+          "compression",
+          "black_hole",
+          "void"
+        ],
+        "antonyms": [
+          "explosion",
+          "expansion",
+          "dispersion",
+          "divergence",
+          "radiation"
+        ],
+        "emotional_tones": [
+          "despair",
+          "intensity",
+          "focus",
+          "crisis",
+          "transformation",
+          "ending"
+        ],
+        "intent_vectors": [
+          "to collapse",
+          "to implode",
+          "to converge",
+          "to concentrate",
+          "to end"
+        ],
+        "conceptual_domain": "pressure"
+      },
+      "example_molecules": {
+        "catastrophe": "●⤊→◉",
+        "singularity": "◉³",
+        "despair": "●◉²",
+        "rebirth": "◉→◯′"
+      }
+    },
+    {
+      "glyph": "△",
+      "unicode": "U+E008",
+      "name": "ascent",
+      "semantic_field": {
+        "synonyms": [
+          "ascent",
+          "rise",
+          "elevation",
+          "climbing",
+          "growth",
+          "advancement",
+          "progress",
+          "uplift",
+          "transcendence"
+        ],
+        "antonyms": [
+          "descent",
+          "fall",
+          "decline",
+          "regression",
+          "lowering"
+        ],
+        "emotional_tones": [
+          "hope",
+          "aspiration",
+          "ambition",
+          "joy",
+          "transcendence",
+          "optimism"
+        ],
+        "intent_vectors": [
+          "to rise",
+          "to ascend",
+          "to elevate",
+          "to climb",
+          "to transcend"
+        ],
+        "conceptual_domain": "structure"
+      },
+      "example_molecules": {
+        "aspiration": "△²",
+        "transcendence": "△³",
+        "climbing": "△′",
+        "achievement": "∫△"
+      }
+    },
+    {
+      "glyph": "▽",
+      "unicode": "U+E009",
+      "name": "descent",
+      "semantic_field": {
+        "synonyms": [
+          "descent",
+          "fall",
+          "decline",
+          "lowering",
+          "sinking",
+          "drop",
+          "degradation",
+          "regression",
+          "grounding"
+        ],
+        "antonyms": [
+          "ascent",
+          "rise",
+          "elevation",
+          "climbing",
+          "advancement"
+        ],
+        "emotional_tones": [
+          "humility",
+          "grounding",
+          "sadness",
+          "despair",
+          "return",
+          "acceptance"
+        ],
+        "intent_vectors": [
+          "to descend",
+          "to fall",
+          "to lower",
+          "to sink",
+          "to ground"
+        ],
+        "conceptual_domain": "structure"
+      },
+      "example_molecules": {
+        "humility": "▽²",
+        "grounding": "▽▭",
+        "falling": "▽′",
+        "descent_into_madness": "●▽³"
+      }
+    }
+  ],
+  "operators": [
+    {
+      "symbol": "→",
+      "name": "flow",
+      "purpose": "Directional transformation or causal flow between states"
+    },
+    {
+      "symbol": "↔",
+      "name": "bidirectional",
+      "purpose": "Mutual exchange or reversible relationship"
+    },
+    {
+      "symbol": "⊚",
+      "name": "containment",
+      "purpose": "Internal pressure or bounded intensity"
+    }
+  ],
+  "notes": [
+    "This is v1.1.0 - initial semantic field population for 10 core glyphs",
+    "Full 28-glyph mapping in progress",
+    "Modifier algebra examples use MODIFIERS-SPEC.md notation",
+    "All antonyms follow systematic opposition rules from antonym_rules.md",
+    "VSE integration vectors defined in VSE-SPEC.md"
+  ]
+}
