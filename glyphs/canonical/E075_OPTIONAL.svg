@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E075 - OPTIONAL - Deontic optional</desc>
+  <!-- Circle with question mark representing optional/indifferent -->
+  <circle cx="256" cy="256" r="100" 
+          fill="none" stroke="#000000" stroke-width="12"/>
+  <!-- Question mark -->
+  <path d="M 230 210 Q 230 190 256 190 Q 282 190 282 216 Q 282 242 256 250 L 256 280" 
+        fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="256" cy="310" r="8" fill="#000000"/>
+</svg>
