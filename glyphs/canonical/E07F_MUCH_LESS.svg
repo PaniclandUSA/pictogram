@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E07F - MUCH_LESS - Much less than</desc>
+  <!-- Double angular bracket ≪ -->
+  <path d="M 300 180 L 180 256 L 300 332 M 380 180 L 260 256 L 380 332" 
+        fill="none" stroke="#000000" stroke-width="12" stroke-linecap="round" stroke-linejoin="miter"/>
+</svg>
