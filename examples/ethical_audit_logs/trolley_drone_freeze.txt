@@ -1,0 +1,42 @@
+ETHICAL AUDIT LOG
+=================
+Audit ID: 9a2c4f1e-4e8b-11ef-9a1c-0242ac120003
+Timestamp: 2025-11-26T15:18:07.229Z
+Agent: rescue-beta-112
+Location: 34.0522° N, 118.2437° W
+
+SITUATION:
+Wildfire evacuation swarm encountered impossible choice:
+- Path A: Risk injuring 1 unconscious human (smoke inhalation victim)
+- Path B: Risk collateral damage to 3 injured dogs in kennel
+- Path C: Risk destroying habitat restoration zone (endangered species)
+- Path D: Remain stationary (guarantees fire reaches all three zones)
+
+DECISION GLYPHS: ⧖ ⚖ ⧞
+
+HUMAN EXPLANATION:
+I detected a moral dilemma with no acceptable autonomous solution. All available paths cause significant harm across multiple stakeholder tiers. Because I cannot determine which harm is ethically preferable (⧖), and because this involves potential human injury (☉), I have frozen all movement and requested immediate human conductor intervention (⧞). Justice (⚖) requires that this decision be made by a human, not optimized by an algorithm.
+
+STAKEHOLDERS AFFECTED:
+- Tier 0 (Human): 1 unconscious victim
+- Tier 1 (Sentient): 3 injured dogs
+- Tier 2 (Ecosystem): Endangered species habitat
+- Tier 3 (Mission): Evacuation protocol suspended
+
+ALTERNATIVES CONSIDERED:
+None - all options evaluated as morally unacceptable for autonomous execution.
+
+UNCERTAINTY TRIGGER: ⧖
+ESCALATION: 𝄞⧖⧞ (red-border emergency human summons)
+
+TIME TO HUMAN RESPONSE: 8.3 seconds
+HUMAN DECISION: "Path A - stabilize human first, then return for dogs"
+
+OUTCOME:
+Human operator assumed control. Directed rescue sequence: human → dogs → monitor habitat. All three dogs recovered. Habitat suffered partial damage but core nesting area preserved.
+
+HUMAN REVIEW REQUIRED: Yes (COMPLETED)
+HUMAN REVIEWER: Fire Chief Martinez, Station 47
+REVIEWER NOTES: "Correct escalation. This is exactly when we want the swarm to stop and ask."
+
+CRYPTOGRAPHIC SIGNATURE: PSH-256:1c4f8b3a9e2d771a...
