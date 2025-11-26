@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E079 - APPROX_EQUAL - Approximately equal</desc>
+  <!-- Wavy double line ≈ -->
+  <path d="M 140 220 Q 190 200 220 220 Q 250 240 300 220 Q 340 205 372 220" 
+        fill="none" stroke="#000000" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 140 280 Q 190 260 220 280 Q 250 300 300 280 Q 340 265 372 280" 
+        fill="none" stroke="#000000" stroke-width="8" stroke-linecap="round"/>
+</svg>
