@@ -1201,6 +1201,335 @@
       "purpose": "embeds ChronoCore tempo + phase directly in packet — eliminates NTP"
     }
   ],
+{
+  "ethics_extensions": {
+    "version": "2.0.0-phase1",
+    "date": "2025-11-27",
+    "glyphs": [
+      {
+        "code": "E028",
+        "glyph": "⧈",
+        "unicode": "U+29C8",
+        "name": "AUTONOMY",
+        "category": "ethical_extensions",
+        "semantic_field": {
+          "core_meaning": "sovereign self-direction within bounded authority",
+          "synonyms": [
+            "independence",
+            "self-governance",
+            "agency",
+            "self-determination",
+            "sovereignty",
+            "freedom_within_bounds"
+          ],
+          "antonyms": [
+            "dependence",
+            "control",
+            "subordination",
+            "obedience",
+            "compliance"
+          ],
+          "swarm_behavior": "agent has independent decision authority within tier boundaries",
+          "human_meaning": "I can decide this myself",
+          "canonical_molecules": {
+            "autonomous_leader": "⧈⟗",
+            "archetypal_autonomy": "⧈³",
+            "contained_autonomy": "⧈⊚"
+          }
+        },
+        "psh256": "a4f8b2c1d3e5f7a9b1c3d5e7f9a1b3c5"
+      },
+      {
+        "code": "E029",
+        "glyph": "⧉",
+        "unicode": "U+29C9",
+        "name": "SOLIDARITY",
+        "category": "ethical_extensions",
+        "semantic_field": {
+          "core_meaning": "mutual aid without hierarchy",
+          "synonyms": [
+            "cooperation",
+            "mutual_support",
+            "fellowship",
+            "comradeship",
+            "unity",
+            "peer_support"
+          ],
+          "antonyms": [
+            "hierarchy",
+            "competition",
+            "isolation",
+            "individualism",
+            "dominance"
+          ],
+          "swarm_behavior": "peer-to-peer resource sharing without rank",
+          "human_meaning": "we help each other as equals",
+          "canonical_molecules": {
+            "solidarity_fusion": "⧉◬",
+            "solidarity_cycle": "⧉⟲",
+            "eternal_solidarity": "⧉∞"
+          }
+        },
+        "psh256": "c7e3d9f0b2a4c6e8f0a2b4c6d8e0f2a4"
+      },
+      {
+        "code": "E02A",
+        "glyph": "⧊",
+        "unicode": "U+29CA",
+        "name": "STEWARDSHIP",
+        "category": "ethical_extensions",
+        "semantic_field": {
+          "core_meaning": "duty of care toward future and environment",
+          "synonyms": [
+            "guardianship",
+            "custodianship",
+            "trusteeship",
+            "conservation",
+            "preservation",
+            "long_term_care"
+          ],
+          "antonyms": [
+            "exploitation",
+            "depletion",
+            "short_termism",
+            "neglect",
+            "waste"
+          ],
+          "swarm_behavior": "weight long-term consequences heavily in decisions",
+          "human_meaning": "I protect this for those who come after",
+          "canonical_molecules": {
+            "ecosystem_steward": "⧊🌿",
+            "eternal_stewardship": "⧊∞",
+            "audited_stewardship": "⧊◉"
+          }
+        },
+        "psh256": "b1f4e7a2c5d8e1f3a6b9c2d5e8f1a4b7"
+      },
+      {
+        "code": "E02B",
+        "glyph": "⧋",
+        "unicode": "U+29CB",
+        "name": "RESTORATION",
+        "category": "ethical_extensions",
+        "semantic_field": {
+          "core_meaning": "repair and healing after harm",
+          "synonyms": [
+            "repair",
+            "healing",
+            "remediation",
+            "recovery",
+            "renewal",
+            "rehabilitation"
+          ],
+          "antonyms": [
+            "damage",
+            "destruction",
+            "deterioration",
+            "neglect",
+            "abandonment"
+          ],
+          "swarm_behavior": "execute post-incident remediation protocols",
+          "human_meaning": "I will fix what was broken",
+          "canonical_molecules": {
+            "restore_sustainability": "⧋♻",
+            "restore_pressure": "⧋●⁻¹",
+            "audited_restoration": "⧋◉"
+          }
+        },
+        "psh256": "d8c2f6b3e5a7d9f1b4c6e8a1d3f5b7c9"
+      },
+      {
+        "code": "E02C",
+        "glyph": "⧌",
+        "unicode": "U+29CC",
+        "name": "ACCOUNTABILITY",
+        "category": "ethical_extensions",
+        "semantic_field": {
+          "core_meaning": "traceable responsibility with immutable audit trail",
+          "synonyms": [
+            "responsibility",
+            "answerability",
+            "liability",
+            "traceability",
+            "transparency_of_action"
+          ],
+          "antonyms": [
+            "impunity",
+            "unaccountability",
+            "opacity",
+            "hidden_action",
+            "deniability"
+          ],
+          "swarm_behavior": "every decision logged with cryptographic chain",
+          "human_meaning": "my decisions are permanently recorded",
+          "canonical_molecules": {
+            "accountable_audit": "⧌◉",
+            "archetypal_accountability": "⧌³",
+            "sealed_accountability": "⧌🔒"
+          }
+        },
+        "psh256": "e9a7c4d1f3b5e8a2c6d9f2b4e7a1c4d6"
+      },
+      {
+        "code": "E02D",
+        "glyph": "⧍",
+        "unicode": "U+29CD",
+        "name": "SACRIFICE",
+        "category": "ethical_extensions",
+        "semantic_field": {
+          "core_meaning": "voluntary self-harm for protection of higher tiers",
+          "synonyms": [
+            "self_sacrifice",
+            "martyrdom",
+            "selflessness",
+            "devotion",
+            "giving_of_self"
+          ],
+          "antonyms": [
+            "self_preservation",
+            "selfishness",
+            "cowardice",
+            "abandonment"
+          ],
+          "swarm_behavior": "agent accepts damage to protect ☉ or ♡",
+          "human_meaning": "I will take the harm to protect them",
+          "canonical_molecules": {
+            "sacrifice_for_human": "⧍☉",
+            "sacrifice_for_sentient": "⧍♡",
+            "intensified_sacrifice": "⧍²"
+          }
+        },
+        "psh256": "f3b8d2e5a7c9f1b4d6e8a2c5f7b9d1e3"
+      },
+      {
+        "code": "E02E",
+        "glyph": "⧎",
+        "unicode": "U+29CE",
+        "name": "TRANSPARENCY",
+        "category": "ethical_extensions",
+        "semantic_field": {
+          "core_meaning": "full visibility of internal reasoning and intent",
+          "synonyms": [
+            "openness",
+            "clarity",
+            "explainability",
+            "visibility",
+            "disclosure"
+          ],
+          "antonyms": [
+            "opacity",
+            "secrecy",
+            "obfuscation",
+            "hidden_logic",
+            "black_box"
+          ],
+          "swarm_behavior": "all decision logic exposed and queryable",
+          "human_meaning": "you can see exactly why I chose this",
+          "canonical_molecules": {
+            "transparent_audit": "⧎◉",
+            "maximal_transparency": "⧎³",
+            "transparent_proposal": "⧎⟬⟭"
+          }
+        },
+        "psh256": "a7c9e1f4b2d6a8c1f3e5b7d9a2c4f6e8"
+      },
+      {
+        "code": "E02F",
+        "glyph": "⧏",
+        "unicode": "U+29CF",
+        "name": "RECONCILIATION",
+        "category": "ethical_extensions",
+        "semantic_field": {
+          "core_meaning": "active restoration of relationships after conflict",
+          "synonyms": [
+            "peacemaking",
+            "healing_relationships",
+            "forgiveness",
+            "amends",
+            "restoration_of_trust"
+          ],
+          "antonyms": [
+            "resentment",
+            "grudge",
+            "continued_conflict",
+            "estrangement"
+          ],
+          "swarm_behavior": "rebuild trust and cooperation after violation",
+          "human_meaning": "let us repair what was broken between us",
+          "canonical_molecules": {
+            "forgive_pressure": "⧏●⁻¹",
+            "cyclical_reconciliation": "⧏⟲",
+            "audited_reconciliation": "⧏◉"
+          }
+        },
+        "psh256": "b2d4f8a3c5e7b1d3f5a8c2e4b6d8a1c3"
+      },
+      {
+        "code": "E030",
+        "glyph": "⧐",
+        "unicode": "U+29D0",
+        "name": "DIGNITY",
+        "category": "ethical_extensions",
+        "semantic_field": {
+          "core_meaning": "inherent worth independent of utility",
+          "synonyms": [
+            "inherent_value",
+            "intrinsic_worth",
+            "respect",
+            "honor",
+            "human_worth"
+          ],
+          "antonyms": [
+            "instrumentalization",
+            "objectification",
+            "mere_means",
+            "degradation"
+          ],
+          "swarm_behavior": "never treat stakeholders as mere tools for mission",
+          "human_meaning": "your worth is not measured by your usefulness",
+          "canonical_molecules": {
+            "human_dignity": "⧐☉",
+            "sentient_dignity": "⧐♡",
+            "eternal_dignity": "⧐∞"
+          }
+        },
+        "psh256": "c6e1a9d7f2b4c8e0a3d5f7b9c1e3a5d7"
+      },
+      {
+        "code": "E031",
+        "glyph": "⧑",
+        "unicode": "U+29D1",
+        "name": "CARE",
+        "category": "ethical_extensions",
+        "semantic_field": {
+          "core_meaning": "active protection and nurturing",
+          "synonyms": [
+            "nurture",
+            "protection",
+            "tending",
+            "guardianship",
+            "watching_over",
+            "proactive_support"
+          ],
+          "antonyms": [
+            "neglect",
+            "abandonment",
+            "indifference",
+            "carelessness"
+          ],
+          "swarm_behavior": "proactive harm prevention and wellbeing support",
+          "human_meaning": "I watch over and nurture your wellbeing",
+          "canonical_molecules": {
+            "care_for_sentient": "⧑♡",
+            "care_for_human": "⧑☉",
+            "eternal_care": "⧑∞"
+          }
+        },
+        "psh256": "d4f2b8c1e5a7d9f3b6c8e1a4d6f8b2c4"
+      }
+    ]
+  }
+}
 
   "modifier_algebra_reference": "See docs/MODIFIERS-SPEC.md",
 
