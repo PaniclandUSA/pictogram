@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E028 - AUTONOMY - Sovereign self-direction</desc>
+  <!-- Outer circle representing bounded freedom -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#000000" stroke-width="8"/>
+  <!-- Inner autonomous agent symbol - arrow pointing outward from center -->
+  <path d="M 256 256 L 256 140 M 256 140 L 226 170 M 256 140 L 286 170" 
+        fill="none" stroke="#000000" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Three supporting vectors showing multi-directional capability -->
+  <path d="M 256 256 L 356 256 M 356 256 L 326 226 M 356 256 L 326 286" 
+        fill="none" stroke="#000000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 256 256 L 178 334 M 178 334 L 198 314 M 178 334 L 158 314" 
+        fill="none" stroke="#000000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 256 256 L 334 334 M 334 334 L 314 314 M 334 334 L 354 314" 
+        fill="none" stroke="#000000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Red accent dot at center representing autonomous core -->
+  <circle cx="256" cy="256" r="12" fill="#8B0000" stroke="none"/>
+</svg>
