@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E081 - PROPORTIONAL - Proportional to</desc>
+  <!-- Infinity-like symbol ∝ -->
+  <path d="M 140 256 Q 140 180 200 180 Q 230 180 256 210 Q 282 180 312 180 Q 372 180 372 256 Q 372 332 312 332 Q 282 332 256 302 Q 230 332 200 332 Q 140 332 140 256" 
+        fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+</svg>
