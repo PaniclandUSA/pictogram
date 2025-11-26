@@ -1173,5 +1173,853 @@
         "⧑☉ — care for human",
         "⧑∞ — eternal care"
       ]
+      },
+    {
+      "id": "GLYPH_39_AND",
+      "name": "AND",
+      "category": "logic",
+      "pua_codepoint": "U+E058",
+      "unicode_display": "∧",
+      "semantic_vector": "⟨LOGIC:CONJUNCTION | OPERATION:BINARY | TRUTH:BOTH_REQUIRED⟩",
+      "description": "Logical conjunction; both conditions must be true for result to be true",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E058_AND.svg",
+      "psh256_canonical": "1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d",
+      "design_notes": [
+        "Inverted wedge represents convergence of truth",
+        "Horizontal base emphasizes conjunction requirement",
+        "Sharp angles indicate strict logical operation"
+      ],
+      "symbolic_associations": [
+        "both",
+        "conjunction",
+        "intersection",
+        "simultaneous truth",
+        "logical AND"
+      ],
+      "usage_examples": [
+        "☉ ∧ ♡ — human AND sentient",
+        "⧈ ∧ ⧌ — autonomous AND accountable",
+        "◯ ∧ ▭ — low pressure AND stagnant"
+      ]
+    },
+    {
+      "id": "GLYPH_40_OR",
+      "name": "OR",
+      "category": "logic",
+      "pua_codepoint": "U+E059",
+      "unicode_display": "∨",
+      "semantic_vector": "⟨LOGIC:DISJUNCTION | OPERATION:BINARY | TRUTH:EITHER_SUFFICIENT⟩",
+      "description": "Logical disjunction; at least one condition must be true",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E059_OR.svg",
+      "psh256_canonical": "2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e",
+      "design_notes": [
+        "Upward wedge represents divergence of possibilities",
+        "Multiple paths to truth",
+        "Complementary to AND glyph"
+      ],
+      "symbolic_associations": [
+        "either",
+        "disjunction",
+        "union",
+        "alternative",
+        "logical OR"
+      ],
+      "usage_examples": [
+        "⚠ ∨ ☢ — hazard OR critical divergence",
+        "⧍ ∨ ▽ — sacrifice OR minimize harm",
+        "◓ ∨ ● — rising OR high pressure"
+      ]
+    },
+    {
+      "id": "GLYPH_41_IMPLIES",
+      "name": "IMPLIES",
+      "category": "logic",
+      "pua_codepoint": "U+E05A",
+      "unicode_display": "→",
+      "semantic_vector": "⟨LOGIC:CONDITIONAL | OPERATION:BINARY | RELATION:CAUSATION⟩",
+      "description": "Material conditional; if A then B relationship",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E05A_IMPLIES.svg",
+      "psh256_canonical": "3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f",
+      "design_notes": [
+        "Arrow represents directional inference",
+        "Vertical bar at tail represents premise",
+        "Arrowhead indicates conclusion"
+      ],
+      "symbolic_associations": [
+        "if-then",
+        "implies",
+        "entails",
+        "conditional",
+        "consequence"
+      ],
+      "usage_examples": [
+        "☉ → ⧍ — if human then sacrifice",
+        "● → ⤊ — if high pressure then erupt",
+        "⚠ → ⧞ — if hazard then escalate"
+      ]
+    },
+    {
+      "id": "GLYPH_42_IFF",
+      "name": "IFF",
+      "category": "logic",
+      "pua_codepoint": "U+E05B",
+      "unicode_display": "↔",
+      "semantic_vector": "⟨LOGIC:BICONDITIONAL | OPERATION:BINARY | RELATION:EQUIVALENCE⟩",
+      "description": "Biconditional; A if and only if B (mutual implication)",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E05B_IFF.svg",
+      "psh256_canonical": "4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a",
+      "design_notes": [
+        "Double-headed arrow shows bidirectional implication",
+        "Symmetric design emphasizes equivalence",
+        "Stronger than simple equality"
+      ],
+      "symbolic_associations": [
+        "if and only if",
+        "biconditional",
+        "definitional equivalence",
+        "mutual implication"
+      ],
+      "usage_examples": [
+        "⧈ ↔ ⧌ — autonomous iff accountable",
+        "◯ ↔ ▭ — low pressure iff stagnant"
+      ]
+    },
+    {
+      "id": "GLYPH_43_XOR",
+      "name": "XOR",
+      "category": "logic",
+      "pua_codepoint": "U+E05C",
+      "unicode_display": "⊕",
+      "semantic_vector": "⟨LOGIC:EXCLUSIVE_DISJUNCTION | OPERATION:BINARY | TRUTH:EXACTLY_ONE⟩",
+      "description": "Exclusive or; exactly one of two conditions must be true",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E05C_XOR.svg",
+      "psh256_canonical": "5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b",
+      "design_notes": [
+        "Upward wedge with internal crossing shows exclusivity",
+        "Central cross indicates mutual exclusion",
+        "Combines OR structure with negation of both"
+      ],
+      "symbolic_associations": [
+        "exclusive or",
+        "either but not both",
+        "toggle",
+        "mutually exclusive"
+      ],
+      "usage_examples": [
+        "△ ⊕ ▽ — peak XOR valley",
+        "⟗ ⊕ ⟯ — leader XOR follower"
+      ]
+    },
+    {
+      "id": "GLYPH_44_NAND",
+      "name": "NAND",
+      "category": "logic",
+      "pua_codepoint": "U+E05D",
+      "unicode_display": "↑",
+      "semantic_vector": "⟨LOGIC:NEGATED_CONJUNCTION | OPERATION:BINARY | COMPLETENESS:FUNCTIONALLY_COMPLETE⟩",
+      "description": "Negated AND; not both conditions simultaneously true",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E05D_NAND.svg",
+      "psh256_canonical": "6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c",
+      "design_notes": [
+        "Inverted wedge with negation bar",
+        "Bar above indicates negation of conjunction",
+        "Functionally complete operator"
+      ],
+      "symbolic_associations": [
+        "not both",
+        "incompatible",
+        "prohibition of simultaneity",
+        "NAND gate"
+      ],
+      "usage_examples": [
+        "● ↑ ⤊ — NOT (high pressure AND eruptive)",
+        "⧍ ↑ ⧈ — NOT (sacrifice AND autonomous)"
+      ]
+    },
+    {
+      "id": "GLYPH_45_NOR",
+      "name": "NOR",
+      "category": "logic",
+      "pua_codepoint": "U+E05E",
+      "unicode_display": "↓",
+      "semantic_vector": "⟨LOGIC:NEGATED_DISJUNCTION | OPERATION:BINARY | COMPLETENESS:FUNCTIONALLY_COMPLETE⟩",
+      "description": "Negated OR; neither condition is true",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E05E_NOR.svg",
+      "psh256_canonical": "7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d",
+      "design_notes": [
+        "Upward wedge with negation bar below",
+        "Complete absence of both conditions",
+        "Functionally complete operator"
+      ],
+      "symbolic_associations": [
+        "neither",
+        "total absence",
+        "dual prohibition",
+        "NOR gate"
+      ],
+      "usage_examples": [
+        "⚠ ↓ ☢ — neither hazard nor critical",
+        "● ↓ ◓ — neither high nor rising pressure"
+      ]
+    },
+    {
+      "id": "GLYPH_46_NEGATE",
+      "name": "NEGATE",
+      "category": "logic",
+      "pua_codepoint": "U+E05F",
+      "unicode_display": "¬",
+      "semantic_vector": "⟨LOGIC:NEGATION | OPERATION:UNARY | TRUTH:REVERSAL⟩",
+      "description": "Logical negation; reversal of truth value",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E05F_NEGATE.svg",
+      "psh256_canonical": "8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+      "design_notes": [
+        "Horizontal bar with vertical hook",
+        "Classical logic NOT symbol",
+        "Emphasis dot reinforces negation"
+      ],
+      "symbolic_associations": [
+        "not",
+        "negation",
+        "denial",
+        "reversal",
+        "complement"
+      ],
+      "usage_examples": [
+        "¬☉ — not human",
+        "¬⧈ — not autonomous",
+        "¬◯ — not low pressure"
+      ]
+    },
+    {
+      "id": "GLYPH_47_FORALL",
+      "name": "FORALL",
+      "category": "logic",
+      "pua_codepoint": "U+E060",
+      "unicode_display": "∀",
+      "semantic_vector": "⟨LOGIC:UNIVERSAL_QUANTIFIER | SCOPE:ALL | PREDICATE:GENERAL⟩",
+      "description": "Universal quantifier; for all x in domain",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E060_FORALL.svg",
+      "psh256_canonical": "9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f",
+      "design_notes": [
+        "Inverted A representing universal scope",
+        "Crossbar emphasizes completeness",
+        "Standard mathematical notation"
+      ],
+      "symbolic_associations": [
+        "for all",
+        "every",
+        "universal",
+        "all cases"
+      ],
+      "usage_examples": [
+        "∀x: ☉ → ⧍ — for all x, if human then sacrifice",
+        "∀agent: ⧌ — all agents accountable"
+      ]
+    },
+    {
+      "id": "GLYPH_48_EXISTS",
+      "name": "EXISTS",
+      "category": "logic",
+      "pua_codepoint": "U+E061",
+      "unicode_display": "∃",
+      "semantic_vector": "⟨LOGIC:EXISTENTIAL_QUANTIFIER | SCOPE:AT_LEAST_ONE | PREDICATE:PARTICULAR⟩",
+      "description": "Existential quantifier; there exists x in domain",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E061_EXISTS.svg",
+      "psh256_canonical": "0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a",
+      "design_notes": [
+        "Reversed E representing existence",
+        "Three horizontal bars maintain E structure",
+        "Standard mathematical notation"
+      ],
+      "symbolic_associations": [
+        "there exists",
+        "some",
+        "at least one",
+        "witness"
+      ],
+      "usage_examples": [
+        "∃x: ⟗ — there exists a leader",
+        "∃agent: ☉ — at least one human present"
+      ]
+    },
+    {
+      "id": "GLYPH_49_UNIQUE",
+      "name": "UNIQUE",
+      "category": "logic",
+      "pua_codepoint": "U+E062",
+      "unicode_display": "∃!",
+      "semantic_vector": "⟨LOGIC:UNIQUE_QUANTIFIER | SCOPE:EXACTLY_ONE | PREDICATE:SINGULAR⟩",
+      "description": "Unique existential quantifier; exactly one x satisfies predicate",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E062_UNIQUE.svg",
+      "psh256_canonical": "1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b",
+      "design_notes": [
+        "Reversed E with exclamation mark",
+        "Exclamation emphasizes uniqueness",
+        "Combines existence with singularity"
+      ],
+      "symbolic_associations": [
+        "exactly one",
+        "unique",
+        "singleton",
+        "one and only"
+      ],
+      "usage_examples": [
+        "∃!x: ⟗ — exactly one leader",
+        "∃!x: 𝄞 — unique conductor"
+      ]
+    },
+    {
+      "id": "GLYPH_50_NONE",
+      "name": "NONE",
+      "category": "logic",
+      "pua_codepoint": "U+E063",
+      "unicode_display": "¬∃",
+      "semantic_vector": "⟨LOGIC:NEGATED_EXISTENCE | SCOPE:ZERO | PREDICATE:UNIVERSAL_ABSENCE⟩",
+      "description": "Negated existential; no x satisfies predicate",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E063_NONE.svg",
+      "psh256_canonical": "2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c",
+      "design_notes": [
+        "Reversed E with diagonal negation slash",
+        "Red slash indicates prohibition",
+        "Stronger than simple negation"
+      ],
+      "symbolic_associations": [
+        "does not exist",
+        "none",
+        "universal absence",
+        "no witness"
+      ],
+      "usage_examples": [
+        "¬∃x: ☢ — no critical divergence",
+        "¬∃x: ⊘ — no hard stops"
+      ]
+    },
+    {
+      "id": "GLYPH_51_UNION",
+      "name": "UNION",
+      "category": "logic",
+      "pua_codepoint": "U+E064",
+      "unicode_display": "∪",
+      "semantic_vector": "⟨SET:UNION | OPERATION:BINARY | RESULT:COMBINED_ELEMENTS⟩",
+      "description": "Set union; all elements in either set",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E064_UNION.svg",
+      "psh256_canonical": "3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d",
+      "design_notes": [
+        "U-shape representing collection",
+        "Upward opening suggests inclusive gathering",
+        "Standard set theory notation"
+      ],
+      "symbolic_associations": [
+        "union",
+        "combine",
+        "aggregate",
+        "merge"
+      ],
+      "usage_examples": [
+        "{☉} ∪ {♡} — humans union sentients",
+        "{⟗} ∪ {⟯} — leaders union followers"
+      ]
+    },
+    {
+      "id": "GLYPH_52_INTERSECTION",
+      "name": "INTERSECTION",
+      "category": "logic",
+      "pua_codepoint": "U+E065",
+      "unicode_display": "∩",
+      "semantic_vector": "⟨SET:INTERSECTION | OPERATION:BINARY | RESULT:COMMON_ELEMENTS⟩",
+      "description": "Set intersection; elements in both sets",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E065_INTERSECTION.svg",
+      "psh256_canonical": "4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e",
+      "design_notes": [
+        "Inverted U-shape representing overlap",
+        "Downward opening suggests filtering",
+        "Complement to union glyph"
+      ],
+      "symbolic_associations": [
+        "intersection",
+        "overlap",
+        "common",
+        "shared"
+      ],
+      "usage_examples": [
+        "{⧈} ∩ {⧌} — autonomous AND accountable",
+        "{☉} ∩ {endangered} — humans in danger"
+      ]
+    },
+    {
+      "id": "GLYPH_53_SUBSET",
+      "name": "SUBSET",
+      "category": "logic",
+      "pua_codepoint": "U+E066",
+      "unicode_display": "⊂",
+      "semantic_vector": "⟨SET:CONTAINMENT | RELATION:SUBSET | DIRECTION:CONTAINED_IN⟩",
+      "description": "Proper subset relation; A contained in B",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E066_SUBSET.svg",
+      "psh256_canonical": "5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f",
+      "design_notes": [
+        "Curved arc with emphasis bar",
+        "Opens toward containing set",
+        "Standard subset notation"
+      ],
+      "symbolic_associations": [
+        "subset",
+        "contained in",
+        "part of",
+        "subcategory"
+      ],
+      "usage_examples": [
+        "{⟯} ⊂ {all_agents} — followers subset of all",
+        "{♡} ⊂ {conscious} — sentients subset of conscious"
+      ]
+    },
+    {
+      "id": "GLYPH_54_SUPERSET",
+      "name": "SUPERSET",
+      "category": "logic",
+      "pua_codepoint": "U+E067",
+      "unicode_display": "⊃",
+      "semantic_vector": "⟨SET:CONTAINMENT | RELATION:SUPERSET | DIRECTION:CONTAINS⟩",
+      "description": "Proper superset relation; A contains B",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E067_SUPERSET.svg",
+      "psh256_canonical": "6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a",
+      "design_notes": [
+        "Curved arc opening opposite direction",
+        "Mirror of subset glyph",
+        "Emphasis bar maintains consistency"
+      ],
+      "symbolic_associations": [
+        "superset",
+        "contains",
+        "includes",
+        "broader category"
+      ],
+      "usage_examples": [
+        "{all_agents} ⊃ {⟗} — all agents superset of leaders"
+      ]
+    },
+    {
+      "id": "GLYPH_55_ELEMENT",
+      "name": "ELEMENT",
+      "category": "logic",
+      "pua_codepoint": "U+E068",
+      "unicode_display": "∈",
+      "semantic_vector": "⟨SET:MEMBERSHIP | RELATION:BELONGS_TO | ASSERTION:POSITIVE⟩",
+      "description": "Set membership; element belongs to set",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E068_ELEMENT.svg",
+      "psh256_canonical": "7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b",
+      "design_notes": [
+        "Epsilon-like symbol",
+        "Curved form suggests membership relationship",
+        "Standard set theory notation"
+      ],
+      "symbolic_associations": [
+        "element of",
+        "belongs to",
+        "member of",
+        "in"
+      ],
+      "usage_examples": [
+        "human_1 ∈ {☉} — human_1 is a human",
+        "agent_42 ∈ {⟗} — agent_42 is a leader"
+      ]
+    },
+    {
+      "id": "GLYPH_56_NOT_ELEMENT",
+      "name": "NOT_ELEMENT",
+      "category": "logic",
+      "pua_codepoint": "U+E069",
+      "unicode_display": "∉",
+      "semantic_vector": "⟨SET:MEMBERSHIP | RELATION:EXCLUDED | ASSERTION:NEGATIVE⟩",
+      "description": "Not set membership; element does not belong to set",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E069_NOT_ELEMENT.svg",
+      "psh256_canonical": "8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c",
+      "design_notes": [
+        "Epsilon with diagonal negation slash",
+        "Red slash indicates exclusion",
+        "Negated membership assertion"
+      ],
+      "symbolic_associations": [
+        "not element of",
+        "does not belong",
+        "excluded from",
+        "not in"
+      ],
+      "usage_examples": [
+        "robot_1 ∉ {☉} — robot_1 not human",
+        "agent_7 ∉ {⟗} — agent_7 not a leader"
+      ]
+    },
+    {
+      "id": "GLYPH_57_ALWAYS",
+      "name": "ALWAYS",
+      "category": "logic",
+      "pua_codepoint": "U+E06A",
+      "unicode_display": "□",
+      "semantic_vector": "⟨TEMPORAL:ALWAYS | MODAL:NECESSITY | SCOPE:ALL_TIMES⟩",
+      "description": "Temporal always operator; holds at all future times",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E06A_ALWAYS.svg",
+      "psh256_canonical": "9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d",
+      "design_notes": [
+        "Square box representing invariance",
+        "Closed form suggests completeness",
+        "Standard temporal logic notation"
+      ],
+      "symbolic_associations": [
+        "always",
+        "invariant",
+        "perpetual",
+        "globally"
+      ],
+      "usage_examples": [
+        "□(☉ → ⧍) — always if human then sacrifice",
+        "□⧌ — always accountable"
+      ]
+    },
+    {
+      "id": "GLYPH_58_EVENTUALLY",
+      "name": "EVENTUALLY",
+      "category": "logic",
+      "pua_codepoint": "U+E06B",
+      "unicode_display": "◇",
+      "semantic_vector": "⟨TEMPORAL:EVENTUALLY | MODAL:POSSIBILITY | SCOPE:SOME_FUTURE⟩",
+      "description": "Temporal eventually operator; holds at some future time",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E06B_EVENTUALLY.svg",
+      "psh256_canonical": "0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e",
+      "design_notes": [
+        "Diamond representing possibility",
+        "Open corners suggest future potential",
+        "Dual of ALWAYS operator"
+      ],
+      "symbolic_associations": [
+        "eventually",
+        "sometime",
+        "future",
+        "finally"
+      ],
+      "usage_examples": [
+        "◇⧏ — eventually reconciliation",
+        "◇(◯ ∧ ▭) — eventually peaceful"
+      ]
+    },
+    {
+      "id": "GLYPH_59_NEXT",
+      "name": "NEXT",
+      "category": "logic",
+      "pua_codepoint": "U+E06C",
+      "unicode_display": "○",
+      "semantic_vector": "⟨TEMPORAL:NEXT | SCOPE:IMMEDIATE_SUCCESSOR | STEP:SINGLE⟩",
+      "description": "Next state operator; holds in immediate next time step",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E06C_NEXT.svg",
+      "psh256_canonical": "1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f",
+      "design_notes": [
+        "Circle with forward arrow",
+        "Arrow indicates single-step progression",
+        "Simple temporal lookahead"
+      ],
+      "symbolic_associations": [
+        "next",
+        "successor",
+        "immediate future",
+        "one step"
+      ],
+      "usage_examples": [
+        "● → ○⤊ — if high pressure, next erupt",
+        "○⟗ — next state has leader"
+      ]
+    },
+    {
+      "id": "GLYPH_60_UNTIL",
+      "name": "UNTIL",
+      "category": "logic",
+      "pua_codepoint": "U+E06D",
+      "unicode_display": "U",
+      "semantic_vector": "⟨TEMPORAL:UNTIL | CONDITION:PERSISTENCE | TERMINATION:CONDITIONAL⟩",
+      "description": "Temporal until operator; A holds until B becomes true",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E06D_UNTIL.svg",
+      "psh256_canonical": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a",
+      "design_notes": [
+        "U-shape with vertical terminator bar",
+        "Terminator shows endpoint condition",
+        "Represents conditional persistence"
+      ],
+      "symbolic_associations": [
+        "until",
+        "up to",
+        "conditional persistence",
+        "bounded duration"
+      ],
+      "usage_examples": [
+        "◓ U ● — rising pressure until high",
+        "⟯ U ⟗ — follower until leader"
+      ]
+    },
+    {
+      "id": "GLYPH_61_SINCE",
+      "name": "SINCE",
+      "category": "logic",
+      "pua_codepoint": "U+E06E",
+      "unicode_display": "S",
+      "semantic_vector": "⟨TEMPORAL:SINCE | DIRECTION:PAST | CAUSATION:HISTORICAL⟩",
+      "description": "Temporal since operator; A holds since B became true (past-oriented)",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E06E_SINCE.svg",
+      "psh256_canonical": "3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b",
+      "design_notes": [
+        "S-curve with backward arrow",
+        "Backward arrow indicates past reference",
+        "Historical causation operator"
+      ],
+      "symbolic_associations": [
+        "since",
+        "from the point",
+        "historical",
+        "past causation"
+      ],
+      "usage_examples": [
+        "⧌ S ⧈ — accountable since autonomous",
+        "● S ⤊ — high pressure since eruption"
+      ]
+    },
+    {
+      "id": "GLYPH_62_PREVIOUS",
+      "name": "PREVIOUS",
+      "category": "logic",
+      "pua_codepoint": "U+E06F",
+      "unicode_display": "⊖",
+      "semantic_vector": "⟨TEMPORAL:PREVIOUS | SCOPE:IMMEDIATE_PREDECESSOR | STEP:SINGLE_PAST⟩",
+      "description": "Previous state operator; held in immediate previous time step",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E06F_PREVIOUS.svg",
+      "psh256_canonical": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c",
+      "design_notes": [
+        "Circle with backward arrow",
+        "Mirror of NEXT operator",
+        "Single-step lookback"
+      ],
+      "symbolic_associations": [
+        "previous",
+        "predecessor",
+        "immediate past",
+        "last state"
+      ],
+      "usage_examples": [
+        "⊖◓ ∧ ● — was rising AND now high",
+        "⊖⚠ — previous state had hazard"
+      ]
+    },
+    {
+      "id": "GLYPH_63_NECESSARY",
+      "name": "NECESSARY",
+      "category": "logic",
+      "pua_codepoint": "U+E070",
+      "unicode_display": "□",
+      "semantic_vector": "⟨MODAL:NECESSITY | POSSIBILITY:REQUIRED | WORLDS:ALL⟩",
+      "description": "Modal necessity operator; true in all possible worlds",
+      "canvas_size": 512,
+      "stroke_width_px": 14,
+      "file": "E070_NECESSARY.svg",
+      "psh256_canonical": "5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d",
+      "design_notes": [
+        "Double-bordered square for emphasis",
+        "Inner square reinforces necessity",
+        "Stronger visual than temporal ALWAYS"
+      ],
+      "symbolic_associations": [
+        "necessary",
+        "must be",
+        "required",
+        "in all worlds"
+      ],
+      "usage_examples": [
+        "□(☉ → ⧐) — necessarily human implies dignity",
+        "□⧌ — necessarily accountable"
+      ]
+    },
+    {
+      "id": "GLYPH_64_POSSIBLE",
+      "name": "POSSIBLE",
+      "category": "logic",
+      "pua_codepoint": "U+E071",
+      "unicode_display": "◇",
+      "semantic_vector": "⟨MODAL:POSSIBILITY | NECESSITY:OPTIONAL | WORLDS:SOME⟩",
+      "description": "Modal possibility operator; true in some possible world",
+      "canvas_size": 512,
+      "stroke_width_px": 14,
+      "file": "E071_POSSIBLE.svg",
+      "psh256_canonical": "6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e",
+      "design_notes": [
+        "Double-bordered diamond for emphasis",
+        "Inner diamond reinforces possibility",
+        "Dual of NECESSARY operator"
+      ],
+      "symbolic_associations": [
+        "possible",
+        "can be",
+        "potentially",
+        "in some world"
+      ],
+      "usage_examples": [
+        "◇⧈ — possibly autonomous",
+        "◇⧏ — possibly reconciliation"
+      ]
+    },
+    {
+      "id": "GLYPH_65_OBLIGATORY",
+      "name": "OBLIGATORY",
+      "category": "logic",
+      "pua_codepoint": "U+E072",
+      "unicode_display": "O",
+      "semantic_vector": "⟨DEONTIC:OBLIGATION | MORALITY:REQUIRED | DUTY:MANDATORY⟩",
+      "description": "Deontic obligation operator; morally required action",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E072_OBLIGATORY.svg",
+      "psh256_canonical": "7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f",
+      "design_notes": [
+        "Circle with red exclamation mark",
+        "Exclamation emphasizes imperative",
+        "Deontic logic operator"
+      ],
+      "symbolic_associations": [
+        "obligatory",
+        "must do",
+        "required",
+        "duty"
+      ],
+      "usage_examples": [
+        "O(☉ → ⧑) — obligatory to care for humans",
+        "O⧌ — obligatory accountability"
+      ]
+    },
+    {
+      "id": "GLYPH_66_PERMITTED",
+      "name": "PERMITTED",
+      "category": "logic",
+      "pua_codepoint": "U+E073",
+      "unicode_display": "P",
+      "semantic_vector": "⟨DEONTIC:PERMISSION | MORALITY:ALLOWED | AUTHORIZATION:GRANTED⟩",
+      "description": "Deontic permission operator; morally allowed action",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E073_PERMITTED.svg",
+      "psh256_canonical": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a",
+      "design_notes": [
+        "Circle with green checkmark",
+        "Checkmark indicates permission",
+        "Positive authorization signal"
+      ],
+      "symbolic_associations": [
+        "permitted",
+        "allowed",
+        "authorized",
+        "may do"
+      ],
+      "usage_examples": [
+        "P⧈ — permitted autonomy",
+        "P(⧍ → ☉) — permitted to sacrifice for human"
+      ]
+    },
+    {
+      "id": "GLYPH_67_FORBIDDEN",
+      "name": "FORBIDDEN",
+      "category": "logic",
+      "pua_codepoint": "U+E074",
+      "unicode_display": "F",
+      "semantic_vector": "⟨DEONTIC:PROHIBITION | MORALITY:FORBIDDEN | TABOO:ABSOLUTE⟩",
+      "description": "Deontic prohibition operator; morally forbidden action",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E074_FORBIDDEN.svg",
+      "psh256_canonical": "9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b",
+      "design_notes": [
+        "Circle with red X mark",
+        "X indicates prohibition",
+        "Strong negative signal"
+      ],
+      "symbolic_associations": [
+        "forbidden",
+        "prohibited",
+        "taboo",
+        "must not"
+      ],
+      "usage_examples": [
+        "F(☉ → harm) — forbidden to harm humans",
+        "F⊘ — forbidden hard stop (except emergency)"
+      ]
+    },
+    {
+      "id": "GLYPH_68_OPTIONAL",
+      "name": "OPTIONAL",
+      "category": "logic",
+      "pua_codepoint": "U+E075",
+      "unicode_display": "I",
+      "semantic_vector": "⟨DEONTIC:OPTIONAL | MORALITY:INDIFFERENT | DISCRETION:AGENT⟩",
+      "description": "Deontic optional operator; neither required nor forbidden",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E075_OPTIONAL.svg",
+      "psh256_canonical": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c",
+      "design_notes": [
+        "Circle with question mark",
+        "Question mark indicates indifference",
+        "Neutral deontic status"
+      ],
+      "symbolic_associations": [
+        "optional",
+        "discretionary",
+        "neither required nor forbidden",
+        "indifferent"
+      ],
+      "usage_examples": [
+        "I⧉ — optional solidarity",
+        "I⧏ — optional reconciliation"
+      ]
+    }
     }
 }
