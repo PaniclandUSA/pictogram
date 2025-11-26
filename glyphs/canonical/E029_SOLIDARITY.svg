@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E029 - SOLIDARITY - Mutual aid without hierarchy</desc>
+  <!-- Three interlocked circles of equal size - no hierarchy -->
+  <circle cx="200" cy="256" r="100" fill="none" stroke="#000000" stroke-width="10"/>
+  <circle cx="312" cy="256" r="100" fill="none" stroke="#000000" stroke-width="10"/>
+  <circle cx="256" cy="180" r="100" fill="none" stroke="#000000" stroke-width="10"/>
+  <!-- Connection lines showing mutual support -->
+  <path d="M 220 220 L 236 196" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 292 220 L 276 196" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 240 280 L 272 280" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
+  <!-- Red accent dots at intersection points -->
+  <circle cx="235" cy="212" r="8" fill="#8B0000"/>
+  <circle cx="277" cy="212" r="8" fill="#8B0000"/>
+  <circle cx="256" cy="256" r="8" fill="#8B0000"/>
+</svg>
