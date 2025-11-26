@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E02D - SACRIFICE - Voluntary self-harm for greater good</desc>
+  <!-- Shield protecting another (larger protected entity behind smaller sacrificing entity) -->
+  <circle cx="320" cy="256" r="120" fill="none" stroke="#000000" stroke-width="10"/>
+  <!-- Smaller agent taking impact -->
+  <circle cx="192" cy="256" r="60" fill="none" stroke="#8B0000" stroke-width="12"/>
+  <!-- Impact/damage lines on sacrificing agent -->
+  <path d="M 132 256 L 162 256 M 140 236 L 160 246 M 140 276 L 160 266" 
+        stroke="#8B0000" stroke-width="6" stroke-linecap="round"/>
+  <!-- Protective barrier -->
+  <path d="M 252 176 L 252 336" stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  <!-- Arrow showing threat direction -->
+  <path d="M 60 256 L 110 256 M 110 256 L 90 236 M 110 256 L 90 276" 
+        stroke="#000000" stroke-width="8" stroke-linecap="round"/>
+</svg>
