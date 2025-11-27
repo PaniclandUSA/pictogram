@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0D8 TRUST — Predictive Confidence</title>
+  <desc>Bridge between two agents. Predictive confidence in another's future actions.</desc>
+  
+  <!-- Agent A (trusting) -->
+  <circle cx="140" cy="280" r="40" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="12"/>
+  <text x="140" y="292" 
+        font-family="monospace" 
+        font-size="28" 
+        fill="#000000" 
+        text-anchor="middle">A</text>
+  
+  <!-- Agent B (trusted) -->
+  <circle cx="372" cy="280" r="40" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="12"/>
+  <text x="372" y="292" 
+        font-family="monospace" 
+        font-size="28" 
+        fill="#000000" 
+        text-anchor="middle">B</text>
+  
+  <!-- Trust bridge (solid connection) -->
+  <path d="M 180 260 
+           Q 256 200 332 260" 
+        fill="none" 
+        stroke="#008B8B" 
+        stroke-width="16" 
+        stroke-linecap="round"/>
+  
+  <!-- Support pillars (foundation of trust) -->
+  <line x1="220" y1="240" x2="220" y2="280" 
+        stroke="#008B8B" 
+        stroke-width="8"/>
+  <line x1="256" y1="220" x2="256" y2="280" 
+        stroke="#008B8B" 
+        stroke-width="8"/>
+  <line x1="292" y1="240" x2="292" y2="280" 
+        stroke="#008B8B" 
+        stroke-width="8"/>
+  
+  <!-- Predictive arrow (expecting behavior) -->
+  <path d="M 372 240 L 372 160" 
+        stroke="#008B8B" 
+        stroke-width="10" 
+        stroke-linecap="round" 
+        stroke-dasharray="12,8"/>
+  <polygon points="372,160 367,170 377,170" fill="#008B8B"/>
+  
+  <!-- Future expected action -->
+  <circle cx="372" cy="140" r="30" 
+          fill="none" 
+          stroke="#008B8B" 
+          stroke-width="8" 
+          stroke-dasharray="10,6"/>
+  <path d="M 358 140 L 368 150 L 388 128" 
+        stroke="#008B8B" 
+        stroke-width="8" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        fill="none"/>
+  
+  <!-- Confidence level indicator -->
+  <text x="256" y="360" 
+        font-family="monospace" 
+        font-size="28" 
+        fill="#008B8B" 
+        text-anchor="middle">P(B→✓)</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">TRUST (E0D8)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Predictive confidence. Bridge showing expectation that another will act as predicted.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
