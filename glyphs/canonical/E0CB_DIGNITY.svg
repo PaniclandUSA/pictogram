@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0CB DIGNITY — Inviolable Core</title>
+  <desc>Protected inner circle that cannot be penetrated. The inviolable core that can never be reduced, only recognized.</desc>
+  
+  <!-- Outer protective boundary (inviolable shield) -->
+  <circle cx="256" cy="256" r="150" 
+          fill="none" 
+          stroke="#008B8B" 
+          stroke-width="18"/>
+  
+  <!-- Middle protective layer -->
+  <circle cx="256" cy="256" r="110" 
+          fill="none" 
+          stroke="#008B8B" 
+          stroke-width="14" 
+          opacity="0.6"/>
+  
+  <!-- Inner core (dignity itself - cannot be reduced) -->
+  <circle cx="256" cy="256" r="70" 
+          fill="#008B8B" 
+          opacity="0.3" 
+          stroke="#000000" 
+          stroke-width="12"/>
+  
+  <!-- Central essence (the irreducible self) -->
+  <circle cx="256" cy="256" r="30" fill="#000000"/>
+  
+  <!-- Rejection arrows (showing attacks cannot penetrate) -->
+  <path d="M 100 200 L 130 210" 
+        stroke="#008B8B" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <line x1="90" y1="195" x2="100" y2="205" 
+        stroke="#008B8B" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  
+  <path d="M 412 312 L 382 302" 
+        stroke="#008B8B" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <line x1="422" y1="317" x2="412" y2="307" 
+        stroke="#008B8B" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  
+  <path d="M 256 80 L 256 110" 
+        stroke="#008B8B" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <line x1="246" y1="70" x2="266" y2="70" 
+        stroke="#008B8B" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  
+  <path d="M 256 432 L 256 402" 
+        stroke="#008B8B" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <line x1="246" y1="442" x2="266" y2="442" 
+        stroke="#008B8B" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  
+  <!-- "Inviolable" markers at cardinal points -->
+  <circle cx="256" cy="106" r="6" fill="#008B8B"/>
+  <circle cx="406" cy="256" r="6" fill="#008B8B"/>
+  <circle cx="256" cy="406" r="6" fill="#008B8B"/>
+  <circle cx="106" cy="256" r="6" fill="#008B8B"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">DIGNITY (E0CB)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Inviolable core. Protected layers showing dignity that cannot be reduced, only recognized.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
