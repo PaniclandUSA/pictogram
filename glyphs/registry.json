@@ -1,10 +1,9 @@
 {
   "version": "1.0",
   "date_canonical": "2025-11-23",
-  "glyphs_completed": 38,
-  "total_planned": 256,
-  "psh256_engine": "v1.0-dihedral",
-  "status": "HARDENED – CANONICAL HASHES LOCKED – ETHICS PHASE 1 DEPLOYED",
+  "glyphs_completed": 68,
+"total_planned": 256,
+"status": "HARDENED – CANONICAL HASHES LOCKED – ETHICS PHASE 1 DEPLOYED – LOGIC LAYER COMPLETE",
   "glyphs": [
     {
       "id": "GLYPH_01_CYCLIC",
