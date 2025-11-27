@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>TEMPO_SYNC - Synchronization pulse, beat alignment signal</desc>
+  
+  <!-- Metronome triangle shape -->
+  <path d="M 256 120 L 180 400 L 332 400 Z" 
+        fill="none" stroke="#000000" stroke-width="12" stroke-linejoin="miter"/>
+  
+  <!-- Pendulum arm -->
+  <line x1="256" y1="160" x2="200" y2="320" 
+        stroke="#8B0000" stroke-width="10" stroke-linecap="round"/>
+  
+  <!-- Weight on pendulum -->
+  <circle cx="200" cy="320" r="20" fill="#8B0000"/>
+</svg>
