@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0D1 EVIDENCE — Observation Shifts Belief</title>
+  <desc>New data point moving belief distribution. Observation that causes Bayesian update.</desc>
+  
+  <!-- Prior belief distribution (before evidence) -->
+  <path d="M 120 300 
+           Q 200 180 280 300" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="10" 
+        stroke-dasharray="12,8" 
+        opacity="0.4"/>
+  <text x="200" y="330" 
+        font-family="monospace" 
+        font-size="24" 
+        fill="#000000" 
+        opacity="0.4">prior</text>
+  
+  <!-- Evidence arrival (new data point) -->
+  <circle cx="340" cy="240" r="24" 
+          fill="#008B8B" 
+          stroke="#008B8B" 
+          stroke-width="8"/>
+  <circle cx="340" cy="240" r="12" fill="#FFFFFF"/>
+  
+  <!-- Evidence impact rays -->
+  <line x1="340" y1="240" x2="300" y2="200" 
+        stroke="#008B8B" 
+        stroke-width="6" 
+        opacity="0.4"/>
+  <line x1="340" y1="240" x2="380" y2="200" 
+        stroke="#008B8B" 
+        stroke-width="6" 
+        opacity="0.4"/>
+  <line x1="340" y1="240" x2="360" y2="280" 
+        stroke="#008B8B" 
+        stroke-width="6" 
+        opacity="0.4"/>
+  
+  <!-- Posterior belief distribution (after evidence) -->
+  <path d="M 200 300 
+           Q 300 160 400 300" 
+        fill="none" 
+        stroke="#008B8B" 
+        stroke-width="12"/>
+  <text x="300" y="330" 
+        font-family="monospace" 
+        font-size="24" 
+        font-weight="bold" 
+        fill="#008B8B">posterior</text>
+  
+  <!-- Shift arrow (showing movement of belief) -->
+  <path d="M 220 350 L 280 350" 
+        stroke="#008B8B" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  <polygon points="280,350 270,345 270,355" fill="#008B8B"/>
+  
+  <!-- Baseline -->
+  <line x1="100" y1="300" x2="420" y2="300" 
+        stroke="#000000" 
+        stroke-width="6" 
+        opacity="0.2"/>
+  
+  <!-- "E" label (evidence) -->
+  <text x="340" y="210" 
+        font-family="monospace" 
+        font-size="32" 
+        font-weight="bold" 
+        fill="#008B8B" 
+        text-anchor="middle">E</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">EVIDENCE (E0D1)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Observation shifts belief. Data point moving distribution from prior to posterior.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
