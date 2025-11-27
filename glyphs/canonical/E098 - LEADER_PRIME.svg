@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>LEADER_PRIME - Primary leader, command authority, decision maker</desc>
+  
+  <!-- Large filled circle (authority) -->
+  <circle cx="256" cy="256" r="100" fill="#000000"/>
+  
+  <!-- Crown-like points on top -->
+  <polygon points="256,120 220,180 256,160 292,180" fill="#000000"/>
+  
+  <!-- Radiating lines showing influence -->
+  <line x1="256" y1="156" x2="256" y2="100" stroke="#000000" stroke-width="10"/>
+  <line x1="206" y1="180" x2="170" y2="140" stroke="#000000" stroke-width="8"/>
+  <line x1="306" y1="180" x2="342" y2="140" stroke="#000000" stroke-width="8"/>
+</svg>
