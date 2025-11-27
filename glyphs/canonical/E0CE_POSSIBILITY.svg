@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0CE POSSIBILITY — Open Future Branch</title>
+  <desc>Branching paths from present. Open future branch showing multiple possible outcomes.</desc>
+  
+  <!-- Present moment (now) -->
+  <circle cx="150" cy="256" r="30" 
+          fill="#000000"/>
+  <text x="150" y="266" 
+        font-family="monospace" 
+        font-size="24" 
+        font-weight="bold" 
+        fill="#FFFFFF" 
+        text-anchor="middle">t</text>
+  
+  <!-- Main timeline -->
+  <line x1="180" y1="256" x2="220" y2="256" 
+        stroke="#000000" 
+        stroke-width="10"/>
+  
+  <!-- Branch point (decision node) -->
+  <circle cx="220" cy="256" r="16" fill="#008B8B"/>
+  
+  <!-- Multiple possible futures (three branches) -->
+  <!-- Upper branch -->
+  <path d="M 220 256 Q 280 200 360 180" 
+        stroke="#008B8B" 
+        stroke-width="10" 
+        stroke-linecap="round" 
+        stroke-dasharray="12,8"/>
+  <circle cx="360" cy="180" r="20" 
+          fill="none" 
+          stroke="#008B8B" 
+          stroke-width="8"/>
+  
+  <!-- Middle branch -->
+  <path d="M 220 256 L 380 256" 
+        stroke="#008B8B" 
+        stroke-width="10" 
+        stroke-linecap="round" 
+        stroke-dasharray="12,8"/>
+  <circle cx="380" cy="256" r="20" 
+          fill="none" 
+          stroke="#008B8B" 
+          stroke-width="8"/>
+  
+  <!-- Lower branch -->
+  <path d="M 220 256 Q 280 312 360 332" 
+        stroke="#008B8B" 
+        stroke-width="10" 
+        stroke-linecap="round" 
+        stroke-dasharray="12,8"/>
+  <circle cx="360" cy="332" r="20" 
+          fill="none" 
+          stroke="#008B8B" 
+          stroke-width="8"/>
+  
+  <!-- Possibility indicators (showing openness) -->
+  <text x="370" y="170" 
+        font-family="sans-serif" 
+        font-size="24" 
+        fill="#008B8B">A</text>
+  <text x="390" y="262" 
+        font-family="sans-serif" 
+        font-size="24" 
+        fill="#008B8B">B</text>
+  <text x="370" y="345" 
+        font-family="sans-serif" 
+        font-size="24" 
+        fill="#008B8B">C</text>
+  
+  <!-- Diamond (possibility symbol) -->
+  <path d="M 256 400 L 280 424 L 256 448 L 232 424 Z" 
+        fill="none" 
+        stroke="#008B8B" 
+        stroke-width="10"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">POSSIBILITY (E0CE)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Open future branch. Multiple paths showing possible outcomes from present moment.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
