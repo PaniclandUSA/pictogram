@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0DB HOPE — Positive Expected Value</title>
+  <desc>Sunrise on horizon with upward arrow. Positive expected value in uncertain future - E(V) > 0.</desc>
+  
+  <!-- Horizon line (present/future boundary) -->
+  <line x1="80" y1="320" x2="432" y2="320" 
+        stroke="#000000" 
+        stroke-width="10"/>
+  
+  <!-- Sun rising (hope emerging) -->
+  <circle cx="256" cy="320" r="70" 
+          fill="#008B8B" 
+          opacity="0.4" 
+          stroke="#008B8B" 
+          stroke-width="12"/>
+  
+  <!-- Sun rays (radiating hope) -->
+  <line x1="256" y1="250" x2="256" y2="210" 
+        stroke="#008B8B" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <line x1="310" y1="266" x2="340" y2="236" 
+        stroke="#008B8B" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <line x1="202" y1="266" x2="172" y2="236" 
+        stroke="#008B8B" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <line x1="326" y1="290" x2="366" y2="270" 
+        stroke="#008B8B" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <line x1="186" y1="290" x2="146" y2="270" 
+        stroke="#008B8B" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  
+  <!-- Upward trend arrow (positive expectation) -->
+  <path d="M 140 380 Q 200 340 300 280" 
+        stroke="#008B8B" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  <polygon points="300,280 290,287 295,297" fill="#008B8B"/>
+  
+  <!-- Light above horizon (better future) -->
+  <path d="M 100 300 Q 256 260 412 300" 
+        fill="#008B8B" 
+        opacity="0.1"/>
+  
+  <!-- Expected value notation -->
+  <text x="256" y="440" 
+        font-family="monospace" 
+        font-size="32" 
+        font-weight="bold" 
+        fill="#008B8B" 
+        text-anchor="middle">E[V] > 0</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">HOPE (E0DB)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Positive expected value. Sunrise with upward arrow showing hope for better future.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
