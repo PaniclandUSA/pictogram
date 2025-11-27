@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>STAR - Star formation, five-point radial pattern, hub-and-spoke</desc>
+  
+  <!-- Five-pointed star outline (guideline) -->
+  <path d="M 256 100 L 285 200 L 390 210 L 305 280 L 330 385 L 256 330 L 182 385 L 207 280 L 122 210 L 227 200 Z" 
+        fill="none" stroke="#000000" stroke-width="4" opacity="0.3"/>
+  
+  <!-- Central hub -->
+  <circle cx="256" cy="256" r="35" fill="#000000"/>
+  
+  <!-- Five point agents -->
+  <circle cx="256" cy="100" r="30" fill="#000000"/>
+  <circle cx="390" cy="210" r="30" fill="#000000"/>
+  <circle cx="330" cy="385" r="30" fill="#000000"/>
+  <circle cx="182" cy="385" r="30" fill="#000000"/>
+  <circle cx="122" cy="210" r="30" fill="#000000"/>
+</svg>
