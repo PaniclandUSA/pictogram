@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0C9 JUSTICE — Proportional Restoration</title>
+  <desc>Scales returning to balance. Proportional restoration of equilibrium after divergence from equality.</desc>
+  
+  <!-- Scale beam (initially tilted) -->
+  <line x1="140" y1="240" x2="372" y2="200" 
+        stroke="#000000" 
+        stroke-width="12" 
+        stroke-linecap="round" 
+        opacity="0.3"/>
+  
+  <!-- Scale beam (being restored to balance) -->
+  <line x1="140" y1="220" x2="372" y2="220" 
+        stroke="#008B8B" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  
+  <!-- Central pivot point -->
+  <circle cx="256" cy="220" r="14" fill="#000000"/>
+  
+  <!-- Support pillar -->
+  <rect x="244" y="220" width="24" height="140" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="10"/>
+  
+  <!-- Base -->
+  <rect x="200" y="360" width="112" height="30" rx="4" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="10"/>
+  
+  <!-- Left scale pan (restored) -->
+  <path d="M 140 220 L 120 260 L 160 260 Z" 
+        fill="none" 
+        stroke="#008B8B" 
+        stroke-width="10" 
+        stroke-linejoin="miter"/>
+  
+  <!-- Right scale pan (restored) -->
+  <path d="M 372 220 L 352 260 L 392 260 Z" 
+        fill="none" 
+        stroke="#008B8B" 
+        stroke-width="10" 
+        stroke-linejoin="miter"/>
+  
+  <!-- Restoration arrows (showing correction) -->
+  <path d="M 160 270 L 160 290" 
+        stroke="#008B8B" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <polygon points="160,270 155,280 165,280" fill="#008B8B"/>
+  
+  <path d="M 372 250 L 372 230" 
+        stroke="#008B8B" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <polygon points="372,250 367,240 377,240" fill="#008B8B"/>
+  
+  <!-- Balance indicator (checkmark) -->
+  <path d="M 230 320 L 245 335 L 280 300" 
+        stroke="#008B8B" 
+        stroke-width="10" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        fill="none"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">JUSTICE (E0C9)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Proportional restoration. Scales returning to balance after divergence from equality.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
