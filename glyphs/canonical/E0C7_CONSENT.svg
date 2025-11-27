@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0C7 CONSENT — Voluntary Informed Agreement</title>
+  <desc>Two hands meeting with checkmark. Voluntary, informed, revocable, enthusiastic agreement between parties.</desc>
+  
+  <!-- Left hand (offering) -->
+  <path d="M 140 280 
+           L 180 260 
+           L 180 300 
+           L 140 320 
+           Z" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="12" 
+        stroke-linejoin="miter"/>
+  
+  <!-- Right hand (accepting) -->
+  <path d="M 372 280 
+           L 332 260 
+           L 332 300 
+           L 372 320 
+           Z" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="12" 
+        stroke-linejoin="miter"/>
+  
+  <!-- Meeting point (agreement zone) -->
+  <circle cx="256" cy="280" r="60" 
+          fill="none" 
+          stroke="#008B8B" 
+          stroke-width="10" 
+          stroke-dasharray="12,8"/>
+  
+  <!-- Checkmark (consent given) -->
+  <path d="M 220 280 L 245 305 L 295 250" 
+        stroke="#008B8B" 
+        stroke-width="16" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        fill="none"/>
+  
+  <!-- Bidirectional arrows (mutual and revocable) -->
+  <line x1="180" y1="240" x2="240" y2="260" 
+        stroke="#008B8B" 
+        stroke-width="6"/>
+  <polygon points="240,260 230,255 233,265" fill="#008B8B"/>
+  
+  <line x1="332" y1="240" x2="272" y2="260" 
+        stroke="#008B8B" 
+        stroke-width="6"/>
+  <polygon points="272,260 279,255 282,265" fill="#008B8B"/>
+  
+  <!-- "YES" indicator (enthusiastic consent) -->
+  <text x="256" y="380" 
+        font-family="sans-serif" 
+        font-size="36" 
+        font-weight="bold" 
+        fill="#008B8B" 
+        text-anchor="middle">YES</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">CONSENT (E0C7)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Voluntary informed agreement. Two hands meeting with checkmark showing mutual, revocable consent.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
