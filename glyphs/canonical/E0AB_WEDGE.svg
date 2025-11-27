@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>WEDGE - V-formation, wedge attack pattern, penetration formation</desc>
+  
+  <!-- Leader at point -->
+  <circle cx="256" cy="140" r="35" fill="#000000"/>
+  
+  <!-- Second rank (2 agents) -->
+  <circle cx="206" cy="220" r="32" fill="#000000"/>
+  <circle cx="306" cy="220" r="32" fill="#000000"/>
+  
+  <!-- Third rank (3 agents) -->
+  <circle cx="156" cy="300" r="30" fill="#000000"/>
+  <circle cx="256" cy="300" r="30" fill="#000000"/>
+  <circle cx="356" cy="300" r="30" fill="#000000"/>
+  
+  <!-- Fourth rank (2 agents) -->
+  <circle cx="126" cy="370" r="28" fill="#000000"/>
+  <circle cx="386" cy="370" r="28" fill="#000000"/>
+  
+  <!-- Formation lines -->
+  <line x1="256" y1="175" x2="206" y2="188" stroke="#000000" stroke-width="4" opacity="0.3"/>
+  <line x1="256" y1="175" x2="306" y2="188" stroke="#000000" stroke-width="4" opacity="0.3"/>
+</svg>
