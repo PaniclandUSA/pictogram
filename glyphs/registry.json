@@ -2020,6 +2020,510 @@
         "I⧉ — optional solidarity",
         "I⧏ — optional reconciliation"
       ]
-    }
+      }
+      },
+    {
+      "id": "GLYPH_69_PROOF",
+      "name": "PROOF",
+      "category": "logic",
+      "pua_codepoint": "U+E076",
+      "unicode_display": "⊢",
+      "semantic_vector": "⟨LOGIC:PROVABILITY | SYSTEM:SYNTACTIC | DERIVATION:FORMAL⟩",
+      "description": "Syntactic provability; statement derivable from premises",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E076_PROOF.svg",
+      "psh256_canonical": "1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d",
+      "design_notes": [
+        "Turnstile symbol representing derivation",
+        "Vertical bar shows logical barrier",
+        "Horizontal bar crosses to conclusion"
+      ],
+      "symbolic_associations": [
+        "proves",
+        "derives",
+        "syntactic consequence",
+        "turnstile"
+      ],
+      "usage_examples": [
+        "{☉, ☉→⧑} ⊢ ⧑ — from human and implication, prove care",
+        "{⧈, ⧌} ⊢ safe — autonomous + accountable proves safety"
+      ]
+    },
+    {
+      "id": "GLYPH_70_MODELS",
+      "name": "MODELS",
+      "category": "logic",
+      "pua_codepoint": "U+E077",
+      "unicode_display": "⊨",
+      "semantic_vector": "⟨LOGIC:ENTAILMENT | SYSTEM:SEMANTIC | MODEL:SATISFACTION⟩",
+      "description": "Semantic entailment; true in all models satisfying premises",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E077_MODELS.svg",
+      "psh256_canonical": "2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e",
+      "design_notes": [
+        "Double turnstile for semantic emphasis",
+        "Two vertical bars show stronger relationship",
+        "Semantic vs syntactic distinction"
+      ],
+      "symbolic_associations": [
+        "models",
+        "entails",
+        "semantic consequence",
+        "satisfaction"
+      ],
+      "usage_examples": [
+        "{☉} ⊨ ⧐ — humans semantically entail dignity",
+        "world ⊨ □(☉→⧑) — world satisfies care requirement"
+      ]
+    },
+    {
+      "id": "GLYPH_71_EQUIVALENT",
+      "name": "EQUIVALENT",
+      "category": "logic",
+      "pua_codepoint": "U+E078",
+      "unicode_display": "≡",
+      "semantic_vector": "⟨LOGIC:EQUIVALENCE | RELATION:IDENTITY | TRUTH:SAME_CONDITIONS⟩",
+      "description": "Logical equivalence; same truth value in all cases",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E078_EQUIVALENT.svg",
+      "psh256_canonical": "3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f",
+      "design_notes": [
+        "Three horizontal bars for strong equivalence",
+        "Stronger than biconditional",
+        "Definitional identity"
+      ],
+      "symbolic_associations": [
+        "equivalent",
+        "identical",
+        "same truth conditions",
+        "definitionally equal"
+      ],
+      "usage_examples": [
+        "(A→B) ∧ (B→A) ≡ (A↔B) — definitional equivalence",
+        "¬(A∧B) ≡ (¬A∨¬B) — De Morgan's law"
+      ]
+    },
+    {
+      "id": "GLYPH_72_APPROX_EQUAL",
+      "name": "APPROX_EQUAL",
+      "category": "logic",
+      "pua_codepoint": "U+E079",
+      "unicode_display": "≈",
+      "semantic_vector": "⟨RELATION:APPROXIMATION | PRECISION:INEXACT | TOLERANCE:ACCEPTABLE⟩",
+      "description": "Approximate equality; close but not exact match",
+      "canvas_size": 512,
+      "stroke_width_px": 8,
+      "file": "E079_APPROX_EQUAL.svg",
+      "psh256_canonical": "4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a",
+      "design_notes": [
+        "Wavy double line indicates approximation",
+        "Curves suggest flexibility",
+        "Tolerance-based equality"
+      ],
+      "symbolic_associations": [
+        "approximately equal",
+        "roughly",
+        "about",
+        "close to"
+      ],
+      "usage_examples": [
+        "◓ ≈ ● — rising pressure approximately high",
+        "confidence ≈ 0.95 — approximately 95% confident"
+      ]
+    },
+    {
+      "id": "GLYPH_73_NOT_EQUAL",
+      "name": "NOT_EQUAL",
+      "category": "logic",
+      "pua_codepoint": "U+E07A",
+      "unicode_display": "≠",
+      "semantic_vector": "⟨RELATION:INEQUALITY | DISTINCTION:DIFFERENT | IDENTITY:NON_IDENTICAL⟩",
+      "description": "Inequality; values are different",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E07A_NOT_EQUAL.svg",
+      "psh256_canonical": "5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b",
+      "design_notes": [
+        "Equals sign with diagonal slash",
+        "Red slash indicates negation",
+        "Fundamental inequality operator"
+      ],
+      "symbolic_associations": [
+        "not equal",
+        "different",
+        "distinct",
+        "unequal"
+      ],
+      "usage_examples": [
+        "⟗ ≠ ⟯ — leader not equal follower",
+        "☉ ≠ ⚙ — human not equal tool"
+      ]
+    },
+    {
+      "id": "GLYPH_74_LESS_THAN",
+      "name": "LESS_THAN",
+      "category": "logic",
+      "pua_codepoint": "U+E07B",
+      "unicode_display": "<",
+      "semantic_vector": "⟨ORDERING:STRICT | DIRECTION:ASCENDING | RELATION:LESS⟩",
+      "description": "Strict less than; A is strictly smaller than B",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E07B_LESS_THAN.svg",
+      "psh256_canonical": "6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c",
+      "design_notes": [
+        "Left-pointing angular bracket",
+        "Opens toward smaller value",
+        "Fundamental ordering relation"
+      ],
+      "symbolic_associations": [
+        "less than",
+        "smaller",
+        "inferior",
+        "below"
+      ],
+      "usage_examples": [
+        "⚙ < ♡ < ☉ — tier ordering",
+        "◯ < ◓ < ● — pressure ordering"
+      ]
+    },
+    {
+      "id": "GLYPH_75_GREATER_THAN",
+      "name": "GREATER_THAN",
+      "category": "logic",
+      "pua_codepoint": "U+E07C",
+      "unicode_display": ">",
+      "semantic_vector": "⟨ORDERING:STRICT | DIRECTION:DESCENDING | RELATION:GREATER⟩",
+      "description": "Strict greater than; A is strictly larger than B",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E07C_GREATER_THAN.svg",
+      "psh256_canonical": "7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d",
+      "design_notes": [
+        "Right-pointing angular bracket",
+        "Opens toward larger value",
+        "Mirror of less than"
+      ],
+      "symbolic_associations": [
+        "greater than",
+        "larger",
+        "superior",
+        "above"
+      ],
+      "usage_examples": [
+        "☉ > ♡ > ⚙ — inverse tier priority",
+        "● > ◓ > ◯ — descending pressure"
+      ]
+    },
+    {
+      "id": "GLYPH_76_LESS_EQUAL",
+      "name": "LESS_EQUAL",
+      "category": "logic",
+      "pua_codepoint": "U+E07D",
+      "unicode_display": "≤",
+      "semantic_vector": "⟨ORDERING:NON_STRICT | DIRECTION:ASCENDING | EQUALITY:INCLUSIVE⟩",
+      "description": "Less than or equal; A is at most B",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E07D_LESS_EQUAL.svg",
+      "psh256_canonical": "8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+      "design_notes": [
+        "Angular bracket with underline",
+        "Underline adds equality possibility",
+        "Non-strict ordering"
+      ],
+      "symbolic_associations": [
+        "less than or equal",
+        "at most",
+        "no more than",
+        "maximum"
+      ],
+      "usage_examples": [
+        "risk ≤ threshold — acceptable risk",
+        "agents ≤ capacity — within capacity"
+      ]
+    },
+    {
+      "id": "GLYPH_77_GREATER_EQUAL",
+      "name": "GREATER_EQUAL",
+      "category": "logic",
+      "pua_codepoint": "U+E07E",
+      "unicode_display": "≥",
+      "semantic_vector": "⟨ORDERING:NON_STRICT | DIRECTION:DESCENDING | EQUALITY:INCLUSIVE⟩",
+      "description": "Greater than or equal; A is at least B",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E07E_GREATER_EQUAL.svg",
+      "psh256_canonical": "9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f",
+      "design_notes": [
+        "Angular bracket with underline",
+        "Mirror of less than or equal",
+        "Minimum threshold operator"
+      ],
+      "symbolic_associations": [
+        "greater than or equal",
+        "at least",
+        "no less than",
+        "minimum"
+      ],
+      "usage_examples": [
+        "confidence ≥ 0.9 — minimum confidence",
+        "fuel ≥ reserve — safe fuel level"
+      ]
+    },
+    {
+      "id": "GLYPH_78_MUCH_LESS",
+      "name": "MUCH_LESS",
+      "category": "logic",
+      "pua_codepoint": "U+E07F",
+      "unicode_display": "≪",
+      "semantic_vector": "⟨ORDERING:MAGNITUDE | DIRECTION:ASCENDING | SCALE:EXTREME⟩",
+      "description": "Much less than; orders of magnitude smaller",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E07F_MUCH_LESS.svg",
+      "psh256_canonical": "0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a",
+      "design_notes": [
+        "Double angular bracket",
+        "Emphasizes large difference",
+        "Magnitude comparison"
+      ],
+      "symbolic_associations": [
+        "much less than",
+        "vastly smaller",
+        "orders of magnitude less",
+        "negligible compared to"
+      ],
+      "usage_examples": [
+        "◯ ≪ ● — low pressure much less than high",
+        "ε ≪ 1 — epsilon negligible"
+      ]
+    },
+    {
+      "id": "GLYPH_79_MUCH_GREATER",
+      "name": "MUCH_GREATER",
+      "category": "logic",
+      "pua_codepoint": "U+E080",
+      "unicode_display": "≫",
+      "semantic_vector": "⟨ORDERING:MAGNITUDE | DIRECTION:DESCENDING | SCALE:EXTREME⟩",
+      "description": "Much greater than; orders of magnitude larger",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E080_MUCH_GREATER.svg",
+      "psh256_canonical": "1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b",
+      "design_notes": [
+        "Double angular bracket reversed",
+        "Mirror of much less than",
+        "Large scale difference"
+      ],
+      "symbolic_associations": [
+        "much greater than",
+        "vastly larger",
+        "orders of magnitude more",
+        "dominates"
+      ],
+      "usage_examples": [
+        "● ≫ ◯ — high pressure vastly exceeds low",
+        "N ≫ threshold — well above threshold"
+      ]
+    },
+    {
+      "id": "GLYPH_80_PROPORTIONAL",
+      "name": "PROPORTIONAL",
+      "category": "logic",
+      "pua_codepoint": "U+E081",
+      "unicode_display": "∝",
+      "semantic_vector": "⟨RELATION:PROPORTIONAL | SCALING:LINEAR | CORRELATION:DIRECT⟩",
+      "description": "Proportional to; values scale together",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E081_PROPORTIONAL.svg",
+      "psh256_canonical": "2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c",
+      "design_notes": [
+        "Infinity-like symbol represents scaling",
+        "Continuous relationship",
+        "Direct correlation"
+      ],
+      "symbolic_associations": [
+        "proportional to",
+        "varies with",
+        "scales with",
+        "directly related"
+      ],
+      "usage_examples": [
+        "⤊ ∝ ● — eruption proportional to pressure",
+        "response ∝ stimulus — linear relationship"
+      ]
+    },
+    {
+      "id": "GLYPH_81_DIVIDES",
+      "name": "DIVIDES",
+      "category": "logic",
+      "pua_codepoint": "U+E082",
+      "unicode_display": "∣",
+      "semantic_vector": "⟨NUMBER_THEORY:DIVISIBILITY | RELATION:FACTOR | REMAINDER:ZERO⟩",
+      "description": "Divisibility; a divides b evenly with no remainder",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E082_DIVIDES.svg",
+      "psh256_canonical": "3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d",
+      "design_notes": [
+        "Vertical bar with emphasis dots",
+        "Dots indicate divisibility points",
+        "Number theory operator"
+      ],
+      "symbolic_associations": [
+        "divides",
+        "is factor of",
+        "evenly divides",
+        "no remainder"
+      ],
+      "usage_examples": [
+        "2 ∣ 8 — 2 divides 8",
+        "tempo_1 ∣ tempo_2 — synchronized tempos"
+      ]
+    },
+    {
+      "id": "GLYPH_82_NOT_DIVIDES",
+      "name": "NOT_DIVIDES",
+      "category": "logic",
+      "pua_codepoint": "U+E083",
+      "unicode_display": "∤",
+      "semantic_vector": "⟨NUMBER_THEORY:NON_DIVISIBILITY | RELATION:NON_FACTOR | REMAINDER:NONZERO⟩",
+      "description": "Does not divide; a does not evenly divide b",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E083_NOT_DIVIDES.svg",
+      "psh256_canonical": "4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e",
+      "design_notes": [
+        "Vertical bar with dots and diagonal slash",
+        "Red slash negates divisibility",
+        "Incompatibility indicator"
+      ],
+      "symbolic_associations": [
+        "does not divide",
+        "not a factor",
+        "has remainder",
+        "incompatible"
+      ],
+      "usage_examples": [
+        "3 ∤ 10 — 3 does not divide 10",
+        "tempo_1 ∤ tempo_2 — incompatible rhythms"
+      ]
+    },
+    {
+      "id": "GLYPH_83_PARALLEL",
+      "name": "PARALLEL",
+      "category": "logic",
+      "pua_codepoint": "U+E084",
+      "unicode_display": "∥",
+      "semantic_vector": "⟨GEOMETRY:PARALLEL | RELATION:NON_INTERSECTING | INDEPENDENCE:ORTHOGONAL⟩",
+      "description": "Parallel relation; paths never intersect",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E084_PARALLEL.svg",
+      "psh256_canonical": "5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f",
+      "design_notes": [
+        "Two vertical parallel lines",
+        "Equal spacing shows consistency",
+        "Independence indicator"
+      ],
+      "symbolic_associations": [
+        "parallel",
+        "independent",
+        "non-interfering",
+        "concurrent"
+      ],
+      "usage_examples": [
+        "task_1 ∥ task_2 — parallel execution",
+        "wing_A ∥ wing_B — parallel swarm wings"
+      ]
+    },
+    {
+      "id": "GLYPH_84_PERPENDICULAR",
+      "name": "PERPENDICULAR",
+      "category": "logic",
+      "pua_codepoint": "U+E085",
+      "unicode_display": "⊥",
+      "semantic_vector": "⟨GEOMETRY:PERPENDICULAR | ANGLE:NINETY_DEGREES | RELATION:ORTHOGONAL⟩",
+      "description": "Perpendicular relation; 90 degree angle",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E085_PERPENDICULAR.svg",
+      "psh256_canonical": "6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a",
+      "design_notes": [
+        "T-shape represents right angle",
+        "Orthogonal relationship",
+        "Independent dimensions"
+      ],
+      "symbolic_associations": [
+        "perpendicular",
+        "orthogonal",
+        "right angle",
+        "independent axes"
+      ],
+      "usage_examples": [
+        "ethics ⊥ efficiency — orthogonal optimization",
+        "safety ⊥ speed — independent constraints"
+      ]
+    },
+    {
+      "id": "GLYPH_85_CONGRUENT",
+      "name": "CONGRUENT",
+      "category": "logic",
+      "pua_codepoint": "U+E086",
+      "unicode_display": "≅",
+      "semantic_vector": "⟨GEOMETRY:CONGRUENCE | SHAPE:IDENTICAL | SIZE:IDENTICAL⟩",
+      "description": "Geometric congruence; same shape and size",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E086_CONGRUENT.svg",
+      "psh256_canonical": "7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b",
+      "design_notes": [
+        "Wavy line over equals",
+        "Combines similarity with equality",
+        "Structural equivalence"
+      ],
+      "symbolic_associations": [
+        "congruent",
+        "identical structure",
+        "same shape and size",
+        "isomorphic"
+      ],
+      "usage_examples": [
+        "formation_1 ≅ formation_2 — identical formations",
+        "protocol_A ≅ protocol_B — equivalent protocols"
+      ]
+    },
+    {
+      "id": "GLYPH_86_SIMILAR",
+      "name": "SIMILAR",
+      "category": "logic",
+      "pua_codepoint": "U+E087",
+      "unicode_display": "∼",
+      "semantic_vector": "⟨GEOMETRY:SIMILARITY | SHAPE:SAME | SIZE:DIFFERENT⟩",
+      "description": "Geometric similarity; same shape, different size",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E087_SIMILAR.svg",
+      "psh256_canonical": "8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c",
+      "design_notes": [
+        "Single wavy line",
+        "Indicates proportional scaling",
+        "Pattern equivalence"
+      ],
+      "symbolic_associations": [
+        "similar",
+        "proportional",
+        "scaled",
+        "pattern match"
+      ],
+      "usage_examples": [
+        "small_swarm ∼ large_swarm — similar topology",
+        "micro_pattern ∼ macro_pattern — fractal similarity"
+      ]
     }
 }
