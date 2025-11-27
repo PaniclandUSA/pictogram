@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0CC TRUTH_CANDIDATE — Claim Under Verification</title>
+  <desc>Statement in verification circle with question mark. Claim currently being tested and audited.</desc>
+  
+  <!-- Verification circle (testing boundary) -->
+  <circle cx="256" cy="256" r="120" 
+          fill="none" 
+          stroke="#008B8B" 
+          stroke-width="12" 
+          stroke-dasharray="16,12"/>
+  
+  <!-- Inner claim circle (the statement itself) -->
+  <circle cx="256" cy="256" r="70" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="10"/>
+  
+  <!-- Question mark (under investigation) -->
+  <path d="M 230 230 
+           Q 230 200 256 200 
+           Q 282 200 282 230 
+           Q 282 250 256 260" 
+        fill="none" 
+        stroke="#008B8B" 
+        stroke-width="14" 
+        stroke-linecap="round"/>
+  <line x1="256" y1="260" x2="256" y2="285" 
+        stroke="#008B8B" 
+        stroke-width="14" 
+        stroke-linecap="round"/>
+  <circle cx="256" cy="305" r="8" fill="#008B8B"/>
+  
+  <!-- Verification indicators (audit points) -->
+  <circle cx="180" cy="180" r="10" 
+          fill="none" 
+          stroke="#008B8B" 
+          stroke-width="4"/>
+  <circle cx="332" cy="180" r="10" 
+          fill="none" 
+          stroke="#008B8B" 
+          stroke-width="4"/>
+  <circle cx="332" cy="332" r="10" 
+          fill="none" 
+          stroke="#008B8B" 
+          stroke-width="4"/>
+  <circle cx="180" cy="332" r="10" 
+          fill="none" 
+          stroke="#008B8B" 
+          stroke-width="4"/>
+  
+  <!-- "VERIFY" label -->
+  <text x="256" y="400" 
+        font-family="monospace" 
+        font-size="28" 
+        fill="#008B8B" 
+        text-anchor="middle">VERIFY</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">TRUTH_CANDIDATE (E0CC)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Claim under verification. Statement in testing circle with question mark showing active audit.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
