@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0D3 FALSIFICATION — Evidence Destroys Hypothesis</title>
+  <desc>Hammer breaking hypothesis structure. Evidence that definitively breaks a theory.</desc>
+  
+  <!-- Hypothesis structure (being destroyed) -->
+  <circle cx="220" cy="280" r="80" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="12" 
+          stroke-dasharray="20,10"/>
+  
+  <!-- Crack lines (hypothesis breaking) -->
+  <line x1="220" y1="200" x2="220" y2="360" 
+        stroke="#8B0000" 
+        stroke-width="10"/>
+  <line x1="160" y1="240" x2="280" y2="320" 
+        stroke="#8B0000" 
+        stroke-width="8"/>
+  <line x1="160" y1="320" x2="280" y2="240" 
+        stroke="#8B0000" 
+        stroke-width="8"/>
+  
+  <!-- Hammer (falsifying evidence) -->
+  <rect x="300" y="140" width="80" height="40" rx="6" 
+        fill="none" 
+        stroke="#008B8B" 
+        stroke-width="12"/>
+  <rect x="330" y="180" width="20" height="100" 
+        fill="none" 
+        stroke="#008B8B" 
+        stroke-width="10"/>
+  
+  <!-- Impact point -->
+  <circle cx="280" cy="240" r="20" 
+          fill="#8B0000" 
+          opacity="0.3" 
+          stroke="#8B0000" 
+          stroke-width="8"/>
+  
+  <!-- Impact lines (moment of falsification) -->
+  <line x1="260" y1="220" x2="240" y2="200" 
+        stroke="#8B0000" 
+        stroke-width="6" 
+        stroke-linecap="round"/>
+  <line x1="270" y1="225" x2="260" y2="205" 
+        stroke="#8B0000" 
+        stroke-width="6" 
+        stroke-linecap="round"/>
+  <line x1="280" y1="230" x2="280" y2="210" 
+        stroke="#8B0000" 
+        stroke-width="6" 
+        stroke-linecap="round"/>
+  <line x1="290" y1="225" x2="300" y2="205" 
+        stroke="#8B0000" 
+        stroke-width="6" 
+        stroke-linecap="round"/>
+  
+  <!-- Fragments (hypothesis shattered) -->
+  <path d="M 160 340 L 140 360 L 150 370" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="6"/>
+  <path d="M 200 360 L 190 380 L 210 385" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="6"/>
+  <path d="M 250 350 L 260 370 L 270 365" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="6"/>
+  
+  <!-- "REFUTED" label -->
+  <text x="256" y="430" 
+        font-family="monospace" 
+        font-size="32" 
+        font-weight="bold" 
+        fill="#8B0000" 
+        text-anchor="middle">REFUTED</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">FALSIFICATION (E0D3)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Evidence destroys hypothesis. Hammer breaking theory showing definitive refutation.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
