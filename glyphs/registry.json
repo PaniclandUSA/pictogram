@@ -3445,5 +3445,710 @@
         "⟽ → call_for_volunteers — optional participation",
         "⟽ ∧ ⧈ — autonomous volunteer"
       ]
+      },
+      {
+      "id": "GLYPH_119",
+      "name": "LINE",
+      "category": "staccato_formations",
+      "pua_codepoint": "U+E0A8",
+      "unicode_display": "—",
+      "semantic_vector": "⟨FORMATION:LINE | ARRANGEMENT:SEQUENTIAL | TOPOLOGY:1D⟩",
+      "description": "Linear formation, single-file arrangement, sequential coordination",
+      "canvas_size": 512,
+      "stroke_width_px": 6,
+      "file": "E0A8_LINE.svg",
+      "psh256_canonical": "e0a8line0000000000000000000000000",
+      "design_notes": [
+        "Five circles in horizontal line",
+        "Even spacing showing sequential order",
+        "Connection lines indicate coordination"
+      ],
+      "symbolic_associations": [
+        "line",
+        "queue",
+        "single file",
+        "sequential",
+        "one dimensional"
+      ],
+      "usage_examples": [
+        "— → form_line — create linear formation",
+        "— ∧ ⟗ — line formation with leader"
+      ]
     },
-}
+    {
+      "id": "GLYPH_120",
+      "name": "COLUMN",
+      "category": "staccato_formations",
+      "pua_codepoint": "U+E0A9",
+      "unicode_display": "⋮",
+      "semantic_vector": "⟨FORMATION:COLUMN | ARRANGEMENT:VERTICAL | TOPOLOGY:1D⟩",
+      "description": "Vertical column formation, stacked arrangement",
+      "canvas_size": 512,
+      "stroke_width_px": 6,
+      "file": "E0A9_COLUMN.svg",
+      "psh256_canonical": "e0a9column00000000000000000000000",
+      "design_notes": [
+        "Five circles in vertical column",
+        "Even spacing in vertical axis",
+        "Stacked coordination pattern"
+      ],
+      "symbolic_associations": [
+        "column",
+        "vertical stack",
+        "tower",
+        "hierarchical",
+        "stacked"
+      ],
+      "usage_examples": [
+        "⋮ → form_column — create vertical formation",
+        "⋮ ∧ ⟗ — column with leader at top"
+      ]
+    },
+    {
+      "id": "GLYPH_121",
+      "name": "CIRCLE",
+      "category": "staccato_formations",
+      "pua_codepoint": "U+E0AA",
+      "unicode_display": "○",
+      "semantic_vector": "⟨FORMATION:CIRCLE | ARRANGEMENT:PERIMETER | TOPOLOGY:RING⟩",
+      "description": "Circular formation, perimeter defense, surrounding pattern",
+      "canvas_size": 512,
+      "stroke_width_px": 4,
+      "file": "E0AA_CIRCLE.svg",
+      "psh256_canonical": "e0aacircle00000000000000000000000",
+      "design_notes": [
+        "Eight agents positioned on circle perimeter",
+        "Formation guideline circle",
+        "Equal angular spacing"
+      ],
+      "symbolic_associations": [
+        "circle",
+        "ring",
+        "perimeter",
+        "surrounding",
+        "defensive ring"
+      ],
+      "usage_examples": [
+        "○ → surround — circular perimeter",
+        "○ ∧ ⟱ — circle formation for defense"
+      ]
+    },
+    {
+      "id": "GLYPH_122",
+      "name": "WEDGE",
+      "category": "staccato_formations",
+      "pua_codepoint": "U+E0AB",
+      "unicode_display": "⋀",
+      "semantic_vector": "⟨FORMATION:WEDGE | ARRANGEMENT:V_SHAPE | TOPOLOGY:ATTACK⟩",
+      "description": "V-formation, wedge attack pattern, penetration formation",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E0AB_WEDGE.svg",
+      "psh256_canonical": "e0abwedge000000000000000000000000",
+      "design_notes": [
+        "Leader at point of wedge",
+        "Expanding ranks behind",
+        "Offensive formation topology"
+      ],
+      "symbolic_associations": [
+        "wedge",
+        "V-formation",
+        "spearhead",
+        "attack pattern",
+        "penetration"
+      ],
+      "usage_examples": [
+        "⋀ → attack_wedge — offensive formation",
+        "⋀ ∧ ⟗ — wedge led by prime leader"
+      ]
+    },
+    {
+      "id": "GLYPH_123",
+      "name": "GRID",
+      "category": "staccato_formations",
+      "pua_codepoint": "U+E0AC",
+      "unicode_display": "⊞",
+      "semantic_vector": "⟨FORMATION:GRID | ARRANGEMENT:MATRIX | TOPOLOGY:2D⟩",
+      "description": "Grid formation, matrix arrangement, area coverage",
+      "canvas_size": 512,
+      "stroke_width_px": 2,
+      "file": "E0AC_GRID.svg",
+      "psh256_canonical": "e0acgrid0000000000000000000000000",
+      "design_notes": [
+        "4×4 grid of agents",
+        "Faint gridlines showing structure",
+        "Even spacing in both dimensions"
+      ],
+      "symbolic_associations": [
+        "grid",
+        "matrix",
+        "lattice",
+        "area coverage",
+        "systematic"
+      ],
+      "usage_examples": [
+        "⊞ → deploy_grid — matrix formation",
+        "⊞ ∧ ⟰ — grid with scouts at edges"
+      ]
+    },
+    {
+      "id": "GLYPH_124",
+      "name": "CLUSTER",
+      "category": "staccato_formations",
+      "pua_codepoint": "U+E0AD",
+      "unicode_display": "⊛",
+      "semantic_vector": "⟨FORMATION:CLUSTER | ARRANGEMENT:TIGHT | TOPOLOGY:CONCENTRATED⟩",
+      "description": "Clustered formation, tight grouping, concentrated arrangement",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E0AD_CLUSTER.svg",
+      "psh256_canonical": "e0adcluster000000000000000000000",
+      "design_notes": [
+        "Central larger agent",
+        "Surrounding agents in tight proximity",
+        "Outer ring showing cluster boundary"
+      ],
+      "symbolic_associations": [
+        "cluster",
+        "tight group",
+        "concentrated",
+        "huddle",
+        "dense formation"
+      ],
+      "usage_examples": [
+        "⊛ → cluster_tight — concentrated grouping",
+        "⊛ ∧ ⟵ — cluster with coordinator"
+      ]
+    },
+    {
+      "id": "GLYPH_125",
+      "name": "SCATTER",
+      "category": "staccato_formations",
+      "pua_codepoint": "U+E0AE",
+      "unicode_display": "⊹",
+      "semantic_vector": "⟨FORMATION:SCATTER | ARRANGEMENT:DISPERSED | TOPOLOGY:RANDOM⟩",
+      "description": "Scattered formation, dispersed arrangement, evasive pattern",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E0AE_SCATTER.svg",
+      "psh256_canonical": "e0aescatter000000000000000000000",
+      "design_notes": [
+        "Randomly distributed agents",
+        "Varying sizes for depth",
+        "No connecting lines (emphasizing dispersion)"
+      ],
+      "symbolic_associations": [
+        "scatter",
+        "disperse",
+        "spread out",
+        "evasive",
+        "decentralized"
+      ],
+      "usage_examples": [
+        "⊹ → scatter_evade — dispersal pattern",
+        "⊹ ∧ ⟰ — scattered scouts"
+      ]
+    },
+    {
+      "id": "GLYPH_126",
+      "name": "HELIX",
+      "category": "staccato_formations",
+      "pua_codepoint": "U+E0AF",
+      "unicode_display": "⟲",
+      "semantic_vector": "⟨FORMATION:HELIX | ARRANGEMENT:SPIRAL | TOPOLOGY:3D⟩",
+      "description": "Helical/spiral formation, rotating pattern, orbital coordination",
+      "canvas_size": 512,
+      "stroke_width_px": 4,
+      "file": "E0AF_HELIX.svg",
+      "psh256_canonical": "e0afhelix000000000000000000000000",
+      "design_notes": [
+        "Spiral path guideline",
+        "Agents positioned along spiral",
+        "Progressive rotation pattern"
+      ],
+      "symbolic_associations": [
+        "helix",
+        "spiral",
+        "vortex",
+        "rotating",
+        "orbital"
+      ],
+      "usage_examples": [
+        "⟲ → spiral_in — helical approach",
+        "⟲ ∧ ⟰ — spiral scout pattern"
+      ]
+    },
+    {
+      "id": "GLYPH_127",
+      "name": "DIAMOND",
+      "category": "staccato_formations",
+      "pua_codepoint": "U+E0B0",
+      "unicode_display": "◇",
+      "semantic_vector": "⟨FORMATION:DIAMOND | ARRANGEMENT:FOUR_POINT | TOPOLOGY:BALANCED⟩",
+      "description": "Diamond formation, four-point pattern, balanced arrangement",
+      "canvas_size": 512,
+      "stroke_width_px": 4,
+      "file": "E0B0_DIAMOND.svg",
+      "psh256_canonical": "e0b0diamond0000000000000000000000",
+      "design_notes": [
+        "Four primary agents at diamond points",
+        "Center command agent",
+        "Mid-edge secondary agents",
+        "Diamond outline guideline"
+      ],
+      "symbolic_associations": [
+        "diamond",
+        "four points",
+        "balanced",
+        "cardinal directions",
+        "symmetric"
+      ],
+      "usage_examples": [
+        "◇ → diamond_form — four-point formation",
+        "◇ ∧ ⟗ — diamond with center leader"
+      ]
+    },
+    {
+      "id": "GLYPH_128",
+      "name": "STAR",
+      "category": "staccato_formations",
+      "pua_codepoint": "U+E0B1",
+      "unicode_display": "☆",
+      "semantic_vector": "⟨FORMATION:STAR | ARRANGEMENT:RADIAL | TOPOLOGY:HUB_SPOKE⟩",
+      "description": "Star formation, five-point radial pattern, hub-and-spoke",
+      "canvas_size": 512,
+      "stroke_width_px": 4,
+      "file": "E0B1_STAR.svg",
+      "psh256_canonical": "e0b1star0000000000000000000000000",
+      "design_notes": [
+        "Central hub agent",
+        "Five point agents at star vertices",
+        "Star outline guideline"
+      ],
+      "symbolic_associations": [
+        "star",
+        "pentagram",
+        "radial",
+        "hub and spoke",
+        "five-point"
+      ],
+      "usage_examples": [
+        "☆ → star_pattern — five-point radial",
+        "☆ ∧ ⟗ — star with central leader"
+      ]
+    },
+    {
+      "id": "GLYPH_129",
+      "name": "WALL",
+      "category": "staccato_formations",
+      "pua_codepoint": "U+E0B2",
+      "unicode_display": "▭",
+      "semantic_vector": "⟨FORMATION:WALL | ARRANGEMENT:BARRIER | TOPOLOGY:DEFENSIVE_LINE⟩",
+      "description": "Wall/barrier formation, defensive line, blocking pattern",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E0B2_WALL.svg",
+      "psh256_canonical": "e0b2wall0000000000000000000000000",
+      "design_notes": [
+        "Three rows of agents (front, middle, back)",
+        "Offset brick pattern for strength",
+        "Cohesion line showing unity"
+      ],
+      "symbolic_associations": [
+        "wall",
+        "barrier",
+        "defensive line",
+        "blockade",
+        "shield wall"
+      ],
+      "usage_examples": [
+        "▭ → form_wall — defensive barrier",
+        "▭ ∧ ⟱ — wall formation of guardians"
+      ]
+    },
+    {
+      "id": "GLYPH_130",
+      "name": "SWARM",
+      "category": "staccato_formations",
+      "pua_codepoint": "U+E0B3",
+      "unicode_display": "⊱",
+      "semantic_vector": "⟨FORMATION:SWARM | ARRANGEMENT:EMERGENT | TOPOLOGY:DECENTRALIZED⟩",
+      "description": "Free swarm formation, emergent pattern, decentralized coordination",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E0B3_SWARM.svg",
+      "psh256_canonical": "e0b3swarm000000000000000000000000",
+      "design_notes": [
+        "Many small agents in organic arrangement",
+        "Varying sizes showing depth",
+        "Subtle flow lines showing movement tendency",
+        "No rigid structure"
+      ],
+      "symbolic_associations": [
+        "swarm",
+        "flock",
+        "emergent",
+        "self-organizing",
+        "organic"
+      ],
+      "usage_examples": [
+        "⊱ → free_swarm — emergent coordination",
+        "⊱ ∧ ⧈ — autonomous swarm behavior"
+      ]    
+      },
+      {
+      "id": "GLYPH_131",
+      "name": "ERROR",
+      "category": "staccato_errors",
+      "pua_codepoint": "U+E0B4",
+      "unicode_display": "⊗",
+      "semantic_vector": "⟨ERROR:GENERAL | FAULT:DETECTED | STATE:PROBLEM⟩",
+      "description": "General error condition, fault detected, problem state",
+      "canvas_size": 512,
+      "stroke_width_px": 14,
+      "file": "E0B4_ERROR.svg",
+      "psh256_canonical": "e0b4error000000000000000000000000",
+      "design_notes": [
+        "Octagon (stop sign shape)",
+        "Large X in center (error indicator)",
+        "Red stroke color (#8B0000)"
+      ],
+      "symbolic_associations": [
+        "error",
+        "fault",
+        "problem",
+        "stop",
+        "failure"
+      ],
+      "usage_examples": [
+        "⊗ → error_detected — fault condition",
+        "⊗ ∧ ⟲ — worker encountering error"
+      ]
+    },
+    {
+      "id": "GLYPH_132",
+      "name": "WARNING",
+      "category": "staccato_errors",
+      "pua_codepoint": "U+E0B5",
+      "unicode_display": "⚠",
+      "semantic_vector": "⟨ERROR:WARNING | CAUTION:REQUIRED | STATE:POTENTIAL_PROBLEM⟩",
+      "description": "Warning condition, caution required, potential problem",
+      "canvas_size": 512,
+      "stroke_width_px": 14,
+      "file": "E0B5_WARNING.svg",
+      "psh256_canonical": "e0b5warning0000000000000000000000",
+      "design_notes": [
+        "Triangle pointing up (warning sign)",
+        "Exclamation mark inside",
+        "Orange stroke color (#FF8C00)"
+      ],
+      "symbolic_associations": [
+        "warning",
+        "caution",
+        "alert",
+        "attention required",
+        "potential danger"
+      ],
+      "usage_examples": [
+        "⚠ → warning_state — caution needed",
+        "⚠ ∧ ● — warning with high pressure"
+      ]
+    },
+    {
+      "id": "GLYPH_133",
+      "name": "RETRY",
+      "category": "staccato_errors",
+      "pua_codepoint": "U+E0B6",
+      "unicode_display": "↻",
+      "semantic_vector": "⟨ERROR:RETRY | RECOVERY:ATTEMPT | ACTION:REATTEMPT⟩",
+      "description": "Retry operation, attempt recovery, reattempt action",
+      "canvas_size": 512,
+      "stroke_width_px": 14,
+      "file": "E0B6_RETRY.svg",
+      "psh256_canonical": "e0b6retry000000000000000000000000",
+      "design_notes": [
+        "Circular arrow (counterclockwise)",
+        "Arrow head showing restart",
+        "Number '2' indicating second attempt"
+      ],
+      "symbolic_associations": [
+        "retry",
+        "reattempt",
+        "try again",
+        "second attempt",
+        "loop back"
+      ],
+      "usage_examples": [
+        "↻ → retry_action — attempt again",
+        "⊗ → ↻ — error then retry"
+      ]
+    },
+    {
+      "id": "GLYPH_134",
+      "name": "TIMEOUT",
+      "category": "staccato_errors",
+      "pua_codepoint": "U+E0B7",
+      "unicode_display": "⌛",
+      "semantic_vector": "⟨ERROR:TIMEOUT | TIME:EXCEEDED | DURATION:LIMIT⟩",
+      "description": "Timeout condition, time limit exceeded, duration error",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E0B7_TIMEOUT.svg",
+      "psh256_canonical": "e0b7timeout0000000000000000000000",
+      "design_notes": [
+        "Clock circle with hands",
+        "X over clock showing timeout",
+        "Red X indicating failure"
+      ],
+      "symbolic_associations": [
+        "timeout",
+        "time exceeded",
+        "duration limit",
+        "time expired",
+        "deadline missed"
+      ],
+      "usage_examples": [
+        "⌛ → timeout_error — time limit exceeded",
+        "⌛ ∧ ⟳ — messenger timeout"
+      ]
+    },
+    {
+      "id": "GLYPH_135",
+      "name": "DEADLOCK",
+      "category": "staccato_errors",
+      "pua_codepoint": "U+E0B8",
+      "unicode_display": "⊘",
+      "semantic_vector": "⟨ERROR:DEADLOCK | DEPENDENCY:CIRCULAR | STATE:BLOCKED⟩",
+      "description": "Deadlock condition, circular dependency, blocked state",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E0B8_DEADLOCK.svg",
+      "psh256_canonical": "e0b8deadlock000000000000000000000",
+      "design_notes": [
+        "Two interlocked circles",
+        "Arrows showing circular dependency",
+        "Padlock in overlap showing locked state"
+      ],
+      "symbolic_associations": [
+        "deadlock",
+        "circular wait",
+        "blocked",
+        "stalemate",
+        "mutual waiting"
+      ],
+      "usage_examples": [
+        "⊘ → deadlock_detected — circular dependency",
+        "⊘ ∧ ⟵ — coordinator deadlock"
+      ]
+    },
+    {
+      "id": "GLYPH_136",
+      "name": "RECOVER",
+      "category": "staccato_errors",
+      "pua_codepoint": "U+E0B9",
+      "unicode_display": "⟳",
+      "semantic_vector": "⟨ERROR:RECOVER | ACTION:RESTORE | STATE:CORRECTION⟩",
+      "description": "Recovery operation, restore state, error correction",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E0B9_RECOVER.svg",
+      "psh256_canonical": "e0b9recover000000000000000000000",
+      "design_notes": [
+        "Broken circle being repaired",
+        "Green section showing restoration",
+        "Wrench tool indicating repair",
+        "Arrow showing recovery direction"
+      ],
+      "symbolic_associations": [
+        "recover",
+        "restore",
+        "repair",
+        "fix",
+        "error correction"
+      ],
+      "usage_examples": [
+        "⟳ → recover_state — restore from error",
+        "⊗ → ⟳ — error then recovery"
+      ]
+    },
+    {
+      "id": "GLYPH_137",
+      "name": "FALLBACK",
+      "category": "staccato_errors",
+      "pua_codepoint": "U+E0BA",
+      "unicode_display": "⤨",
+      "semantic_vector": "⟨ERROR:FALLBACK | PATH:ALTERNATIVE | MODE:DEGRADED⟩",
+      "description": "Fallback mode, alternative path, degraded operation",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E0BA_FALLBACK.svg",
+      "psh256_canonical": "e0bafallback000000000000000000000",
+      "design_notes": [
+        "Primary path blocked (red X)",
+        "Alternative path in green",
+        "Arrow showing fallback route",
+        "Decision point circle"
+      ],
+      "symbolic_associations": [
+        "fallback",
+        "alternative",
+        "backup path",
+        "degraded mode",
+        "plan B"
+      ],
+      "usage_examples": [
+        "⤨ → fallback_mode — use alternative",
+        "⊗ → ⤨ — error triggers fallback"
+      ]
+    },
+    {
+      "id": "GLYPH_138",
+      "name": "ABORT",
+      "category": "staccato_errors",
+      "pua_codepoint": "U+E0BB",
+      "unicode_display": "⊝",
+      "semantic_vector": "⟨ERROR:ABORT | ACTION:CANCEL | MODE:EMERGENCY_STOP⟩",
+      "description": "Abort operation, cancel execution, emergency stop",
+      "canvas_size": 512,
+      "stroke_width_px": 16,
+      "file": "E0BB_ABORT.svg",
+      "psh256_canonical": "e0bbabort000000000000000000000000",
+      "design_notes": [
+        "Circle with diagonal slash (prohibition)",
+        "Stop hand symbol inside",
+        "Heavy red stroke (#8B0000)",
+        "Emergency stop indication"
+      ],
+      "symbolic_associations": [
+        "abort",
+        "cancel",
+        "stop immediately",
+        "terminate",
+        "emergency halt"
+      ],
+      "usage_examples": [
+        "⊝ → abort_mission — immediate cancellation",
+        "⊗ → ⊝ — error leads to abort"
+      ]
+      },
+      {
+      {
+      "id": "GLYPH_139",
+      "name": "BROADCAST",
+      "category": "staccato_meta",
+      "pua_codepoint": "U+E0BC",
+      "unicode_display": "⊶",
+      "semantic_vector": "⟨META:BROADCAST | COMMUNICATION:ONE_TO_ALL | SIGNAL:GLOBAL⟩",
+      "description": "Broadcast message, one-to-all communication, global signal",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E0BC_BROADCAST.svg",
+      "psh256_canonical": "e0bcbroadcast0000000000000000000",
+      "design_notes": [
+        "Central transmitter (filled circle)",
+        "Expanding radio wave rings",
+        "Directional arrow indicators at cardinal points",
+        "Opacity gradient showing signal spread"
+      ],
+      "symbolic_associations": [
+        "broadcast",
+        "transmit all",
+        "global message",
+        "one to many",
+        "public announcement"
+      ],
+      "usage_examples": [
+        "⊶ → broadcast_all — send to entire swarm",
+        "⟗ → ⊶ — leader broadcasts to all"
+      ]
+    },
+    {
+      "id": "GLYPH_140",
+      "name": "CONSENSUS",
+      "category": "staccato_meta",
+      "pua_codepoint": "U+E0BD",
+      "unicode_display": "⊷",
+      "semantic_vector": "⟨META:CONSENSUS | DECISION:COLLECTIVE | AGREEMENT:REQUIRED⟩",
+      "description": "Consensus building, agreement protocol, collective decision",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E0BD_CONSENSUS.svg",
+      "psh256_canonical": "e0bdconsensus0000000000000000000",
+      "design_notes": [
+        "Five agents in circle (participants)",
+        "Central consensus point with checkmark",
+        "Green fill indicating agreement reached",
+        "Connection lines to center showing participation"
+      ],
+      "symbolic_associations": [
+        "consensus",
+        "agreement",
+        "collective decision",
+        "unanimous",
+        "accord"
+      ],
+      "usage_examples": [
+        "⊷ → build_consensus — achieve agreement",
+        "⟵ → ⊷ — coordinator facilitates consensus"
+      ]
+    },
+    {
+      "id": "GLYPH_141",
+      "name": "QUORUM",
+      "category": "staccato_meta",
+      "pua_codepoint": "U+E0BE",
+      "unicode_display": "⊸",
+      "semantic_vector": "⟨META:QUORUM | THRESHOLD:MINIMUM | VOTING:REQUIRED⟩",
+      "description": "Quorum requirement, minimum participation, threshold voting",
+      "canvas_size": 512,
+      "stroke_width_px": 8,
+      "file": "E0BE_QUORUM.svg",
+      "psh256_canonical": "e0bequorum00000000000000000000000",
+      "design_notes": [
+        "Seven agents (5 filled, 2 hollow)",
+        "Threshold line showing minimum requirement",
+        "Green checkmark below line (quorum met)",
+        "Fraction indicator: 5/7"
+      ],
+      "symbolic_associations": [
+        "quorum",
+        "minimum threshold",
+        "required participation",
+        "voting threshold",
+        "majority"
+      ],
+      "usage_examples": [
+        "⊸ → check_quorum — verify minimum participation",
+        "⊷ ∧ ⊸ — consensus requiring quorum"
+      ]
+    },
+    {
+      "id": "GLYPH_142",
+      "name": "TERMINATE",
+      "category": "staccato_meta",
+      "pua_codepoint": "U+E0BF",
+      "unicode_display": "⊹",
+      "semantic_vector": "⟨META:TERMINATE | ACTION:SHUTDOWN | MODE:END_SESSION⟩",
+      "description": "Terminate coordination, shutdown signal, end of session",
+      "canvas_size": 512,
+      "stroke_width_px": 16,
+      "file": "E0BF_TERMINATE.svg",
+      "psh256_canonical": "e0bfterminate0000000000000000000",
+      "design_notes": [
+        "Power button symbol (circle with line)",
+        "X over power button for emphasis",
+        "Red stroke color (#8B0000)",
+        "Warning dots around perimeter (8 points)"
+      ],
+      "symbolic_associations": [
+        "terminate",
+        "shutdown",
+        "end session",
+        "power off",
+        "cease operations"
+      ],
+      "usage_examples": [
+        "⊹ → terminate_swarm — end coordination session",
+        "⟗ → ⊹ — leader terminates mission"
+      ]
+    }
