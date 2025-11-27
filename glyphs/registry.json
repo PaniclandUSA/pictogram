@@ -2524,5 +2524,926 @@
         "small_swarm ∼ large_swarm — similar topology",
         "micro_pattern ∼ macro_pattern — fractal similarity"
       ]
-    }
+      }
+      {
+      "id": "GLYPH_87",
+      "name": "TEMPO_WHOLE",
+      "category": "staccato_tempo",
+      "pua_codepoint": "U+E088",
+      "unicode_display": "♩",
+      "semantic_vector": "⟨TEMPO:WHOLE | DURATION:4_BEATS | COORDINATION:MAXIMUM⟩",
+      "description": "Whole note duration, 4 beats, maximum coordination window",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E088_TEMPO_WHOLE.svg",
+      "psh256_canonical": "e088whole4beat00000000000000000000",
+      "design_notes": [
+        "Hollow oval note head representing long duration",
+        "No stem for whole note traditional notation",
+        "Inner detail emphasizes temporal span"
+      ],
+      "symbolic_associations": [
+        "semibreve",
+        "whole duration",
+        "4 beat cycle",
+        "maximum coordination window"
+      ],
+      "usage_examples": [
+        "♩ → formation_hold — maintain formation for 4 beats",
+        "♩ ∧ ⟗ — whole note leadership (sustained command)"
+      ]
+    },
+    {
+      "id": "GLYPH_88",
+      "name": "TEMPO_HALF",
+      "category": "staccato_tempo",
+      "pua_codepoint": "U+E089",
+      "unicode_display": "𝅗𝅥",
+      "semantic_vector": "⟨TEMPO:HALF | DURATION:2_BEATS | COORDINATION:MEDIUM⟩",
+      "description": "Half note duration, 2 beats, medium coordination window",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E089_TEMPO_HALF.svg",
+      "psh256_canonical": "e089half2beat000000000000000000000",
+      "design_notes": [
+        "Hollow note head with stem",
+        "Stem points upward by convention",
+        "Half the duration of whole note"
+      ],
+      "symbolic_associations": [
+        "minim",
+        "half duration",
+        "2 beat cycle",
+        "sustained action"
+      ],
+      "usage_examples": [
+        "𝅗𝅥 → patrol_pattern — 2 beat patrol cycle",
+        "𝅗𝅥 ∧ ⟰ — half note scout mission"
+      ]
+    },
+    {
+      "id": "GLYPH_89",
+      "name": "TEMPO_QUARTER",
+      "category": "staccato_tempo",
+      "pua_codepoint": "U+E08A",
+      "unicode_display": "♪",
+      "semantic_vector": "⟨TEMPO:QUARTER | DURATION:1_BEAT | COORDINATION:STANDARD⟩",
+      "description": "Quarter note duration, 1 beat, standard coordination unit",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E08A_TEMPO_QUARTER.svg",
+      "psh256_canonical": "e08aquarter1beat0000000000000000000",
+      "design_notes": [
+        "Filled note head with stem",
+        "Standard beat reference unit",
+        "Most common temporal primitive"
+      ],
+      "symbolic_associations": [
+        "crotchet",
+        "quarter duration",
+        "single beat",
+        "base tempo unit"
+      ],
+      "usage_examples": [
+        "♪ → step — single beat movement",
+        "♪♪♪♪ — four quarter march pattern"
+      ]
+    },
+    {
+      "id": "GLYPH_90",
+      "name": "TEMPO_EIGHTH",
+      "category": "staccato_tempo",
+      "pua_codepoint": "U+E08B",
+      "unicode_display": "♫",
+      "semantic_vector": "⟨TEMPO:EIGHTH | DURATION:HALF_BEAT | COORDINATION:RAPID⟩",
+      "description": "Eighth note duration, half beat, rapid coordination",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E08B_TEMPO_EIGHTH.svg",
+      "psh256_canonical": "e08beighthalf00000000000000000000",
+      "design_notes": [
+        "Filled note head with flagged stem",
+        "Single flag indicates eighth division",
+        "Rapid temporal resolution"
+      ],
+      "symbolic_associations": [
+        "quaver",
+        "eighth duration",
+        "half beat",
+        "quick action"
+      ],
+      "usage_examples": [
+        "♫ → quick_turn — rapid maneuver",
+        "♫♫♫♫ — fast synchronized sequence"
+      ]
+    },
+    {
+      "id": "GLYPH_91",
+      "name": "TEMPO_SIXTEENTH",
+      "category": "staccato_tempo",
+      "pua_codepoint": "U+E08C",
+      "unicode_display": "♬",
+      "semantic_vector": "⟨TEMPO:SIXTEENTH | DURATION:QUARTER_BEAT | COORDINATION:VERY_RAPID⟩",
+      "description": "Sixteenth note duration, quarter beat, very rapid coordination",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E08C_TEMPO_SIXTEENTH.svg",
+      "psh256_canonical": "e08csixteenth000000000000000000000",
+      "design_notes": [
+        "Filled note head with double flag",
+        "Two flags indicate sixteenth division",
+        "Maximum temporal precision"
+      ],
+      "symbolic_associations": [
+        "semiquaver",
+        "sixteenth duration",
+        "quarter beat",
+        "burst action"
+      ],
+      "usage_examples": [
+        "♬ → micro_adjust — precision correction",
+        "♬♬♬♬ — rapid-fire sequence"
+      ]
+    },
+    {
+      "id": "GLYPH_92",
+      "name": "TEMPO_DOTTED",
+      "category": "staccato_tempo",
+      "pua_codepoint": "U+E08D",
+      "unicode_display": "𝅘𝅥𝅮.",
+      "semantic_vector": "⟨TEMPO:DOTTED | DURATION:1.5X | EXTENSION:50_PERCENT⟩",
+      "description": "Dotted rhythm, adds 50% duration extension",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E08D_TEMPO_DOTTED.svg",
+      "psh256_canonical": "e08ddotted1point5000000000000000000",
+      "design_notes": [
+        "Note with augmentation dot",
+        "Dot adds half the note value",
+        "Creates syncopated rhythms"
+      ],
+      "symbolic_associations": [
+        "dotted note",
+        "extended duration",
+        "1.5x timing",
+        "syncopation"
+      ],
+      "usage_examples": [
+        "𝅘𝅥𝅮. → extended_hold — hold for 1.5 beats",
+        "𝅘𝅥𝅮.♬ — dotted quarter eighth pattern"
+      ]
+    },
+    {
+      "id": "GLYPH_93",
+      "name": "TEMPO_TRIPLET",
+      "category": "staccato_tempo",
+      "pua_codepoint": "U+E08E",
+      "unicode_display": "⌐",
+      "semantic_vector": "⟨TEMPO:TRIPLET | RATIO:3_IN_2 | DIVISION:TERNARY⟩",
+      "description": "Triplet grouping, 3 notes in time of 2",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E08E_TEMPO_TRIPLET.svg",
+      "psh256_canonical": "e08etriplet3in200000000000000000000",
+      "design_notes": [
+        "Bracket with '3' numeral",
+        "Three note heads grouped",
+        "Ternary subdivision"
+      ],
+      "symbolic_associations": [
+        "triplet",
+        "3 against 2",
+        "ternary rhythm",
+        "compound division"
+      ],
+      "usage_examples": [
+        "⌐ → triple_step — three steps in two beats",
+        "⌐⌐ — cascading triplets"
+      ]
+    },
+    {
+      "id": "GLYPH_94",
+      "name": "TEMPO_REST",
+      "category": "staccato_tempo",
+      "pua_codepoint": "U+E08F",
+      "unicode_display": "𝄽",
+      "semantic_vector": "⟨TEMPO:REST | SILENCE:TRUE | ACTION:PAUSE⟩",
+      "description": "Rest symbol, silence, coordination pause, wait state",
+      "canvas_size": 512,
+      "stroke_width_px": 14,
+      "file": "E08F_TEMPO_REST.svg",
+      "psh256_canonical": "e08frestsilence000000000000000000",
+      "design_notes": [
+        "Quarter rest zigzag shape",
+        "Indicates no action during beat",
+        "Critical for rhythm spacing"
+      ],
+      "symbolic_associations": [
+        "rest",
+        "pause",
+        "silence",
+        "wait state",
+        "no action"
+      ],
+      "usage_examples": [
+        "𝄽 → hold_position — no movement",
+        "♪𝄽♪𝄽 — on-off pattern"
+      ]
+    },
+    {
+      "id": "GLYPH_95",
+      "name": "TEMPO_FERMATA",
+      "category": "staccato_tempo",
+      "pua_codepoint": "U+E090",
+      "unicode_display": "𝄐",
+      "semantic_vector": "⟨TEMPO:FERMATA | DURATION:INDEFINITE | HOLD:SUSTAINED⟩",
+      "description": "Fermata hold, indefinite duration extension",
+      "canvas_size": 512,
+      "stroke_width_px": 14,
+      "file": "E090_TEMPO_FERMATA.svg",
+      "psh256_canonical": "e090fermatahold000000000000000000",
+      "design_notes": [
+        "Curved arc with dot below",
+        "Indicates sustained hold",
+        "Duration at performer discretion"
+      ],
+      "symbolic_associations": [
+        "fermata",
+        "hold",
+        "pause",
+        "bird's eye",
+        "indefinite duration"
+      ],
+      "usage_examples": [
+        "𝄐 → await_signal — hold until commanded",
+        "♩𝄐 — sustained whole note"
+      ]
+    },
+    {
+      "id": "GLYPH_96",
+      "name": "TEMPO_ACCELERANDO",
+      "category": "staccato_tempo",
+      "pua_codepoint": "U+E091",
+      "unicode_display": "⟨",
+      "semantic_vector": "⟨TEMPO:ACCELERANDO | GRADIENT:INCREASING | SPEED:UP⟩",
+      "description": "Accelerando, gradual speed increase, tempo ramp up",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E091_TEMPO_ACCELERANDO.svg",
+      "psh256_canonical": "e091accel00000000000000000000000",
+      "design_notes": [
+        "Expanding wedge pointing right",
+        "Arrow indicates direction of increase",
+        "Gradual tempo change"
+      ],
+      "symbolic_associations": [
+        "accelerando",
+        "speed up",
+        "faster",
+        "increasing tempo",
+        "acceleration"
+      ],
+      "usage_examples": [
+        "⟨ → speed_up — increase velocity",
+        "♪⟨♫ — accelerate to eighth notes"
+      ]
+    },
+    {
+      "id": "GLYPH_97",
+      "name": "TEMPO_RITARDANDO",
+      "category": "staccato_tempo",
+      "pua_codepoint": "U+E092",
+      "unicode_display": "⟩",
+      "semantic_vector": "⟨TEMPO:RITARDANDO | GRADIENT:DECREASING | SPEED:DOWN⟩",
+      "description": "Ritardando, gradual speed decrease, tempo ramp down",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E092_TEMPO_RITARDANDO.svg",
+      "psh256_canonical": "e092ritard00000000000000000000000",
+      "design_notes": [
+        "Contracting wedge pointing right",
+        "Narrowing indicates slowing",
+        "Gradual deceleration"
+      ],
+      "symbolic_associations": [
+        "ritardando",
+        "slow down",
+        "slower",
+        "decreasing tempo",
+        "deceleration"
+      ],
+      "usage_examples": [
+        "⟩ → slow_approach — gradual deceleration",
+        "♫⟩♪ — slow to quarter notes"
+      ]
+    },
+    {
+      "id": "GLYPH_98",
+      "name": "TEMPO_SHARP",
+      "category": "staccato_tempo",
+      "pua_codepoint": "U+E093",
+      "unicode_display": "♯",
+      "semantic_vector": "⟨TEMPO:SHARP | FREQUENCY:UP | PRIORITY:ELEVATED⟩",
+      "description": "Sharp symbol, frequency increase, pitch up, priority elevation",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E093_TEMPO_SHARP.svg",
+      "psh256_canonical": "e093sharp000000000000000000000000",
+      "design_notes": [
+        "Musical sharp symbol",
+        "Two vertical lines crossed by two diagonal lines",
+        "Indicates raising by semitone"
+      ],
+      "symbolic_associations": [
+        "sharp",
+        "raise",
+        "increase pitch",
+        "elevate priority",
+        "heighten"
+      ],
+      "usage_examples": [
+        "♯ → priority_up — increase urgency",
+        "⟗♯ — elevated leader status"
+      ]
+    },
+    {
+      "id": "GLYPH_99",
+      "name": "TEMPO_FLAT",
+      "category": "staccato_tempo",
+      "pua_codepoint": "U+E094",
+      "unicode_display": "♭",
+      "semantic_vector": "⟨TEMPO:FLAT | FREQUENCY:DOWN | PRIORITY:REDUCED⟩",
+      "description": "Flat symbol, frequency decrease, pitch down, priority reduction",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E094_TEMPO_FLAT.svg",
+      "psh256_canonical": "e094flat0000000000000000000000000",
+      "design_notes": [
+        "Musical flat symbol",
+        "Vertical line with rounded bulb",
+        "Indicates lowering by semitone"
+      ],
+      "symbolic_associations": [
+        "flat",
+        "lower",
+        "decrease pitch",
+        "reduce priority",
+        "soften"
+      ],
+      "usage_examples": [
+        "♭ → priority_down — reduce urgency",
+        "⟯♭ — demoted follower status"
+      ]
+    },
+    {
+      "id": "GLYPH_100",
+      "name": "TEMPO_NATURAL",
+      "category": "staccato_tempo",
+      "pua_codepoint": "U+E095",
+      "unicode_display": "♮",
+      "semantic_vector": "⟨TEMPO:NATURAL | CANCEL:MODIFICATION | RETURN:BASELINE⟩",
+      "description": "Natural symbol, cancel modification, return to baseline tempo",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E095_TEMPO_NATURAL.svg",
+      "psh256_canonical": "e095natural0000000000000000000000",
+      "design_notes": [
+        "Musical natural symbol",
+        "Two vertical lines with horizontal crossbars",
+        "Cancels sharps or flats"
+      ],
+      "symbolic_associations": [
+        "natural",
+        "cancel",
+        "reset",
+        "baseline",
+        "neutral"
+      ],
+      "usage_examples": [
+        "♮ → reset_tempo — return to base speed",
+        "♯♮ — sharp then cancel"
+      ]
+    },
+    {
+      "id": "GLYPH_101",
+      "name": "TEMPO_SYNC",
+      "category": "staccato_tempo",
+      "pua_codepoint": "U+E096",
+      "unicode_display": "⌭",
+      "semantic_vector": "⟨TEMPO:SYNC | ALIGNMENT:BEAT | PULSE:METRONOME⟩",
+      "description": "Metronome sync, synchronization pulse, beat alignment signal",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E096_TEMPO_SYNC.svg",
+      "psh256_canonical": "e096sync0000000000000000000000000",
+      "design_notes": [
+        "Metronome triangle shape",
+        "Pendulum arm with weight",
+        "Red accent shows active beat"
+      ],
+      "symbolic_associations": [
+        "metronome",
+        "sync",
+        "beat",
+        "pulse",
+        "timing reference"
+      ],
+      "usage_examples": [
+        "⌭ → sync_all — synchronize to master beat",
+        "⌭♪ — sync to quarter note pulse"
+      ]
+    },
+    {
+      "id": "GLYPH_102",
+      "name": "TEMPO_RUBATO",
+      "category": "staccato_tempo",
+      "pua_codepoint": "U+E097",
+      "unicode_display": "⌇",
+      "semantic_vector": "⟨TEMPO:RUBATO | FLEXIBILITY:HIGH | EXPRESSION:FREE⟩",
+      "description": "Rubato, flexible timing, expressive tempo variation",
+      "canvas_size": 512,
+      "stroke_width_px": 14,
+      "file": "E097_TEMPO_RUBATO.svg",
+      "psh256_canonical": "e097rubato0000000000000000000000",
+      "design_notes": [
+        "Wavy flowing line",
+        "Organic curve suggests flexibility",
+        "Accent dots show expressive moments"
+      ],
+      "symbolic_associations": [
+        "rubato",
+        "flexible",
+        "expressive",
+        "free time",
+        "artistic license"
+      ],
+      "usage_examples": [
+        "⌇ → free_flow — adaptive timing",
+        "♩⌇ — whole note with flexible duration"
+      ]
+      },
+      {
+      "id": "GLYPH_103",
+      "name": "LEADER_PRIME",
+      "category": "staccato_roles",
+      "pua_codepoint": "U+E098",
+      "unicode_display": "⟗",
+      "semantic_vector": "⟨ROLE:LEADER | AUTHORITY:PRIMARY | COMMAND:DECISION⟩",
+      "description": "Primary leader, command authority, decision maker",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E098_LEADER_PRIME.svg",
+      "psh256_canonical": "e098leaderprime000000000000000000",
+      "design_notes": [
+        "Large filled circle showing authority",
+        "Crown-like points radiating upward",
+        "Radiating influence lines"
+      ],
+      "symbolic_associations": [
+        "leader",
+        "commander",
+        "chief",
+        "authority",
+        "primary decision maker"
+      ],
+      "usage_examples": [
+        "⟗ → assign_leader — designate primary commander",
+        "⟗ ∧ ⧌ — leader with accountability"
+      ]
+    },
+    {
+      "id": "GLYPH_104",
+      "name": "FOLLOWER",
+      "category": "staccato_roles",
+      "pua_codepoint": "U+E099",
+      "unicode_display": "⟯",
+      "semantic_vector": "⟨ROLE:FOLLOWER | AUTHORITY:RECEIVER | COMMAND:EXECUTOR⟩",
+      "description": "Follower agent, receives commands, executes tasks",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E099_FOLLOWER.svg",
+      "psh256_canonical": "e099follower000000000000000000000",
+      "design_notes": [
+        "Medium filled circle for agent",
+        "Hollow circle above showing reception",
+        "Connection line showing chain of command"
+      ],
+      "symbolic_associations": [
+        "follower",
+        "subordinate",
+        "executor",
+        "receiver",
+        "implementer"
+      ],
+      "usage_examples": [
+        "⟯ → execute_order — follow command",
+        "⟗ → ⟯ — leader to follower delegation"
+      ]
+    },
+    {
+      "id": "GLYPH_105",
+      "name": "SCOUT",
+      "category": "staccato_roles",
+      "pua_codepoint": "U+E09A",
+      "unicode_display": "⟰",
+      "semantic_vector": "⟨ROLE:SCOUT | FUNCTION:RECONNAISSANCE | ACTION:EXPLORE⟩",
+      "description": "Scout/explorer, reconnaissance, information gathering",
+      "canvas_size": 512,
+      "stroke_width_px": 8,
+      "file": "E09A_SCOUT.svg",
+      "psh256_canonical": "e09ascout00000000000000000000000",
+      "design_notes": [
+        "Central agent circle",
+        "Expanding concentric scanning waves",
+        "Arrow pointing outward for exploration"
+      ],
+      "symbolic_associations": [
+        "scout",
+        "explorer",
+        "reconnaissance",
+        "surveyor",
+        "advance guard"
+      ],
+      "usage_examples": [
+        "⟰ → scout_ahead — reconnaissance mission",
+        "⟰ ∧ ◓ — scout under rising pressure"
+      ]
+    },
+    {
+      "id": "GLYPH_106",
+      "name": "GUARDIAN",
+      "category": "staccato_roles",
+      "pua_codepoint": "U+E09B",
+      "unicode_display": "⟱",
+      "semantic_vector": "⟨ROLE:GUARDIAN | FUNCTION:PROTECT | STANCE:DEFENSIVE⟩",
+      "description": "Guardian/defender, protective stance, perimeter security",
+      "canvas_size": 512,
+      "stroke_width_px": 14,
+      "file": "E09B_GUARDIAN.svg",
+      "psh256_canonical": "e09bguardian000000000000000000000",
+      "design_notes": [
+        "Shield shape for protection",
+        "Cross symbol in center",
+        "Strong defensive posture"
+      ],
+      "symbolic_associations": [
+        "guardian",
+        "defender",
+        "protector",
+        "sentinel",
+        "shield"
+      ],
+      "usage_examples": [
+        "⟱ → defend_perimeter — protective stance",
+        "⟱ ∧ ☉ — guardian protecting human"
+      ]
+    },
+    {
+      "id": "GLYPH_107",
+      "name": "WORKER",
+      "category": "staccato_roles",
+      "pua_codepoint": "U+E09C",
+      "unicode_display": "⟲",
+      "semantic_vector": "⟨ROLE:WORKER | FUNCTION:BUILD | ACTION:EXECUTE⟩",
+      "description": "Worker/builder, construction, task execution",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E09C_WORKER.svg",
+      "psh256_canonical": "e09cworker00000000000000000000000",
+      "design_notes": [
+        "Gear/cog shape with 8 teeth",
+        "Central hub for rotation",
+        "Industrial mechanism symbolism"
+      ],
+      "symbolic_associations": [
+        "worker",
+        "builder",
+        "laborer",
+        "constructor",
+        "executor"
+      ],
+      "usage_examples": [
+        "⟲ → build_structure — construction task",
+        "⟲ ∧ ⧈ — autonomous worker"
+      ]
+    },
+    {
+      "id": "GLYPH_108",
+      "name": "MESSENGER",
+      "category": "staccato_roles",
+      "pua_codepoint": "U+E09D",
+      "unicode_display": "⟳",
+      "semantic_vector": "⟨ROLE:MESSENGER | FUNCTION:RELAY | ACTION:COMMUNICATE⟩",
+      "description": "Messenger/relay, communication, information transfer",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E09D_MESSENGER.svg",
+      "psh256_canonical": "e09dmessenger0000000000000000000",
+      "design_notes": [
+        "Two circles for sender and receiver",
+        "Bidirectional arrows showing exchange",
+        "Communication flow visualization"
+      ],
+      "symbolic_associations": [
+        "messenger",
+        "relay",
+        "courier",
+        "communicator",
+        "intermediary"
+      ],
+      "usage_examples": [
+        "⟳ → relay_message — information transfer",
+        "⟗ → ⟳ → ⟯ — leader to messenger to follower"
+      ]
+    },
+    {
+      "id": "GLYPH_109",
+      "name": "SPECIALIST",
+      "category": "staccato_roles",
+      "pua_codepoint": "U+E09E",
+      "unicode_display": "⟴",
+      "semantic_vector": "⟨ROLE:SPECIALIST | CAPABILITY:UNIQUE | FUNCTION:EXPERT⟩",
+      "description": "Specialist role, unique capability, expert function",
+      "canvas_size": 512,
+      "stroke_width_px": 10,
+      "file": "E09E_SPECIALIST.svg",
+      "psh256_canonical": "e09especialist000000000000000000",
+      "design_notes": [
+        "Central circle with star points",
+        "Radiating points show uniqueness",
+        "Eight-point specialization"
+      ],
+      "symbolic_associations": [
+        "specialist",
+        "expert",
+        "unique capability",
+        "skilled agent",
+        "domain expert"
+      ],
+      "usage_examples": [
+        "⟴ → deploy_specialist — unique capability needed",
+        "⟴ ∧ ⧑ — specialist with care focus"
+      ]
+    },
+    {
+      "id": "GLYPH_110",
+      "name": "COORDINATOR",
+      "category": "staccato_roles",
+      "pua_codepoint": "U+E09F",
+      "unicode_display": "⟵",
+      "semantic_vector": "⟨ROLE:COORDINATOR | FUNCTION:ORCHESTRATE | ACTION:CONSENSUS⟩",
+      "description": "Coordinator, multi-agent orchestration, consensus builder",
+      "canvas_size": 512,
+      "stroke_width_px": 8,
+      "file": "E09F_COORDINATOR.svg",
+      "psh256_canonical": "e09fcoordinator000000000000000000",
+      "design_notes": [
+        "Central hub circle",
+        "Four satellite circles for coordinated agents",
+        "Connection lines showing orchestration"
+      ],
+      "symbolic_associations": [
+        "coordinator",
+        "orchestrator",
+        "facilitator",
+        "consensus builder",
+        "mediator"
+      ],
+      "usage_examples": [
+        "⟵ → coordinate_swarm — multi-agent sync",
+        "⟵ ∧ ⧏ — coordinator facilitating reconciliation"
+      ]
+    },
+    {
+      "id": "GLYPH_111",
+      "name": "OBSERVER",
+      "category": "staccato_roles",
+      "pua_codepoint": "U+E0A0",
+      "unicode_display": "⟶",
+      "semantic_vector": "⟨ROLE:OBSERVER | FUNCTION:MONITOR | INTERVENTION:NONE⟩",
+      "description": "Observer, monitoring without intervention, surveillance",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E0A0_OBSERVER.svg",
+      "psh256_canonical": "e0a0observer000000000000000000000",
+      "design_notes": [
+        "Eye shape with elliptical outline",
+        "Pupil showing focus point",
+        "Highlight indicating watchfulness"
+      ],
+      "symbolic_associations": [
+        "observer",
+        "watcher",
+        "monitor",
+        "surveillance",
+        "passive witness"
+      ],
+      "usage_examples": [
+        "⟶ → observe_only — no intervention",
+        "⟶ ∧ ⧞ — observer during escalation"
+      ]
+    },
+    {
+      "id": "GLYPH_112",
+      "name": "BACKUP",
+      "category": "staccato_roles",
+      "pua_codepoint": "U+E0A1",
+      "unicode_display": "⟷",
+      "semantic_vector": "⟨ROLE:BACKUP | CAPABILITY:REDUNDANT | MODE:STANDBY⟩",
+      "description": "Backup/redundant agent, failover capability, standby mode",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E0A1_BACKUP.svg",
+      "psh256_canonical": "e0a1backup00000000000000000000000",
+      "design_notes": [
+        "Two overlapping circles showing redundancy",
+        "Equal sign showing equivalence",
+        "Symmetric design for interchangeability"
+      ],
+      "symbolic_associations": [
+        "backup",
+        "redundant",
+        "failover",
+        "standby",
+        "secondary"
+      ],
+      "usage_examples": [
+        "⟷ → activate_backup — failover triggered",
+        "⟗ ∧ ⟷ — leader with backup"
+      ]
+    },
+    {
+      "id": "GLYPH_113",
+      "name": "HEALER",
+      "category": "staccato_roles",
+      "pua_codepoint": "U+E0A2",
+      "unicode_display": "⟸",
+      "semantic_vector": "⟨ROLE:HEALER | FUNCTION:REPAIR | ACTION:RESTORE⟩",
+      "description": "Healer/repair agent, restoration, maintenance",
+      "canvas_size": 512,
+      "stroke_width_px": 8,
+      "file": "E0A2_HEALER.svg",
+      "psh256_canonical": "e0a2healer00000000000000000000000",
+      "design_notes": [
+        "Medical cross in green",
+        "Cross bars with rounded corners",
+        "Healing and restoration symbolism"
+      ],
+      "symbolic_associations": [
+        "healer",
+        "medic",
+        "repair agent",
+        "maintainer",
+        "restorer"
+      ],
+      "usage_examples": [
+        "⟸ → repair_damage — restoration task",
+        "⟸ ∧ ⧋ — healer restoring balance"
+      ]
+    },
+    {
+      "id": "GLYPH_114",
+      "name": "HARVESTER",
+      "category": "staccato_roles",
+      "pua_codepoint": "U+E0A3",
+      "unicode_display": "⟹",
+      "semantic_vector": "⟨ROLE:HARVESTER | FUNCTION:COLLECT | ACTION:GATHER⟩",
+      "description": "Harvester/collector, resource gathering, accumulation",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E0A3_HARVESTER.svg",
+      "psh256_canonical": "e0a3harvester0000000000000000000",
+      "design_notes": [
+        "Basket/container shape",
+        "Handle arc at top",
+        "Resource symbols (circles) inside"
+      ],
+      "symbolic_associations": [
+        "harvester",
+        "collector",
+        "gatherer",
+        "accumulator",
+        "resource agent"
+      ],
+      "usage_examples": [
+        "⟹ → collect_resources — gathering mission",
+        "⟹ ∧ ⊚ — harvester with containment"
+      ]
+    },
+    {
+      "id": "GLYPH_115",
+      "name": "TRADER",
+      "category": "staccato_roles",
+      "pua_codepoint": "U+E0A4",
+      "unicode_display": "⟺",
+      "semantic_vector": "⟨ROLE:TRADER | FUNCTION:EXCHANGE | ACTION:NEGOTIATE⟩",
+      "description": "Trader/exchange agent, resource trading, negotiation",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E0A4_TRADER.svg",
+      "psh256_canonical": "e0a4trader00000000000000000000000",
+      "design_notes": [
+        "Two paths showing exchange",
+        "Arrows indicating bidirectional trade",
+        "Resource symbols at endpoints"
+      ],
+      "symbolic_associations": [
+        "trader",
+        "merchant",
+        "exchanger",
+        "negotiator",
+        "broker"
+      ],
+      "usage_examples": [
+        "⟺ → trade_resources — exchange transaction",
+        "⟺ ∧ ⧌ — accountable trader"
+      ]
+    },
+    {
+      "id": "GLYPH_116",
+      "name": "TEACHER",
+      "category": "staccato_roles",
+      "pua_codepoint": "U+E0A5",
+      "unicode_display": "⟻",
+      "semantic_vector": "⟨ROLE:TEACHER | FUNCTION:TRAIN | ACTION:TRANSFER_KNOWLEDGE⟩",
+      "description": "Teacher/trainer, knowledge transfer, skill development",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E0A5_TEACHER.svg",
+      "psh256_canonical": "e0a5teacher0000000000000000000000",
+      "design_notes": [
+        "Book symbol for knowledge",
+        "Spine line dividing pages",
+        "Text lines on pages"
+      ],
+      "symbolic_associations": [
+        "teacher",
+        "trainer",
+        "instructor",
+        "educator",
+        "mentor"
+      ],
+      "usage_examples": [
+        "⟻ → train_agent — knowledge transfer",
+        "⟻ → ⟼ — teacher to learner relationship"
+      ]
+    },
+    {
+      "id": "GLYPH_117",
+      "name": "LEARNER",
+      "category": "staccato_roles",
+      "pua_codepoint": "U+E0A6",
+      "unicode_display": "⟼",
+      "semantic_vector": "⟨ROLE:LEARNER | FUNCTION:ACQUIRE | MODE:TRAINING⟩",
+      "description": "Learner/student, skill acquisition, training mode",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E0A6_LEARNER.svg",
+      "psh256_canonical": "e0a6learner0000000000000000000000",
+      "design_notes": [
+        "Head circle representing student",
+        "Graduation cap with flat top",
+        "Tassel showing achievement pursuit"
+      ],
+      "symbolic_associations": [
+        "learner",
+        "student",
+        "trainee",
+        "apprentice",
+        "pupil"
+      ],
+      "usage_examples": [
+        "⟼ → learning_mode — skill acquisition",
+        "⟻ → ⟼ — teacher training learner"
+      ]
+    },
+    {
+      "id": "GLYPH_118",
+      "name": "VOLUNTEER",
+      "category": "staccato_roles",
+      "pua_codepoint": "U+E0A7",
+      "unicode_display": "⟽",
+      "semantic_vector": "⟨ROLE:VOLUNTEER | PARTICIPATION:OPTIONAL | SELECTION:SELF⟩",
+      "description": "Volunteer, optional participation, self-selected role",
+      "canvas_size": 512,
+      "stroke_width_px": 12,
+      "file": "E0A7_VOLUNTEER.svg",
+      "psh256_canonical": "e0a7volunteer0000000000000000000",
+      "design_notes": [
+        "Raised hand symbol",
+        "Four fingers extended upward",
+        "Question mark indicating optional"
+      ],
+      "symbolic_associations": [
+        "volunteer",
+        "optional",
+        "self-selected",
+        "willing participant",
+        "elective"
+      ],
+      "usage_examples": [
+        "⟽ → call_for_volunteers — optional participation",
+        "⟽ ∧ ⧈ — autonomous volunteer"
+      ]
+    },
 }
