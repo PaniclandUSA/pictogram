@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0C8 EQUALITY — Identical Initial Weights</title>
+  <desc>Multiple agents at same level. All begin with identical possibility weight - no hierarchy at origin.</desc>
+  
+  <!-- Baseline (equality line) -->
+  <line x1="80" y1="256" x2="432" y2="256" 
+        stroke="#008B8B" 
+        stroke-width="14"/>
+  
+  <!-- Five agents at equal height (no hierarchy) -->
+  <circle cx="120" cy="256" r="30" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="10"/>
+  <circle cx="200" cy="256" r="30" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="10"/>
+  <circle cx="256" cy="256" r="30" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="10"/>
+  <circle cx="312" cy="256" r="30" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="10"/>
+  <circle cx="392" cy="256" r="30" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="10"/>
+  
+  <!-- Equals sign (mathematical equality) -->
+  <line x1="180" y1="140" x2="332" y2="140" 
+        stroke="#008B8B" 
+        stroke-width="16" 
+        stroke-linecap="round"/>
+  <line x1="180" y1="180" x2="332" y2="180" 
+        stroke="#008B8B" 
+        stroke-width="16" 
+        stroke-linecap="round"/>
+  
+  <!-- Weight indicators (all equal) -->
+  <line x1="120" y1="286" x2="120" y2="320" 
+        stroke="#008B8B" 
+        stroke-width="4"/>
+  <line x1="200" y1="286" x2="200" y2="320" 
+        stroke="#008B8B" 
+        stroke-width="4"/>
+  <line x1="256" y1="286" x2="256" y2="320" 
+        stroke="#008B8B" 
+        stroke-width="4"/>
+  <line x1="312" y1="286" x2="312" y2="320" 
+        stroke="#008B8B" 
+        stroke-width="4"/>
+  <line x1="392" y1="286" x2="392" y2="320" 
+        stroke="#008B8B" 
+        stroke-width="4"/>
+  
+  <!-- Ground line (all standing on same foundation) -->
+  <line x1="80" y1="320" x2="432" y2="320" 
+        stroke="#000000" 
+        stroke-width="8"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">EQUALITY (E0C8)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Identical initial weights. All agents begin at same level with equal possibility weight.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
