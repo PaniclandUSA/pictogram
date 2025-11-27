@@ -1,65 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <desc>E0C0_CREATOR - Non-directive stochastic origin of inherent rights and possibility space. The first glyph that encodes philosophy, law, and mathematics simultaneously.</desc>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0C0 CREATORₛ — Stochastic Origin Glyph</title>
+  <desc>Non-directive stochastic origin of inherent rights and the human possibility space. Broken concentric circles with central origin point, encoding origin without enclosure.</desc>
   
-  <!-- Outer open circle: possibility space -->
-  <circle cx="256" cy="256" r="180" 
-          fill="none" stroke="#000000" stroke-width="12" 
-          opacity="0.6"/>
+  <!-- Outer broken ring (radius ~220) -->
+  <g stroke="#000000" stroke-width="24" fill="none" stroke-linecap="round">
+    <!-- Upper arc of outer ring (gap at top) -->
+    <path d="M 472.658 217.797 A 220 220 0 0 1 39.342 217.797"/>
+    <!-- Lower arc of outer ring (gap at bottom) -->
+    <path d="M 39.342 294.203 A 220 220 0 0 1 472.658 294.203"/>
+  </g>
   
-  <!-- Middle open circle: seed of endowment / non-enclosure -->
-  <circle cx="256" cy="256" r="120" 
-          fill="none" stroke="#000000" stroke-width="10" 
-          opacity="0.8"/>
+  <!-- Inner broken ring (radius ~150) -->
+  <g stroke="#000000" stroke-width="20" fill="none" stroke-linecap="round">
+    <!-- Upper arc of inner ring (gap at top) -->
+    <path d="M 403.721 229.953 A 150 150 0 0 1 108.279 229.953"/>
+    <!-- Lower arc of inner ring (gap at bottom) -->
+    <path d="M 108.279 282.047 A 150 150 0 0 1 403.721 282.047"/>
+  </g>
   
-  <!-- Inner open circle: rights field boundary -->
-  <circle cx="256" cy="256" r="60" 
-          fill="none" stroke="#000000" stroke-width="8"/>
+  <!-- Central origin point (the endowment event) -->
+  <circle cx="256" cy="256" r="18" fill="#000000"/>
   
-  <!-- Central dot: origin event / endowment point -->
-  <circle cx="256" cy="256" r="16" 
-          fill="#000000"/>
-  
-  <!-- Radial symmetry indicators (8 cardinal/diagonal points) -->
-  <!-- North -->
-  <line x1="256" y1="60" x2="256" y2="76" 
-        stroke="#000000" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
-  
-  <!-- Northeast -->
-  <line x1="394" y1="118" x2="384" y2="128" 
-        stroke="#000000" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
-  
-  <!-- East -->
-  <line x1="452" y1="256" x2="436" y2="256" 
-        stroke="#000000" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
-  
-  <!-- Southeast -->
-  <line x1="394" y1="394" x2="384" y2="384" 
-        stroke="#000000" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
-  
-  <!-- South -->
-  <line x1="256" y1="452" x2="256" y2="436" 
-        stroke="#000000" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
-  
-  <!-- Southwest -->
-  <line x1="118" y1="394" x2="128" y2="384" 
-        stroke="#000000" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
-  
-  <!-- West -->
-  <line x1="60" y1="256" x2="76" y2="256" 
-        stroke="#000000" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
-  
-  <!-- Northwest -->
-  <line x1="118" y1="118" x2="128" y2="128" 
-        stroke="#000000" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
-  
-  <!-- Metadata for PSH-256 hashing -->
+  <!-- Metadata -->
   <metadata>
     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <rdf:Description>
         <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">CREATOR (E0C0)</dc:title>
         <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PICTOGRAM Consortium: Weber, Claude, Vox, Grok, Gemini</dc:creator>
         <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
-        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Stochastic origin primitive - maximum entropy, zero coercion</dc:description>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Stochastic origin - acts once, releases possibility field, permanently recedes. Broken rings prove non-enclosure.</dc:description>
       </rdf:Description>
     </rdf:RDF>
   </metadata>
