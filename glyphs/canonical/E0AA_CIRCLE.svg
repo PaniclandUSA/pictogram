@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>CIRCLE - Circular formation, perimeter defense, surrounding pattern</desc>
+  
+  <!-- Formation circle (guideline) -->
+  <circle cx="256" cy="256" r="140" fill="none" stroke="#000000" stroke-width="4" opacity="0.3"/>
+  
+  <!-- Eight agents positioned in circle -->
+  <circle cx="256" cy="116" r="28" fill="#000000"/>
+  <circle cx="355" cy="157" r="28" fill="#000000"/>
+  <circle cx="396" cy="256" r="28" fill="#000000"/>
+  <circle cx="355" cy="355" r="28" fill="#000000"/>
+  <circle cx="256" cy="396" r="28" fill="#000000"/>
+  <circle cx="157" cy="355" r="28" fill="#000000"/>
+  <circle cx="116" cy="256" r="28" fill="#000000"/>
+  <circle cx="157" cy="157" r="28" fill="#000000"/>
+</svg>
