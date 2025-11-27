@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>ERROR - General error condition, fault detected, problem state</desc>
+  
+  <!-- Octagon (stop sign shape) -->
+  <path d="M 180 120 L 332 120 L 392 180 L 392 332 L 332 392 L 180 392 L 120 332 L 120 180 Z" 
+        fill="none" stroke="#8B0000" stroke-width="14"/>
+  
+  <!-- Large X in center -->
+  <line x1="190" y1="190" x2="322" y2="322" stroke="#8B0000" stroke-width="16" stroke-linecap="round"/>
+  <line x1="322" y1="190" x2="190" y2="322" stroke="#8B0000" stroke-width="16" stroke-linecap="round"/>
+</svg>
