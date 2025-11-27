@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0CF NECESSITY — Only One Possible Branch</title>
+  <desc>Single locked path forward. Constrained future where only one outcome is possible.</desc>
+  
+  <!-- Present moment (now) -->
+  <circle cx="150" cy="256" r="30" 
+          fill="#000000"/>
+  <text x="150" y="266" 
+        font-family="monospace" 
+        font-size="24" 
+        font-weight="bold" 
+        fill="#FFFFFF" 
+        text-anchor="middle">t</text>
+  
+  <!-- Only path forward (necessity) -->
+  <line x1="180" y1="256" x2="360" y2="256" 
+        stroke="#008B8B" 
+        stroke-width="14"/>
+  
+  <!-- Blocked alternative paths (crossed out) -->
+  <path d="M 220 200 L 300 180" 
+        stroke="#000000" 
+        stroke-width="6" 
+        opacity="0.3" 
+        stroke-dasharray="8,6"/>
+  <line x1="210" y1="190" x2="290" y2="170" 
+        stroke="#8B0000" 
+        stroke-width="8"/>
+  
+  <path d="M 220 312 L 300 332" 
+        stroke="#000000" 
+        stroke-width="6" 
+        opacity="0.3" 
+        stroke-dasharray="8,6"/>
+  <line x1="210" y1="322" x2="290" y2="342" 
+        stroke="#8B0000" 
+        stroke-width="8"/>
+  
+  <!-- Necessary outcome (only option) -->
+  <circle cx="360" cy="256" r="30" 
+          fill="#008B8B" 
+          opacity="0.3" 
+          stroke="#008B8B" 
+          stroke-width="10"/>
+  
+  <!-- Box symbol (necessity in modal logic) -->
+  <rect x="222" y="390" width="68" height="68" 
+        fill="none" 
+        stroke="#008B8B" 
+        stroke-width="12"/>
+  
+  <!-- Constraint indicators (forced path) -->
+  <line x1="180" y1="236" x2="360" y2="236" 
+        stroke="#000000" 
+        stroke-width="4" 
+        opacity="0.3"/>
+  <line x1="180" y1="276" x2="360" y2="276" 
+        stroke="#000000" 
+        stroke-width="4" 
+        opacity="0.3"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">NECESSITY (E0CF)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Only one possible branch. Single locked path showing constrained future with no alternatives.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
