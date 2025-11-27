@@ -5,25 +5,42 @@
      width="512" height="512" viewBox="0 0 512 512">
 
   <title>E0DC FEAR — Negative Expected Value</title>
-  <desc>Storm cloud with lightning and downward trend arrow indicating negative expected value.</desc>
+  <desc>Canonical FEAR glyph: compressive closure of possibility-space with single breach.</desc>
 
-  <circle cx="256" cy="256" r="180" stroke="#000" stroke-width="28" fill="none"/>
-<path d="M256,76 L256,36 M256,436 L256,476
-         M76,256 L36,256 M436,256 L476,256
-         M256,76 L256,36 M156,356 L116,396 M356,156 L396,116" 
-      stroke="#000" stroke-width="32"/>
-<path d="M256,256 m -140,0 a 140,140 0 1,0 280,0 a 140,140 0 1,0 -280,0" 
-      fill="none" stroke="#000" stroke-width="24"/>
-<path d="M396,256 L436,256" stroke="#c00" stroke-width="36"/> <!-- red breach -->
+  <!-- Outer containment circle -->
+  <circle cx="256" cy="256" r="180"
+          stroke="#000" stroke-width="28" fill="none"/>
+
+  <!-- Radiating compression lines (split for valid rendering) -->
+  <path d="M256 76 L256 36" stroke="#000" stroke-width="32"/>
+  <path d="M256 436 L256 476" stroke="#000" stroke-width="32"/>
+  <path d="M76 256 L36 256" stroke="#000" stroke-width="32"/>
+  <path d="M436 256 L476 256" stroke="#000" stroke-width="32"/>
+  <path d="M156 356 L116 396" stroke="#000" stroke-width="32"/>
+  <path d="M356 156 L396 116" stroke="#000" stroke-width="32"/>
+
+  <!-- Inner boundary circle -->
+  <path d="M256 256
+           m -140 0
+           a 140 140 0 1 0 280 0
+           a 140 140 0 1 0 -280 0"
+        fill="none" stroke="#000" stroke-width="24"/>
+
+  <!-- Breach (feared outcome piercing the boundary) -->
+  <line x1="396" y1="256" x2="436" y2="256"
+        stroke="#c00" stroke-width="36"/>
+
   <metadata>
     <rdf:RDF>
       <rdf:Description>
         <dc:title>FEAR (E0DC)</dc:title>
-        <dc:description>Canonical glyph for anticipatory negative expectation. 
-        Represents compressive closure of possibility-space with a single 
-        feared outcome breaching containment. Triggers protective 
-        protocols, tempo reduction, contingency buffering, and 
-        empathy-injection in compliant swarm implementations.</dc:description>
+        <dc:description>
+        Canonical glyph for anticipatory negative expectation. Represents
+        compressive closure of the possibility-space with a single feared
+        outcome breaching containment. Triggers protective protocols, tempo
+        reduction, contingency buffering, and empathy-injection in compliant
+        swarm implementations.
+        </dc:description>
         <dc:date>2025-11-27</dc:date>
       </rdf:Description>
     </rdf:RDF>
