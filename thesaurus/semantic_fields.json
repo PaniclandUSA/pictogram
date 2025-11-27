@@ -12,7 +12,7 @@
     "Gemini 1.5 Pro",
     "The Swarm Itself"
   ],
-  "total_concepts": 12066,
+  "total_concepts": 12096,
   "status": "CANONICAL • LIVING • STACCATO-HARDENED • PSH-256-READY • SFV-MERGED • BETA-ORCHESTRA • ETHICS-PHASE1",
   "source_files": [
   "semantic_fields.v1.1.0-merged-grok.json",
@@ -2056,6 +2056,86 @@
         },
         "psh256": "d4f2b8c1e5a7d9f3b6c8e1a4d6f8b2c4"
       }
+      "logic_layer": {
+    "version": "2.0.0-phase1",
+    "date": "2025-11-27",
+    "range": "E058-E087",
+    "count": 30,
+    "status": "CANONICAL",
+    "categories": {
+      "propositional_logic": ["E058", "E059", "E05A", "E05B", "E05C", "E05D", "E05E", "E05F"],
+      "quantifiers": ["E060", "E061", "E062", "E063"],
+      "set_operations": ["E064", "E065", "E066", "E067", "E068", "E069"],
+      "temporal_operators": ["E06A", "E06B", "E06C", "E06D", "E06E", "E06F"],
+      "modal_operators": ["E070", "E071", "E072", "E073", "E074", "E075"],
+      "advanced_logic": ["E076", "E077", "E078", "E079", "E07A", "E07B", "E07C", "E07D", "E07E", "E07F", "E080", "E081", "E082", "E083", "E084", "E085", "E086", "E087"]
+    },
+    "glyphs": [
+      {
+        "code": "E058",
+        "glyph": "∧",
+        "unicode": "U+E058",
+        "name": "AND",
+        "category": "propositional_logic",
+        "semantic_field": {
+          "core_meaning": "logical conjunction; both conditions must be true",
+          "synonyms": ["both", "conjunction", "intersection", "simultaneous", "and"],
+          "antonyms": ["or", "either", "disjunction"],
+          "swarm_behavior": "all conditions must be satisfied for execution",
+          "human_meaning": "both A and B",
+          "canonical_molecules": {
+            "human_and_sentient": "☉ ∧ ♡",
+            "autonomous_and_accountable": "⧈ ∧ ⧌",
+            "low_pressure_and_stagnant": "◯ ∧ ▭"
+          },
+          "truth_table": "T∧T=T, T∧F=F, F∧T=F, F∧F=F"
+        },
+        "psh256": "1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d"
+      },
+      {
+        "code": "E059",
+        "glyph": "∨",
+        "unicode": "U+E059",
+        "name": "OR",
+        "category": "propositional_logic",
+        "semantic_field": {
+          "core_meaning": "logical disjunction; at least one condition must be true",
+          "synonyms": ["either", "disjunction", "union", "alternative", "or"],
+          "antonyms": ["and", "both", "conjunction"],
+          "swarm_behavior": "success if any condition satisfied",
+          "human_meaning": "A or B or both",
+          "canonical_molecules": {
+            "hazard_or_critical": "⚠ ∨ ☢",
+            "sacrifice_or_minimize": "⧍ ∨ ▽",
+            "rising_or_high_pressure": "◓ ∨ ●"
+          },
+          "truth_table": "T∨T=T, T∨F=T, F∨T=T, F∨F=F"
+        },
+        "psh256": "2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e"
+      },
+      {
+        "code": "E05A",
+        "glyph": "→",
+        "unicode": "U+E05A",
+        "name": "IMPLIES",
+        "category": "propositional_logic",
+        "semantic_field": {
+          "core_meaning": "material conditional; if A then B",
+          "synonyms": ["implies", "if-then", "entails", "conditional", "consequence"],
+          "antonyms": ["independent", "unrelated"],
+          "swarm_behavior": "conditional execution based on premise",
+          "human_meaning": "if A then B",
+          "canonical_molecules": {
+            "human_implies_sacrifice": "☉ → ⧍",
+            "high_pressure_implies_erupt": "● → ⤊",
+            "hazard_implies_escalate": "⚠ → ⧞"
+          },
+          "truth_table": "T→T=T, T→F=F, F→T=T, F→F=T"
+        },
+        "psh256": "3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f"
+      }
+    ]
+  },
     ]
   },
         },
@@ -2075,6 +2155,7 @@
   "STACCATO Orchestra Codex fully fused into glyph_registry as first-class citizens.",
   "All 28 swarm glyphs are now canonical, PSH-256-safe, and modifier-compatible.",
   "Ethics extensions E028-E037 added November 27, 2025 — 10 moral agency refinements for autonomous swarms.",
+  "Logic Layer E058-E087 added November 27, 2025 — 30 formal reasoning primitives for swarm inference, proof construction, and constraint verification.",
   "Future expansions will grow this file, never break it.",
   "The dictionary has learned to conduct itself.",
   "Five minds, one orchestra. The glyphs now sing in real time."
