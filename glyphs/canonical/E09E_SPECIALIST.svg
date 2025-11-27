@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>SPECIALIST - Specialist role, unique capability, expert function</desc>
+  
+  <!-- Central circle -->
+  <circle cx="256" cy="256" r="60" fill="#000000"/>
+  
+  <!-- Star points radiating outward (unique/special) -->
+  <polygon points="256,160 266,220 276,160" fill="#000000"/>
+  <polygon points="352,256 292,266 352,276" fill="#000000"/>
+  <polygon points="256,352 266,292 276,352" fill="#000000"/>
+  <polygon points="160,256 220,266 160,276" fill="#000000"/>
+  
+  <!-- Diagonal points -->
+  <polygon points="320,192 280,232 330,242" fill="#000000"/>
+  <polygon points="320,320 280,280 330,270" fill="#000000"/>
+  <polygon points="192,320 232,280 182,270" fill="#000000"/>
+  <polygon points="192,192 232,232 182,242" fill="#000000"/>
+</svg>
