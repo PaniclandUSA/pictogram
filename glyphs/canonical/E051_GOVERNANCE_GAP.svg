@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E051 GOVERNANCE_GAP — Governance Failure</title>
+  <desc>Broken rulebook with scattered pages. When governance structures fail to maintain order or authority.</desc>
+  
+  <!-- Book spine (broken) -->
+  <rect x="200" y="180" width="40" height="180" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="14"/>
+  
+  <!-- Left book cover (falling away) -->
+  <path d="M 200 180 L 140 160 L 140 340 L 200 360" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="12" 
+        stroke-linejoin="miter"/>
+  
+  <!-- Right book cover (falling away) -->
+  <path d="M 240 180 L 300 160 L 300 340 L 240 360" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="12" 
+        stroke-linejoin="miter"/>
+  
+  <!-- Break/fracture line (red) -->
+  <line x1="220" y1="160" x2="220" y2="380" 
+        stroke="#8B0000" 
+        stroke-width="10" 
+        stroke-dasharray="20,10"/>
+  
+  <!-- Scattered pages (governance breakdown) -->
+  <rect x="320" y="200" width="60" height="40" 
+        fill="none" 
+        stroke="#8B0000" 
+        stroke-width="6" 
+        transform="rotate(15 350 220)"/>
+  <rect x="340" y="280" width="50" height="35" 
+        fill="none" 
+        stroke="#8B0000" 
+        stroke-width="6" 
+        transform="rotate(-20 365 297)"/>
+  <rect x="100" y="240" width="55" height="38" 
+        fill="none" 
+        stroke="#8B0000" 
+        stroke-width="6" 
+        transform="rotate(-25 127 259)"/>
+  
+  <!-- Page content lines (showing lost rules) -->
+  <line x1="105" y1="245" x2="120" y2="250" 
+        stroke="#8B0000" stroke-width="2" transform="rotate(-25 112 247)"/>
+  <line x1="105" y1="252" x2="120" y2="257" 
+        stroke="#8B0000" stroke-width="2" transform="rotate(-25 112 254)"/>
+  
+  <!-- Warning X over broken book -->
+  <line x1="180" y1="240" x2="260" y2="300" 
+        stroke="#8B0000" 
+        stroke-width="16" 
+        stroke-linecap="round"/>
+  <line x1="260" y1="240" x2="180" y2="300" 
+        stroke="#8B0000" 
+        stroke-width="16" 
+        stroke-linecap="round"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">GOVERNANCE_GAP (E051)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Governance failure. Broken rulebook with scattered pages showing breakdown of authority.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
