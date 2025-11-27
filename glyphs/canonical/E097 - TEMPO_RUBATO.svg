@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>TEMPO_RUBATO - Flexible timing, expressive tempo variation</desc>
+  
+  <!-- Wavy flowing line suggesting flexibility -->
+  <path d="M 100 256 Q 150 180, 200 256 T 300 256 T 412 256" 
+        fill="none" stroke="#000000" stroke-width="14" stroke-linecap="round"/>
+  
+  <!-- Small accent marks above and below -->
+  <circle cx="200" cy="200" r="8" fill="#000000"/>
+  <circle cx="300" cy="312" r="8" fill="#000000"/>
+  <circle cx="380" cy="220" r="8" fill="#000000"/>
+</svg>
