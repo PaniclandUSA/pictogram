@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0C3 CONFIDENCE — Strength of Belief</title>
+  <desc>Narrow vs wide distribution. Tight peak = high confidence, wide spread = low confidence.</desc>
+  
+  <!-- Low confidence (wide distribution) - background -->
+  <path d="M 100 350 
+           Q 256 150 412 350" 
+        fill="none" 
+        stroke="#008B8B" 
+        stroke-width="8" 
+        stroke-dasharray="12,8" 
+        opacity="0.4"/>
+  
+  <!-- High confidence (narrow distribution) - foreground -->
+  <path d="M 200 350 
+           Q 256 120 312 350" 
+        fill="none" 
+        stroke="#008B8B" 
+        stroke-width="14"/>
+  
+  <!-- Baseline (x-axis) -->
+  <line x1="80" y1="350" x2="432" y2="350" 
+        stroke="#000000" 
+        stroke-width="10"/>
+  
+  <!-- Peak indicator (mode) -->
+  <circle cx="256" cy="120" r="10" fill="#008B8B"/>
+  <line x1="256" y1="130" x2="256" y2="350" 
+        stroke="#008B8B" 
+        stroke-width="6" 
+        stroke-dasharray="10,6"/>
+  
+  <!-- Width indicators -->
+  <line x1="200" y1="380" x2="312" y2="380" 
+        stroke="#000000" 
+        stroke-width="6" 
+        stroke-linecap="round"/>
+  <polygon points="200,380 210,375 210,385" fill="#000000"/>
+  <polygon points="312,380 302,375 302,385" fill="#000000"/>
+  
+  <!-- Label -->
+  <text x="256" y="420" 
+        font-family="monospace" 
+        font-size="32" 
+        fill="#008B8B" 
+        text-anchor="middle">σ</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">CONFIDENCE (E0C3)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Strength of belief. Narrow distribution = high confidence, wide = low confidence.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
