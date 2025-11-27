@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0D0 CONTINGENCY — Outcome Depends on Unknown</title>
+  <desc>Branch point with external dependency arrow. Outcome hinges on unknown external factor.</desc>
+  
+  <!-- Present state -->
+  <circle cx="150" cy="256" r="28" 
+          fill="#000000"/>
+  
+  <!-- Path to contingency point -->
+  <line x1="178" y1="256" x2="230" y2="256" 
+        stroke="#000000" 
+        stroke-width="10"/>
+  
+  <!-- Contingency decision node (depends on unknown) -->
+  <circle cx="256" cy="256" r="35" 
+          fill="none" 
+          stroke="#008B8B" 
+          stroke-width="12"/>
+  <text x="256" y="266" 
+        font-family="serif" 
+        font-size="40" 
+        font-weight="bold" 
+        fill="#008B8B" 
+        text-anchor="middle">?</text>
+  
+  <!-- Unknown external factor (from outside) -->
+  <circle cx="256" cy="120" r="30" 
+          fill="none" 
+          stroke="#008B8B" 
+          stroke-width="10" 
+          stroke-dasharray="12,8"/>
+  <text x="256" y="132" 
+        font-family="monospace" 
+        font-size="28" 
+        fill="#008B8B" 
+        text-anchor="middle">X</text>
+  
+  <!-- Dependency arrow (external influence) -->
+  <path d="M 256 150 L 256 221" 
+        stroke="#008B8B" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  <polygon points="256,221 251,211 261,211" fill="#008B8B"/>
+  
+  <!-- Conditional outcomes (if X then...) -->
+  <!-- Outcome A (if X = true) -->
+  <path d="M 291 256 Q 340 220 380 200" 
+        stroke="#008B8B" 
+        stroke-width="8" 
+        stroke-dasharray="10,6"/>
+  <circle cx="380" cy="200" r="16" 
+          fill="none" 
+          stroke="#008B8B" 
+          stroke-width="6"/>
+  <text x="400" y="205" 
+        font-family="sans-serif" 
+        font-size="20" 
+        fill="#008B8B">if X</text>
+  
+  <!-- Outcome B (if X = false) -->
+  <path d="M 291 256 Q 340 292 380 312" 
+        stroke="#008B8B" 
+        stroke-width="8" 
+        stroke-dasharray="10,6"/>
+  <circle cx="380" cy="312" r="16" 
+          fill="none" 
+          stroke="#008B8B" 
+          stroke-width="6"/>
+  <text x="400" y="318" 
+        font-family="sans-serif" 
+        font-size="20" 
+        fill="#008B8B">if ¬X</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">CONTINGENCY (E0D0)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Outcome depends on unknown. Branch point with external dependency showing conditional futures.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
