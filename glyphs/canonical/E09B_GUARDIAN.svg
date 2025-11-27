@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>GUARDIAN - Guardian/defender, protective stance, perimeter security</desc>
+  
+  <!-- Shield shape -->
+  <path d="M 256 120 L 360 180 L 360 300 Q 360 380, 256 420 Q 152 380, 152 300 L 152 180 Z" 
+        fill="none" stroke="#000000" stroke-width="14"/>
+  
+  <!-- Cross in center (protection symbol) -->
+  <line x1="256" y1="200" x2="256" y2="340" stroke="#000000" stroke-width="12"/>
+  <line x1="196" y1="270" x2="316" y2="270" stroke="#000000" stroke-width="12"/>
+</svg>
