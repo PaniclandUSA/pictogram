@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>RECOVER - Recovery operation, restore state, error correction</desc>
+  
+  <!-- Broken circle being repaired -->
+  <path d="M 380 256 A 124 124 0 1 0 256 132" 
+        fill="none" stroke="#000000" stroke-width="12" stroke-dasharray="15,10"/>
+  <path d="M 256 132 A 124 124 0 0 0 132 256" 
+        fill="none" stroke="#00753A" stroke-width="14"/>
+  
+  <!-- Repair tool (wrench) -->
+  <rect x="350" y="200" width="20" height="80" rx="4" fill="#00753A" transform="rotate(-30 360 240)"/>
+  <circle cx="360" cy="185" r="18" fill="none" stroke="#00753A" stroke-width="6"/>
+  
+  <!-- Arrow showing recovery direction -->
+  <polygon points="132,256 150,240 150,272" fill="#00753A"/>
+</svg>
