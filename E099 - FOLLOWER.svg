@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>FOLLOWER - Follower agent, receives commands, executes tasks</desc>
+  
+  <!-- Medium filled circle -->
+  <circle cx="256" cy="280" r="70" fill="#000000"/>
+  
+  <!-- Small hollow circle above (showing reception) -->
+  <circle cx="256" cy="160" r="35" fill="none" stroke="#000000" stroke-width="10"/>
+  
+  <!-- Connecting line (chain of command) -->
+  <line x1="256" y1="195" x2="256" y2="210" stroke="#000000" stroke-width="8"/>
+</svg>
