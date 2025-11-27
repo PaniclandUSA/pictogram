@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>TEMPO_RITARDANDO - Gradual speed decrease, tempo ramp down</desc>
+  
+  <!-- Contracting wedge shape pointing right -->
+  <path d="M 100 180 L 100 332 L 380 256 Z" 
+        fill="none" stroke="#000000" stroke-width="12" stroke-linejoin="miter"/>
+  
+  <!-- Arrow head at right (narrower) -->
+  <polygon points="380,236 420,256 380,276" fill="#000000"/>
+</svg>
