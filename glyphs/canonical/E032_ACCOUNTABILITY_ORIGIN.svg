@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E032 ACCOUNTABILITY_ORIGIN — Where Responsibility Begins</title>
+  <desc>The source point of accountability. A central origin with radiating responsibility vectors showing where moral obligation first emerges.</desc>
+  
+  <!-- Central origin point (where accountability begins) -->
+  <circle cx="256" cy="256" r="28" fill="#8B0000"/>
+  
+  <!-- Four radiating responsibility vectors (cardinal directions) -->
+  <line x1="256" y1="256" x2="256" y2="120" stroke="#000000" stroke-width="14" stroke-linecap="round"/>
+  <line x1="256" y1="256" x2="392" y2="256" stroke="#000000" stroke-width="14" stroke-linecap="round"/>
+  <line x1="256" y1="256" x2="256" y2="392" stroke="#000000" stroke-width="14" stroke-linecap="round"/>
+  <line x1="256" y1="256" x2="120" y2="256" stroke="#000000" stroke-width="14" stroke-linecap="round"/>
+  
+  <!-- Endpoint circles showing distributed responsibility -->
+  <circle cx="256" cy="120" r="16" fill="none" stroke="#8B0000" stroke-width="8"/>
+  <circle cx="392" cy="256" r="16" fill="none" stroke="#8B0000" stroke-width="8"/>
+  <circle cx="256" cy="392" r="16" fill="none" stroke="#8B0000" stroke-width="8"/>
+  <circle cx="120" cy="256" r="16" fill="none" stroke="#8B0000" stroke-width="8"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">ACCOUNTABILITY_ORIGIN (E032)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Where responsibility begins. Source point with radiating vectors of moral obligation.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
