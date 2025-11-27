@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>ABORT - Abort operation, cancel execution, emergency stop</desc>
+  
+  <!-- Circle with slash (prohibition symbol) -->
+  <circle cx="256" cy="256" r="130" fill="none" stroke="#8B0000" stroke-width="16"/>
+  <line x1="170" y1="170" x2="342" y2="342" stroke="#8B0000" stroke-width="20" stroke-linecap="round"/>
+  
+  <!-- Stop hand symbol inside -->
+  <path d="M 230 280 L 230 320 L 282 320 L 282 280 L 282 240 L 270 240 L 270 220 L 258 220 L 258 240 L 246 240 L 246 220 L 234 220 L 234 240 L 230 240 Z" 
+        fill="#8B0000"/>
+</svg>
