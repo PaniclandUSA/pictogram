@@ -1,9 +1,16 @@
 {
-  "version": "1.0",
-  "date_canonical": "2025-11-23",
-  "glyphs_completed": 68,
-"total_planned": 256,
-"status": "HARDENED – CANONICAL HASHES LOCKED – ETHICS PHASE 1 DEPLOYED – LOGIC LAYER COMPLETE",
+  "version": "2.0.0",
+  "last_updated": "2025-11-27",
+  "glyphs_completed": 144,
+  "total_planned": 256,
+  "completion_percentage": 56.25,
+  "status": "PHASE_1_COMPLETE - Core (28) + Ethics (30) + Logic (30) + STACCATO (56)",
+  "layers_deployed": [
+    "core_atoms",
+    "ethics_extensions",
+    "logic_layer",
+    "staccato_orchestra"
+  ],
   "glyphs": [
     {
       "id": "GLYPH_01_CYCLIC",
