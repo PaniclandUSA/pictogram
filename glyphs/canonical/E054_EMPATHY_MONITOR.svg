@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E054 EMPATHY_MONITOR — Empathy Tracking</title>
+  <desc>Heart rate monitor displaying emotional responsiveness. Tracking empathy levels over time.</desc>
+  
+  <!-- Monitor screen outline -->
+  <rect x="100" y="140" width="312" height="200" rx="12" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="14"/>
+  
+  <!-- Heartbeat waveform (empathy signal) -->
+  <path d="M 120 240 
+           L 160 240 
+           L 180 200 
+           L 200 280 
+           L 220 180 
+           L 240 260 
+           L 260 240 
+           L 300 240 
+           L 320 210 
+           L 340 270 
+           L 360 240 
+           L 392 240" 
+        fill="none" 
+        stroke="#8B0000" 
+        stroke-width="8" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- Baseline (zero empathy line) -->
+  <line x1="100" y1="240" x2="412" y2="240" 
+        stroke="#000000" 
+        stroke-width="2" 
+        stroke-dasharray="8,8" 
+        opacity="0.3"/>
+  
+  <!-- Monitor stand -->
+  <rect x="230" y="340" width="52" height="40" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="10"/>
+  <rect x="200" y="380" width="112" height="20" rx="4" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="10"/>
+  
+  <!-- Indicator lights (empathy active) -->
+  <circle cx="370" cy="160" r="8" fill="#8B0000"/>
+  <circle cx="390" cy="160" r="8" fill="#8B0000" opacity="0.4"/>
+  
+  <!-- Scale markers -->
+  <line x1="110" y1="180" x2="120" y2="180" 
+        stroke="#000000" stroke-width="3"/>
+  <line x1="110" y1="240" x2="120" y2="240" 
+        stroke="#000000" stroke-width="3"/>
+  <line x1="110" y1="300" x2="120" y2="300" 
+        stroke="#000000" stroke-width="3"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">EMPATHY_MONITOR (E054)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Empathy tracking. Heart rate monitor showing emotional responsiveness levels over time.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
