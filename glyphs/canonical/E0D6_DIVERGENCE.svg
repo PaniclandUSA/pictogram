@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0D6 DIVERGENCE — Minds Splitting</title>
+  <desc>Single belief splitting into multiple paths. The moment understanding forks and minds separate.</desc>
+  
+  <!-- Shared starting point (initial agreement) -->
+  <circle cx="150" cy="256" r="40" 
+          fill="#008B8B" 
+          opacity="0.3" 
+          stroke="#008B8B" 
+          stroke-width="12"/>
+  <text x="150" y="266" 
+        font-family="monospace" 
+        font-size="24" 
+        font-weight="bold" 
+        fill="#008B8B" 
+        text-anchor="middle">◎</text>
+  
+  <!-- Common path before split -->
+  <line x1="190" y1="256" x2="230" y2="256" 
+        stroke="#000000" 
+        stroke-width="12"/>
+  
+  <!-- Divergence point (fork moment) -->
+  <circle cx="230" cy="256" r="18" fill="#8B0000"/>
+  
+  <!-- Upper diverging path (belief A) -->
+  <path d="M 230 256 Q 300 180 380 140" 
+        stroke="#008B8B" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  <polygon points="380,140 370,147 375,157" fill="#008B8B"/>
+  <circle cx="400" cy="130" r="30" 
+          fill="none" 
+          stroke="#008B8B" 
+          stroke-width="10"/>
+  <text x="400" y="140" 
+        font-family="monospace" 
+        font-size="24" 
+        fill="#008B8B" 
+        text-anchor="middle">A</text>
+  
+  <!-- Lower diverging path (belief B) -->
+  <path d="M 230 256 Q 300 332 380 372" 
+        stroke="#008B8B" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  <polygon points="380,372 370,365 375,355" fill="#008B8B"/>
+  <circle cx="400" cy="382" r="30" 
+          fill="none" 
+          stroke="#008B8B" 
+          stroke-width="10"/>
+  <text x="400" y="392" 
+        font-family="monospace" 
+        font-size="24" 
+        fill="#008B8B" 
+        text-anchor="middle">B</text>
+  
+  <!-- Separation distance indicator -->
+  <line x1="400" y1="160" x2="400" y2="352" 
+        stroke="#8B0000" 
+        stroke-width="6" 
+        stroke-dasharray="10,8" 
+        opacity="0.5"/>
+  <polygon points="400,160 395,170 405,170" fill="#8B0000" opacity="0.5"/>
+  <polygon points="400,352 395,342 405,342" fill="#8B0000" opacity="0.5"/>
+  
+  <!-- Delta symbol (change/divergence) -->
+  <path d="M 256 400 L 280 450 L 232 450 Z" 
+        fill="none" 
+        stroke="#8B0000" 
+        stroke-width="12"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">DIVERGENCE (E0D6)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Minds splitting. Single belief forking into multiple paths at moment of disagreement.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
