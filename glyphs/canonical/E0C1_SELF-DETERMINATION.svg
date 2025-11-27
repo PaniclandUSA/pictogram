@@ -2,7 +2,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
   <title>E0C1 SELF-DETERMINATION — Canonical Stochastic Agency</title>
   <desc>Autonomous trajectory within the possibility space. Central agent dot with outward arrow: choice enacted, direction free, no predestination.</desc>
-  
+  <pictogram:symmetry pictogram:type="D4" pictogram:rotatable="true"/>
+
   <!-- The agent origin — inheriting E0C0's endowment -->
   <circle cx="206" cy="256" r="32" fill="#000000"/>
   
