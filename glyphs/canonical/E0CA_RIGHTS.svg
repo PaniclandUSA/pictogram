@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0CA RIGHTS — Inalienable Vectors</title>
+  <desc>Arrows emanating from E0C0 Creator origin. Inalienable possibility vectors endowed by stochastic origin.</desc>
+  
+  <!-- Creator origin (E0C0 reference) -->
+  <circle cx="256" cy="256" r="40" 
+          fill="none" 
+          stroke="#008B8B" 
+          stroke-width="10"/>
+  <circle cx="256" cy="256" r="16" fill="#008B8B"/>
+  
+  <!-- Rights vectors (emanating in all directions) -->
+  <!-- North -->
+  <path d="M 256 256 L 256 120" 
+        stroke="#008B8B" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  <polygon points="256,120 246,140 266,140" fill="#008B8B"/>
+  
+  <!-- Northeast -->
+  <path d="M 256 256 L 360 152" 
+        stroke="#008B8B" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  <polygon points="360,152 350,162 370,162" fill="#008B8B" transform="rotate(-45 360 152)"/>
+  
+  <!-- East -->
+  <path d="M 256 256 L 392 256" 
+        stroke="#008B8B" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  <polygon points="392,256 372,246 372,266" fill="#008B8B"/>
+  
+  <!-- Southeast -->
+  <path d="M 256 256 L 360 360" 
+        stroke="#008B8B" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  <polygon points="360,360 350,350 370,350" fill="#008B8B" transform="rotate(45 360 360)"/>
+  
+  <!-- South -->
+  <path d="M 256 256 L 256 392" 
+        stroke="#008B8B" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  <polygon points="256,392 246,372 266,372" fill="#008B8B"/>
+  
+  <!-- Southwest -->
+  <path d="M 256 256 L 152 360" 
+        stroke="#008B8B" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  <polygon points="152,360 142,350 162,350" fill="#008B8B" transform="rotate(135 152 360)"/>
+  
+  <!-- West -->
+  <path d="M 256 256 L 120 256" 
+        stroke="#008B8B" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  <polygon points="120,256 140,246 140,266" fill="#008B8B"/>
+  
+  <!-- Northwest -->
+  <path d="M 256 256 L 152 152" 
+        stroke="#008B8B" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  <polygon points="152,152 142,162 162,162" fill="#008B8B" transform="rotate(-135 152 152)"/>
+  
+  <!-- "Inalienable" shield around origin -->
+  <circle cx="256" cy="256" r="70" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="6" 
+          stroke-dasharray="12,8" 
+          opacity="0.3"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">RIGHTS (E0CA)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Inalienable vectors. Arrows emanating from E0C0 Creator showing rights endowed by stochastic origin.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
