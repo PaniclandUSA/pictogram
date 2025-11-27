@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>RETRY - Retry operation, attempt recovery, reattempt action</desc>
+  
+  <!-- Circular arrow (counterclockwise) -->
+  <path d="M 380 256 A 124 124 0 1 0 256 132" 
+        fill="none" stroke="#000000" stroke-width="14" stroke-linecap="round"/>
+  
+  <!-- Arrow head -->
+  <polygon points="256,132 230,160 280,160" fill="#000000"/>
+  
+  <!-- Small circle at arrow start -->
+  <circle cx="380" cy="256" r="12" fill="#000000"/>
+  
+  <!-- Number "2" indicating retry -->
+  <text x="256" y="280" font-family="Arial, sans-serif" font-size="80" 
+        font-weight="bold" text-anchor="middle" fill="#000000">2</text>
+</svg>
