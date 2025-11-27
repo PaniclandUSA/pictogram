@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>QUORUM - Quorum requirement, minimum participation, threshold voting</desc>
+  
+  <!-- Seven agents (5 filled = quorum met, 2 hollow = not participating) -->
+  <circle cx="160" cy="180" r="30" fill="#000000"/>
+  <circle cx="256" cy="160" r="30" fill="#000000"/>
+  <circle cx="352" cy="180" r="30" fill="#000000"/>
+  <circle cx="380" cy="280" r="30" fill="none" stroke="#000000" stroke-width="8" opacity="0.4"/>
+  <circle cx="320" cy="360" r="30" fill="#000000"/>
+  <circle cx="192" cy="360" r="30" fill="#000000"/>
+  <circle cx="132" cy="280" r="30" fill="none" stroke="#000000" stroke-width="8" opacity="0.4"/>
+  
+  <!-- Threshold line (5 out of 7) -->
+  <line x1="100" y1="300" x2="412" y2="300" stroke="#00753A" stroke-width="6" stroke-dasharray="10,5"/>
+  
+  <!-- Checkmark below line (quorum met) -->
+  <path d="M 230 330 L 245 350 L 285 310" 
+        fill="none" stroke="#00753A" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Fraction indicator: 5/7 -->
+  <text x="430" y="310" font-family="Arial, sans-serif" font-size="40" 
+        font-weight="bold" fill="#00753A">5/7</text>
+</svg>
