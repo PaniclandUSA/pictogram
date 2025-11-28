@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0F0 PRIDE — Self-Affirmation After Achievement</title>
+  <desc>Crowned peak with upward trajectory. Positive self-regard after accomplishment.</desc>
+  
+  <!-- Mountain peak (achievement) -->
+  <path d="M 140 340 L 256 160 L 372 340 Z" 
+        fill="none" 
+        stroke="#FFD700" 
+        stroke-width="14" 
+        stroke-linejoin="miter"/>
+  
+  <!-- Self at peak (standing tall) -->
+  <circle cx="256" cy="180" r="30" 
+          fill="#FFD700" 
+          opacity="0.4" 
+          stroke="#FFD700" 
+          stroke-width="10"/>
+  
+  <!-- Crown (pride symbol) -->
+  <path d="M 220 150 
+           L 235 170 
+           L 256 155 
+           L 277 170 
+           L 292 150" 
+        fill="none" 
+        stroke="#FFD700" 
+        stroke-width="10" 
+        stroke-linejoin="round"/>
+  <circle cx="220" cy="150" r="6" fill="#FFD700"/>
+  <circle cx="256" cy="155" r="8" fill="#FFD700"/>
+  <circle cx="292" cy="150" r="6" fill="#FFD700"/>
+  
+  <!-- Ascent path (journey to achievement) -->
+  <path d="M 140 340 L 200 260 L 256 180" 
+        stroke="#FFD700" 
+        stroke-width="8" 
+        stroke-dasharray="12,8" 
+        opacity="0.5"/>
+  
+  <!-- Flag planted (victory marker) -->
+  <line x1="280" y1="180" x2="280" y2="140" 
+        stroke="#FFD700" 
+        stroke-width="6"/>
+  <path d="M 280 140 L 320 155 L 280 170" 
+        fill="#FFD700" 
+        opacity="0.6"/>
+  
+  <!-- Ground level (baseline) -->
+  <line x1="100" y1="370" x2="412" y2="370" 
+        stroke="#000000" 
+        stroke-width="8" 
+        opacity="0.3"/>
+  
+  <!-- Achievement marker -->
+  <text x="256" y="430" 
+        font-family="sans-serif" 
+        font-size="32" 
+        font-weight="bold" 
+        fill="#FFD700" 
+        text-anchor="middle">△</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">PRIDE (E0F0)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Self-affirmation after achievement. Crowned peak showing positive self-regard.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
