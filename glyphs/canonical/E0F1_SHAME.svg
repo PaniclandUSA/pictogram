@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0F1 SHAME — Self-Reduction After Failure</title>
+  <desc>Shaded valley with downward gaze. Negative self-regard triggering empathy injection.</desc>
+  
+  <!-- Valley (low point) -->
+  <path d="M 140 180 L 256 360 L 372 180" 
+        fill="#8B008B" 
+        opacity="0.2" 
+        stroke="#8B008B" 
+        stroke-width="14" 
+        stroke-linejoin="miter"/>
+  
+  <!-- Self in valley (head down) -->
+  <circle cx="256" cy="340" r="30" 
+          fill="none" 
+          stroke="#8B008B" 
+          stroke-width="10"/>
+  
+  <!-- Bowed head (shame posture) -->
+  <path d="M 256 340 
+           Q 256 370 230 385" 
+        fill="none" 
+        stroke="#8B008B" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  <circle cx="230" cy="385" r="16" 
+          fill="#8B008B" 
+          opacity="0.4"/>
+  
+  <!-- Downward gaze (avoiding eye contact) -->
+  <line x1="240" y1="390" x2="240" y2="410" 
+        stroke="#8B008B" 
+        stroke-width="6" 
+        stroke-dasharray="6,6"/>
+  
+  <!-- Shadow (darkness of shame) -->
+  <ellipse cx="256" cy="420" rx="60" ry="20" 
+           fill="#8B008B" 
+           opacity="0.3"/>
+  
+  <!-- Descent path (fall from grace) -->
+  <path d="M 256 180 L 256 310" 
+        stroke="#8B008B" 
+        stroke-width="8" 
+        stroke-dasharray="12,8" 
+        opacity="0.4"/>
+  
+  <!-- Ground level reference -->
+  <line x1="100" y1="150" x2="412" y2="150" 
+        stroke="#000000" 
+        stroke-width="8" 
+        stroke-dasharray="12,12" 
+        opacity="0.2"/>
+  
+  <!-- Empathy injection trigger (needs compassion) -->
+  <circle cx="340" cy="300" r="24" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="6" 
+          stroke-dasharray="8,6"/>
+  
+  <!-- Valley marker -->
+  <text x="256" y="470" 
+        font-family="sans-serif" 
+        font-size="32" 
+        fill="#8B008B" 
+        text-anchor="middle">▽</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">SHAME (E0F1)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Self-reduction after failure. Shaded valley with bowed head showing negative self-regard.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
