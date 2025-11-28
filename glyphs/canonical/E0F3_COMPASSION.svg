@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0F3 COMPASSION — Empathy Extension to Suffering</title>
+  <desc>Reaching hand toward grief. Empathy actively extended toward another's pain.</desc>
+  
+  <!-- Suffering other (in grief) -->
+  <circle cx="340" cy="280" r="45" 
+          fill="none" 
+          stroke="#8B008B" 
+          stroke-width="12"/>
+  
+  <!-- Grief indicator (broken chain) -->
+  <ellipse cx="320" cy="350" rx="25" ry="35" 
+           fill="none" 
+           stroke="#8B008B" 
+           stroke-width="8" 
+           stroke-dasharray="12,8"/>
+  
+  <!-- Compassionate self (reaching out) -->
+  <circle cx="160" cy="240" r="45" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="12"/>
+  
+  <!-- Reaching hand (compassion extended) -->
+  <path d="M 205 250 
+           Q 250 260 280 270" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="14" 
+        stroke-linecap="round"/>
+  
+  <!-- Hand (touching/supporting) -->
+  <ellipse cx="290" cy="272" rx="20" ry="14" 
+           fill="none" 
+           stroke="#FF69B4" 
+           stroke-width="10"/>
+  
+  <!-- Empathy field extending -->
+  <path d="M 160 285 
+           Q 250 300 340 325" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="6" 
+        stroke-dasharray="10,6" 
+        opacity="0.4"/>
+  
+  <!-- Shared pain waves (feeling their suffering) -->
+  <path d="M 140 300 Q 150 320 140 340" 
+        fill="none" 
+        stroke="#8B008B" 
+        stroke-width="6" 
+        stroke-linecap="round" 
+        opacity="0.5"/>
+  <path d="M 125 310 Q 135 330 125 350" 
+        fill="none" 
+        stroke="#8B008B" 
+        stroke-width="6" 
+        stroke-linecap="round" 
+        opacity="0.4"/>
+  
+  <!-- Heart (love motivating compassion) -->
+  <path d="M 150 180 L 165 195 L 150 220 L 135 195 Z" 
+        fill="#FF69B4" 
+        opacity="0.6"/>
+  <circle cx="145" cy="187" r="6" fill="#FF69B4" opacity="0.6"/>
+  <circle cx="155" cy="187" r="6" fill="#FF69B4" opacity="0.6"/>
+  
+  <!-- Connection established (compassion received) -->
+  <circle cx="270" cy="265" r="16" 
+          fill="#FF69B4" 
+          opacity="0.3"/>
+  
+  <!-- "With you" indicator -->
+  <text x="256" y="430" 
+        font-family="sans-serif" 
+        font-size="26" 
+        font-style="italic" 
+        fill="#FF69B4" 
+        text-anchor="middle">I feel your pain</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">COMPASSION (E0F3)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Empathy extension to suffering. Reaching hand toward grief showing active care.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
