@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0EA TREPIDATION — Anxious Uncertainty</title>
+  <desc>Cautious approach with uncertainty waves. Apprehensive hesitation - fear mixed with curiosity.</desc>
+  
+  <!-- Agent (hesitant) -->
+  <circle cx="140" cy="280" r="45" 
+          fill="none" 
+          stroke="#8B008B" 
+          stroke-width="12"/>
+  
+  <!-- Uncertain destination (unknown outcome) -->
+  <circle cx="372" cy="240" r="50" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="10" 
+          stroke-dasharray="16,12" 
+          opacity="0.5"/>
+  <text x="372" y="255" 
+        font-family="serif" 
+        font-size="48" 
+        fill="#FF69B4" 
+        text-anchor="middle" 
+        opacity="0.6">?</text>
+  
+  <!-- Cautious path (approach with hesitation) -->
+  <path d="M 185 270 
+           Q 220 250 240 270 
+           Q 260 290 280 270 
+           Q 300 250 320 265" 
+        fill="none" 
+        stroke="#8B008B" 
+        stroke-width="10" 
+        stroke-linecap="round" 
+        stroke-dasharray="12,8"/>
+  
+  <!-- Wavering steps (uncertainty) -->
+  <circle cx="240" cy="270" r="8" fill="#8B008B" opacity="0.4"/>
+  <circle cx="280" cy="270" r="8" fill="#8B008B" opacity="0.4"/>
+  
+  <!-- Anxiety waves (apprehension) -->
+  <path d="M 120 240 
+           Q 110 250 120 260" 
+        fill="none" 
+        stroke="#8B008B" 
+        stroke-width="6" 
+        stroke-linecap="round"/>
+  <path d="M 105 245 
+           Q 95 255 105 265" 
+        fill="none" 
+        stroke="#8B008B" 
+        stroke-width="6" 
+        stroke-linecap="round" 
+        opacity="0.6"/>
+  <path d="M 90 250 
+           Q 80 260 90 270" 
+        fill="none" 
+        stroke="#8B008B" 
+        stroke-width="6" 
+        stroke-linecap="round" 
+        opacity="0.4"/>
+  
+  <!-- Hesitation indicator (pause before action) -->
+  <rect x="140" y="360" width="14" height="40" rx="3" 
+        fill="#8B008B" 
+        opacity="0.5"/>
+  <rect x="166" y="360" width="14" height="40" rx="3" 
+        fill="#8B008B" 
+        opacity="0.5"/>
+  
+  <!-- Mixed emotion (fear + curiosity) -->
+  <path d="M 200 420 
+           Q 256 400 312 420" 
+        fill="none" 
+        stroke="#8B008B" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <circle cx="256" cy="405" r="12" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="6" 
+          opacity="0.5"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">TREPIDATION (E0EA)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Anxious uncertainty. Cautious wavering path showing apprehensive hesitation.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
