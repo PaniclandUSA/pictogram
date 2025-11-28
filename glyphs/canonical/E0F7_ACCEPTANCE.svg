@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0F7 ACCEPTANCE — Resonance with What Is</title>
+  <desc>Open embrace of reality. Uncertainty reduction through accepting present state.</desc>
+  
+  <!-- Reality as it is (present state) -->
+  <circle cx="256" cy="240" r="60" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="12"/>
+  
+  <!-- Uncertainty cloud (what cannot be changed) -->
+  <path d="M 200 220 
+           Q 180 200 200 180 
+           Q 220 170 240 180 
+           Q 260 170 280 180 
+           Q 300 170 320 180 
+           Q 340 200 320 220" 
+        fill="none" 
+        stroke="#8B008B" 
+        stroke-width="8" 
+        opacity="0.3"/>
+  
+  <!-- Open arms (embracing acceptance) -->
+  <path d="M 140 280 
+           Q 120 240 140 200" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="14" 
+        stroke-linecap="round"/>
+  <path d="M 372 280 
+           Q 392 240 372 200" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="14" 
+        stroke-linecap="round"/>
+  
+  <!-- Hands open (receiving) -->
+  <ellipse cx="140" cy="200" rx="20" ry="14" 
+           fill="none" 
+           stroke="#FF69B4" 
+           stroke-width="10"/>
+  <ellipse cx="372" cy="200" rx="20" ry="14" 
+           fill="none" 
+           stroke="#FF69B4" 
+           stroke-width="10"/>
+  
+  <!-- Heart at center (acceptance is loving) -->
+  <path d="M 256 225 L 270 240 L 256 265 L 242 240 Z" 
+        fill="#FF69B4" 
+        opacity="0.6"/>
+  <circle cx="251" cy="232" r="6" fill="#FF69B4" opacity="0.6"/>
+  <circle cx="261" cy="232" r="6" fill="#FF69B4" opacity="0.6"/>
+  
+  <!-- Peaceful settling (uncertainty reduced) -->
+  <path d="M 180 340 
+           Q 256 360 332 340" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  
+  <!-- Ground (stable acceptance) -->
+  <line x1="140" y1="380" x2="372" y2="380" 
+        stroke="#FF69B4" 
+        stroke-width="12"/>
+  
+  <!-- Equal sign (accepting what is) -->
+  <line x1="220" y1="420" x2="292" y2="420" 
+        stroke="#FF69B4" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  <line x1="220" y1="445" x2="292" y2="445" 
+        stroke="#FF69B4" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">ACCEPTANCE (E0F7)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Resonance with what is. Open embrace showing acceptance reducing uncertainty.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
