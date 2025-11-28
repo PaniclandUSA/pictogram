@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0F5 CAMARADERIE — Fellowship Bond</title>
+  <desc>Shoulder-to-shoulder solidarity. Deep kinship forged through shared struggle and mutual support.</desc>
+  
+  <!-- Left comrade -->
+  <circle cx="200" cy="240" r="45" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="12"/>
+  
+  <!-- Right comrade -->
+  <circle cx="312" cy="240" r="45" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="12"/>
+  
+  <!-- Shoulder-to-shoulder contact (solidarity) -->
+  <line x1="245" y1="240" x2="267" y2="240" 
+        stroke="#FF69B4" 
+        stroke-width="16"/>
+  
+  <!-- Arms around shoulders (mutual support) -->
+  <path d="M 200 285 
+           Q 220 320 256 320 
+           Q 292 320 312 285" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  
+  <!-- Shared ground (common foundation) -->
+  <line x1="140" y1="340" x2="372" y2="340" 
+        stroke="#FF69B4" 
+        stroke-width="14"/>
+  
+  <!-- Shared burden (weight carried together) -->
+  <rect x="220" y="160" width="72" height="50" rx="8" 
+        fill="none" 
+        stroke="#8B008B" 
+        stroke-width="10"/>
+  
+  <!-- Burden support lines (both holding weight) -->
+  <line x1="235" y1="210" x2="200" y2="240" 
+        stroke="#8B008B" 
+        stroke-width="8"/>
+  <line x1="277" y1="210" x2="312" y2="240" 
+        stroke="#8B008B" 
+        stroke-width="8"/>
+  
+  <!-- Equal stance (peer relationship) -->
+  <line x1="200" y1="285" x2="200" y2="340" 
+        stroke="#FF69B4" 
+        stroke-width="10"/>
+  <line x1="312" y1="285" x2="312" y2="340" 
+        stroke="#FF69B4" 
+        stroke-width="10"/>
+  
+  <!-- Bond symbol (unbreakable connection) -->
+  <ellipse cx="256" cy="240" rx="30" ry="20" 
+           fill="#FF69B4" 
+           opacity="0.3"/>
+  
+  <!-- Shared heart (mutual care) -->
+  <path d="M 256 380 L 270 395 L 256 420 L 242 395 Z" 
+        fill="#FF69B4" 
+        opacity="0.6"/>
+  <circle cx="251" cy="387" r="6" fill="#FF69B4" opacity="0.6"/>
+  <circle cx="261" cy="387" r="6" fill="#FF69B4" opacity="0.6"/>
+  
+  <!-- "Together" indicator -->
+  <text x="256" y="460" 
+        font-family="sans-serif" 
+        font-size="28" 
+        font-style="italic" 
+        fill="#FF69B4" 
+        text-anchor="middle">together</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">CAMARADERIE (E0F5)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Fellowship bond. Shoulder-to-shoulder solidarity showing kinship forged through shared struggle.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
