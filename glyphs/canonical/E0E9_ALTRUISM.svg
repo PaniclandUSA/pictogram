@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0E9 ALTRUISM — Self-Sacrifice for Other's Benefit</title>
+  <desc>Giving hand with net positive outcome. Zero-sum giving where collective benefit exceeds individual cost.</desc>
+  
+  <!-- Giver (self - depleting but willing) -->
+  <circle cx="160" cy="240" r="50" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="12"/>
+  
+  <!-- Resource being given (leaving self) -->
+  <circle cx="200" cy="200" r="20" 
+          fill="#FFB6C1" 
+          opacity="0.6" 
+          stroke="#FF69B4" 
+          stroke-width="8"/>
+  
+  <!-- Giving hand/path (generous transfer) -->
+  <path d="M 210 200 
+           Q 260 180 300 200" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  
+  <!-- Arrow showing transfer direction -->
+  <polygon points="300,200 290,195 290,205" fill="#FF69B4"/>
+  
+  <!-- Receiver (other - benefiting) -->
+  <circle cx="352" cy="240" r="50" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="12"/>
+  
+  <!-- Resource received (amplified value) -->
+  <circle cx="352" cy="240" r="30" 
+          fill="#FFB6C1" 
+          opacity="0.4"/>
+  <circle cx="352" cy="240" r="20" 
+          fill="#FFB6C1" 
+          opacity="0.6"/>
+  <circle cx="352" cy="240" r="12" 
+          fill="#FFB6C1" 
+          opacity="0.8"/>
+  
+  <!-- Net positive indicator (collective gain) -->
+  <text x="260" y="140" 
+        font-family="monospace" 
+        font-size="48" 
+        font-weight="bold" 
+        fill="#FF69B4" 
+        text-anchor="middle">+</text>
+  
+  <!-- Cost to self (negative) -->
+  <text x="160" y="340" 
+        font-family="monospace" 
+        font-size="32" 
+        fill="#FF69B4" 
+        text-anchor="middle" 
+        opacity="0.6">-1</text>
+  
+  <!-- Benefit to other (positive, greater) -->
+  <text x="352" y="340" 
+        font-family="monospace" 
+        font-size="36" 
+        font-weight="bold" 
+        fill="#FF69B4" 
+        text-anchor="middle">+2</text>
+  
+  <!-- Net calculation (collective benefit) -->
+  <rect x="200" y="380" width="112" height="50" rx="8" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="8"/>
+  <text x="256" y="413" 
+        font-family="monospace" 
+        font-size="28" 
+        font-weight="bold" 
+        fill="#FF69B4" 
+        text-anchor="middle">Σ = +1</text>
+  
+  <!-- Heart (altruistic motivation) -->
+  <path d="M 150 430 L 160 440 L 150 455 L 140 440 Z" 
+        fill="#FF69B4" 
+        opacity="0.6"/>
+  <circle cx="146" cy="436" r="5" fill="#FF69B4" opacity="0.6"/>
+  <circle cx="154" cy="436" r="5" fill="#FF69B4" opacity="0.6"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">ALTRUISM (E0E9)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Self-sacrifice for other's benefit. Giving hand showing net positive collective outcome.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
