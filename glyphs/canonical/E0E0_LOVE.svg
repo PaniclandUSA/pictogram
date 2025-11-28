@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0E0 LOVE — Zero-Sum Protection</title>
+  <desc>Filled heart with protective shield. Prioritize other over self - operational love as resource allocation.</desc>
+  
+  <!-- Heart (classic symbol) -->
+  <path d="M 256 180 
+           L 300 210 
+           L 256 320 
+           L 212 210 
+           Z" 
+        fill="#C71585" 
+        opacity="0.8"/>
+  
+  <!-- Heart lobes (top curves) -->
+  <circle cx="232" cy="190" r="32" fill="#C71585" opacity="0.8"/>
+  <circle cx="280" cy="190" r="32" fill="#C71585" opacity="0.8"/>
+  
+  <!-- Protective shield outline (zero-sum protection) -->
+  <path d="M 256 140 
+           L 340 180 
+           L 340 270 
+           Q 340 340 256 380 
+           Q 172 340 172 270 
+           L 172 180 
+           Z" 
+        fill="none" 
+        stroke="#C71585" 
+        stroke-width="10" 
+        stroke-linejoin="round"/>
+  
+  <!-- Resource allocation arrow (other over self) -->
+  <path d="M 256 100 L 256 140" 
+        stroke="#C71585" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <polygon points="256,140 251,130 261,130" fill="#C71585"/>
+  
+  <!-- Infinity symbol (eternal love capacity) -->
+  <path d="M 200 420 
+           Q 220 400 240 420 
+           Q 260 440 272 420 
+           Q 284 400 304 420" 
+        fill="none" 
+        stroke="#C71585" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">LOVE (E0E0)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Zero-sum protection. Filled heart with shield showing prioritization of other over self.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
