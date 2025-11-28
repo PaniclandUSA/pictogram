@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0F2 COURAGE — Action Despite Fear</title>
+  <desc>Bold arrow through shadow. Protective override - moving forward despite threat.</desc>
+  
+  <!-- Shadow/threat (fear present) -->
+  <path d="M 320 140 
+           L 380 100 
+           L 440 140 
+           L 420 200 
+           Z" 
+        fill="#8B008B" 
+        opacity="0.3" 
+        stroke="#8B008B" 
+        stroke-width="10"/>
+  
+  <!-- Fear indicator -->
+  <text x="380" y="155" 
+        font-family="sans-serif" 
+        font-size="32" 
+        fill="#8B008B">!</text>
+  
+  <!-- Agent (courageous self) -->
+  <circle cx="140" cy="280" r="40" 
+          fill="none" 
+          stroke="#FFD700" 
+          stroke-width="12"/>
+  
+  <!-- Bold forward arrow (courage in action) -->
+  <path d="M 180 280 L 360 200" 
+        stroke="#FFD700" 
+        stroke-width="18" 
+        stroke-linecap="round"/>
+  <polygon points="360,200 345,210 350,195" fill="#FFD700"/>
+  
+  <!-- Arrow strength lines (bold action) -->
+  <line x1="220" y1="260" x2="320" y2="210" 
+        stroke="#FFD700" 
+        stroke-width="12" 
+        stroke-linecap="round" 
+        opacity="0.5"/>
+  <line x1="240" y1="275" x2="340" y2="225" 
+        stroke="#FFD700" 
+        stroke-width="12" 
+        stroke-linecap="round" 
+        opacity="0.5"/>
+  
+  <!-- Heart (courage requires love/care) -->
+  <path d="M 130 320 L 140 330 L 130 345 L 120 330 Z" 
+        fill="#FFD700" 
+        opacity="0.6"/>
+  <circle cx="126" cy="326" r="5" fill="#FFD700" opacity="0.6"/>
+  <circle cx="134" cy="326" r="5" fill="#FFD700" opacity="0.6"/>
+  
+  <!-- Override indicator (acting against fear) -->
+  <path d="M 200 360 
+           Q 256 340 312 360" 
+        fill="none" 
+        stroke="#FFD700" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  <line x1="256" y1="350" x2="256" y2="330" 
+        stroke="#FFD700" 
+        stroke-width="8"/>
+  <polygon points="256,330 251,340 261,340" fill="#FFD700"/>
+  
+  <!-- Courageous fear notation -->
+  <text x="256" y="430" 
+        font-family="monospace" 
+        font-size="24" 
+        fill="#FFD700" 
+        text-anchor="middle">fear → act</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">COURAGE (E0F2)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Action despite fear. Bold arrow through shadow showing protective override.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
