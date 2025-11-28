@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0E7 CURIOSITY — Bounded Wonder</title>
+  <desc>Question mark eye with ethical boundary. Explore within caps - curiosity with guardrails.</desc>
+  
+  <!-- Eye (curious observer) -->
+  <ellipse cx="256" cy="260" rx="110" ry="70" 
+           fill="none" 
+           stroke="#FF1493" 
+           stroke-width="12"/>
+  
+  <!-- Iris (active attention) -->
+  <circle cx="256" cy="260" r="42" 
+          fill="none" 
+          stroke="#FF1493" 
+          stroke-width="10"/>
+  
+  <!-- Question mark pupil (curiosity itself) -->
+  <path d="M 246 245 
+           Q 246 235 256 235 
+           Q 266 235 266 245 
+           Q 266 252 256 256" 
+        fill="none" 
+        stroke="#FF1493" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <line x1="256" y1="256" x2="256" y2="267" 
+        stroke="#FF1493" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <circle cx="256" cy="275" r="4" fill="#FF1493"/>
+  
+  <!-- Ethical boundary cap (curiosity limit) -->
+  <line x1="120" y1="140" x2="392" y2="140" 
+        stroke="#8B008B" 
+        stroke-width="14"/>
+  
+  <!-- Cap supports (ethical guardrails) -->
+  <line x1="140" y1="140" x2="140" y2="110" 
+        stroke="#8B008B" 
+        stroke-width="10"/>
+  <line x1="256" y1="140" x2="256" y2="110" 
+        stroke="#8B008B" 
+        stroke-width="10"/>
+  <line x1="372" y1="140" x2="372" y2="110" 
+        stroke="#8B008B" 
+        stroke-width="10"/>
+  
+  <!-- Ceiling line -->
+  <line x1="120" y1="110" x2="392" y2="110" 
+        stroke="#8B008B" 
+        stroke-width="8"/>
+  
+  <!-- Exploration arrows (bounded) -->
+  <path d="M 256" y1="330" x2="200" y2="370" 
+        stroke="#FF1493" 
+        stroke-width="8" 
+        stroke-linecap="round" 
+        stroke-dasharray="10,6"/>
+  <polygon points="200,370 210,363 207,373" fill="#FF1493"/>
+  
+  <path d="M 256" y1="330" x2="312" y2="370" 
+        stroke="#FF1493" 
+        stroke-width="8" 
+        stroke-linecap="round" 
+        stroke-dasharray="10,6"/>
+  <polygon points="312,370 302,373 305,363" fill="#FF1493"/>
+  
+  <!-- "EXPLORE SAFELY" label -->
+  <text x="256" y="440" 
+        font-family="sans-serif" 
+        font-size="24" 
+        font-style="italic" 
+        fill="#FF1493" 
+        text-anchor="middle">within bounds</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">CURIOSITY (E0E7)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Bounded wonder. Question mark eye with ethical ceiling showing safe exploration.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
