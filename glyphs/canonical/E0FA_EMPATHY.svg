@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0FA EMPATHY — Mirror Other's Internal State</title>
+  <desc>Linking waves between agents. Field extension - feeling what another feels.</desc>
+  
+  <!-- Agent A (feeling state) -->
+  <circle cx="160" cy="240" r="50" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="12"/>
+  
+  <!-- Agent A's emotional wave -->
+  <path d="M 140 280 
+           Q 150 310 140 340" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <path d="M 125 290 
+           Q 135 320 125 350" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="6" 
+        stroke-linecap="round" 
+        opacity="0.6"/>
+  
+  <!-- Agent B (empathizing) -->
+  <circle cx="352" cy="240" r="50" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="12"/>
+  
+  <!-- Mirrored emotional wave (feeling same) -->
+  <path d="M 372 280 
+           Q 362 310 372 340" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <path d="M 387 290 
+           Q 377 320 387 350" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="6" 
+        stroke-linecap="round" 
+        opacity="0.6"/>
+  
+  <!-- Empathy field (linking waves) -->
+  <path d="M 210 240 
+           Q 256 220 302 240" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  
+  <!-- Field resonance (synchronized) -->
+  <path d="M 220 260 
+           Q 256 240 292 260" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="8" 
+        stroke-linecap="round" 
+        opacity="0.5"/>
+  <path d="M 220 280 
+           Q 256 260 292 280" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="8" 
+        stroke-linecap="round" 
+        opacity="0.5"/>
+  
+  <!-- Empathy field symbol -->
+  <circle cx="256" cy="240" r="80" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="4" 
+          stroke-dasharray="12,12" 
+          opacity="0.3"/>
+  
+  <!-- Shared heart (both feeling) -->
+  <path d="M 256 380 L 270 395 L 256 420 L 242 395 Z" 
+        fill="#FF69B4" 
+        opacity="0.6"/>
+  <circle cx="251" cy="387" r="6" fill="#FF69B4" opacity="0.6"/>
+  <circle cx="261" cy="387" r="6" fill="#FF69B4" opacity="0.6"/>
+  
+  <!-- Mirror indicator -->
+  <text x="256" y="180" 
+        font-family="monospace" 
+        font-size="32" 
+        fill="#FF69B4" 
+        text-anchor="middle">≈</text>
+  
+  <!-- "I feel you" indicator -->
+  <text x="256" y="460" 
+        font-family="sans-serif" 
+        font-size="26" 
+        font-style="italic" 
+        fill="#FF69B4" 
+        text-anchor="middle">I feel you</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">EMPATHY (E0FA)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Mirror other's internal state. Linking waves showing field extension and shared feeling.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
