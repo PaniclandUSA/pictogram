@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0EB REVERENCE — Sacred Regard</title>
+  <desc>Bowing gesture toward honored presence. Deep respect mixed with awe - protective honoring of what matters.</desc>
+  
+  <!-- Sacred presence/object (what is revered) -->
+  <circle cx="256" cy="160" r="60" 
+          fill="#FFD700" 
+          opacity="0.3" 
+          stroke="#FF69B4" 
+          stroke-width="12"/>
+  
+  <!-- Radiance (sacred quality) -->
+  <circle cx="256" cy="160" r="80" 
+          fill="none" 
+          stroke="#FFD700" 
+          stroke-width="6" 
+          opacity="0.2"/>
+  <circle cx="256" cy="160" r="100" 
+          fill="none" 
+          stroke="#FFD700" 
+          stroke-width="4" 
+          opacity="0.15"/>
+  
+  <!-- Light rays (holiness) -->
+  <line x1="256" y1="160" x2="256" y2="100" 
+        stroke="#FFD700" 
+        stroke-width="6" 
+        stroke-linecap="round" 
+        opacity="0.4"/>
+  <line x1="256" y1="160" x2="310" y2="120" 
+        stroke="#FFD700" 
+        stroke-width="5" 
+        stroke-linecap="round" 
+        opacity="0.4"/>
+  <line x1="256" y1="160" x2="202" y2="120" 
+        stroke="#FFD700" 
+        stroke-width="5" 
+        stroke-linecap="round" 
+        opacity="0.4"/>
+  
+  <!-- Observer (reverent) -->
+  <circle cx="256" cy="340" r="40" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="12"/>
+  
+  <!-- Bowing posture (deep respect) -->
+  <path d="M 256 340 
+           Q 256 380 280 400" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  
+  <!-- Head bowed -->
+  <circle cx="280" cy="400" r="18" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="10"/>
+  
+  <!-- Hands in reverent gesture (palms together) -->
+  <path d="M 220 360 
+           L 240 380 
+           L 220 400" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="10" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- Respectful distance (maintaining sacred space) -->
+  <line x1="256" y1="220" x2="256" y2="300" 
+        stroke="#FF69B4" 
+        stroke-width="4" 
+        stroke-dasharray="10,10" 
+        opacity="0.3"/>
+  
+  <!-- Heart (reverence is loving respect) -->
+  <path d="M 340 380 L 355 395 L 340 420 L 325 395 Z" 
+        fill="#FF69B4" 
+        opacity="0.4"/>
+  <circle cx="335" cy="387" r="6" fill="#FF69B4" opacity="0.4"/>
+  <circle cx="345" cy="387" r="6" fill="#FF69B4" opacity="0.4"/>
+  
+  <!-- "Sacred" indicator -->
+  <text x="380" y="180" 
+        font-family="serif" 
+        font-size="24" 
+        font-style="italic" 
+        fill="#FFD700" 
+        opacity="0.6">sacred</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">REVERENCE (E0EB)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Sacred regard. Bowing gesture toward honored presence showing deep respect mixed with awe.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
