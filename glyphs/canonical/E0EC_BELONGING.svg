@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0EC BELONGING — Relational Inclusion</title>
+  <desc>Linked circles in cohesive group. Swarm cohesion weight - feeling part of whole.</desc>
+  
+  <!-- Central circle (self) -->
+  <circle cx="256" cy="256" r="50" 
+          fill="#FFB6C1" 
+          opacity="0.4" 
+          stroke="#FF69B4" 
+          stroke-width="12"/>
+  
+  <!-- Connected circles (group members) -->
+  <circle cx="160" cy="200" r="40" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="10"/>
+  <circle cx="352" cy="200" r="40" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="10"/>
+  <circle cx="180" cy="340" r="40" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="10"/>
+  <circle cx="332" cy="340" r="40" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="10"/>
+  
+  <!-- Connection lines (belonging bonds) -->
+  <line x1="210" y1="220" x2="220" y2="230" 
+        stroke="#FF69B4" 
+        stroke-width="8"/>
+  <line x1="302" y1="220" x2="292" y2="230" 
+        stroke="#FF69B4" 
+        stroke-width="8"/>
+  <line x1="216" y1="300" x2="226" y2="290" 
+        stroke="#FF69B4" 
+        stroke-width="8"/>
+  <line x1="296" y1="300" x2="286" y2="290" 
+        stroke="#FF69B4" 
+        stroke-width="8"/>
+  
+  <!-- Cohesion field (group unity) -->
+  <circle cx="256" cy="256" r="140" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="6" 
+          stroke-dasharray="16,12" 
+          opacity="0.3"/>
+  
+  <!-- Heart at center (warmth of inclusion) -->
+  <path d="M 256 240 L 265 250 L 256 265 L 247 250 Z" 
+        fill="#FF69B4" 
+        opacity="0.8"/>
+  <circle cx="252" cy="244" r="5" fill="#FF69B4" opacity="0.8"/>
+  <circle cx="260" cy="244" r="5" fill="#FF69B4" opacity="0.8"/>
+  
+  <!-- Fusion indicator (merged identity) -->
+  <text x="256" y="420" 
+        font-family="sans-serif" 
+        font-size="28" 
+        font-style="italic" 
+        fill="#FF69B4" 
+        text-anchor="middle">we</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">BELONGING (E0EC)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Relational inclusion. Linked circles showing swarm cohesion and feeling part of whole.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
