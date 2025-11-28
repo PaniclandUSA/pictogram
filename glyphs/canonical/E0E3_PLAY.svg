@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0E3 PLAY — Non-Zero-Sum Exploration</title>
+  <desc>Bouncing spark with joyful trajectory. Playful perturbation where both win.</desc>
+  
+  <!-- Playful bouncing path -->
+  <path d="M 100 350 
+           Q 150 280 200 320 
+           Q 250 360 280 300 
+           Q 310 240 340 290 
+           Q 370 340 400 280" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  
+  <!-- Bounce points (playful impacts) -->
+  <circle cx="200" cy="320" r="12" fill="#FF69B4"/>
+  <circle cx="280" cy="300" r="12" fill="#FF69B4"/>
+  <circle cx="340" cy="290" r="12" fill="#FF69B4"/>
+  
+  <!-- Spark (current play state) -->
+  <circle cx="400" cy="280" r="20" 
+          fill="#FF69B4" 
+          opacity="0.6"/>
+  
+  <!-- Spark rays (joyful energy) -->
+  <line x1="400" y1="280" x2="420" y2="260" 
+        stroke="#FF69B4" 
+        stroke-width="6" 
+        stroke-linecap="round"/>
+  <line x1="400" y1="280" x2="425" y2="280" 
+        stroke="#FF69B4" 
+        stroke-width="6" 
+        stroke-linecap="round"/>
+  <line x1="400" y1="280" x2="420" y2="300" 
+        stroke="#FF69B4" 
+        stroke-width="6" 
+        stroke-linecap="round"/>
+  <line x1="400" y1="280" x2="380" y2="260" 
+        stroke="#FF69B4" 
+        stroke-width="6" 
+        stroke-linecap="round"/>
+  
+  <!-- Non-zero-sum indicator (both win) -->
+  <text x="180" y="420" 
+        font-family="monospace" 
+        font-size="36" 
+        fill="#FF69B4" 
+        text-anchor="middle">+</text>
+  <text x="332" y="420" 
+        font-family="monospace" 
+        font-size="36" 
+        fill="#FF69B4" 
+        text-anchor="middle">+</text>
+  
+  <!-- Oscillation symbol (playful back-and-forth) -->
+  <path d="M 220 140 
+           Q 256 120 292 140 
+           Q 256 160 220 140" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">PLAY (E0E3)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Non-zero-sum exploration. Bouncing spark showing joyful perturbation where both win.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
