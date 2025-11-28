@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0F8 RESILIENCE — Recovery After Divergence</title>
+  <desc>Bouncing arc returning to baseline. Convergence force after setback.</desc>
+  
+  <!-- Baseline (equilibrium) -->
+  <line x1="80" y1="300" x2="432" y2="300" 
+        stroke="#000000" 
+        stroke-width="10" 
+        opacity="0.4"/>
+  
+  <!-- Impact point (setback) -->
+  <circle cx="160" cy="300" r="16" 
+          fill="#8B008B" 
+          opacity="0.4"/>
+  
+  <!-- Downward impact (disruption) -->
+  <path d="M 160 300 
+           Q 200 380 240 420" 
+        fill="none" 
+        stroke="#8B008B" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  <circle cx="240" cy="420" r="12" fill="#8B008B" opacity="0.3"/>
+  
+  <!-- Bounce back (resilience) -->
+  <path d="M 240 420 
+           Q 280 360 320 300" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="14" 
+        stroke-linecap="round"/>
+  
+  <!-- Recovery arc (returning to equilibrium) -->
+  <path d="M 320 300 
+           Q 360 260 400 300" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="14" 
+        stroke-linecap="round"/>
+  
+  <!-- Final stabilization -->
+  <circle cx="400" cy="300" r="16" 
+          fill="#FF69B4" 
+          opacity="0.5"/>
+  
+  <!-- Bounce points (resilience moments) -->
+  <circle cx="240" cy="420" r="8" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="6"/>
+  <circle cx="320" cy="300" r="8" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="6"/>
+  
+  <!-- Spring symbol (elastic recovery) -->
+  <path d="M 180 200 
+           Q 185 190 190 200 
+           Q 195 210 200 200 
+           Q 205 190 210 200 
+           Q 215 210 220 200" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  
+  <!-- Convergence indicator -->
+  <path d="M 360 240 L 380 260 L 400 240" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="10" 
+        stroke-linejoin="round"/>
+  
+  <!-- Recovery notation -->
+  <text x="256" y="460" 
+        font-family="monospace" 
+        font-size="28" 
+        fill="#FF69B4" 
+        text-anchor="middle">↓ → ↑</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">RESILIENCE (E0F8)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Recovery after divergence. Bouncing arc showing convergence force after setback.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
