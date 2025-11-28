@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0F6 REGRET — Retrospective Empathy Gap</title>
+  <desc>Faded chain with backward gaze. Wishing past actions were different - revision trigger.</desc>
+  
+  <!-- Present self (looking back) -->
+  <circle cx="340" cy="260" r="45" 
+          fill="none" 
+          stroke="#8B008B" 
+          stroke-width="12"/>
+  
+  <!-- Backward gaze (reviewing past) -->
+  <line x1="295" y1="255" x2="220" y2="245" 
+        stroke="#8B008B" 
+        stroke-width="8" 
+        stroke-dasharray="12,8"/>
+  
+  <!-- Past action (fading into history) -->
+  <circle cx="180" cy="240" r="40" 
+          fill="none" 
+          stroke="#8B008B" 
+          stroke-width="10" 
+          opacity="0.3"/>
+  
+  <!-- Faded chain (connection to past) -->
+  <ellipse cx="240" cy="250" rx="30" ry="45" 
+           fill="none" 
+           stroke="#8B008B" 
+           stroke-width="10" 
+           opacity="0.4" 
+           stroke-dasharray="16,10"/>
+  <ellipse cx="290" cy="255" rx="30" ry="45" 
+           fill="none" 
+           stroke="#8B008B" 
+           stroke-width="10" 
+           opacity="0.4" 
+           stroke-dasharray="16,10"/>
+  
+  <!-- "If only" thought bubble -->
+  <circle cx="360" cy="160" r="50" 
+          fill="none" 
+          stroke="#8B008B" 
+          stroke-width="8" 
+          stroke-dasharray="12,8" 
+          opacity="0.4"/>
+  <text x="360" y="175" 
+        font-family="sans-serif" 
+        font-size="28" 
+        font-style="italic" 
+        fill="#8B008B" 
+        text-anchor="middle" 
+        opacity="0.6">if only...</text>
+  
+  <!-- Alternative path (what could have been) -->
+  <path d="M 180 280 
+           Q 220 320 280 300" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="8" 
+        stroke-dasharray="8,8" 
+        opacity="0.3"/>
+  
+  <!-- Revision trigger (learning from regret) -->
+  <circle cx="340" cy="360" r="30" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="8"/>
+  <path d="M 320 360 
+           Q 340 340 360 360 
+           Q 340 380 320 360" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  
+  <!-- Weight of regret (burden carried) -->
+  <ellipse cx="340" cy="320" rx="40" ry="15" 
+           fill="#8B008B" 
+           opacity="0.2"/>
+  
+  <!-- Notation -->
+  <text x="256" y="440" 
+        font-family="monospace" 
+        font-size="24" 
+        fill="#8B008B" 
+        text-anchor="middle">past ≠ now</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">REGRET (E0F6)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Retrospective empathy gap. Faded chain with backward gaze showing wish for different past.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
