@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0E6 GRATITUDE — Resonance Boost</title>
+  <desc>Bowing gesture with positive feedback loop. Acknowledge and amplify positive interactions.</desc>
+  
+  <!-- Receiving agent (grateful) -->
+  <circle cx="180" cy="220" r="45" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="12"/>
+  
+  <!-- Giving agent (acknowledged) -->
+  <circle cx="332" cy="220" r="45" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="12"/>
+  
+  <!-- Gratitude gesture (bowing curve) -->
+  <path d="M 180 265 
+           Q 180 320 220 340" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  
+  <!-- Hand extended (thanking) -->
+  <ellipse cx="220" cy="340" rx="18" ry="12" 
+           fill="none" 
+           stroke="#FF69B4" 
+           stroke-width="10"/>
+  
+  <!-- Positive feedback arrow (resonance boost) -->
+  <path d="M 240 320 Q 280 280 320 260" 
+        stroke="#FF69B4" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  <polygon points="320,260 310,267 315,257" fill="#FF69B4"/>
+  
+  <!-- Return loop (gratitude creates more kindness) -->
+  <path d="M 332 265 
+           Q 360 320 320 360 
+           Q 280 400 220 380" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="8" 
+        stroke-dasharray="12,8" 
+        opacity="0.5"/>
+  
+  <!-- Amplification waves (resonance boost) -->
+  <path d="M 140 280 Q 150 300 140 320" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="6" 
+        stroke-linecap="round"/>
+  <path d="M 120 290 Q 130 310 120 330" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="6" 
+        stroke-linecap="round" 
+        opacity="0.6"/>
+  
+  <!-- Heart symbol (warmth generated) -->
+  <path d="M 256 420 L 270 435 L 256 460 L 242 435 Z" 
+        fill="#FF69B4" 
+        opacity="0.6"/>
+  <circle cx="250" cy="428" r="8" fill="#FF69B4" opacity="0.6"/>
+  <circle cx="262" cy="428" r="8" fill="#FF69B4" opacity="0.6"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">GRATITUDE (E0E6)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Resonance boost. Bowing gesture with feedback loop amplifying positive interactions.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
