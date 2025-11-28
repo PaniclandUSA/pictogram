@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0E2 AWE — Transcendent Novelty Pause</title>
+  <desc>Starburst with pause symbol. Freeze for insight at transcendent novelty.</desc>
+  
+  <!-- Central starburst (awe moment) -->
+  <circle cx="256" cy="256" r="50" 
+          fill="#FF1493" 
+          opacity="0.4"/>
+  
+  <!-- Eight rays (transcendent radiance) -->
+  <line x1="256" y1="256" x2="256" y2="140" 
+        stroke="#FF1493" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  <line x1="256" y1="256" x2="362" y2="150" 
+        stroke="#FF1493" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  <line x1="256" y1="256" x2="372" y2="256" 
+        stroke="#FF1493" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  <line x1="256" y1="256" x2="362" y2="362" 
+        stroke="#FF1493" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  <line x1="256" y1="256" x2="256" y2="372" 
+        stroke="#FF1493" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  <line x1="256" y1="256" x2="150" y2="362" 
+        stroke="#FF1493" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  <line x1="256" y1="256" x2="140" y2="256" 
+        stroke="#FF1493" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  <line x1="256" y1="256" x2="150" y2="150" 
+        stroke="#FF1493" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  
+  <!-- Pause bars (freeze for insight) -->
+  <rect x="230" y="410" width="18" height="60" rx="4" 
+        fill="#FF1493"/>
+  <rect x="264" y="410" width="18" height="60" rx="4" 
+        fill="#FF1493"/>
+  
+  <!-- Expansion rings (spreading awe) -->
+  <circle cx="256" cy="256" r="80" 
+          fill="none" 
+          stroke="#FF1493" 
+          stroke-width="6" 
+          opacity="0.3"/>
+  <circle cx="256" cy="256" r="110" 
+          fill="none" 
+          stroke="#FF1493" 
+          stroke-width="4" 
+          opacity="0.2"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">AWE (E0E2)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Transcendent novelty pause. Starburst with pause bars showing freeze for insight.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
