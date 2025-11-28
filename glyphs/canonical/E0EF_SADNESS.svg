@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0EF SADNESS — Low-Resonance Negative State</title>
+  <desc>Dimming light with tempo reduction. Low-energy sorrow - system deceleration.</desc>
+  
+  <!-- Dimming center (fading energy) -->
+  <circle cx="256" cy="280" r="50" 
+          fill="#8B008B" 
+          opacity="0.3"/>
+  
+  <!-- Weak radiance (low resonance) -->
+  <circle cx="256" cy="280" r="30" 
+          fill="#8B008B" 
+          opacity="0.4"/>
+  
+  <!-- Downward-pointing rays (energy falling) -->
+  <line x1="256" y1="280" x2="240" y2="360" 
+        stroke="#8B008B" 
+        stroke-width="8" 
+        stroke-linecap="round" 
+        opacity="0.5"/>
+  <line x1="256" y1="280" x2="256" y2="370" 
+        stroke="#8B008B" 
+        stroke-width="10" 
+        stroke-linecap="round" 
+        opacity="0.5"/>
+  <line x1="256" y1="280" x2="272" y2="360" 
+        stroke="#8B008B" 
+        stroke-width="8" 
+        stroke-linecap="round" 
+        opacity="0.5"/>
+  
+  <!-- Contracting rings (withdrawing energy) -->
+  <circle cx="256" cy="280" r="80" 
+          fill="none" 
+          stroke="#8B008B" 
+          stroke-width="6" 
+          opacity="0.2"/>
+  <circle cx="256" cy="280" r="110" 
+          fill="none" 
+          stroke="#8B008B" 
+          stroke-width="4" 
+          opacity="0.15"/>
+  
+  <!-- Tear drops (sorrow expression) -->
+  <path d="M 230 290 
+           Q 225 310 230 325 
+           Q 235 310 230 290" 
+        fill="#8B008B" 
+        opacity="0.4"/>
+  <path d="M 282 295 
+           Q 277 315 282 330 
+           Q 287 315 282 295" 
+        fill="#8B008B" 
+        opacity="0.4"/>
+  
+  <!-- Heavy weight (gravitational pull of sadness) -->
+  <circle cx="256" cy="420" r="30" 
+          fill="#8B008B" 
+          opacity="0.3" 
+          stroke="#8B008B" 
+          stroke-width="10"/>
+  
+  <!-- Tempo reduction indicator -->
+  <text x="256" y="190" 
+        font-family="monospace" 
+        font-size="32" 
+        fill="#8B008B" 
+        text-anchor="middle">♬ ↓ 𝅗𝅥</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">SADNESS (E0EF)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Low-resonance negative state. Dimming light with falling energy showing tempo reduction.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
