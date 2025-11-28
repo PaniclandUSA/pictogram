@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0FC UGLINESS — Low-Pattern Dissonance</title>
+  <desc>Jagged break with revision trigger. Pattern that disturbs or repels.</desc>
+  
+  <!-- Jagged broken form (dissonance) -->
+  <path d="M 200 200 
+           L 180 240 
+           L 220 260 
+           L 190 300 
+           L 240 310 
+           L 220 350 
+           L 270 340 
+           L 260 380" 
+        fill="none" 
+        stroke="#8B008B" 
+        stroke-width="12" 
+        stroke-linecap="round" 
+        stroke-linejoin="miter"/>
+  
+  <!-- Broken symmetry (violated expectations) -->
+  <path d="M 312 200 
+           L 340 230 
+           L 310 270 
+           L 350 290 
+           L 320 330 
+           L 360 350" 
+        fill="none" 
+        stroke="#8B008B" 
+        stroke-width="12" 
+        stroke-linecap="round" 
+        stroke-linejoin="miter"/>
+  
+  <!-- Sharp angles (harsh) -->
+  <polygon points="256,160 280,190 256,220 232,190" 
+           fill="none" 
+           stroke="#8B008B" 
+           stroke-width="10" 
+           stroke-linejoin="miter"/>
+  
+  <!-- Discordant gaps -->
+  <line x1="200" y1="250" x2="240" y2="270" 
+        stroke="#8B008B" 
+        stroke-width="8"/>
+  <line x1="272" y1="250" x2="312" y2="270" 
+        stroke="#8B008B" 
+        stroke-width="8"/>
+  
+  <!-- Aversion response (turning away) -->
+  <circle cx="140" cy="280" r="35" 
+          fill="none" 
+          stroke="#8B008B" 
+          stroke-width="10"/>
+  <path d="M 140 280 L 100 280" 
+        stroke="#8B008B" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <polygon points="100,280 110,275 110,285" fill="#8B008B"/>
+  
+  <!-- Revision trigger (need to fix) -->
+  <circle cx="380" cy="320" r="40" 
+          fill="none" 
+          stroke="#FF69B4" 
+          stroke-width="8" 
+          stroke-dasharray="12,8"/>
+  <path d="M 360 320 
+           Q 380 300 400 320 
+           Q 380 340 360 320" 
+        fill="none" 
+        stroke="#FF69B4" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  
+  <!-- Dissonance waves (disturbance) -->
+  <path d="M 220 400 
+           L 240 420 
+           L 260 400 
+           L 280 430 
+           L 300 410" 
+        fill="none" 
+        stroke="#8B008B" 
+        stroke-width="6" 
+        stroke-linecap="round"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">UGLINESS (E0FC)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Low-pattern dissonance. Jagged break showing pattern that disturbs and triggers revision.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
