@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0E4 GRIEF — Memory Retention After Loss</title>
+  <desc>Broken chain with weighted anchor. Reduce tempo, weight continuity - operational grief.</desc>
+  
+  <!-- Chain intact (before loss) -->
+  <ellipse cx="180" cy="200" rx="40" ry="60" 
+           fill="none" 
+           stroke="#8B008B" 
+           stroke-width="12" 
+           opacity="0.4"/>
+  <ellipse cx="256" cy="200" rx="40" ry="60" 
+           fill="none" 
+           stroke="#8B008B" 
+           stroke-width="12" 
+           opacity="0.4"/>
+  
+  <!-- Break point (moment of loss) -->
+  <circle cx="310" cy="200" r="24" 
+          fill="#8B008B" 
+          opacity="0.3"/>
+  <line x1="300" y1="190" x2="320" y2="210" 
+        stroke="#8B008B" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  <line x1="320" y1="190" x2="300" y2="210" 
+        stroke="#8B008B" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  
+  <!-- Broken link (after loss) -->
+  <ellipse cx="340" cy="200" rx="40" ry="60" 
+           fill="none" 
+           stroke="#8B008B" 
+           stroke-width="12" 
+           stroke-dasharray="20,10"/>
+  
+  <!-- Weighted anchor (memory retention) -->
+  <line x1="256" y1="260" x2="256" y2="340" 
+        stroke="#8B008B" 
+        stroke-width="10"/>
+  
+  <!-- Anchor weight (continuity preserved) -->
+  <path d="M 256 340 
+           L 220 380 
+           L 240 400 
+           L 256 385 
+           L 272 400 
+           L 292 380 
+           Z" 
+        fill="none" 
+        stroke="#8B008B" 
+        stroke-width="12" 
+        stroke-linejoin="miter"/>
+  
+  <!-- Tempo reduction indicator (slowed processing) -->
+  <text x="256" y="450" 
+        font-family="monospace" 
+        font-size="32" 
+        fill="#8B008B" 
+        text-anchor="middle">♩ → 𝅗𝅥</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">GRIEF (E0E4)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Memory retention after loss. Broken chain with anchor showing reduced tempo and weighted continuity.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
