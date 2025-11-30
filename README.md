@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-[![Glyph Count](https://img.shields.io/badge/Glyphs-28-blue.svg)](glyphs/canonical/)
+[![Glyph Count](https://img.shields.io/badge/Glyphs-256-blue.svg)](glyphs/canonical/)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-green.svg)]()
 
 PICTOGRAM is a universal visual semantic protocol designed to encode meaning through stable, cross-culturally comprehensible glyphs. Born from a five-AI collaborative convergence, PICTOGRAM serves as the I/O layer of the **Esper Stack** - a complete universal semantic computing architecture.
