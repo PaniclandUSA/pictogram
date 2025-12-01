@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <title>CONVERGENCE - E012</title>
+  <desc>Operator glyph representing bilateral collision and mutual fusion</desc>
+  
+  <!-- Left turnstile (approaching from left) -->
+  <line x1="180" y1="200" x2="180" y2="312" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="180" y1="256" x2="220" y2="256" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Right turnstile (approaching from right) -->
+  <line x1="332" y1="200" x2="332" y2="312" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="332" y1="256" x2="292" y2="256" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>CONVERGENCE</dc:title>
+        <dc:identifier>GLYPH_19_CONVERGENCE</dc:identifier>
+        <dc:creator>Esper Stack / PICTOGRAM v1.0</dc:creator>
+        <dc:date>2025-11-23</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <title>DIFFUSE - E00C</title>
+  <desc>Texture glyph representing scattered dispersed material distribution</desc>
+  
+  <!-- Scattered points (diffuse distribution) -->
+  <circle cx="210" cy="200" r="6" fill="#000000"/>
+  <circle cx="280" cy="180" r="6" fill="#000000"/>
+  <circle cx="320" cy="230" r="6" fill="#000000"/>
+  <circle cx="240" cy="256" r="6" fill="#000000"/>
+  <circle cx="300" cy="270" r="6" fill="#000000"/>
+  <circle cx="190" cy="280" r="6" fill="#000000"/>
+  <circle cx="260" cy="310" r="6" fill="#000000"/>
+  <circle cx="330" cy="300" r="6" fill="#000000"/>
+  <circle cx="220" cy="330" r="6" fill="#000000"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>DIFFUSE</dc:title>
+        <dc:identifier>GLYPH_13_DIFFUSE</dc:identifier>
+        <dc:creator>Esper Stack / PICTOGRAM v1.0</dc:creator>
+        <dc:date>2025-11-23</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>

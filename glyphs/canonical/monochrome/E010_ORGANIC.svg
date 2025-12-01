@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <title>ORGANIC - E00A</title>
+  <desc>Texture glyph representing irregular natural structure with soft boundaries</desc>
+  
+  <!-- Organic wave (irregular natural flow) -->
+  <path
+    d="M 140 256
+       C 180 220, 200 240, 230 260
+       C 260 280, 270 230, 300 250
+       C 330 270, 340 240, 372 256"
+    fill="none"
+    stroke="#000000"
+    stroke-width="1.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>ORGANIC</dc:title>
+        <dc:identifier>GLYPH_11_ORGANIC</dc:identifier>
+        <dc:creator>Esper Stack / PICTOGRAM v1.0</dc:creator>
+        <dc:date>2025-11-23</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>

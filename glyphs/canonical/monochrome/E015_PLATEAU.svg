@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <title>PLATEAU - E00F</title>
+  <desc>Structure glyph representing sustained elevated flat position</desc>
+  
+  <!-- Elevated horizontal line (plateau) -->
+  <line
+    x1="140" y1="200"
+    x2="372" y2="200"
+    stroke="#000000"
+    stroke-width="1.5"
+    stroke-linecap="butt"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description>
+        <dc:title>PLATEAU</dc:title>
+        <dc:identifier>GLYPH_16_PLATEAU</dc:identifier>
+        <dc:creator>Esper Stack / PICTOGRAM v1.0</dc:creator>
+        <dc:date>2025-11-23</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
