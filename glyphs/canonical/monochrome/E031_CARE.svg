@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E031 - CARE - Active protection and nurturing</desc>
+  
+  <!-- Heart shape representing care - 12px outline -->
+  <path d="M 256 380 Q 156 300 156 220 Q 156 170 190 150 Q 220 130 256 160 Q 292 130 322 150 Q 356 170 356 220 Q 356 300 256 380 Z" 
+        fill="none" stroke="#000000" stroke-width="12" stroke-linejoin="round"/>
+  
+  <!-- Protective hands embracing - 10px -->
+  <path d="M 136 240 Q 120 260 120 290 L 140 310" fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  <path d="M 376 240 Q 392 260 392 290 L 372 310" fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  
+  <!-- Nurturing growth symbol stem inside heart - 6px -->
+  <path d="M 256 240 L 256 280" 
+        fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Leaf stems -->
+  <path d="M 256 240 Q 236 230 236 210" 
+        fill="none" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 256 240 Q 276 230 276 210" 
+        fill="none" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+  
+  <!-- Organic leaf nodes with vein texture - SOLID FILL r=10 -->
+  <circle cx="236" cy="205" r="10" fill="#000000"/>
+  <circle cx="276" cy="205" r="10" fill="#000000"/>
+  
+  <!-- Vein details on leaves -->
+  <line x1="236" y1="200" x2="236" y2="210" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="232" y1="203" x2="240" y2="203" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="232" y1="207" x2="240" y2="207" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <line x1="276" y1="200" x2="276" y2="210" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="272" y1="203" x2="280" y2="203" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="272" y1="207" x2="280" y2="207" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
