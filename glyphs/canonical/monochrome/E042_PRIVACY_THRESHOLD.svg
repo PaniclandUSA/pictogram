@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E042 PRIVACY_THRESHOLD – Minimum Privacy Guarantee</title>
+  <desc>Horizontal line with floor indicator. The minimum acceptable level of privacy protection that must not be breached.</desc>
+  
+  <!-- Threshold line (minimum privacy level) - HEAVY 16px -->
+  <line x1="100" y1="300" x2="412" y2="300" 
+        stroke="#000000" 
+        stroke-width="16" 
+        stroke-linecap="round"/>
+  
+  <!-- Floor/ground indicators (showing hard limit) - 12px -->
+  <line x1="100" y1="300" x2="100" y2="350" 
+        stroke="#000000" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  <line x1="200" y1="300" x2="200" y2="350" 
+        stroke="#000000" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  <line x1="312" y1="300" x2="312" y2="350" 
+        stroke="#000000" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  <line x1="412" y1="300" x2="412" y2="350" 
+        stroke="#000000" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  
+  <!-- Ground base line - 8px -->
+  <line x1="80" y1="350" x2="432" y2="350" 
+        stroke="#000000" 
+        stroke-width="8"/>
+  
+  <!-- Arrow pointing down to threshold (showing limit) - 12px -->
+  <path d="M 256 140 L 256 270" 
+        stroke="#000000" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  <polygon points="256,270 246,250 266,250" fill="#000000"/>
+  
+  <!-- "MIN" text indicator -->
+  <text x="256" y="190" 
+        font-family="monospace" 
+        font-size="36" 
+        font-weight="bold" 
+        fill="#000000" 
+        text-anchor="middle">MIN</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">PRIVACY_THRESHOLD (E042)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Minimum privacy guarantee. Threshold line showing hard floor that must not be breached.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
