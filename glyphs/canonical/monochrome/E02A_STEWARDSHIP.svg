@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E02A - STEWARDSHIP - Duty of care toward future</desc>
+  
+  <!-- Protective hand shape cradling - HEAVY 12px outline -->
+  <path d="M 150 350 Q 150 280 180 250 L 180 200 Q 180 170 200 170 Q 220 170 220 200 L 220 180 Q 220 150 240 150 Q 260 150 260 180 L 260 160 Q 260 130 280 130 Q 300 130 300 160 L 300 180 Q 300 150 320 150 Q 340 150 340 180 L 340 280 Q 340 320 320 340 Q 280 380 240 380 Q 200 380 170 360 Q 150 345 150 320 Z" 
+        fill="none" stroke="#000000" stroke-width="12" stroke-linejoin="round"/>
+  
+  <!-- Small sprout/seedling being protected - stem -->
+  <path d="M 240 280 L 240 320" 
+        fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Left leaf with vein stipple - SOLID FILL r=12 with texture -->
+  <circle cx="220" cy="250" r="12" fill="#000000"/>
+  <!-- Vein lines on left leaf -->
+  <line x1="220" y1="244" x2="220" y2="256" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="216" y1="248" x2="224" y2="248" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="216" y1="252" x2="224" y2="252" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Right leaf with vein stipple - SOLID FILL r=12 with texture -->
+  <circle cx="260" cy="250" r="12" fill="#000000"/>
+  <!-- Vein lines on right leaf -->
+  <line x1="260" y1="244" x2="260" y2="256" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="256" y1="248" x2="264" y2="248" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="256" y1="252" x2="264" y2="252" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Leaf stems connecting to main stem -->
+  <path d="M 240 280 Q 220 270 220 250" 
+        fill="none" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 240 280 Q 260 270 260 250" 
+        fill="none" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+</svg>
