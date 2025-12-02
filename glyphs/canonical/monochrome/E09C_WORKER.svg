@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>WORKER - Worker/builder, construction, task execution</desc>
+  
+  <!-- Gear/cog shape (8 teeth) -->
+  <circle cx="256" cy="256" r="80" fill="none" stroke="#000000" stroke-width="12"/>
+  
+  <!-- Gear teeth -->
+  <rect x="246" y="156" width="20" height="30" fill="#000000"/>
+  <rect x="326" y="246" width="30" height="20" fill="#000000"/>
+  <rect x="246" y="326" width="20" height="30" fill="#000000"/>
+  <rect x="156" y="246" width="30" height="20" fill="#000000"/>
+  
+  <!-- Diagonal teeth -->
+  <rect x="300" y="186" width="20" height="30" fill="#000000" transform="rotate(45 310 201)"/>
+  <rect x="300" y="296" width="20" height="30" fill="#000000" transform="rotate(-45 310 311)"/>
+  <rect x="192" y="186" width="20" height="30" fill="#000000" transform="rotate(-45 202 201)"/>
+  <rect x="192" y="296" width="20" height="30" fill="#000000" transform="rotate(45 202 311)"/>
+  
+  <!-- Center hub -->
+  <circle cx="256" cy="256" r="30" fill="#000000"/>
+</svg>
