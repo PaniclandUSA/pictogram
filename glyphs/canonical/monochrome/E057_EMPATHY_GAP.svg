@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E057 EMPATHY_GAP – Empathy Failure</title>
+  <desc>Broken heart with void. The failure of emotional connection and compassion.</desc>
+  
+  <!-- Left heart half (separated) - 14px -->
+  <path d="M 256 200 
+           L 226 230 
+           L 200 300 
+           L 226 260 
+           L 246 240 
+           Z" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="14" 
+        stroke-linejoin="miter"/>
+  <circle cx="220" cy="216" r="18" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="14"/>
+  
+  <!-- Right heart half (separated) - 14px -->
+  <path d="M 256 200 
+           L 286 230 
+           L 312 300 
+           L 286 260 
+           L 266 240 
+           Z" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="14" 
+        stroke-linejoin="miter"/>
+  <circle cx="292" cy="216" r="18" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="14"/>
+  
+  <!-- Fracture line (empathy break) - BLACK DASHED -->
+  <line x1="256" y1="180" x2="256" y2="320" 
+        stroke="#000000" 
+        stroke-width="10" 
+        stroke-dasharray="16,10"/>
+  
+  <!-- Void/gap in center (emotional disconnect) - BLACK DASHED CIRCLE -->
+  <circle cx="256" cy="250" r="30" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="8" 
+          stroke-dasharray="8,6"/>
+  
+  <!-- X mark over gap (empathy failure) - THICK BLACK -->
+  <line x1="235" y1="230" x2="277" y2="270" 
+        stroke="#000000" 
+        stroke-width="14" 
+        stroke-linecap="round"/>
+  <line x1="277" y1="230" x2="235" y2="270" 
+        stroke="#000000" 
+        stroke-width="14" 
+        stroke-linecap="round"/>
+  
+  <!-- Separation arrows (showing disconnect) - BLACK -->
+  <path d="M 220 260 L 190 260" 
+        stroke="#000000" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <polygon points="190,260 200,255 200,265" fill="#000000"/>
+  
+  <path d="M 292 260 L 322 260" 
+        stroke="#000000" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <polygon points="322,260 312,255 312,265" fill="#000000"/>
+  
+  <!-- Cold/empty indicator (lack of warmth) - subtle -->
+  <circle cx="256" cy="360" r="50" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="6" 
+          opacity="0.2"/>
+  <line x1="256" y1="310" x2="256" y2="410" 
+        stroke="#000000" 
+        stroke-width="4" 
+        opacity="0.2"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">EMPATHY_GAP (E057)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Empathy failure. Broken heart with void showing failure of emotional connection and compassion.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
