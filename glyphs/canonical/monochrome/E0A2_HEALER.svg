@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <desc>HEALER - Healer/repair agent, restoration, maintenance</desc>
+  
+  <!-- Medical cross - SOLID BLACK FILL (Grok: stroke-width 40-50 or filled black) -->
+  <rect x="226" y="156" width="60" height="200" rx="10" fill="#000000"/>
+  <rect x="156" y="226" width="200" height="60" rx="10" fill="#000000"/>
+</svg>
