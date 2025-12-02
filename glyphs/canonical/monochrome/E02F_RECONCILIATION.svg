@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E02F - RECONCILIATION - Conflict resolution post-harm</desc>
+  
+  <!-- Two separate entities - 12px stroke -->
+  <circle cx="180" cy="256" r="70" fill="none" stroke="#000000" stroke-width="12"/>
+  <circle cx="332" cy="256" r="70" fill="none" stroke="#000000" stroke-width="12"/>
+  
+  <!-- Break/conflict lines between them - THIN 4px DASHED -->
+  <path d="M 250 220 L 262 184" stroke="#000000" stroke-width="4" stroke-dasharray="12,8"/>
+  <path d="M 262 328 L 250 292" stroke="#000000" stroke-width="4" stroke-dasharray="12,8"/>
+  
+  <!-- Healing/mending bridge - HEAVY 14px SOLID (thicker than everything) -->
+  <path d="M 250 256 Q 256 226 262 256 Q 256 286 250 256" 
+        fill="none" stroke="#000000" stroke-width="14" stroke-linecap="round"/>
+  
+  <!-- Connection restored - SOLID FILLED center -->
+  <circle cx="256" cy="256" r="16" fill="#000000" stroke="none"/>
+</svg>
