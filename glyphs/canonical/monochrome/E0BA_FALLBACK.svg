@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <desc>FALLBACK - Fallback mode, alternative path, degraded operation</desc>
+  
+  <!-- Primary path (blocked) - dashed BLACK with X -->
+  <path d="M 120 200 L 340 200" 
+        fill="none" stroke="#000000" stroke-width="12" stroke-dasharray="20,10"/>
+  <line x1="320" y1="180" x2="360" y2="220" stroke="#000000" stroke-width="12"/>
+  <line x1="320" y1="220" x2="360" y2="180" stroke="#000000" stroke-width="12"/>
+  
+  <!-- Fallback path (active) - THICKER solid BLACK -->
+  <path d="M 120 200 L 160 200 Q 180 200, 200 220 L 260 340 Q 280 360, 300 360 L 392 360" 
+        fill="none" stroke="#000000" stroke-width="14"/>
+  
+  <!-- Arrow head on fallback path - BLACK -->
+  <polygon points="392,360 372,350 372,370" fill="#000000"/>
+  
+  <!-- Decision point - BLACK -->
+  <circle cx="160" cy="200" r="16" fill="#000000"/>
+</svg>
