@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E05A - IMPLIES - Material conditional</desc>
+  <!-- Arrow representing logical implication A → B -->
+  <path d="M 120 256 L 360 256" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  <!-- Arrowhead -->
+  <path d="M 360 256 L 330 226 M 360 256 L 330 286" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  <!-- Vertical bar at tail representing premise -->
+  <path d="M 120 226 L 120 286" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+</svg>
