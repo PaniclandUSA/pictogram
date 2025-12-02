@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <desc>QUORUM - Quorum requirement, minimum participation, threshold voting</desc>
+  
+  <!-- Seven agents (5 filled = quorum met, 2 hollow = not participating) -->
+  <circle cx="160" cy="180" r="30" fill="#000000"/>
+  <circle cx="256" cy="160" r="30" fill="#000000"/>
+  <circle cx="352" cy="180" r="30" fill="#000000"/>
+  <circle cx="380" cy="280" r="30" fill="none" stroke="#000000" stroke-width="8" stroke-dasharray="8,6"/>
+  <circle cx="320" cy="360" r="30" fill="#000000"/>
+  <circle cx="192" cy="360" r="30" fill="#000000"/>
+  <circle cx="132" cy="280" r="30" fill="none" stroke="#000000" stroke-width="8" stroke-dasharray="8,6"/>
+  
+  <!-- Threshold line (5 out of 7) - BLACK DASHED -->
+  <line x1="100" y1="300" x2="412" y2="300" stroke="#000000" stroke-width="6" stroke-dasharray="10,5"/>
+  
+  <!-- Checkmark below line (quorum met) - THICK BLACK -->
+  <path d="M 230 330 L 245 350 L 285 310" 
+        fill="none" stroke="#000000" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- NO TEXT per Grok - visual ratio is clear from 5 filled vs 2 dashed circles -->
+</svg>
