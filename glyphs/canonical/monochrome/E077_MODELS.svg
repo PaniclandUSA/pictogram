@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E077 - MODELS - Semantic entailment</desc>
+  <!-- Double turnstile ⊨ representing semantic consequence -->
+  <path d="M 180 140 L 180 360 M 220 140 L 220 360" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  <path d="M 180 200 L 340 200" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+</svg>

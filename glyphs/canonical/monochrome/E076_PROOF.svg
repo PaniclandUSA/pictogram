@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E076 - PROOF - Logical proof/derivation</desc>
+  <!-- Turnstile symbol ⊢ representing provability -->
+  <path d="M 200 140 L 200 360" 
+        stroke="#000000" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 200 200 L 340 200" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+</svg>
