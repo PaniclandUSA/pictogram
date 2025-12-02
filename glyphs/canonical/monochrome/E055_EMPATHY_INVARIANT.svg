@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E055 EMPATHY_INVARIANT – Core Empathy Constant</title>
+  <desc>Heart within protective circle. The unchanging core of compassion that must remain constant.</desc>
+  
+  <!-- Protective invariant circle - BLACK 16px -->
+  <circle cx="256" cy="256" r="140" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="16"/>
+  
+  <!-- Inner stability ring - dashed -->
+  <circle cx="256" cy="256" r="100" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="10" 
+          stroke-dasharray="16,12"/>
+  
+  <!-- Core heart (invariant compassion) - BLACK OUTLINE, no fill -->
+  <path d="M 256 200 
+           L 286 230 
+           L 256 300 
+           L 226 230 
+           Z" 
+        fill="none"
+        stroke="#000000"
+        stroke-width="10"
+        stroke-linejoin="round"/>
+  <circle cx="243" cy="216" r="18" fill="none" stroke="#000000" stroke-width="10"/>
+  <circle cx="269" cy="216" r="18" fill="none" stroke="#000000" stroke-width="10"/>
+  
+  <!-- Equals sign (invariance symbol) - 10px -->
+  <line x1="210" y1="340" x2="302" y2="340" 
+        stroke="#000000" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  <line x1="210" y1="370" x2="302" y2="370" 
+        stroke="#000000" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  
+  <!-- Stability anchors (four cardinal points) - SOLID BLACK FILLS -->
+  <circle cx="256" cy="116" r="10" fill="#000000"/>
+  <circle cx="396" cy="256" r="10" fill="#000000"/>
+  <circle cx="256" cy="396" r="10" fill="#000000"/>
+  <circle cx="116" cy="256" r="10" fill="#000000"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">EMPATHY_INVARIANT (E055)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Core empathy constant. Heart within protective circle showing unchanging compassion principle.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
