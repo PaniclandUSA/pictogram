@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E048 GOVERNANCE_AXIOM – Foundational Rule</title>
+  <desc>Cornerstone block with inscribed rule. The unshakable foundational principle upon which governance is built.</desc>
+  
+  <!-- Cornerstone block (foundation) - 16px -->
+  <rect x="140" y="220" width="232" height="180" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="16" 
+        stroke-linejoin="miter"/>
+  
+  <!-- Foundation lines below (showing it's the base) -->
+  <line x1="120" y1="400" x2="392" y2="400" 
+        stroke="#000000" 
+        stroke-width="12"/>
+  <line x1="100" y1="420" x2="412" y2="420" 
+        stroke="#000000" 
+        stroke-width="10"/>
+  
+  <!-- Inscribed axiom symbol (⊢ - logical turnstile "proves") - ALL BLACK -->
+  <line x1="200" y1="280" x2="200" y2="360" 
+        stroke="#000000" 
+        stroke-width="14" 
+        stroke-linecap="round"/>
+  <line x1="200" y1="280" x2="312" y2="280" 
+        stroke="#000000" 
+        stroke-width="14" 
+        stroke-linecap="round"/>
+  
+  <!-- "A1" marking (Axiom 1 - primary rule) - BLACK -->
+  <text x="256" y="340" 
+        font-family="monospace" 
+        font-size="48" 
+        font-weight="bold" 
+        fill="#000000" 
+        text-anchor="middle">A1</text>
+  
+  <!-- Supporting structure above - subtle opacity -->
+  <line x1="140" y1="220" x2="140" y2="140" 
+        stroke="#000000" 
+        stroke-width="8" 
+        opacity="0.4"/>
+  <line x1="256" y1="220" x2="256" y2="140" 
+        stroke="#000000" 
+        stroke-width="8" 
+        opacity="0.4"/>
+  <line x1="372" y1="220" x2="372" y2="140" 
+        stroke="#000000" 
+        stroke-width="8" 
+        opacity="0.4"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">GOVERNANCE_AXIOM (E048)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Foundational rule. Cornerstone block showing unshakable principle upon which governance is built.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
