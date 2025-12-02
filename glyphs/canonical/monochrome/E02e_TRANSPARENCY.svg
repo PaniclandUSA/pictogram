@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E02E - TRANSPARENCY - Full visibility of intent</desc>
+  
+  <!-- Clear window/lens frame - HEAVY 14px to show it's the container -->
+  <rect x="128" y="128" width="256" height="256" fill="none" stroke="#000000" stroke-width="14" rx="20"/>
+  
+  <!-- Internal decision tree visible through transparency - LIGHTER 5px -->
+  <circle cx="256" cy="200" r="24" fill="none" stroke="#000000" stroke-width="5"/>
+  <path d="M 256 224 L 220 280 M 256 224 L 292 280" 
+        stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="220" cy="280" r="16" fill="none" stroke="#000000" stroke-width="5"/>
+  <circle cx="292" cy="280" r="16" fill="none" stroke="#000000" stroke-width="5"/>
+  <path d="M 220 296 L 200 330 M 220 296 L 240 330" 
+        stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+  
+  <!-- Leaf nodes - SOLID FILLED 10px circles -->
+  <circle cx="200" cy="330" r="10" fill="#000000"/>
+  <circle cx="240" cy="330" r="10" fill="#000000"/>
+  <circle cx="292" cy="330" r="10" fill="#000000"/>
+  
+  <!-- Light rays indicating openness - 5px detail -->
+  <path d="M 256 128 L 256 100 M 200 148 L 180 128 M 312 148 L 332 128" 
+        stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+</svg>
