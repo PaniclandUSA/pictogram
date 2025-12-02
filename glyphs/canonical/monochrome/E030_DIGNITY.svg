@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E030 - DIGNITY - Inherent worth regardless of utility</desc>
+  
+  <!-- Crown representing inherent value - 12px stroke -->
+  <path d="M 156 300 L 180 220 L 220 260 L 256 200 L 292 260 L 332 220 L 356 300 Z" 
+        fill="none" stroke="#000000" stroke-width="12" stroke-linejoin="round"/>
+  
+  <!-- Central figure being elevated - 12px -->
+  <circle cx="256" cy="320" r="60" fill="none" stroke="#000000" stroke-width="12"/>
+  
+  <!-- Three SOLID BLACK jewels on crown representing intrinsic value -->
+  <circle cx="180" cy="220" r="12" fill="#000000"/>
+  <circle cx="256" cy="200" r="12" fill="#000000"/>
+  <circle cx="332" cy="220" r="12" fill="#000000"/>
+  
+  <!-- Base platform showing unconditional standing - SOLID FILL -->
+  <rect x="176" y="380" width="160" height="12" fill="#000000"/>
+</svg>
