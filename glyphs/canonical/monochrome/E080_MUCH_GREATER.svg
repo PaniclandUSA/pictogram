@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E080 - MUCH_GREATER - Much greater than</desc>
+  <!-- Double angular bracket ≫ -->
+  <path d="M 132 180 L 252 256 L 132 332 M 212 180 L 332 256 L 212 332" 
+        fill="none" stroke="#000000" stroke-width="12" stroke-linecap="round" stroke-linejoin="miter"/>
+</svg>
