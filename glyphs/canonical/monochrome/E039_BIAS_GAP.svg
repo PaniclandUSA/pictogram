@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E039 BIAS_GAP – Blind Spot Exposed</title>
+  <desc>Eye with blind spot. The gap in awareness where bias prevents seeing reality.</desc>
+  
+  <!-- Eye outline - 14px -->
+  <ellipse cx="256" cy="256" rx="180" ry="100" 
+           fill="none" 
+           stroke="#000000" 
+           stroke-width="14"/>
+  
+  <!-- Iris - 12px -->
+  <circle cx="256" cy="256" r="60" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="12"/>
+  
+  <!-- Pupil - SOLID BLACK FILL -->
+  <circle cx="256" cy="256" r="28" 
+          fill="#000000"/>
+  
+  <!-- Blind spot indicator - DASHED circle to show gap -->
+  <circle cx="350" cy="256" r="40" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="10" 
+          stroke-dasharray="8,8"/>
+  
+  <!-- HEAVY X mark in blind spot area - 14px -->
+  <line x1="330" y1="236" x2="370" y2="276" 
+        stroke="#000000" 
+        stroke-width="14" 
+        stroke-linecap="round"/>
+  <line x1="370" y1="236" x2="330" y2="276" 
+        stroke="#000000" 
+        stroke-width="14" 
+        stroke-linecap="round"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">BIAS_GAP (E039)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Blind spot exposed. Eye with marked blind spot showing where bias prevents seeing reality.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
