@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>TEMPO_SIXTEENTH - Sixteenth note duration, quarter beat, very rapid</desc>
+  
+  <!-- Filled note head -->
+  <ellipse cx="200" cy="360" rx="60" ry="45" 
+           fill="#000000"/>
+  
+  <!-- Stem -->
+  <line x1="260" y1="360" x2="260" y2="140" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  
+  <!-- Double flag -->
+  <path d="M 260 140 Q 320 160, 320 200" 
+        fill="none" stroke="#000000" stroke-width="9" stroke-linecap="round"/>
+  <path d="M 260 170 Q 320 190, 320 230" 
+        fill="none" stroke="#000000" stroke-width="9" stroke-linecap="round"/>
+</svg>

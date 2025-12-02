@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>TEMPO_FLAT - Frequency decrease, pitch down, priority reduction</desc>
+  
+  <!-- Flat symbol - vertical line with rounded bottom -->
+  <line x1="220" y1="140" x2="220" y2="380" stroke="#000000" stroke-width="12"/>
+  
+  <!-- Rounded bulb on right side -->
+  <path d="M 220 280 Q 340 280, 340 340 Q 340 380, 280 380 Q 220 380, 220 340" 
+        fill="none" stroke="#000000" stroke-width="12"/>
+</svg>

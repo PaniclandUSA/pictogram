@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>TEMPO_TRIPLET - Triplet grouping, 3 notes in time of 2</desc>
+  
+  <!-- Bracket shape with "3" -->
+  <path d="M 120 200 L 120 180 L 392 180 L 392 200" 
+        fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  
+  <!-- Number "3" in center -->
+  <text x="256" y="160" font-family="Arial, sans-serif" font-size="80" 
+        font-weight="bold" text-anchor="middle" fill="#000000">3</text>
+  
+  <!-- Three small note heads below -->
+  <ellipse cx="160" cy="320" rx="40" ry="30" fill="#000000"/>
+  <ellipse cx="256" cy="320" rx="40" ry="30" fill="#000000"/>
+  <ellipse cx="352" cy="320" rx="40" ry="30" fill="#000000"/>
+</svg>
