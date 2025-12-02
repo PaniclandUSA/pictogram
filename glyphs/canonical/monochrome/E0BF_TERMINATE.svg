@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <desc>TERMINATE - Terminate coordination, shutdown signal, end of session</desc>
+  
+  <!-- Power button symbol (circle with line) - BLACK 16px -->
+  <circle cx="256" cy="256" r="120" fill="none" stroke="#000000" stroke-width="16"/>
+  
+  <!-- Power line (vertical line at top) - BLACK 16px -->
+  <line x1="256" y1="136" x2="256" y2="220" stroke="#000000" stroke-width="16" stroke-linecap="round"/>
+  
+  <!-- Additional emphasis: X over the power button - BLACK -->
+  <line x1="196" y1="196" x2="316" y2="316" stroke="#000000" stroke-width="12" stroke-linecap="round" opacity="0.6"/>
+  <line x1="316" y1="196" x2="196" y2="316" stroke="#000000" stroke-width="12" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Warning dots around perimeter - SOLID BLACK (Grok: or remove if too noisy) -->
+  <circle cx="256" cy="120" r="8" fill="#000000"/>
+  <circle cx="340" cy="172" r="8" fill="#000000"/>
+  <circle cx="392" cy="256" r="8" fill="#000000"/>
+  <circle cx="340" cy="340" r="8" fill="#000000"/>
+  <circle cx="256" cy="392" r="8" fill="#000000"/>
+  <circle cx="172" cy="340" r="8" fill="#000000"/>
+  <circle cx="120" cy="256" r="8" fill="#000000"/>
+  <circle cx="172" cy="172" r="8" fill="#000000"/>
+</svg>
