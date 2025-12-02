@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>SCATTER - Scattered formation, dispersed arrangement, evasive pattern</desc>
+  
+  <!-- Randomly distributed agents with varying sizes -->
+  <circle cx="130" cy="150" r="28" fill="#000000"/>
+  <circle cx="320" cy="170" r="24" fill="#000000"/>
+  <circle cx="420" cy="210" r="30" fill="#000000"/>
+  <circle cx="180" cy="240" r="26" fill="#000000"/>
+  <circle cx="380" cy="300" r="28" fill="#000000"/>
+  <circle cx="240" cy="320" r="25" fill="#000000"/>
+  <circle cx="100" cy="340" r="27" fill="#000000"/>
+  <circle cx="340" cy="400" r="29" fill="#000000"/>
+  <circle cx="150" cy="420" r="24" fill="#000000"/>
+  
+  <!-- No connecting lines (emphasizing scatter) -->
+</svg>

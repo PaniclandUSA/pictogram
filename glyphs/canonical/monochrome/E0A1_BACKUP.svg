@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>BACKUP - Backup/redundant agent, failover capability, standby mode</desc>
+  
+  <!-- Two overlapping circles (redundancy) -->
+  <circle cx="220" cy="256" r="70" fill="none" stroke="#000000" stroke-width="12"/>
+  <circle cx="292" cy="256" r="70" fill="none" stroke="#000000" stroke-width="12"/>
+  
+  <!-- Equal sign between them (equivalence) -->
+  <line x1="230" y1="240" x2="282" y2="240" stroke="#000000" stroke-width="8"/>
+  <line x1="230" y1="272" x2="282" y2="272" stroke="#000000" stroke-width="8"/>
+</svg>

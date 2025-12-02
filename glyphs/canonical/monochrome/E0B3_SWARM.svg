@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>SWARM - Free swarm formation, emergent pattern, decentralized coordination</desc>
+  
+  <!-- Many small agents in organic-looking swarm -->
+  <circle cx="200" cy="160" r="20" fill="#000000"/>
+  <circle cx="280" cy="140" r="22" fill="#000000"/>
+  <circle cx="320" cy="180" r="18" fill="#000000"/>
+  <circle cx="240" cy="200" r="24" fill="#000000"/>
+  <circle cx="160" cy="220" r="19" fill="#000000"/>
+  <circle cx="340" cy="240" r="21" fill="#000000"/>
+  <circle cx="200" cy="260" r="23" fill="#000000"/>
+  <circle cx="280" cy="270" r="20" fill="#000000"/>
+  <circle cx="380" cy="290" r="22" fill="#000000"/>
+  <circle cx="140" cy="300" r="18" fill="#000000"/>
+  <circle cx="240" cy="320" r="24" fill="#000000"/>
+  <circle cx="320" cy="340" r="19" fill="#000000"/>
+  <circle cx="180" cy="360" r="21" fill="#000000"/>
+  <circle cx="280" cy="380" r="20" fill="#000000"/>
+  <circle cx="360" cy="360" r="22" fill="#000000"/>
+  
+  <!-- Subtle flow lines showing movement tendency -->
+  <path d="M 180 150 Q 240 180, 300 200" 
+        fill="none" stroke="#000000" stroke-width="3" opacity="0.2" stroke-dasharray="5,5"/>
+  <path d="M 140 240 Q 220 280, 340 320" 
+        fill="none" stroke="#000000" stroke-width="3" opacity="0.2" stroke-dasharray="5,5"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <desc>DIAMOND - Diamond formation, four-point pattern, balanced arrangement</desc>
+  
+  <!-- Formation outline (guideline) -->
+  <path d="M 256 120 L 380 256 L 256 392 L 132 256 Z" 
+        fill="none" stroke="#000000" stroke-width="4" opacity="0.3"/>
+  
+  <!-- Four primary agents at diamond points -->
+  <circle cx="256" cy="120" r="35" fill="#000000"/>
+  <circle cx="380" cy="256" r="35" fill="#000000"/>
+  <circle cx="256" cy="392" r="35" fill="#000000"/>
+  <circle cx="132" cy="256" r="35" fill="#000000"/>
+  
+  <!-- Center agent (command) -->
+  <circle cx="256" cy="256" r="30" fill="#000000"/>
+  
+  <!-- Mid-edge agents -->
+  <circle cx="318" cy="188" r="24" fill="#000000" opacity="0.7"/>
+  <circle cx="318" cy="324" r="24" fill="#000000" opacity="0.7"/>
+  <circle cx="194" cy="324" r="24" fill="#000000" opacity="0.7"/>
+  <circle cx="194" cy="188" r="24" fill="#000000" opacity="0.7"/>
+</svg>
