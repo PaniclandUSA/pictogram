@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E060 - FORALL - Universal quantifier</desc>
+  <!-- Inverted A representing ∀ (for all) -->
+  <path d="M 180 360 L 256 140 L 332 360" 
+        fill="none" stroke="#000000" stroke-width="12" stroke-linejoin="miter"/>
+  <!-- Crossbar -->
+  <path d="M 210 280 L 302 280" 
+        stroke="#000000" stroke-width="12" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E06E - SINCE - Temporal since operator (past)</desc>
+  <!-- S-curve with backward arrow showing past reference -->
+  <path d="M 320 180 Q 240 180 240 240 Q 240 270 280 280 Q 320 290 320 320 Q 320 360 260 360" 
+        fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  <!-- Backward arrow -->
+  <path d="M 180 256 L 120 256 M 120 256 L 150 226 M 120 256 L 150 286" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+</svg>

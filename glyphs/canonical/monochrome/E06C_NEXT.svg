@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E06C - NEXT - Temporal next state</desc>
+  <!-- Circle with forward arrow representing next time step -->
+  <circle cx="256" cy="256" r="80" 
+          fill="none" stroke="#000000" stroke-width="10"/>
+  <!-- Arrow pointing right -->
+  <path d="M 280 256 L 380 256 M 380 256 L 350 226 M 380 256 L 350 286" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+</svg>

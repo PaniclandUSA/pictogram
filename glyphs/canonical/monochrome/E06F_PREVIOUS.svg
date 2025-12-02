@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E06F - PREVIOUS - Temporal previous state</desc>
+  <!-- Circle with backward arrow representing previous time step -->
+  <circle cx="256" cy="256" r="80" 
+          fill="none" stroke="#000000" stroke-width="10"/>
+  <!-- Arrow pointing left -->
+  <path d="M 232 256 L 132 256 M 132 256 L 162 226 M 132 256 L 162 286" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+</svg>

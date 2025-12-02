@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E068 - ELEMENT - Set membership</desc>
+  <!-- Epsilon-like symbol representing ∈ -->
+  <path d="M 340 180 L 200 180 Q 180 180 180 200 L 180 220 Q 180 240 200 240 L 300 240 M 200 272 L 300 272 Q 320 272 320 292 L 320 312 Q 320 332 300 332 L 200 332" 
+        fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
