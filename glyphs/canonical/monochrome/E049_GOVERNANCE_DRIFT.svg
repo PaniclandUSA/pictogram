@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E049 GOVERNANCE_DRIFT – Policy Deviation Over Time</title>
+  <desc>Straight baseline with curving deviation path. How governance rules drift from original intent over time.</desc>
+  
+  <!-- Original policy line (straight, intended path) - DASHED, THIN, FADED -->
+  <line x1="80" y1="300" x2="432" y2="300" 
+        stroke="#000000" 
+        stroke-width="10" 
+        stroke-dasharray="16,12" 
+        opacity="0.4"/>
+  
+  <!-- Actual policy path (drifting curve) - HEAVY SOLID 14px -->
+  <path d="M 80 300 
+           Q 180 300 220 260 
+           Q 260 220 300 240 
+           Q 340 260 380 280 
+           Q 400 290 432 300" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="14" 
+        stroke-linecap="round"/>
+  
+  <!-- Time markers (vertical lines showing progression) - 6px -->
+  <line x1="180" y1="290" x2="180" y2="310" 
+        stroke="#000000" 
+        stroke-width="6"/>
+  <line x1="260" y1="290" x2="260" y2="310" 
+        stroke="#000000" 
+        stroke-width="6"/>
+  <line x1="340" y1="290" x2="340" y2="310" 
+        stroke="#000000" 
+        stroke-width="6"/>
+  
+  <!-- Deviation arrow (showing distance from baseline) - 8px -->
+  <path d="M 220 280 L 220 300" 
+        stroke="#000000" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <polygon points="220,300 215,290 225,290" fill="#000000"/>
+  
+  <!-- Time axis label -->
+  <text x="256" y="350" 
+        font-family="monospace" 
+        font-size="28" 
+        fill="#000000" 
+        text-anchor="middle" 
+        opacity="0.6">t →</text>
+  
+  <!-- Warning indicator at maximum drift - SOLID DOT -->
+  <circle cx="260" cy="220" r="8" 
+          fill="#000000"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">GOVERNANCE_DRIFT (E049)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Policy deviation over time. Curved path showing how governance drifts from original intent.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
