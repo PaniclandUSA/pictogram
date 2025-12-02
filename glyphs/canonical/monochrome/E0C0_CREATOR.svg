@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0C0 CREATORₛ — Canonical Stochastic Origin</title>
+  <desc>Non-directive stochastic origin of inherent rights and possibility space. Single open circle (the released field) with central origin dot (the singular act of endowment). No enclosure, no hierarchy, no residual control.</desc>
+  
+  <!-- The one and only possibility-space circle — perfect, unbroken, open -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#000000" stroke-width="28"/>
+  
+  <!-- The singular origin event — the endowment instant -->
+  <circle cx="256" cy="256" r="32" fill="#000000"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">CREATORₛ (E0C0) — Canonical</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">One circle. One dot. Acts once. Releases everything. Never grips.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27 — Locked Eternal</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>

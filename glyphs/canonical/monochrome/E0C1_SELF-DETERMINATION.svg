@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0C1 SELF-DETERMINATION — Canonical Stochastic Agency</title>
+  <desc>Autonomous trajectory within the possibility space. Central agent dot with outward arrow: choice enacted, direction free, no predestination.</desc>
+
+  <!-- The agent origin — inheriting E0C0's endowment -->
+  <circle cx="206" cy="256" r="32" fill="#000000"/>
+  
+  <!-- The determination arrow — volition outward, any direction possible -->
+  <path d="M238 256 L410 256" stroke="#000000" stroke-width="28" stroke-linecap="round"/>
+  <polygon points="410,256 380,226 380,286" fill="#000000"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">SELF-DETERMINATION (E0C1) — Canonical</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">One dot. One arrow. Chooses once. Moves freely. Never forced.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27 — Locked Eternal</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
