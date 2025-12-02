@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <desc>PICTOGRAM E02B - RESTORATION - Repair after harm</desc>
+  
+  <!-- Broken circle being mended - MAIN 12px stroke -->
+  <path d="M 256 76 A 180 180 0 0 1 436 256" fill="none" stroke="#000000" stroke-width="12" stroke-dasharray="20,10"/>
+  <path d="M 436 256 A 180 180 0 0 1 256 436" fill="none" stroke="#000000" stroke-width="12"/>
+  <path d="M 256 436 A 180 180 0 0 1 76 256" fill="none" stroke="#000000" stroke-width="12"/>
+  <path d="M 76 256 A 180 180 0 0 1 256 76" fill="none" stroke="#000000" stroke-width="12" stroke-dasharray="20,10"/>
+  
+  <!-- Repair thread at top break - 9px with stitch marks -->
+  <path d="M 256 76 L 280 100 L 256 124" fill="none" stroke="#000000" stroke-width="9" stroke-linecap="round"/>
+  <!-- Stitch marks on top repair -->
+  <line x1="253" y1="84" x2="259" y2="84" stroke="#000000" stroke-width="3"/>
+  <line x1="265" y1="96" x2="271" y2="96" stroke="#000000" stroke-width="3"/>
+  <line x1="253" y1="116" x2="259" y2="116" stroke="#000000" stroke-width="3"/>
+  
+  <!-- Repair thread at bottom break - 9px with stitch marks -->
+  <path d="M 256 436 L 232 412 L 256 388" fill="none" stroke="#000000" stroke-width="9" stroke-linecap="round"/>
+  <!-- Stitch marks on bottom repair -->
+  <line x1="253" y1="428" x2="259" y2="428" stroke="#000000" stroke-width="3"/>
+  <line x1="241" y1="416" x2="247" y2="416" stroke="#000000" stroke-width="3"/>
+  <line x1="253" y1="396" x2="259" y2="396" stroke="#000000" stroke-width="3"/>
+  
+  <!-- Spiral indicating restoration process - solid 6px -->
+  <path d="M 256 256 Q 286 256 286 286 Q 286 316 256 316 Q 226 316 226 286 Q 226 256 256 256" 
+        fill="none" stroke="#000000" stroke-width="6"/>
+</svg>
