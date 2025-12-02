@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E035 ACCOUNTABILITY_GAP – When Responsibility Fails</title>
+  <desc>Broken chain showing accountability failure. The gap where moral responsibility breaks down or is evaded.</desc>
+  
+  <!-- Left chain link (intact) - 18px solid -->
+  <ellipse cx="180" cy="256" rx="50" ry="80" 
+           fill="none" 
+           stroke="#000000" 
+           stroke-width="18"/>
+  
+  <!-- Right chain link (intact) - 18px solid -->
+  <ellipse cx="332" cy="256" rx="50" ry="80" 
+           fill="none" 
+           stroke="#000000" 
+           stroke-width="18"/>
+  
+  <!-- Broken connection (the gap) - DASHED to show failure -->
+  <line x1="220" y1="256" x2="250" y2="256" 
+        stroke="#000000" 
+        stroke-width="12" 
+        stroke-linecap="round"
+        stroke-dasharray="8,8"/>
+  <line x1="262" y1="256" x2="292" y2="256" 
+        stroke="#000000" 
+        stroke-width="12" 
+        stroke-linecap="round"
+        stroke-dasharray="8,8"/>
+  
+  <!-- Gap indicator (HEAVY BLACK X at break point) -->
+  <line x1="246" y1="236" x2="266" y2="276" 
+        stroke="#000000" 
+        stroke-width="14" 
+        stroke-linecap="round"/>
+  <line x1="266" y1="236" x2="246" y2="276" 
+        stroke="#000000" 
+        stroke-width="14" 
+        stroke-linecap="round"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">ACCOUNTABILITY_GAP (E035)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">When accountability fails. Broken chain showing gap where moral responsibility breaks down.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
