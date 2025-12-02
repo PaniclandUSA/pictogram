@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E047 CURIOSITY_GAP – Curiosity Exceeds Safety</title>
+  <desc>Question mark breaking through boundary. When exploration crosses into dangerous or unethical territory.</desc>
+  
+  <!-- Safety boundary (broken) - 16px -->
+  <path d="M 100 200 L 200 200" 
+        stroke="#000000" 
+        stroke-width="16" 
+        stroke-linecap="round"/>
+  <path d="M 312 200 L 412 200" 
+        stroke="#000000" 
+        stroke-width="16" 
+        stroke-linecap="round"/>
+  
+  <!-- Warning indicators at break points - 10px -->
+  <line x1="195" y1="180" x2="205" y2="220" 
+        stroke="#000000" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  <line x1="307" y1="180" x2="317" y2="220" 
+        stroke="#000000" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  
+  <!-- Giant question mark breaking through - 24px HEAVY -->
+  <path d="M 200 120 
+           Q 200 60 256 60 
+           Q 312 60 312 120 
+           Q 312 170 256 200" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="24" 
+        stroke-linecap="round"/>
+  
+  <!-- Stem going through gap -->
+  <line x1="256" y1="200" x2="256" y2="300" 
+        stroke="#000000" 
+        stroke-width="24" 
+        stroke-linecap="round"/>
+  
+  <!-- Dot below boundary - SOLID FILL -->
+  <circle cx="256" cy="360" r="20" fill="#000000"/>
+  
+  <!-- Danger zone below - subtle gray fill -->
+  <rect x="120" y="220" width="272" height="20" 
+        fill="#000000" 
+        opacity="0.2"/>
+  
+  <!-- Warning X marks - 8px -->
+  <line x1="140" y1="250" x2="160" y2="270" 
+        stroke="#000000" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <line x1="160" y1="250" x2="140" y2="270" 
+        stroke="#000000" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  
+  <line x1="352" y1="250" x2="372" y2="270" 
+        stroke="#000000" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  <line x1="372" y1="250" x2="352" y2="270" 
+        stroke="#000000" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">CURIOSITY_GAP (E047)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Curiosity exceeds safety. Question mark breaking through boundary into dangerous territory.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
