@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E046 CURIOSITY_HAL – Autonomous Learning Boundary Reference</title>
+  <desc>Eye with limit ring. Reference to HAL 9000 - the cautionary symbol of autonomous learning without ethical bounds.</desc>
+  
+  <!-- Outer containment ring (boundary) - 16px -->
+  <circle cx="256" cy="256" r="150" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="16"/>
+  
+  <!-- HAL's eye - outer ellipse - 14px -->
+  <ellipse cx="256" cy="256" rx="100" ry="60" 
+           fill="none" 
+           stroke="#000000" 
+           stroke-width="14"/>
+  
+  <!-- Iris - 12px -->
+  <circle cx="256" cy="256" r="40" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="12"/>
+  
+  <!-- Pupil - SOLID BLACK FILL (the watching AI) -->
+  <circle cx="256" cy="256" r="20" fill="#000000"/>
+  
+  <!-- Light reflection (showing awareness/consciousness) - white cutout -->
+  <circle cx="268" cy="244" r="6" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Constraint lines (ethical bounds on autonomous learning) - 10px -->
+  <line x1="106" y1="256" x2="140" y2="256" 
+        stroke="#000000" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  <line x1="372" y1="256" x2="406" y2="256" 
+        stroke="#000000" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">CURIOSITY_HAL (E046)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Autonomous learning boundary reference. Eye with containment ring - cautionary symbol of learning without ethical bounds (HAL 9000 reference).</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
