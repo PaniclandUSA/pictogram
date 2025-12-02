@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E056 EMPATHY_JUSTIFY – Ethical Reasoning</title>
+  <desc>Heart connected to balance scales. Compassion informing ethical judgment and moral reasoning.</desc>
+  
+  <!-- Heart (compassion source) - BLACK OUTLINE, no fill -->
+  <path d="M 180 180 
+           L 210 225 
+           L 180 290 
+           L 150 225 
+           Z" 
+        fill="none"
+        stroke="#000000"
+        stroke-width="10"
+        stroke-linejoin="round"/>
+  <circle cx="167" cy="192" r="16" fill="none" stroke="#000000" stroke-width="10"/>
+  <circle cx="193" cy="192" r="16" fill="none" stroke="#000000" stroke-width="10"/>
+  
+  <!-- Connection line (heart to scales) - BLACK -->
+  <line x1="210" y1="225" x2="280" y2="225" 
+        stroke="#000000" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+  
+  <!-- Balance scales (ethical judgment) -->
+  <!-- Central pillar - 12px -->
+  <line x1="330" y1="180" x2="330" y2="320" 
+        stroke="#000000" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  
+  <!-- Top beam - 12px -->
+  <line x1="280" y1="200" x2="380" y2="200" 
+        stroke="#000000" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  
+  <!-- Left scale pan (balanced with empathy) - 10px -->
+  <path d="M 280 200 L 260 240 L 300 240 Z" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="10" 
+        stroke-linejoin="miter"/>
+  
+  <!-- Right scale pan (balanced with empathy) - 10px -->
+  <path d="M 380 200 L 360 240 L 400 240 Z" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="10" 
+        stroke-linejoin="miter"/>
+  
+  <!-- Balance point (showing equilibrium) - SOLID BLACK -->
+  <circle cx="330" cy="200" r="12" fill="#000000"/>
+  
+  <!-- Base - 10px -->
+  <rect x="300" y="320" width="60" height="20" rx="4" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="10"/>
+  
+  <!-- Check mark (justified decision) - THICK BLACK -->
+  <path d="M 320 290 L 335 305 L 365 270" 
+        stroke="#000000" 
+        stroke-width="12" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        fill="none"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">EMPATHY_JUSTIFY (E056)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Ethical reasoning. Heart connected to balance scales showing compassion informing moral judgment.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-11-27</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
