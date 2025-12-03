@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>E0D1 EVIDENCE — Observation Shifts Belief</title>
+
+<!-- Prior (dashed) -->
+<path d="M120 300 Q200 180 280 300" fill="none" stroke="#000000" stroke-width="10" stroke-dasharray="14,10"/>
+
+<!-- Evidence (bold star-like) -->
+<circle cx="340" cy="240" r="30" fill="#000000"/>
+<circle cx="340" cy="240" r="16" fill="#FFFFFF"/>
+
+<!-- Posterior (bold) -->
+<path d="M200 300 Q300 140 400 300" fill="none" stroke="#000000" stroke-width="16"/>
+
+<!-- Shift arrow -->
+<path d="M220 340 L300 340" stroke="#000000" stroke-width="14" stroke-linecap="round"/>
+<polygon points="300,340 280,328 280,352" fill="#000000"/>
+</svg>
