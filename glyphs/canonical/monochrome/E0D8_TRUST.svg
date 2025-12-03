@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>E0D8 TRUST — Predictive Confidence</title>
+
+<circle cx="140" cy="280" r="44" fill="none" stroke="#000000" stroke-width="14"/>
+<circle cx="372" cy="280" r="44" fill="none" stroke="#000000" stroke-width="14"/>
+
+<path d="M184 280 Q256 200 328 280" fill="none" stroke="#000000" stroke-width="24" stroke-linecap="round"/>
+<line x1="220" y1="260" x2="220" y2="300" stroke="#000000" stroke-width="12"/>
+<line x1="292" y1="260" x2="292" y2="300" stroke="#000000" stroke-width="12"/>
+</svg>
