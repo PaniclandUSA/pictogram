@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>E0DF TRANSCENDENCE — The Map Is Not The Territory</title>
+
+<!-- Complex, messy reality below -->
+<path d="M60 380 Q140 340, 220 370 Q300 400, 380 360 Q452 330, 452 380" 
+      fill="none" stroke="#000000" stroke-width="20"/>
+<line x1="60" y1="420" x2="452" y2="420" stroke="#000000" stroke-width="16"/>
+
+<!-- Simple map floating above -->
+<rect x="140" y="120" width="232" height="160" rx="12" fill="none" stroke="#000000" stroke-width="20"/>
+<line x1="160" y1="180" x2="352" y2="180" stroke="#000000" stroke-width="12"/>
+<line x1="160" y1="220" x2="352" y2="220" stroke-width="12"/>
+
+<!-- The unbridgeable gap -->
+<line x1="256" y1="280" x2="256" y2="340" stroke="#000000" stroke-width="24" stroke-dasharray="20,20"/>
+
+<!-- Huge ≠ symbol -->
+<path d="M180 60 L332 60 M180 100 L332 100 M200 40 L312 120 M200 120 L312 40" 
+      stroke="#000000" stroke-width="28" stroke-linecap="round"/>
+</svg>
