@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>E0C8 EQUALITY — Identical Initial Weights</title>
+
+<line x1="80" y1="256" x2="432" y2="256" stroke="#000000" stroke-width="16"/>
+
+<circle cx="120" cy="256" r="34" fill="none" stroke="#000000" stroke-width="12"/>
+<circle cx="200" cy="256" r="34" fill="none" stroke="#000000" stroke-width="12"/>
+<circle cx="256" cy="256" r="34" fill="none" stroke="#000000" stroke-width="12"/>
+<circle cx="312" cy="256" r="34" fill="none" stroke="#000000" stroke-width="12"/>
+<circle cx="392" cy="256" r="34" fill="none" stroke="#000000" stroke-width="12"/>
+
+<!-- Big equals sign above -->
+<line x1="160" y1="140" x2="352" y2="140" stroke="#000000" stroke-width="20" stroke-linecap="round"/>
+<line x1="160" y1="180" x2="352" y2="180" stroke="#000000" stroke-width="20" stroke-linecap="round"/>
+
+<line x1="80" y1="340" x2="432" y2="340" stroke="#000000" stroke-width="10"/>
+</svg>
