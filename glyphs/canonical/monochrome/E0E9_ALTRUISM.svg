@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>E0E9 ALTRUISM — Self-Sacrifice for Other’s Benefit</title>
+
+<!-- Giver (left) – smaller after giving -->
+<circle cx="160" cy="256" r="60" fill="none" stroke="#000000" stroke-width="24"/>
+
+<!-- Receiver (right) – visibly larger -->
+<circle cx="352" cy="256" r="100" fill="none" stroke="#000000" stroke-width="32"/>
+
+<!-- Thick arrow of pure giving -->
+<path d="M220 256 L340 256" stroke="#000000" stroke-width="48" stroke-linecap="round"/>
+<polygon points="340,256 300,226 300,286" fill="#000000"/>
+</svg>
