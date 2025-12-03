@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0EC TICK – Discrete Time Step</title>
+  <desc>Quantum advance. Discrete step forward - time advancing in atomic increments, not continuously.</desc>
+  
+  <!-- Grid points showing discrete time -->
+  <circle cx="140" cy="256" r="8" fill="#000000" opacity="0.3"/>
+  <circle cx="220" cy="256" r="8" fill="#000000" opacity="0.5"/>
+  <circle cx="300" cy="256" r="8" fill="#000000"/>
+  <circle cx="380" cy="256" r="8" fill="#000000" opacity="0.3"/>
+  
+  <!-- Thick rightward arrow snapping between grid points - 16px -->
+  <line x1="220" y1="256" x2="300" y2="256" 
+        stroke="#000000" 
+        stroke-width="16" 
+        stroke-linecap="round"/>
+  
+  <!-- Arrow head - SOLID FILL -->
+  <polygon points="300,256 270,236 270,276" fill="#000000"/>
+  
+  <!-- Vertical grid lines showing discrete structure -->
+  <line x1="140" y1="200" x2="140" y2="312" 
+        stroke="#000000" stroke-width="2" opacity="0.2"/>
+  <line x1="220" y1="200" x2="220" y2="312" 
+        stroke="#000000" stroke-width="2" opacity="0.2"/>
+  <line x1="300" y1="200" x2="300" y2="312" 
+        stroke="#000000" stroke-width="2" opacity="0.2"/>
+  <line x1="380" y1="200" x2="380" y2="312" 
+        stroke="#000000" stroke-width="2" opacity="0.2"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">TICK (E0EC)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Discrete time step. Quantum advance forward in atomic increments.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-12-02</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>

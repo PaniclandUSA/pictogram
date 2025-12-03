@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0F9 LIFESPAN – Existence Duration</title>
+  <desc>Birth to death. Total temporal extent of existence.</desc>
+  
+  <!-- Seed (birth) - small solid -->
+  <circle cx="120" cy="300" r="20" fill="#000000"/>
+  <path d="M 120 300 L 130 280" 
+        stroke="#000000" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Life arrow (duration) - THICK 14px -->
+  <line x1="140" y1="256" x2="340" y2="256" 
+        stroke="#000000" 
+        stroke-width="14" 
+        stroke-linecap="round"/>
+  
+  <!-- Growth phases (tick marks) -->
+  <line x1="200" y1="246" x2="200" y2="266" 
+        stroke="#000000" stroke-width="6"/>
+  <line x1="256" y1="240" x2="256" y2="272" 
+        stroke="#000000" stroke-width="8"/>
+  <line x1="312" y1="246" x2="312" y2="266" 
+        stroke="#000000" stroke-width="6"/>
+  
+  <!-- Tombstone (death) - solid rectangle -->
+  <rect x="360" y="200" width="60" height="120" rx="30" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="14"/>
+  <line x1="370" y1="250" x2="410" y2="250" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  <line x1="390" y1="230" x2="390" y2="270" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">LIFESPAN (E0F9)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Existence duration. Total temporal extent from birth to death.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-12-02</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>

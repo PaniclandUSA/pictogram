@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0F6 EXPIRY – Temporal Invalidation</title>
+  <desc>Moment of becoming invalid. When something ceases to be usable or true.</desc>
+  
+  <!-- Circle cracking and darkening - 14px -->
+  <circle cx="256" cy="256" r="100" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="14"/>
+  
+  <!-- Crack lines radiating from center -->
+  <line x1="256" y1="256" x2="256" y2="156" 
+        stroke="#000000" stroke-width="6" stroke-dasharray="12,8"/>
+  <line x1="256" y1="256" x2="327" y2="185" 
+        stroke="#000000" stroke-width="6" stroke-dasharray="12,8"/>
+  <line x1="256" y1="256" x2="356" y2="256" 
+        stroke="#000000" stroke-width="6" stroke-dasharray="12,8"/>
+  <line x1="256" y1="256" x2="327" y2="327" 
+        stroke="#000000" stroke-width="6" stroke-dasharray="12,8"/>
+  <line x1="256" y1="256" x2="185" y2="327" 
+        stroke="#000000" stroke-width="6" stroke-dasharray="12,8"/>
+  <line x1="256" y1="256" x2="185" y2="185" 
+        stroke="#000000" stroke-width="6" stroke-dasharray="12,8"/>
+  
+  <!-- Darkening - filled sections -->
+  <path d="M 256 256 L 256 156 A 100 100 0 0 1 327 185 Z" 
+        fill="#000000" opacity="0.3"/>
+  <path d="M 256 256 L 327 327 A 100 100 0 0 1 256 356 Z" 
+        fill="#000000" opacity="0.3"/>
+  
+  <!-- X mark over expired item -->
+  <line x1="216" y1="216" x2="296" y2="296" 
+        stroke="#000000" stroke-width="12" stroke-linecap="round"/>
+  <line x1="296" y1="216" x2="216" y2="296" 
+        stroke="#000000" stroke-width="12" stroke-linecap="round"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">EXPIRY (E0F6)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Temporal invalidation. Moment when something ceases to be valid or usable.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-12-02</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>

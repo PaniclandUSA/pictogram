@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0EA EPOCH – Temporal Origin</title>
+  <desc>Reference zero. The moment from which all other times are measured - temporal coordinate system origin.</desc>
+  
+  <!-- Vertical time axis - 14px -->
+  <line x1="256" y1="100" x2="256" y2="412" 
+        stroke="#000000" 
+        stroke-width="14" 
+        stroke-linecap="round"/>
+  
+  <!-- Bold origin circle at center - SOLID FILL -->
+  <circle cx="256" cy="256" r="50" fill="#000000"/>
+  
+  <!-- Tick marks above and below origin -->
+  <line x1="236" y1="160" x2="276" y2="160" 
+        stroke="#000000" 
+        stroke-width="8"/>
+  <line x1="236" y1="352" x2="276" y2="352" 
+        stroke="#000000" 
+        stroke-width="8"/>
+  
+  <!-- Zero marker - white cutout in center -->
+  <circle cx="256" cy="256" r="20" fill="#FFFFFF"/>
+  <text x="256" y="270" 
+        font-family="monospace" 
+        font-size="32" 
+        font-weight="bold" 
+        fill="#FFFFFF" 
+        text-anchor="middle">0</text>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">EPOCH (E0EA)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Temporal origin. Reference zero from which all times are measured.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-12-02</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>

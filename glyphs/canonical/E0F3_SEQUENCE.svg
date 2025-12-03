@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0F3 SEQUENCE – Ordered Chain</title>
+  <desc>Strict temporal ordering. Events linked in irreversible causal chain.</desc>
+  
+  <!-- Chain of events (dots) - SOLID -->
+  <circle cx="140" cy="256" r="16" fill="#000000"/>
+  <circle cx="240" cy="256" r="16" fill="#000000"/>
+  <circle cx="340" cy="256" r="16" fill="#000000"/>
+  
+  <!-- Arrows connecting them - 12px -->
+  <line x1="156" y1="256" x2="224" y2="256" 
+        stroke="#000000" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  <polygon points="224,256 204,246 204,266" fill="#000000"/>
+  
+  <line x1="256" y1="256" x2="324" y2="256" 
+        stroke="#000000" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  <polygon points="324,256 304,246 304,266" fill="#000000"/>
+  
+  <!-- Continuation arrow -->
+  <line x1="356" y1="256" x2="392" y2="256" 
+        stroke="#000000" 
+        stroke-width="12" 
+        stroke-linecap="round"/>
+  <polygon points="392,256 372,246 372,266" fill="#000000"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">SEQUENCE (E0F3)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Ordered chain. Events linked in strict irreversible temporal sequence.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-12-02</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>

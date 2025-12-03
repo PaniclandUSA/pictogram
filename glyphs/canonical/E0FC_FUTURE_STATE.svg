@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0FC FUTURE_STATE – Projected Configuration</title>
+  <desc>What will be. The state that has not yet occurred.</desc>
+  
+  <!-- Circle (state container) - 14px DASHED (uncertain) -->
+  <circle cx="256" cy="256" r="120" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="14"
+          stroke-dasharray="20,12"/>
+  
+  <!-- Right-facing arrow inside (pointing to future) - SOLID FILL -->
+  <polygon points="292,256 232,216 232,296" fill="#000000"/>
+  
+  <!-- Extending trajectory (moving into future) - increasing opacity -->
+  <line x1="376" y1="256" x2="406" y2="256" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round" opacity="0.6"/>
+  <line x1="416" y1="256" x2="446" y2="256" 
+        stroke="#000000" stroke-width="8" stroke-linecap="round" opacity="0.3"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">FUTURE_STATE (E0FC)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Projected configuration. The state that has not yet occurred.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-12-02</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>

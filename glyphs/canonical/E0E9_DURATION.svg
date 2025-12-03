@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0E9 DURATION – Measurable Time Span</title>
+  <desc>Interval between two instants. Measurable extent of time with definite beginning and end.</desc>
+  
+  <!-- Horizontal bar representing time span - 12px -->
+  <line x1="120" y1="256" x2="392" y2="256" 
+        stroke="#000000" 
+        stroke-width="12" 
+        stroke-linecap="butt"/>
+  
+  <!-- Thick end caps marking boundaries - 20px -->
+  <line x1="120" y1="220" x2="120" y2="292" 
+        stroke="#000000" 
+        stroke-width="20" 
+        stroke-linecap="round"/>
+  <line x1="392" y1="220" x2="392" y2="292" 
+        stroke="#000000" 
+        stroke-width="20" 
+        stroke-linecap="round"/>
+  
+  <!-- Measurement tick marks -->
+  <line x1="200" y1="246" x2="200" y2="266" 
+        stroke="#000000" 
+        stroke-width="4"/>
+  <line x1="256" y1="246" x2="256" y2="266" 
+        stroke="#000000" 
+        stroke-width="4"/>
+  <line x1="312" y1="246" x2="312" y2="266" 
+        stroke="#000000" 
+        stroke-width="4"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">DURATION (E0E9)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Measurable time span. Interval with definite beginning and end.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-12-02</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>

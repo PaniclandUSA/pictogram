@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0EB CLOCK – Monotonic Time Source</title>
+  <desc>Pure cyclical time. Continuous monotonic source that never reverses or stops.</desc>
+  
+  <!-- Clock face circle - 16px -->
+  <circle cx="256" cy="256" r="150" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="16"/>
+  
+  <!-- 12 hour marks (major ticks) - no numbers, pure geometry -->
+  <line x1="256" y1="106" x2="256" y2="136" 
+        stroke="#000000" stroke-width="12" stroke-linecap="round"/>
+  <line x1="341" y1="147" x2="320" y2="168" 
+        stroke="#000000" stroke-width="12" stroke-linecap="round"/>
+  <line x1="406" y1="256" x2="376" y2="256" 
+        stroke="#000000" stroke-width="12" stroke-linecap="round"/>
+  <line x1="341" y1="365" x2="320" y2="344" 
+        stroke="#000000" stroke-width="12" stroke-linecap="round"/>
+  <line x1="256" y1="406" x2="256" y2="376" 
+        stroke="#000000" stroke-width="12" stroke-linecap="round"/>
+  <line x1="171" y1="365" x2="192" y2="344" 
+        stroke="#000000" stroke-width="12" stroke-linecap="round"/>
+  <line x1="106" y1="256" x2="136" y2="256" 
+        stroke="#000000" stroke-width="12" stroke-linecap="round"/>
+  <line x1="171" y1="147" x2="192" y2="168" 
+        stroke="#000000" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Center point - SOLID BLACK -->
+  <circle cx="256" cy="256" r="16" fill="#000000"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">CLOCK (E0EB)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Monotonic time source. Continuous cycle that never reverses.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-12-02</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
