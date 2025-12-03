@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>E0EF SADNESS — Low-Resonance Negative State</title>
+
+<!-- Tiny dim core -->
+<circle cx="256" cy="280" r="50" fill="#000000"/>
+
+<!-- Heavy tears falling -->
+<path d="M220 320 Q200 380 220 440
+         M292 320 Q312 380 292 440"
+      fill="none" stroke="#000000" stroke-width="40" stroke-linecap="round"/>
+
+<!-- Everything collapsing downward -->
+<g stroke="#000000" stroke-width="32" stroke-linecap="round">
+  <line x1="256" y1="280" x2="180" y2="460"/>
+  <line x1="256" y1="280" x2="256" y2="460"/>
+  <line x1="256" y1="280" x2="332" y2="460"/>
+</g>
+</svg>
