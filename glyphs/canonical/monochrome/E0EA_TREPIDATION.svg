@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>E0EA TREPIDATION — Anxious Uncertainty</title>
+
+<!-- Tiny hesitant figure on the left -->
+<circle cx="140" cy="300" r="40" fill="none" stroke="#000000" stroke-width="20"/>
+
+<!-- Jagged, trembling path forward -->
+<path d="M180 300
+         Q220 260 240 300
+         Q260 340 280 300
+         Q300 260 320 300
+         Q340 340 360 300"
+      fill="none" stroke="#000000" stroke-width="28" stroke-linecap="round"/>
+
+<!-- Giant looming question mark on the right -->
+<path d="M372 180
+         Q372 140 412 140
+         Q452 140 452 180
+         Q452 220 412 240"
+      fill="none" stroke="#000000" stroke-width="44" stroke-linecap="round"/>
+<line x1="412" y1="240" x2="412" y2="300" stroke="#000000" stroke-width="44" stroke-linecap="round"/>
+<circle cx="412" cy="340" r="24" fill="#000000"/>
+</svg>
