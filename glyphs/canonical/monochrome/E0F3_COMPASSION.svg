@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>E0F3 COMPASSION — Empathy Extension to Suffering</title>
+<circle cx="160" cy="256" r="60" fill="none" stroke="#000000" stroke-width="32"/>
+<circle cx="352" cy="300" r="60" fill="#000000"/>
+<path d="M220 256 Q300 220 352 300" fill="none" stroke="#000000" stroke-width="48" stroke-linecap="round"/>
+</svg>
