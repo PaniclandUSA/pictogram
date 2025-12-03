@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>E0F1 SHAME — Self-Reduction After Failure</title>
+
+<!-- Deep valley -->
+<path d="M100 100 L256 460 L412 100 Z" fill="none" stroke="#000000" stroke-width="40"/>
+
+<!-- Tiny figure curled at the bottom, head down -->
+<circle cx="256" cy="420" r="40" fill="#000000"/>
+<path d="M256 420 Q220 460 256 460" fill="none" stroke="#000000" stroke-width="32" stroke-linecap="round"/>
+</svg>
