@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>E0E1 CONTENTMENT — Peaceful Satisfaction</title>
+
+<!-- Perfectly still water surface -->
+<path d="M60 256 Q156 236, 256 256 Q356 276, 452 256" 
+      fill="none" stroke="#000000" stroke-width="28" stroke-linecap="round"/>
+
+<!-- Tiny settled particles below -->
+<g fill="#000000">
+  <circle cx="160" cy="320" r="10"/><circle cx="240" cy="335" r="10"/>
+  <circle cx="320" cy="325" r="10"/><circle cx="380" cy="340" r="10"/>
+</g>
+
+<!-- Soft embrace curves above -->
+<path d="M160 140 Q256 200, 352 140" fill="none" stroke="#000000" stroke-width="24" stroke-linecap="round"/>
+
+<!-- Small heart of perfect peace at center -->
+<path d="M256 180 L272 200 L256 230 L240 200 Z" fill="#000000"/>
+</svg>
