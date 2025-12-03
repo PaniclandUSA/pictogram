@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>E0DC FEAR — Negative Expected Value</title>
+<desc>Crushing inward compression with single piercing spike.</desc>
+
+<!-- Outer containment circle (being crushed) -->
+<circle cx="256" cy="256" r="200" fill="none" stroke="#000000" stroke-width="32"/>
+
+<!-- Eight brutal compression spikes driving INWARD (exact opposite of HOPE’s petals) -->
+<path d="M256 56 L256 156
+       M256 456 L256 356
+       M56 256 L156 256
+       M456 256 L356 256
+       M126 126 L186 186
+       M386 386 L326 326
+       M126 386 L186 326
+       M386 126 L326 186"
+      stroke="#000000" stroke-width="44" stroke-linecap="round"/>
+
+<!-- Inner circle being crushed almost to a point -->
+<circle cx="256" cy="256" r="60" fill="none" stroke="#000000" stroke-width="28"/>
+
+<!-- Single brutal spike stabbing INWARD from the right (the feared breach) -->
+<path d="M456 256 L300 256" stroke="#000000" stroke-width="48" stroke-linecap="round"/>
+<polygon points="300,256 340,236 340,276" fill="#000000"/>
+</svg>
