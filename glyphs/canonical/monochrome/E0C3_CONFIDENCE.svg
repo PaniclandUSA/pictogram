@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>E0C3 CONFIDENCE — Strength of Belief</title>
+<desc>Narrow peak = high confidence, shown in bold black</desc>
+<!-- High confidence (narrow) -->
+<path d="M 200 350 Q 256 120 312 350"
+      fill="none" stroke="#000000" stroke-width="14"/>
+<!-- Low confidence hint (dashed wider curve) -->
+<path d="M 100 350 Q 256 150 412 350"
+      fill="none" stroke="#000000" stroke-width="8" stroke-dasharray="12,8"/>
+<line x1="80" y1="350" x2="432" y2="350"
+      stroke="#000000" stroke-width="10"/>
+<circle cx="256" cy="120" r="10" fill="#000000"/>
+<line x1="256" y1="130" x2="256" y2="350"
+      stroke="#000000" stroke-width="6" stroke-dasharray="10,6"/>
+<text x="256" y="420" font-family="monospace" font-size="32"
+      fill="#000000" text-anchor="middle">σ</text>
+</svg>
