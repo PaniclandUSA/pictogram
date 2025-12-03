@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>E0F2 COURAGE — Action Despite Fear</title>
+<circle cx="140" cy="280" r="60" fill="none" stroke="#000000" stroke-width="32"/>
+<path d="M200 280 L420 180" stroke="#000000" stroke-width="60" stroke-linecap="round"/>
+<polygon points="420,180 370,140 370,220" fill="#000000"/>
+<path d="M340 100 L440 60 L460 160 L400 200 Z" fill="#000000"/>
+</svg>
