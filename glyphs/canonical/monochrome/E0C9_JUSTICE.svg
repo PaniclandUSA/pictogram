@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>E0C9 JUSTICE — Proportional Restoration</title>
+
+<!-- Restored horizontal beam (bold) -->
+<line x1="140" y1="220" x2="372" y2="220" stroke="#000000" stroke-width="16" stroke-linecap="round"/>
+
+<circle cx="256" cy="220" r="16" fill="#000000"/>
+<rect x="244" y="220" width="24" height="140" fill="none" stroke="#000000" stroke-width="12"/>
+<rect x="200" y="360" width="112" height="30" rx="6" fill="none" stroke="#000000" stroke-width="12"/>
+
+<path d="M140 220 L120 260 L160 260 Z" fill="none" stroke="#000000" stroke-width="12"/>
+<path d="M372 220 L352 260 L392 260 Z" fill="none" stroke="#000000" stroke-width="12"/>
+
+<!-- Big checkmark for restored balance -->
+<path d="M230 310 L255 340 L290 290" stroke="#000000" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
