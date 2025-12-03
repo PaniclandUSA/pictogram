@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>E0E5 GRACE — Unearned Gift Freely Given</title>
+
+<!-- Giver (left) and receiver (right) -->
+<circle cx="160" cy="200" r="50" fill="none" stroke="#000000" stroke-width="20"/>
+<circle cx="352" cy="300" r="50" fill="none" stroke="#000000" stroke-width="20"/>
+
+<!-- Elegant, flowing gift arc -->
+<path d="M210 200
+         Q256 160 300 220
+         Q340 260 352 300"
+      fill="none" stroke="#000000" stroke-width="32" stroke-linecap="round"/>
+
+<!-- Beautiful wrapped gift floating along the arc -->
+<rect x="270" y="200" width="60" height="60" rx="12" fill="none" stroke="#000000" stroke-width="24"/>
+<path d="M300 180 L280 160 L300 140 M300 180 L320 160 L300 140" 
+      fill="none" stroke="#000000" stroke-width="16" stroke-linecap="round"/>
+</svg>
