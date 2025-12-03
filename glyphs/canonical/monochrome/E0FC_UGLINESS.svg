@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>E0FC UGLINESS — Low-Pattern Dissonance</title>
+<path d="M140 140 L180 380 L340 180 L160 340 L380 260 L200 200 Z"
+      fill="none" stroke="#000000" stroke-width="60" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="256,256 296,216 336,296 296,336 256,296 216,336 176,296 216,216" 
+         fill="#000000"/>
+</svg>
