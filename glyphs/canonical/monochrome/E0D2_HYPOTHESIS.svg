@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>E0D2 HYPOTHESIS — Testable Model of Reality</title>
+
+<circle cx="256" cy="200" r="80" fill="none" stroke="#000000" stroke-width="16"/>
+<path d="M240 180 Q256 150 272 180 Q256 210 240 180" fill="none" stroke="#000000" stroke-width="12"/>
+<rect x="234" y="280" width="44" height="40" rx="8" fill="none" stroke="#000000" stroke-width="14"/>
+
+<!-- Test arrows -->
+<path d="M190 240 L140 300" stroke="#000000" stroke-width="12" stroke-dasharray="14,10"/>
+<polygon points="140,300 152,288 148,312" fill="#000000"/>
+<path d="M322 240 L372 300" stroke="#000000" stroke-width="12" stroke-dasharray="14,10"/>
+<polygon points="372,300 360,288 364,312" fill="#000000"/>
+
+<text x="256" y="430" font-family="monospace" font-size="48" font-weight="bold" fill="#000000" text-anchor="middle">H₀</text>
+</svg>
