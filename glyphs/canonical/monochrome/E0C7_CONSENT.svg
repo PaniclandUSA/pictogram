@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>E0C7 CONSENT — Voluntary Informed Agreement</title>
+<desc>Two hands meeting with bold checkmark – pure monochrome</desc>
+
+<path d="M140 280 L180 260 L180 300 L140 320 Z" fill="none" stroke="#000000" stroke-width="14" stroke-linejoin="round"/>
+<path d="M372 280 L332 260 L332 300 L372 320 Z" fill="none" stroke="#000000" stroke-width="14" stroke-linejoin="round"/>
+
+<circle cx="256" cy="280" r="60" fill="none" stroke="#000000" stroke-width="12" stroke-dasharray="16,10"/>
+
+<!-- Bold checkmark -->
+<path d="M220 280 L250 310 L295 255" stroke="#000000" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+<text x="256" y="380" font-family="sans-serif" font-size="48" font-weight="bold" fill="#000000" text-anchor="middle">YES</text>
+</svg>
