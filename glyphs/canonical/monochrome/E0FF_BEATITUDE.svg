@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>E0FF BEATITUDE — Supreme Blessed Happiness</title>
+<circle cx="256" cy="256" r="120" fill="none" stroke="#000000" stroke-width="36"/>
+<circle cx="256" cy="256" r="80"  fill="none" stroke="#000000" stroke-width="36"/>
+<circle cx="256" cy="256" r="40"  fill="none" stroke="#000000" stroke-width="36"/>
+<path d="M256 136 L276 176 L256 236 L236 176 Z" fill="#000000"/>
+<path d="M196 100 L216 140 L256 120 L296 140 L316 100" 
+      fill="none" stroke="#000000" stroke-width="28" stroke-linecap="round"/>
+</svg>
