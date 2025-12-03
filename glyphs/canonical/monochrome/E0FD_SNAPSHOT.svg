@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0FD SNAPSHOT – Immutable Capture</title>
+  <desc>Frozen moment. Perfect capture of state at a specific instant that cannot change.</desc>
+  
+  <!-- Hard square border (immutability) - THICK 18px -->
+  <rect x="140" y="140" width="232" height="232" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="18" 
+        stroke-linejoin="miter"/>
+  
+  <!-- Circle inside (captured state) - 14px -->
+  <circle cx="256" cy="256" r="80" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="14"/>
+  
+  <!-- Camera shutter segments showing capture -->
+  <path d="M 256 176 L 256 200" 
+        stroke="#000000" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 256 312 L 256 336" 
+        stroke="#000000" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 176 256 L 200 256" 
+        stroke="#000000" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 312 256 L 336 256" 
+        stroke="#000000" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Corner locks (frozen) -->
+  <line x1="140" y1="150" x2="160" y2="150" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  <line x1="150" y1="140" x2="150" y2="160" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  
+  <line x1="352" y1="150" x2="372" y2="150" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  <line x1="362" y1="140" x2="362" y2="160" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  
+  <line x1="140" y1="362" x2="160" y2="362" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  <line x1="150" y1="352" x2="150" y2="372" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  
+  <line x1="352" y1="362" x2="372" y2="362" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  <line x1="362" y1="352" x2="362" y2="372" 
+        stroke="#000000" stroke-width="10" stroke-linecap="round"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">SNAPSHOT (E0FD)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Immutable capture. Frozen perfect capture of state at instant.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-12-02</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>

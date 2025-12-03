@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0F8 TIMEOUT_WINDOW – Grace Period</title>
+  <desc>Hourglass interval. Limited time before forced termination.</desc>
+  
+  <!-- Hourglass shape - 14px -->
+  <path d="M 180 120 L 332 120 L 280 220 L 280 292 L 332 392 L 180 392 L 232 292 L 232 220 Z" 
+        fill="none" 
+        stroke="#000000" 
+        stroke-width="14" 
+        stroke-linejoin="miter"/>
+  
+  <!-- Thin neck (critical point) - THICK -->
+  <line x1="232" y1="256" x2="280" y2="256" 
+        stroke="#000000" 
+        stroke-width="18" 
+        stroke-linecap="round"/>
+  
+  <!-- Sand filling top (time remaining) - filled -->
+  <path d="M 200 140 L 312 140 L 270 210 L 242 210 Z" 
+        fill="#000000"/>
+  
+  <!-- Sand in bottom (time elapsed) - filled -->
+  <path d="M 242 302 L 270 302 L 312 372 L 200 372 Z" 
+        fill="#000000" opacity="0.4"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">TIMEOUT_WINDOW (E0F8)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Grace period. Limited time before forced termination.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-12-02</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0F7 LATENCY – Causal Delay</title>
+  <desc>Time between cause and effect. The delay from action to consequence.</desc>
+  
+  <!-- Cause circle - SOLID -->
+  <circle cx="140" cy="256" r="50" fill="#000000"/>
+  
+  <!-- Dotted delay line - 10px -->
+  <line x1="190" y1="256" x2="322" y2="256" 
+        stroke="#000000" 
+        stroke-width="10" 
+        stroke-dasharray="8,12" 
+        stroke-linecap="round"/>
+  
+  <!-- Effect circle - outline showing it hasn't manifested yet -->
+  <circle cx="372" cy="256" r="50" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="14"/>
+  
+  <!-- Time indicators (clock marks along delay) -->
+  <line x1="220" y1="246" x2="220" y2="266" 
+        stroke="#000000" stroke-width="4"/>
+  <line x1="256" y1="246" x2="256" y2="266" 
+        stroke="#000000" stroke-width="4"/>
+  <line x1="292" y1="246" x2="292" y2="266" 
+        stroke="#000000" stroke-width="4"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">LATENCY (E0F7)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Causal delay. Time between initiating action and resulting effect.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-12-02</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>

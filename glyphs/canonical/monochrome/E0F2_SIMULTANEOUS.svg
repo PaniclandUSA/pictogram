@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>E0F2 SIMULTANEOUS – Exact Concurrency</title>
+  <desc>Same-time events. Two occurrences at precisely the same instant.</desc>
+  
+  <!-- Two circles (concurrent events) - 14px -->
+  <circle cx="200" cy="256" r="70" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="14"/>
+  <circle cx="312" cy="256" r="70" 
+          fill="none" 
+          stroke="#000000" 
+          stroke-width="14"/>
+  
+  <!-- Vertical bar connecting them (shared time) - THICK 20px -->
+  <line x1="256" y1="180" x2="256" y2="332" 
+        stroke="#000000" 
+        stroke-width="20" 
+        stroke-linecap="round"/>
+  
+  <!-- Synchronized dots at exact center - SOLID -->
+  <circle cx="200" cy="256" r="20" fill="#000000"/>
+  <circle cx="312" cy="256" r="20" fill="#000000"/>
+  
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">SIMULTANEOUS (E0F2)</dc:title>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Exact concurrency. Events occurring at precisely the same instant.</dc:description>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2025-12-02</dc:date>
+      </rdf:Description>
+    </rdf:RDF>
+  </metadata>
+</svg>
