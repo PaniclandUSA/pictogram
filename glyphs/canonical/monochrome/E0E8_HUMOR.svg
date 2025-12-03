@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>E0E8 HUMOR — Pattern Mismatch Joy</title>
+
+<!-- Expected straight line that suddenly goes rogue -->
+<line x1="100" y1="300" x2="300" y2="300" stroke="#000000" stroke-width="20" opacity="0.3"/>
+
+<!-- The glorious twist (the punchline) -->
+<path d="M100 300
+         Q200 200 300 300
+         Q380 360 456 280"
+      fill="none" stroke="#000000" stroke-width="40" stroke-linecap="round"/>
+
+<!-- Huge laughing face that can’t contain itself -->
+<circle cx="256" cy="180" r="90" fill="none" stroke="#000000" stroke-width="28"/>
+<path d="M180 180
+         Q256 280 332 180"
+      fill="none" stroke="#000000" stroke-width="32" stroke-linecap="round"/>
+<circle cx="216" cy="156" r="16" fill="#000000"/>
+<circle cx="296" cy="156" r="16" fill="#000000"/>
+</svg>
